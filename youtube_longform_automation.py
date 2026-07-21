@@ -1,5 +1,5 @@
 """
-YouTube Long-Form Video Automation - Bilingual English/Danish Content Generator
+YouTube Long-Form Video Automation - Bilingual English/Greek Content Generator
 GENERATES 10-MINUTE VIDEOS with improved backgrounds for YouTube
 """
 
@@ -48,38 +48,38 @@ CATEGORIES_ENGLISH = [
     "Joy", "Balance", "Growth", "Purpose", "Mindfulness",
 ]
 
-# Danish translations
-CATEGORIES_DANISH = {
-    "Motivation": "Motivation",
-    "Love": "Kærlighed",
-    "Success": "Succes",
-    "Wisdom": "Visdom",
-    "Happiness": "Lykke",
-    "Self Improvement": "Selvudvikling",
-    "Gratitude": "Taknemmelighed",
-    "Friendship": "Venskab",
-    "Hope": "Håb",
-    "Creativity": "Kreativitet",
-    "Inner Peace": "Indre Fred",
-    "Confidence": "Selvtillid",
-    "Perseverance": "Udholdenhed",
-    "Inspiration": "Inspiration",
-    "Positive Life": "Positivt Liv",
-    "Courage": "Mod",
-    "Kindness": "Venlighed",
-    "Patience": "Tålmodighed",
-    "Forgiveness": "Tilgivelse",
-    "Strength": "Styrke",
-    "Joy": "Glæde",
-    "Balance": "Balance",
-    "Growth": "Vækst",
-    "Purpose": "Formål",
-    "Mindfulness": "Opmærksomhed",
+# Greek translations
+CATEGORIES_GREEK = {
+    "Motivation": "Κίνητρο",
+    "Love": "Αγάπη",
+    "Success": "Επιτυχία",
+    "Wisdom": "Σοφία",
+    "Happiness": "Ευτυχία",
+    "Self Improvement": "Αυτοβελτίωση",
+    "Gratitude": "Ευγνωμοσύνη",
+    "Friendship": "Φιλία",
+    "Hope": "Ελπίδα",
+    "Creativity": "Δημιουργικότητα",
+    "Inner Peace": "Εσωτερική Γαλήνη",
+    "Confidence": "Αυτοπεποίθηση",
+    "Perseverance": "Επιμονή",
+    "Inspiration": "Έμπνευση",
+    "Positive Life": "Θετική Ζωή",
+    "Courage": "Θάρρος",
+    "Kindness": "Καλοσύνη",
+    "Patience": "Υπομονή",
+    "Forgiveness": "Συγχώρεση",
+    "Strength": "Δύναμη",
+    "Joy": "Χαρά",
+    "Balance": "Ισορροπία",
+    "Growth": "Ανάπτυξη",
+    "Purpose": "Σκοπός",
+    "Mindfulness": "Ενσυνειδητότητα",
 }
 
 # Edge TTS voices
 ENGLISH_VOICE = "en-US-GuyNeural"
-LANG_VOICE = "da-DK-ChristelNeural"
+LANG_VOICE = "el-GR-AthinaNeural"
 
 # Phrase history file
 PHRASE_HISTORY_FILE = HISTORY_DIR / "all_generated_phrases.json"
@@ -167,7 +167,7 @@ def add_phrases_to_history(phrases, category):
     for phrase in phrases:
         history["phrases"].append({
             "english": phrase["english"],
-            "danish": phrase["danish"],
+            "greek": phrase["greek"],
             "category": category,
             "generated_at": datetime.now().isoformat()
         })
@@ -184,7 +184,7 @@ def calculate_phrases_needed(target_minutes: int) -> int:
 
 
 def generate_phrases_for_longform(category_english: str, num_phrases: int) -> list:
-    category_danish = CATEGORIES_DANISH[category_english]
+    category_greek = CATEGORIES_GREEK[category_english]
     history = load_phrase_history()
     used_phrases = [p.get("english", "") for p in history.get("phrases", [])]
     viral_style = random.choice(VIRAL_STYLES)
@@ -210,24 +210,24 @@ def generate_phrases_for_longform(category_english: str, num_phrases: int) -> li
                     recent = used_phrases[-30:] if len(used_phrases) > 30 else used_phrases
                     exclusion_note = f"\n\nAVOID these phrases (already used): {recent}"
 
-                prompt = f"""Create {current_batch_size * 2} unique {category_english} phrases for English speakers learning Danish.
+                prompt = f"""Create {current_batch_size * 2} unique {category_english} phrases for English speakers learning Greek.
 
 Style: Make each phrase feel like a {viral_style} - something people would want to share!
 
-CRITICAL RULE - ABSOLUTELY ZERO Danish IN ENGLISH FIELD:
-The "english" field must contain ONLY English words. NO Danish words at all.
-The "danish" field contains the Danish translation.
-The "pronunciation" field is phonetic English spelling approximating Danish sounds.
+CRITICAL RULE - ABSOLUTELY ZERO Greek IN ENGLISH FIELD:
+The "english" field must contain ONLY English words. NO Greek words at all.
+The "greek" field contains the Greek translation in Greek script.
+The "pronunciation" field is phonetic English spelling approximating Greek sounds.
 
 These are INSPIRATIONAL PHRASES about the topic, NOT language-learning tips.
 
-WRONG (teaching tip with Danish words): {{"english": "Don't say 'ha' det godt,' it means more than 'goodbye.'", ...}}
-WRONG (Danish word in english): {{"english": "Use 'tak' for thank you", ...}}
-WRONG (lesson tip): {{"english": "Say 'v\u00e6r s\u00e5 venlig' for please", ...}}
-CORRECT (pure english phrase): {{"english": "Knowledge is the key to wisdom.", "danish": "Kundskab er n\u00f8glen til visdom", "pronunciation": "kund-skab er n\u00f8g-len til vis-dom"}}
-CORRECT: {{"english": "A wise person listens more than they speak.", "danish": "En vis person lytter mere end de taler", "pronunciation": "en vis per-son lyt-ter me-re end de ta-ler"}}
+WRONG (teaching tip with Greek words): {{"english": "Don't say 'γεια σου,' it means more than 'hello.'", ...}}
+WRONG (Greek word in english): {{"english": "Use 'ευχαριστώ' for thank you", ...}}
+WRONG (lesson tip): {{"english": "Say 'παρακαλώ' for please", ...}}
+CORRECT (pure english phrase): {{"english": "Knowledge is the key to wisdom.", "greek": "Η γνώση είναι το κλειδί για τη σοφία", "pronunciation": "ee gno-see EE-ne to klee-DEE ya tee so-FEE-a"}}
+CORRECT: {{"english": "A wise person listens more than they speak.", "greek": "Ένας σοφός άνθρωπος ακούει περισσότερο από ό,τι μιλάει", "pronunciation": "E-nas so-FOS AN-thro-pos a-KOO-ee pe-ri-SO-te-ro a-po o-ti mi-LA-ee"}}
 
-The english field MUST be 100% English words only. Absolutely NO Danish words in the english field.
+The english field MUST be 100% English words only. Absolutely NO Greek words in the english field.
 
 IMPORTANT RULES FOR NATURAL SPEECH:
 1. Keep phrases SHORT (5-12 words max per language)
@@ -240,19 +240,19 @@ IMPORTANT RULES FOR NATURAL SPEECH:
 8. Vary sentence structure for natural flow
 
 For each phrase:
-1. English phrase (pure English, zero Danish words) with commas for natural pauses
-2. Danish translation
+1. English phrase (pure English, zero Greek words) with commas for natural pauses
+2. Greek translation in Greek script
 3. Pronunciation guide (phonetic English spelling)
 
 Return as JSON array:
-[{{"english": "...", "danish": "...", "pronunciation": "..."}}]
+[{{"english": "...", "greek": "...", "pronunciation": "..."}}]
 
 IMPORTANT: Create FRESH, UNIQUE phrases that haven't been used before.{exclusion_note}"""
 
                 payload = {
                     "model": AI_MODEL,
                     "messages": [
-                        {"role": "system", "content": "You create INSPIRATIONAL PHRASES for YouTube language learning videos. CRITICAL: The 'english' field must be PURE ENGLISH with ZERO Danish words - no Danish words at all. These are universal inspirational phrases, NOT language learning tips. Danish goes ONLY in the 'danish' field."},
+                        {"role": "system", "content": "You create INSPIRATIONAL PHRASES for YouTube language learning videos. CRITICAL: The 'english' field must be PURE ENGLISH with ZERO Greek words - no Greek words at all. These are universal inspirational phrases, NOT language learning tips. Greek goes ONLY in the 'greek' field, written in Greek script."},
                         {"role": "user", "content": prompt}
                     ],
                     "temperature": 1.0
@@ -298,140 +298,140 @@ IMPORTANT: Create FRESH, UNIQUE phrases that haven't been used before.{exclusion
 def get_fresh_fallback_phrases(category: str, num_phrases: int) -> list:
     all_fallbacks = {
         "Motivation": [
-            {"english": "Believe in yourself.", "danish": "Tro p\u00e5 dig selv.", "pronunciation": "tro p\u00e5 dij selv"},
-            {"english": "You are capable of amazing things.", "danish": "Du er i stand til fantastiske ting.", "pronunciation": "du er i stan til fan-tas-tis-ke ting"},
-            {"english": "Dream big, start small.", "danish": "Dr\u00f8m stort, start sm\u00e5t.", "pronunciation": "dr\u00f8m stort, start sm\u00e5t"},
-            {"english": "Your future is created by your actions.", "danish": "Fremtiden din skabes af dine handlinger.", "pronunciation": "frem-ti-den din ska-bes af di-ne hand-ling-er"},
-            {"english": "Never give up on your dreams.", "danish": "Giv aldrig op p\u00e5 dr\u00f8mmene dine.", "pronunciation": "giv al-drig op p\u00e5 dr\u00f8m-me-ne di-ne"},
-            {"english": "Small steps lead to big changes.", "danish": "Sm\u00e5 skridt f\u00f8rer til store \u00e6ndringer.", "pronunciation": "sm\u00e5 skrid f\u00f8-rer til sto-re \u00e6nd-ring-er"},
-            {"english": "You are stronger than you think.", "danish": "Du er st\u00e6rkere end du tror.", "pronunciation": "du er st\u00e6r-ke-re en du tror"},
+            {"english": "Believe in yourself.", "greek": "Πίστεψε στον εαυτό σου.", "pronunciation": "PEE-stepse ston eaf-TO sou"},
+            {"english": "You are capable of amazing things.", "greek": "Είσαι ικανός για καταπληκτικά πράγματα.", "pronunciation": "EE-se i-ka-NOS ya ka-ta-pli-kti-KA PRA-gma-ta"},
+            {"english": "Dream big, start small.", "greek": "Ονειρέψου μεγάλα, ξεκίνα μικρά.", "pronunciation": "o-ni-REP-sou me-GA-la, kse-KEE-na mi-KRA"},
+            {"english": "Your future is created by your actions.", "greek": "Το μέλλον σου δημιουργείται από τις πράξεις σου.", "pronunciation": "to MEL-lon sou di-mi-our-YEE-te a-po tis PRA-xeis sou"},
+            {"english": "Never give up on your dreams.", "greek": "Μην εγκαταλείπεις ποτέ τα όνειρά σου.", "pronunciation": "min e-ga-ta-LEI-peis po-TE ta o-ni-RA sou"},
+            {"english": "Small steps lead to big changes.", "greek": "Μικρά βήματα οδηγούν σε μεγάλες αλλαγές.", "pronunciation": "mi-KRA VI-ma-ta o-di-GOUN se me-GA-les a-la-YES"},
+            {"english": "You are stronger than you think.", "greek": "Είσαι πιο δυνατός από ό,τι νομίζεις.", "pronunciation": "EE-se pio di-na-TOS a-po o-ti no-MI-zis"},
         ],
         "Love": [
-            {"english": "Love yourself first.", "danish": "Elsk dig selv f\u00f8rst.", "pronunciation": "elsk dij selv f\u00f8rst"},
-            {"english": "Love makes everything possible.", "danish": "K\u00e6rlighed g\u00f8r alt muligt.", "pronunciation": "k\u00e6r-lig-hed g\u00f8r alt mu-ligt"},
-            {"english": "My heart beats for you.", "danish": "Mit hjerte sl\u00e5r for dig.", "pronunciation": "mit hjer-te sl\u00e5r for dij"},
-            {"english": "You are my everything.", "danish": "Du er alt for mig.", "pronunciation": "du er alt for mej"},
-            {"english": "Together forever, hand in hand.", "danish": "Sammen for altid, h\u00e5nd i h\u00e5nd.", "pronunciation": "sam-men for al-tid, h\u00e5nd i h\u00e5nd"},
+            {"english": "Love yourself first.", "greek": "Αγάπα τον εαυτό σου πρώτα.", "pronunciation": "a-GA-pa ton eaf-TO sou PRO-ta"},
+            {"english": "Love makes everything possible.", "greek": "Η αγάπη κάνει τα πάντα δυνατά.", "pronunciation": "ee a-GA-pi KA-nei ta PAN-ta di-na-TA"},
+            {"english": "My heart beats for you.", "greek": "Η καρδιά μου χτυπάει για σένα.", "pronunciation": "ee kar-DIA mou hti-PA-i ya SE-na"},
+            {"english": "You are my everything.", "greek": "Είσαι το παν μου.", "pronunciation": "EE-se to PAN mou"},
+            {"english": "Together forever, hand in hand.", "greek": "Μαζί για πάντα, χέρι χέρι.", "pronunciation": "ma-ZI ya PAN-da, HE-ri HE-ri"},
         ],
         "Success": [
-            {"english": "Success comes from hard work.", "danish": "Succes kommer fra h\u00e5rdt arbejde.", "pronunciation": "suk-ses kom-mer fr\u00e5 h\u00e5rdt ar-bej-de"},
-            {"english": "Keep going, you're getting there.", "danish": "Forts\u00e6t, du n\u00e6rmer dig.", "pronunciation": "for-ts\u00e6t, du n\u00e6r-mer dij"},
-            {"english": "Winners never quit.", "danish": "Vindere giver aldrig op.", "pronunciation": "vin-de-re gi-ver al-drig op"},
-            {"english": "Your effort will pay off.", "danish": "Din indsats vil l\u00f8nne sig.", "pronunciation": "din ind-sats vil l\u00f8n-ne sej"},
+            {"english": "Success comes from hard work.", "greek": "Η επιτυχία έρχεται από τη σκληρή δουλειά.", "pronunciation": "ee e-pi-ti-HI-a ER-he-te a-po ti skli-RI dou-LYA"},
+            {"english": "Keep going, you're getting there.", "greek": "Συνέχισε, πλησιάζεις.", "pronunciation": "si-NE-hi-se, pli-SI-a-zis"},
+            {"english": "Winners never quit.", "greek": "Οι νικητές δεν παρατάνε ποτέ.", "pronunciation": "ee ni-ki-TES den pa-ra-TA-ne po-TE"},
+            {"english": "Your effort will pay off.", "greek": "Η προσπάθειά σου θα ανταμειφθεί.", "pronunciation": "ee pro-SPA-thia sou tha a-da-mif-THI"},
         ],
         "Wisdom": [
-            {"english": "Knowledge is power.", "danish": "Kundskab er magt.", "pronunciation": "kund-skab er magt"},
-            {"english": "Learn from yesterday, live for today.", "danish": "L\u00e6r fra i g\u00e5r, lev for i dag.", "pronunciation": "l\u00e6r fra i g\u00e5r, lev for i dag"},
-            {"english": "Think before you act.", "danish": "T\u00e6nk f\u00f8r du handler.", "pronunciation": "t\u00e6nk f\u00f8r du hand-ler"},
-            {"english": "Experience is the best teacher.", "danish": "Erfaring er den bedste l\u00e6rer.", "pronunciation": "er-fa-ring er den bed-ste l\u00e6-rer"},
+            {"english": "Knowledge is power.", "greek": "Η γνώση είναι δύναμη.", "pronunciation": "ee GNO-si EE-ne DEE-na-mi"},
+            {"english": "Learn from yesterday, live for today.", "greek": "Μάθε από το χθες, ζήσε για το σήμερα.", "pronunciation": "MA-the a-po to hthes, ZEE-se ya to SI-me-ra"},
+            {"english": "Think before you act.", "greek": "Σκέψου πριν ενεργήσεις.", "pronunciation": "SKEP-sou prin e-ner-YI-sis"},
+            {"english": "Experience is the best teacher.", "greek": "Η εμπειρία είναι ο καλύτερος δάσκαλος.", "pronunciation": "ee em-bi-EE-a EE-ne o ka-LY-te-ros DAS-ka-los"},
         ],
         "Happiness": [
-            {"english": "Happiness is a choice.", "danish": "Lykke er et valg.", "pronunciation": "lyk-ke er et valg"},
-            {"english": "Find joy in the little things.", "danish": "Find gl\u00e6de i de sm\u00e5 ting.", "pronunciation": "find gle-de i de sm\u00e5 ting"},
-            {"english": "Smile, it makes others happy.", "danish": "Smil, det g\u00f8r andre glade.", "pronunciation": "smil, det g\u00f8r an-dre gla-de"},
-            {"english": "Today is a gift.", "danish": "I dag er en gave.", "pronunciation": "i dag er en ga-ve"},
+            {"english": "Happiness is a choice.", "greek": "Η ευτυχία είναι επιλογή.", "pronunciation": "ee ef-ti-HI-a EE-ne e-pi-lo-YI"},
+            {"english": "Find joy in the little things.", "greek": "Βρες χαρά στα μικρά πράγματα.", "pronunciation": "vres ha-RA sta mi-KRA PRA-gma-ta"},
+            {"english": "Smile, it makes others happy.", "greek": "Χαμογέλα, κάνει τους άλλους χαρούμενους.", "pronunciation": "ha-mo-YE-la, KA-nei tous AL-lous ha-ROU-me-nous"},
+            {"english": "Today is a gift.", "greek": "Το σήμερα είναι ένα δώρο.", "pronunciation": "to SI-me-ra EE-ne E-na DO-ro"},
         ],
         "Self Improvement": [
-            {"english": "Be better than yesterday.", "danish": "V\u00e6r bedre end i g\u00e5r.", "pronunciation": "v\u00e6r bed-re en i g\u00e5r"},
-            {"english": "Grow through what you go through.", "danish": "Voks gennem det du g\u00e5r gennem.", "pronunciation": "voks gen-nem det du g\u00e5r gen-nem"},
-            {"english": "Invest in yourself daily.", "danish": "Invest\u00e9r i dig selv dagligt.", "pronunciation": "in-ves-t\u00e9r i dij selv dag-ligt"},
+            {"english": "Be better than yesterday.", "greek": "Γίνε καλύτερος από χθες.", "pronunciation": "YEE-ne ka-LY-te-ros a-po hthes"},
+            {"english": "Grow through what you go through.", "greek": "Μεγάλωνε μέσα από ό,τι περνάς.", "pronunciation": "me-GA-lo-ne ME-sa a-po o-ti per-NAS"},
+            {"english": "Invest in yourself daily.", "greek": "Επένδυσε στον εαυτό σου καθημερινά.", "pronunciation": "e-PEN-dy-se ston eaf-TO sou ka-thi-me-ri-NA"},
         ],
         "Gratitude": [
-            {"english": "Thank you for everything.", "danish": "Tak for alt.", "pronunciation": "tak for alt"},
-            {"english": "I appreciate your help.", "danish": "Jeg s\u00e6tter pris p\u00e5 din hj\u00e6lp.", "pronunciation": "jeg set-ter pris p\u00e5 din hj\u00e6lp"},
-            {"english": "Grateful for this moment.", "danish": "Taknemmelig for dette \u00f8jeblik.", "pronunciation": "tak-nem-me-lig for det-te \u00f8je-blik"},
+            {"english": "Thank you for everything.", "greek": "Σε ευχαριστώ για όλα.", "pronunciation": "se ef-ha-ri-STO ya O-la"},
+            {"english": "I appreciate your help.", "greek": "Εκτιμώ τη βοήθειά σου.", "pronunciation": "ek-ti-MO ti vo-I-thia sou"},
+            {"english": "Grateful for this moment.", "greek": "Ευγνώμων για αυτή τη στιγμή.", "pronunciation": "ev-GNO-mon ya af-TI ti stig-MI"},
         ],
         "Friendship": [
-            {"english": "Friends forever, no matter what.", "danish": "Venner for altid, uanset hvad.", "pronunciation": "ven-ner for al-tid, uan-set hvad"},
-            {"english": "You are my best friend.", "danish": "Du er min bedste ven.", "pronunciation": "du er min bed-ste ven"},
-            {"english": "True friends stick together.", "danish": "\u00c6gte venner holder sammen.", "pronunciation": "\u00e6g-te ven-ner hol-der sam-men"},
+            {"english": "Friends forever, no matter what.", "greek": "Φίλοι για πάντα, ό,τι κι αν γίνει.", "pronunciation": "FI-li ya PAN-da, o-ti ki an YI-ni"},
+            {"english": "You are my best friend.", "greek": "Είσαι ο καλύτερός μου φίλος.", "pronunciation": "EE-se o ka-LY-te-ROS mou FI-los"},
+            {"english": "True friends stick together.", "greek": "Οι αληθινοί φίλοι μένουν ενωμένοι.", "pronunciation": "ee a-li-thi-NI FI-li ME-noun e-no-ME-ni"},
         ],
         "Hope": [
-            {"english": "There is always hope.", "danish": "Der er altid h\u00e5b.", "pronunciation": "der er al-tid h\u00e5b"},
-            {"english": "Better days are coming.", "danish": "Bedre dage kommer.", "pronunciation": "bed-re da-ge kom-mer"},
-            {"english": "Keep faith, keep going.", "danish": "Behold troen, forts\u00e6t.", "pronunciation": "be-hold tro-en, fort-s\u00e6t"},
+            {"english": "There is always hope.", "greek": "Υπάρχει πάντα ελπίδα.", "pronunciation": "ee-PAR-hi PAN-da el-PI-da"},
+            {"english": "Better days are coming.", "greek": "Καλύτερες μέρες έρχονται.", "pronunciation": "ka-LY-te-res ME-res ER-hon-te"},
+            {"english": "Keep faith, keep going.", "greek": "Κράτα την πίστη, συνέχισε.", "pronunciation": "KRA-ta tin PI-sti, si-NE-hi-se"},
         ],
         "Creativity": [
-            {"english": "Create something beautiful today.", "danish": "Skab noget smukt i dag.", "pronunciation": "skab no-get smukt i dag"},
-            {"english": "Your imagination is unlimited.", "danish": "Din fantasi er ubegr\u00e6nset.", "pronunciation": "din fan-ta-si er u-be-gr\u00e6n-set"},
-            {"english": "Art comes from the heart.", "danish": "Kunst kommer fra hjertet.", "pronunciation": "kunst kom-mer fra hjer-tet"},
-            {"english": "Express yourself freely.", "danish": "Udtryk dig frit.", "pronunciation": "ud-tryk dij frit"},
-            {"english": "Innovation starts with curiosity.", "danish": "Innovation starter med nysgerrighed.", "pronunciation": "in-no-va-sjon star-ter med nys-ger-rig-hed"},
+            {"english": "Create something beautiful today.", "greek": "Δημιούργησε κάτι όμορφο σήμερα.", "pronunciation": "di-MI-our-yi-se KA-ti OM-or-fo SI-me-ra"},
+            {"english": "Your imagination is unlimited.", "greek": "Η φαντασία σου είναι απεριόριστη.", "pronunciation": "ee fan-ta-SI-a sou EE-ne a-pe-ri-O-ri-sti"},
+            {"english": "Art comes from the heart.", "greek": "Η τέχνη έρχεται από την καρδιά.", "pronunciation": "ee TEH-hni ER-he-te a-po tin kar-DIA"},
+            {"english": "Express yourself freely.", "greek": "Εκφράσου ελεύθερα.", "pronunciation": "ek-FRA-sou e-LEF-the-ra"},
+            {"english": "Innovation starts with curiosity.", "greek": "Η καινοτομία ξεκινά με την περιέργεια.", "pronunciation": "ee ke-no-to-MI-a kse-ki-NA me tin pe-ri-ER-yi-a"},
         ],
         "Inner Peace": [
-            {"english": "Find peace within yourself.", "danish": "Find fred i dig selv.", "pronunciation": "find fred i dij selv"},
-            {"english": "Breathe, relax, let go.", "danish": "Tr\u00e6k vejret, slap af, slip taget.", "pronunciation": "tr\u00e6k vej-ret, slap af, slip ta-get"},
-            {"english": "Calm mind, happy heart.", "danish": "Roligt sind, glad hjerte.", "pronunciation": "ro-ligt sind, glad hjer-te"},
+            {"english": "Find peace within yourself.", "greek": "Βρες γαλήνη μέσα σου.", "pronunciation": "vres ga-LI-ni ME-sa sou"},
+            {"english": "Breathe, relax, let go.", "greek": "Ανάπνευσε, χαλάρωσε, άσε το.", "pronunciation": "a-NA-PNEF-se, ha-LA-ro-se, A-se to"},
+            {"english": "Calm mind, happy heart.", "greek": "Ήρεμο μυαλό, χαρούμενη καρδιά.", "pronunciation": "EE-re-mo mya-LO, ha-ROU-me-ni kar-DIA"},
         ],
         "Confidence": [
-            {"english": "You are enough, just as you are.", "danish": "Du er nok, pr\u00e6cis som du er.", "pronunciation": "du er nok, pr\u00e6-cis som du er"},
-            {"english": "Stand tall, speak up.", "danish": "St\u00e5 rank, sig til.", "pronunciation": "st\u00e5 rank, sij til"},
-            {"english": "Believe in your abilities.", "danish": "Tro p\u00e5 dine evner.", "pronunciation": "tro p\u00e5 di-ne ev-ner"},
+            {"english": "You are enough, just as you are.", "greek": "Είσαι αρκετός, ακριβώς όπως είσαι.", "pronunciation": "EE-se ar-ke-TOS, a-kri-VOS O-pos EE-se"},
+            {"english": "Stand tall, speak up.", "greek": "Στάσου ψηλά, μίλα δυνατά.", "pronunciation": "STA-sou psi-LA, MI-la di-na-TA"},
+            {"english": "Believe in your abilities.", "greek": "Πίστεψε στις ικανότητές σου.", "pronunciation": "PEE-stepse stis i-ka-NO-ti-tes sou"},
         ],
         "Perseverance": [
-            {"english": "Never give up, keep pushing.", "danish": "Giv aldrig op, forts\u00e6t med at k\u00e6mpe.", "pronunciation": "giv al-drig op, for-ts\u00e6t med at k\u00e6m-pe"},
-            {"english": "Storms make trees take deeper roots.", "danish": "Storme f\u00e5r tr\u00e6er til at sl\u00e5 dybere r\u00f8dder.", "pronunciation": "stor-me f\u00e5r tr\u00e6-er til \u00e5 sl\u00e5 dy-be-re r\u00f8d-der"},
-            {"english": "Patience and persistence win.", "danish": "T\u00e5lmodighed og udholdenhed vinder.", "pronunciation": "t\u00e5l-mo-dig-hed og ud-hol-den-hed vin-der"},
+            {"english": "Never give up, keep pushing.", "greek": "Μην τα παρατάς, συνέχισε να προσπαθείς.", "pronunciation": "min ta pa-ra-TAS, si-NE-hi-se na pro-spa-THIS"},
+            {"english": "Storms make trees take deeper roots.", "greek": "Οι καταιγίδες κάνουν τα δέντρα να βγάζουν πιο βαθιές ρίζες.", "pronunciation": "ee ka-te-YI-des KA-noun ta DEN-dra na VGA-zoun pio va-THIES REE-zes"},
+            {"english": "Patience and persistence win.", "greek": "Η υπομονή και η επιμονή νικούν.", "pronunciation": "ee i-po-mo-NI ke ee e-pi-mo-NI ni-KOUN"},
         ],
         "Inspiration": [
-            {"english": "Let your light shine bright.", "danish": "Lad dit lys skinne klart.", "pronunciation": "lad dit lys skin-ne klart"},
-            {"english": "Inspire others by your actions.", "danish": "Inspir\u00e9r andre med dine handlinger.", "pronunciation": "in-spi-r\u00e9r an-dre med di-ne hand-ling-er"},
-            {"english": "Be the change you want to see.", "danish": "V\u00e6r forandringen du vil se.", "pronunciation": "v\u00e6r for-and-ring-en du vil se"},
+            {"english": "Let your light shine bright.", "greek": "Άσε το φως σου να λάμπει δυνατά.", "pronunciation": "A-se to fos sou na LAM-bi di-na-TA"},
+            {"english": "Inspire others by your actions.", "greek": "Εμπνέετε τους άλλους με τις πράξεις σου.", "pronunciation": "em-BNE-e-te tous AL-lous me tis PRA-xeis sou"},
+            {"english": "Be the change you want to see.", "greek": "Γίνε η αλλαγή που θέλεις να δεις.", "pronunciation": "YEE-ne ee a-la-YI pou THE-lis na dis"},
         ],
         "Positive Life": [
-            {"english": "Choose positivity every day.", "danish": "V\u00e6lg positivitet hver dag.", "pronunciation": "v\u00e6lg po-si-ti-vi-tet v\u00e6r dag"},
-            {"english": "Good vibes only.", "danish": "Kun gode vibes.", "pronunciation": "kun go-de vajbs"},
-            {"english": "Life is what you make it.", "danish": "Livet er hvad du g\u00f8r det til.", "pronunciation": "li-vet er hvad du g\u00f8r det til"},
+            {"english": "Choose positivity every day.", "greek": "Διάλεξε τη θετικότητα κάθε μέρα.", "pronunciation": "DIA-le-xe ti the-ti-KO-ti-ta KA-the ME-ra"},
+            {"english": "Good vibes only.", "greek": "Μόνο θετική ενέργεια.", "pronunciation": "MO-no the-ti-KI e-NER-yi-a"},
+            {"english": "Life is what you make it.", "greek": "Η ζωή είναι ό,τι την κάνεις.", "pronunciation": "ee zo-I EE-ne O-ti tin KA-nis"},
         ],
         "Courage": [
-            {"english": "Be brave, take the first step.", "danish": "V\u00e6r modig, tag det f\u00f8rste skridt.", "pronunciation": "v\u00e6r mo-dig, tag det f\u00f8r-ste skridt"},
-            {"english": "Courage is not the absence of fear.", "danish": "Mod er ikke frav\u00e6r af frygt.", "pronunciation": "mod er ik-ke fra-v\u00e6r af frygt"},
-            {"english": "Face your fears head on.", "danish": "M\u00f8d din frygt direkte.", "pronunciation": "m\u00f8d din frygt di-rek-te"},
+            {"english": "Be brave, take the first step.", "greek": "Να είσαι γενναίος, κάνε το πρώτο βήμα.", "pronunciation": "na EE-se ye-NE-os, KA-ne to PRO-to VI-ma"},
+            {"english": "Courage is not the absence of fear.", "greek": "Θάρρος δεν είναι η απουσία φόβου.", "pronunciation": "THA-ros den EE-ne ee a-pou-SI-a FO-vou"},
+            {"english": "Face your fears head on.", "greek": "Αντιμέτωπισε τους φόβους σου κατά μέτωπο.", "pronunciation": "an-di-ME-to-pi-se tous FO-vous sou KA-ta ME-to-po"},
         ],
         "Kindness": [
-            {"english": "Be kind to everyone you meet.", "danish": "V\u00e6r venlig mod alle du m\u00f8der.", "pronunciation": "v\u00e6r ven-lig mod al-le du m\u00f8-der"},
-            {"english": "Kindness costs nothing, means everything.", "danish": "Venlighed koster ingenting, betyder alt.", "pronunciation": "ven-lig-hed kos-ter in-gen-ting, be-ty-der alt"},
-            {"english": "Spread kindness wherever you go.", "danish": "Spred venlighed hvor end du g\u00e5r.", "pronunciation": "spred ven-lig-hed hvor en du g\u00e5r"},
+            {"english": "Be kind to everyone you meet.", "greek": "Να είσαι ευγενικός με όλους όσους συναντάς.", "pronunciation": "na EE-se ev-ye-ni-KOS me O-lous O-sous si-nan-TAS"},
+            {"english": "Kindness costs nothing, means everything.", "greek": "Η καλοσύνη δεν κοστίζει τίποτα, σημαίνει τα πάντα.", "pronunciation": "ee ka-lo-SI-ni den ko-STI-zi TI-po-ta, si-ME-ni ta PAN-da"},
+            {"english": "Spread kindness wherever you go.", "greek": "Διάδωσε καλοσύνη όπου κι αν πας.", "pronunciation": "DIA-do-se ka-lo-SI-ni O-pou ki an pas"},
         ],
         "Patience": [
-            {"english": "Good things take time.", "danish": "Gode ting tager tid.", "pronunciation": "go-de ting ta-ger tid"},
-            {"english": "Wait patiently, trust the process.", "danish": "Vent t\u00e5lmodigt, stol p\u00e5 processen.", "pronunciation": "vent t\u00e5l-mo-digt, stol p\u00e5 pro-ses-sen"},
-            {"english": "Rome wasn't built in a day.", "danish": "Rom blev ikke bygget p\u00e5 en dag.", "pronunciation": "rom blev ik-ke byg-get p\u00e5 en dag"},
+            {"english": "Good things take time.", "greek": "Τα καλά πράγματα θέλουν χρόνο.", "pronunciation": "ta ka-LA PRA-gma-ta THE-loun HRO-no"},
+            {"english": "Wait patiently, trust the process.", "greek": "Περίμενε υπομονετικά, εμπιστεύσου τη διαδικασία.", "pronunciation": "pe-RI-me-ne i-po-mo-ne-ti-KA, em-bi-STEF-sou ti di-a-di-ka-SI-a"},
+            {"english": "Rome wasn't built in a day.", "greek": "Η Ρώμη δεν χτίστηκε σε μία μέρα.", "pronunciation": "ee RO-mi den HTI-sti-ke se MI-a ME-ra"},
         ],
         "Forgiveness": [
-            {"english": "Forgive and set yourself free.", "danish": "Tilgiv og s\u00e6t dig selv fri.", "pronunciation": "til-giv og s\u00e6t dij selv fri"},
-            {"english": "Let go of grudges, find peace.", "danish": "Slip nag, find fred.", "pronunciation": "slip nag, find fred"},
-            {"english": "Forgiveness is a gift to yourself.", "danish": "Tilgivelse er en gave til dig selv.", "pronunciation": "til-gi-vel-se er en ga-ve til dij selv"},
+            {"english": "Forgive and set yourself free.", "greek": "Συγχώρεσε και ελευθέρωσε τον εαυτό σου.", "pronunciation": "sing-HO-re-se ke e-lef-THE-ro-se ton eaf-TO sou"},
+            {"english": "Let go of grudges, find peace.", "greek": "Άσε τις μνησικακίες, βρες γαλήνη.", "pronunciation": "A-se tis mni-si-ka-KI-es, vres ga-LI-ni"},
+            {"english": "Forgiveness is a gift to yourself.", "greek": "Η συγχώρεση είναι δώρο στον εαυτό σου.", "pronunciation": "ee sing-HO-re-si EE-ne DO-ro ston eaf-TO sou"},
         ],
         "Strength": [
-            {"english": "You are stronger than you know.", "danish": "Du er st\u00e6rkere end du ved.", "pronunciation": "du er st\u00e6r-ke-re en du ved"},
-            {"english": "Inner strength comes from within.", "danish": "Indre styrke kommer fra indersiden.", "pronunciation": "in-dre styr-ke kom-mer fra in-der-si-den"},
-            {"english": "Challenges make you stronger.", "danish": "Udfordringer g\u00f8r dig st\u00e6rkere.", "pronunciation": "ud-for-dring-er g\u00f8r dij st\u00e6r-ke-re"},
+            {"english": "You are stronger than you know.", "greek": "Είσαι πιο δυνατός από ό,τι νομίζεις.", "pronunciation": "EE-se pio di-na-TOS a-po o-ti no-MI-zis"},
+            {"english": "Inner strength comes from within.", "greek": "Η εσωτερική δύναμη έρχεται από μέσα σου.", "pronunciation": "ee e-so-te-ri-KI DEE-na-mi ER-he-te a-po ME-sa sou"},
+            {"english": "Challenges make you stronger.", "greek": "Οι προκλήσεις σε κάνουν πιο δυνατό.", "pronunciation": "ee pro-KLI-sis se KA-noun pio di-na-TO"},
         ],
         "Joy": [
-            {"english": "Find joy in every moment.", "danish": "Find gl\u00e6de i hvert \u00f8jeblik.", "pronunciation": "find gle-de i hvert \u00f8je-blik"},
-            {"english": "Joy is contagious, spread it.", "danish": "Gl\u00e6de er smitsomt, spred det.", "pronunciation": "gle-de er smit-somt, spred det"},
-            {"english": "Dance like nobody's watching.", "danish": "Dans som om ingen ser p\u00e5.", "pronunciation": "dans som om in-gen ser p\u00e5"},
+            {"english": "Find joy in every moment.", "greek": "Βρες χαρά σε κάθε στιγμή.", "pronunciation": "vres ha-RA se KA-the stig-MI"},
+            {"english": "Joy is contagious, spread it.", "greek": "Η χαρά είναι μεταδοτική, διάδωσέ την.", "pronunciation": "ee ha-RA EE-ne me-ta-do-ti-KI, DI-a-do-se tin"},
+            {"english": "Dance like nobody's watching.", "greek": "Χόρεψε σαν να μη σε βλέπει κανείς.", "pronunciation": "HO-rep-se san na mi se VLE-pi ka-NIS"},
         ],
         "Balance": [
-            {"english": "Find balance in your life.", "danish": "Find balance i livet dit.", "pronunciation": "find ba-lan-se i li-vet dit"},
-            {"english": "Work hard, rest well.", "danish": "Arbejd h\u00e5rdt, hvil godt.", "pronunciation": "ar-bejd h\u00e5rdt, hvil godt"},
-            {"english": "Too much of anything is not good.", "danish": "For meget af noget er ikke godt.", "pronunciation": "for me-get af no-get er ik-ke godt"},
+            {"english": "Find balance in your life.", "greek": "Βρες ισορροπία στη ζωή σου.", "pronunciation": "vres i-so-ro-PI-a sti zo-I sou"},
+            {"english": "Work hard, rest well.", "greek": "Δούλεψε σκληρά, ξεκουράσου καλά.", "pronunciation": "DOU-lep-se skli-RA, kse-kou-RA-sou ka-LA"},
+            {"english": "Too much of anything is not good.", "greek": "Το πολύ από κάτι δεν είναι καλό.", "pronunciation": "to po-LY a-po KA-ti den EE-ne ka-LO"},
         ],
         "Growth": [
-            {"english": "Growth happens outside your comfort zone.", "danish": "V\u00e6kst sker uden for komfortzonen.", "pronunciation": "v\u00e6kst sker u-den for kom-fort-zo-nen"},
-            {"english": "Embrace change, grow stronger.", "danish": "Omfavn forandring, bliv st\u00e6rkere.", "pronunciation": "om-favn for-and-ring, bliv st\u00e6r-ke-re"},
-            {"english": "Every challenge is a chance to grow.", "danish": "Hver udfordring er en chance til at vokse.", "pronunciation": "hver ud-for-dring er en sjan-se til at vok-se"},
+            {"english": "Growth happens outside your comfort zone.", "greek": "Η ανάπτυξη συμβαίνει έξω από τη ζώνη άνεσής σου.", "pronunciation": "ee a-NA-pty-xi sim-VE-ne E-xo a-po ti ZO-ni A-ne-sis sou"},
+            {"english": "Embrace change, grow stronger.", "greek": "Αγκάλιασε την αλλαγή, γίνε πιο δυνατός.", "pronunciation": "an-GA-lia-se tin a-la-YI, YEE-ne pio di-na-TOS"},
+            {"english": "Every challenge is a chance to grow.", "greek": "Κάθε πρόκληση είναι μια ευκαιρία να αναπτυχθείς.", "pronunciation": "KA-the PRO-kli-si EE-ne MI-a ef-ke-REE-a na a-na-pty-HIS"},
         ],
         "Purpose": [
-            {"english": "Find your purpose, follow it.", "danish": "Find dit form\u00e5l, f\u00f8lg det.", "pronunciation": "find dit form\u00e5l, f\u00f8lg det"},
-            {"english": "Your life has meaning.", "danish": "Dit liv har mening.", "pronunciation": "dit liv har me-ning"},
-            {"english": "Live with intention, not accident.", "danish": "Lev med hensigt, ikke tilf\u00e6ldigt.", "pronunciation": "lev med hen-sigt, ik-ke til-f\u00e6l-digt"},
+            {"english": "Find your purpose, follow it.", "greek": "Βρες τον σκοπό σου, ακολούθησέ τον.", "pronunciation": "vres ton sko-PO sou, a-ko-LOU-thi-se ton"},
+            {"english": "Your life has meaning.", "greek": "Η ζωή σου έχει νόημα.", "pronunciation": "ee zo-I sou E-hi NO-i-ma"},
+            {"english": "Live with intention, not accident.", "greek": "Ζήσε με πρόθεση, όχι τυχαία.", "pronunciation": "ZEE-se me PRO-the-si, O-hi ti-HE-a"},
         ],
         "Mindfulness": [
-            {"english": "Be present in this moment.", "danish": "V\u00e6r til stede i dette \u00f8jeblik.", "pronunciation": "v\u00e6r til ste-de i det-te \u00f8je-blik"},
-            {"english": "Breathe deeply, stay grounded.", "danish": "Tr\u00e6k vejret dybt, hold dig jordet.", "pronunciation": "tr\u00e6k vej-ret dybt, hold dij jor-det"},
-            {"english": "Notice the little things around you.", "danish": "L\u00e6g m\u00e6rke til de sm\u00e5 ting omkring dig.", "pronunciation": "l\u00e6g m\u00e6r-ke til de sm\u00e5 ting om-kring dij"},
+            {"english": "Be present in this moment.", "greek": "Να είσαι παρών σε αυτή τη στιγμή.", "pronunciation": "na EE-se pa-RON se af-TI ti stig-MI"},
+            {"english": "Breathe deeply, stay grounded.", "greek": "Ανάπνευσε βαθιά, μείνε προσγειωμένος.", "pronunciation": "a-NA-PNEF-se va-THIA, MI-ne pro-syi-o-ME-nos"},
+            {"english": "Notice the little things around you.", "greek": "Παρατήρησε τα μικρά πράγματα γύρω σου.", "pronunciation": "pa-ra-TI-ri-se ta mi-KRA PRA-gma-ta YI-ro sou"},
         ],
     }
 
@@ -487,7 +487,7 @@ def generate_all_audio(phrases: list, output_dir: str):
             cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "2", str(english_file)]
             subprocess.run(cmd, capture_output=True)
 
-        lang_success = asyncio.run(generate_single_audio(phrase["danish"], LANG_VOICE, str(lang_file)))
+        lang_success = asyncio.run(generate_single_audio(phrase["greek"], LANG_VOICE, str(lang_file)))
         if not lang_success:
             cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "2", str(lang_file)]
             subprocess.run(cmd, capture_output=True)
@@ -631,7 +631,7 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
     font_branding = load_font(english_font_paths, 38)
 
     english = phrase_data.get("english", "")
-    danish = phrase_data.get("danish", "")
+    greek_text = phrase_data.get("greek", "")
     pronunciation = phrase_data.get("pronunciation", "")
 
     def wrap_text(text, font, max_width):
@@ -677,7 +677,7 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
     en_line_h = 80
     en_total_h = len(en_lines) * en_line_h
 
-    lang_lines = wrap_text(danish, font_lang, VIDEO_WIDTH - 300)
+    lang_lines = wrap_text(greek_text, font_lang, VIDEO_WIDTH - 300)
     lang_line_h = 100
     lang_total_h = len(lang_lines) * lang_line_h
 
@@ -704,7 +704,7 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
 
     y_cursor = y_start + en_box_h + GAP
 
-    # Danish Section
+    # Greek Section
     lang_box_h = lang_total_h + 60
     draw.rounded_rectangle(
         [(box_x, y_cursor), (box_x + box_w, y_cursor + lang_box_h)],
@@ -729,7 +729,7 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
                   line, fill=(70, 45, 25), font=font_pronunciation, anchor="mm")
 
     # Branding
-    brand_text = "VELOCITY DANISH"
+    brand_text = "VELOCITY GREEK"
     brand_bbox = draw.textbbox((0, 0), brand_text, font=font_branding)
     brand_w = brand_bbox[2] - brand_bbox[0]
     draw.text((VIDEO_WIDTH - brand_w - 60, VIDEO_HEIGHT - 80), brand_text,
@@ -743,7 +743,7 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
 
 # ============== THUMBNAIL GENERATION ==============
 
-def generate_thumbnail(category_english: str, category_danish: str, output_path: str):
+def generate_thumbnail(category_english: str, category_greek: str, output_path: str):
     try:
         from PIL import Image, ImageDraw, ImageFont
     except ImportError:
@@ -775,7 +775,7 @@ def generate_thumbnail(category_english: str, category_danish: str, output_path:
     font_sub = load_font(english_font_paths, 60)
     font_badge = load_font(english_font_paths, 45)
 
-    draw.text((VIDEO_WIDTH // 2, 220), "MASTER DANISH", fill=(45, 35, 65), font=font_huge, anchor="mm")
+    draw.text((VIDEO_WIDTH // 2, 220), "MASTER GREEK", fill=(45, 35, 65), font=font_huge, anchor="mm")
 
     cat_text = category_english.upper()
     cat_bbox = draw.textbbox((0, 0), cat_text, font=font_sub)
@@ -786,9 +786,9 @@ def generate_thumbnail(category_english: str, category_danish: str, output_path:
     )
     draw.text((VIDEO_WIDTH // 2, 365), cat_text, fill=(255, 255, 255), font=font_sub, anchor="mm")
 
-    draw.text((VIDEO_WIDTH // 2, 530), category_danish, fill=(45, 35, 65), font=font_main, anchor="mm")
+    draw.text((VIDEO_WIDTH // 2, 530), category_greek, fill=(45, 35, 65), font=font_main, anchor="mm")
 
-    cta_text = "60 VIGTIGE FRASER"
+    cta_text = "60 ΣΗΜΑΝΤΙΚΕΣ ΦΡΑΣΕΙΣ"
     draw.rounded_rectangle(
         [(VIDEO_WIDTH // 2 - 300, 650), (VIDEO_WIDTH // 2 + 300, 730)],
         radius=15, fill=(255, 210, 160, 255)
@@ -796,7 +796,7 @@ def generate_thumbnail(category_english: str, category_danish: str, output_path:
     draw.text((VIDEO_WIDTH // 2, 690), cta_text, fill=(70, 45, 25), font=font_badge, anchor="mm")
 
     draw.rectangle([(0, VIDEO_HEIGHT - 100), (VIDEO_WIDTH, VIDEO_HEIGHT)], fill=(45, 35, 65, 255))
-    draw.text((VIDEO_WIDTH // 2, VIDEO_HEIGHT - 50), "VELOCITY DANISH", fill=(255, 255, 255), font=font_badge, anchor="mm")
+    draw.text((VIDEO_WIDTH // 2, VIDEO_HEIGHT - 50), "VELOCITY GREEK", fill=(255, 255, 255), font=font_badge, anchor="mm")
 
     img = img.convert('RGB')
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
@@ -828,22 +828,22 @@ def extract_video_thumbnail(video_path: str, output_path: str, timestamp_seconds
 
 # ============== TITLE & DESCRIPTION GENERATION ==============
 
-def generate_title_description(category_english: str, category_danish: str, phrases: list, duration_minutes: float, output_dir: str):
+def generate_title_description(category_english: str, category_greek: str, phrases: list, duration_minutes: float, output_dir: str):
     titles = [
-        f"Learn Danish in 10 Minutes | {category_english} Phrases Every Beginner NEEDS to Know! ({category_danish})",
-        f"60 Danish Phrases for {category_english} | Speak Danish Like a Native! ({category_danish})",
-        f"Master Danish {category_english} | 60 Essential Danish Phrases with Pronunciation | Velocity Danish",
-        f"Danish Learning Made Easy | {category_english} Vocabulary | 10 Minute Lesson",
-        f"Speak Danish Fluently | {category_english} Phrases | English + Danish + Pronunciation",
+        f"Learn Greek in 10 Minutes | {category_english} Phrases Every Beginner NEEDS to Know! ({category_greek})",
+        f"60 Greek Phrases for {category_english} | Speak Greek Like a Native! ({category_greek})",
+        f"Master Greek {category_english} | 60 Essential Greek Phrases with Pronunciation | Velocity Greek",
+        f"Greek Learning Made Easy | {category_english} Vocabulary | 10 Minute Lesson",
+        f"Speak Greek Fluently | {category_english} Phrases | English + Greek + Pronunciation",
     ]
 
-    description = f"""\U0001F1E9\U0001F1F0 Learn Danish with Velocity Danish! \U0001F1E9\U0001F1F0
+    description = f"""\U0001F1EC\U0001F1F7 Learn Greek with Velocity Greek! \U0001F1EC\U0001F1F7
 
-In this video, you'll learn 60 essential Danish phrases about {category_english} ({category_danish}).
+In this video, you'll learn 60 essential Greek phrases about {category_english} ({category_greek}).
 Perfect for beginners and intermediate learners!
 
 \U0001F4DA WHAT YOU'LL LEARN:
-\u2022 60 practical {category_english} phrases in Danish
+\u2022 60 practical {category_english} phrases in Greek
 \u2022 Correct pronunciation guide
 \u2022 Natural pauses for speaking practice
 \u2022 Common expressions used by native speakers
@@ -866,15 +866,15 @@ Perfect for beginners and intermediate learners!
     for i, phrase in enumerate(phrases, 1):
         description += f"""
 {i}. {phrase['english']}
-   Danish: {phrase['danish']}
+   Greek: {phrase['greek']}
     Pronunciation: {phrase['pronunciation']}
 """
 
     description += """
 \U0001F3AF PERFECT FOR:
-\u2022 Danish beginners wanting to expand vocabulary
+\u2022 Greek beginners wanting to expand vocabulary
 \u2022 Intermediate learners practicing pronunciation
-\u2022 Anyone interested in Danish language and culture
+\u2022 Anyone interested in Greek language and culture
 \u2022 Language enthusiasts and polyglots
 \u2022 Students preparing for exams
 
@@ -885,25 +885,25 @@ Perfect for beginners and intermediate learners!
 4. Write down phrases you find difficult
 5. Review this video multiple times
 
-\U0001F514 SUBSCRIBE for more Danish learning content!
+\U0001F514 SUBSCRIBE for more Greek learning content!
 \U0001F44D LIKE this video if you found it helpful!
 \U0001F4AC COMMENT which phrases you want to learn next!
 
-\U0001F4F1 FOLLOW VELOCITY DANISH:
+\U0001F4F1 FOLLOW VELOCITY GREEK:
 [Add your social media links here]
 
 \U0001F3B5 MUSIC:
 [Add music credits if applicable]
 
 \U0001F4D6 RELATED VIDEOS:
-\u2022 Danish Motivation Phrases
-\u2022 Danish Love Expressions
-\u2022 Basic Danish Greetings
+\u2022 Greek Motivation Phrases
+\u2022 Greek Love Expressions
+\u2022 Basic Greek Greetings
 
-#LearnDanish #DanishPhrases #DanishLanguage #{category_english.replace(' ', '')} #VelocityDanish #DanishForBeginners #SpeakDanish #DanishVocabulary #Pronunciation #LanguageLearning #Danish101 #DanishLesson
+#LearnGreek #GreekPhrases #GreekLanguage #{category_english.replace(' ', '')} #VelocityGreek #GreekForBeginners #SpeakGreek #GreekVocabulary #Pronunciation #LanguageLearning #Greek101 #GreekLesson
 
 ---
-\u00A9 Velocity Danish - Making Danish learning accessible to everyone!
+\u00A9 Velocity Greek - Making Greek learning accessible to everyone!
 """
 
     output_dir = Path(output_dir)
@@ -929,18 +929,18 @@ Perfect for beginners and intermediate learners!
         f.write("VIDEO TAGS (for YouTube):\n")
         f.write("-" * 80 + "\n")
         tags = [
-            "Learn Danish",
-            "Danish Phrases",
-            "Danish Language",
+            "Learn Greek",
+            "Greek Phrases",
+            "Greek Language",
             category_english,
-            "Velocity Danish",
-            "Danish for Beginners",
-            "Speak Danish",
-            "Danish Vocabulary",
+            "Velocity Greek",
+            "Greek for Beginners",
+            "Speak Greek",
+            "Greek Vocabulary",
             "Pronunciation",
             "Language Learning",
-            "Danish 101",
-            "Danish Lesson"
+            "Greek 101",
+            "Greek Lesson"
         ]
         f.write(", ".join(tags) + "\n")
 
@@ -949,7 +949,7 @@ Perfect for beginners and intermediate learners!
         "selected_title": titles[0],
         "description": description,
         "category_english": category_english,
-        "category_danish": category_danish,
+        "category_greek": category_greek,
         "phrases_count": len(phrases),
         "duration_minutes": round(duration_minutes, 2),
         "tags": tags
@@ -1027,7 +1027,7 @@ def generate_longform_video(category_english: str = None, target_phrases: int = 
     phrases_count = target_phrases if target_phrases else TARGET_PHRASES
 
     print(f"\n{'='*80}")
-    print(f"LONG-FORM VIDEO - Category: {category_english} ({CATEGORIES_DANISH[category_english]})")
+    print(f"LONG-FORM VIDEO - Category: {category_english} ({CATEGORIES_GREEK[category_english]})")
     print(f"Target Phrases: {phrases_count}")
     print(f"{'='*80}\n")
 
@@ -1039,7 +1039,7 @@ def generate_longform_video(category_english: str = None, target_phrases: int = 
     phrases = generate_phrases_for_longform(category_english, phrases_count)
 
     for i, phrase in enumerate(phrases, 1):
-        print(f"  {i}. {phrase['english']} -> {phrase['danish']}")
+        print(f"  {i}. {phrase['english']} -> {phrase['greek']}")
 
     print(f"\n[info] Total phrases: {len(phrases)}")
 
@@ -1059,10 +1059,10 @@ def generate_longform_video(category_english: str = None, target_phrases: int = 
             print(f"  gpt-image-2 thumbnail saved")
         else:
             print(f"  gpt-image-2 failed, using built-in")
-            generate_thumbnail(category_english, CATEGORIES_DANISH[category_english], str(thumbnail_path))
+            generate_thumbnail(category_english, CATEGORIES_GREEK[category_english], str(thumbnail_path))
     except Exception as e:
         print(f"  Thumbnail error: {e}, using built-in")
-        generate_thumbnail(category_english, CATEGORIES_DANISH[category_english], str(thumbnail_path))
+        generate_thumbnail(category_english, CATEGORIES_GREEK[category_english], str(thumbnail_path))
 
     video_thumbnail_path = video_dir / "video_thumbnail_frame.jpg"
 
@@ -1093,7 +1093,7 @@ def generate_longform_video(category_english: str = None, target_phrases: int = 
     print(f"\n[6/6] Generating YouTube title, description, and metadata...")
     title_meta = generate_title_description(
         category_english,
-        CATEGORIES_DANISH[category_english],
+        CATEGORIES_GREEK[category_english],
         phrases,
         total_duration / 60,
         str(video_dir)
@@ -1102,11 +1102,11 @@ def generate_longform_video(category_english: str = None, target_phrases: int = 
     import json as _json
     from pathlib import Path as _Path
     meta_out = {
-        "title": title_meta.get("selected_title", f"Learn Danish: {category_english}"),
+        "title": title_meta.get("selected_title", f"Learn Greek: {category_english}"),
         "description": title_meta.get("description", ""),
-        "tags": ["Learn Danish", "Danish Phrases", "Danish", category_english, "Velocity Danish"],
+        "tags": ["Learn Greek", "Greek Phrases", "Greek", category_english, "Velocity Greek"],
         "category_english": category_english,
-        "category_danish": CATEGORIES_DANISH[category_english],
+        "category_greek": CATEGORIES_GREEK[category_english],
         "phrases_count": len(phrases),
         "duration_seconds": total_duration,
         "duration_minutes": total_duration / 60,
@@ -1131,7 +1131,7 @@ def generate_longform_video(category_english: str = None, target_phrases: int = 
     print(f"  youtube_upload_info.txt (title + description + tags)")
     print(f"  Duration: {total_duration/60:.2f} minutes")
     print(f"  Phrases: {len(phrases)}")
-    print(f"  Branding: Velocity Danish")
+    print(f"  Branding: Velocity Greek")
     print(f"  Format: 16:9 (1920x1080)")
     print(f"{'='*80}\n")
 
@@ -1153,13 +1153,13 @@ def generate_multiple_longform(count: int = 1, target_phrases: int = None):
 
 if __name__ == "__main__":
     import argparse
-    parser = argparse.ArgumentParser(description="Velocity Danish YouTube Long-form Video Generator")
+    parser = argparse.ArgumentParser(description="Velocity Greek YouTube Long-form Video Generator")
     parser.add_argument("--phrases", type=int, default=TARGET_PHRASES, help="Number of phrases to generate")
     parser.add_argument("--category", type=str, default=None, help="Specific category to generate")
     args = parser.parse_args()
 
     print("\n" + "="*80)
-    print("VELOCITY DANISH - YOUTUBE LONG-FORM AUTOMATION")
+    print("VELOCITY GREEK - YOUTUBE LONG-FORM AUTOMATION")
     print("="*80)
     print("\nFEATURES:")
     print("  16:9 format (1920x1080) for YouTube long-form")
@@ -1170,7 +1170,7 @@ if __name__ == "__main__":
     print("  NEVER repeats phrases (permanent history tracking)")
     print(f"\nAVAILABLE CATEGORIES ({len(CATEGORIES_ENGLISH)} total):")
     for i, cat in enumerate(CATEGORIES_ENGLISH, 1):
-        print(f"   {i:2d}. {cat} ({CATEGORIES_DANISH[cat]})")
+        print(f"   {i:2d}. {cat} ({CATEGORIES_GREEK[cat]})")
     print(f"\nVIDEO SPECIFICATIONS:")
     print(f"  Resolution: {VIDEO_WIDTH}x{VIDEO_HEIGHT} (16:9)")
     print(f"  Frame Rate: {FPS} FPS")
