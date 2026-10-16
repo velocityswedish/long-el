@@ -40,7 +40,6 @@ TARGET_DURATION_MINUTES = 20  # Target ~20-minute videos (120 unique phrases wit
 TARGET_PHRASES = 120  # Number of unique phrases to generate
 
 # English category names
-CATEGORIES_ENGLISH = list(CATEGORIES_GREEK.keys())
 
 # Greek translations
 CATEGORIES_GREEK = {
@@ -98,6 +97,9 @@ CATEGORIES_GREEK = {
     "Cultural Traditions": "Πολιτιστικές Παραδόσεις",
 }
 
+
+# English category names (dynamic)
+CATEGORIES_ENGLISH = list(CATEGORIES_GREEK.keys())
 # Edge TTS voices
 ENGLISH_VOICE = "en-US-GuyNeural"
 LANG_VOICE = "el-GR-AthinaNeural"
