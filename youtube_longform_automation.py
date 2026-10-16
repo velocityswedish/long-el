@@ -36,8 +36,8 @@ for d in [OUTPUT_DIR, IMAGES_DIR, AUDIO_DIR, VIDEO_DIR, HISTORY_DIR, LONGFORM_DI
 VIDEO_WIDTH = 1920
 VIDEO_HEIGHT = 1080
 FPS = 30
-TARGET_DURATION_MINUTES = 5
-TARGET_PHRASES = 120
+TARGET_DURATION_MINUTES = 20  # Target ~20-minute videos (120 unique phrases with natural pedagogical pauses)
+TARGET_PHRASES = 120  # Number of unique phrases to generate
 
 # English category names
 CATEGORIES_ENGLISH = [
@@ -99,86 +99,95 @@ VIRAL_STYLES = [
 ]
 
 # AI Model
-AI_MODEL = os.getenv("AI_MODEL")
-
-if not AI_MODEL:
-    raise ValueError(
-        "AI_MODEL not set! Please add 'AI_MODEL=gemini-fast' to your .env file."
-    )
+AI_MODEL = os.getenv("AI_MODEL") or "gemini-fast"
 
 
-# ============== PHRASE HISTORY MANAGEMENT ==============
+# ============== PHRASE HISTORY MANAGEMENT & DEDUPLICATION ==============
+
+def normalize_phrase_text(text: str) -> str:
+    """Normalize phrase text for strict duplicate detection (lowercase, alphanumeric only)."""
+    import re
+    return re.sub(r'[^a-z0-9\s]', '', text.lower()).strip()
+
+
+def get_phrase_words(text: str) -> set:
+    """Extract set of words for similarity check, ignoring trivial single-letter words."""
+    import re
+    words = set(re.findall(r'\b[a-z0-9]+\b', text.lower()))
+    return {w for w in words if len(w) > 1}
+
+
+def is_phrase_similar_fast(cand_words: set, reference_words_list: list, threshold: float = 0.65) -> bool:
+    """Fast similarity check using Jaccard word overlap to prevent rephrased duplicates."""
+    if not cand_words:
+        return False
+    cand_len = len(cand_words)
+    for ref_words in reference_words_list:
+        if not ref_words:
+            continue
+        intersection_len = len(cand_words.intersection(ref_words))
+        if intersection_len == 0:
+            continue
+        union_len = cand_len + len(ref_words) - intersection_len
+        if union_len > 0 and (intersection_len / union_len) >= threshold:
+            return True
+    return False
+
 
 def load_phrase_history():
+    """Load all previously generated phrases"""
     if PHRASE_HISTORY_FILE.exists():
-        with open(PHRASE_HISTORY_FILE, "r", encoding="utf-8-sig") as f:
-            return json.load(f)
+        try:
+            with open(PHRASE_HISTORY_FILE, "r", encoding="utf-8-sig") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"[history] Warning: Could not read history file ({e}), initializing fresh.")
     return {"phrases": [], "last_updated": None}
 
 
 def save_phrase_history(data):
+    """Save phrase history"""
     data["last_updated"] = datetime.now().isoformat()
     with open(PHRASE_HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-def is_phrase_used(english_phrase):
-    history = load_phrase_history()
-    english_lower = english_phrase.lower().strip()
-    for p in history.get("phrases", []):
-        if p.get("english", "").lower().strip() == english_lower:
-            return True
-    return False
-
-
-def is_phrase_similar(new_phrase, used_phrases, similarity_threshold=0.6):
-    new_words = set(new_phrase.lower().split())
-    if len(new_words) < 3:
-        for used in used_phrases:
-            if new_phrase.lower() in used.lower() or used.lower() in new_phrase.lower():
-                return True
-        return False
-    for used in used_phrases:
-        used_words = set(used.lower().split())
-        if len(new_words) == 0 or len(used_words) == 0:
-            continue
-        intersection = len(new_words.intersection(used_words))
-        union = len(new_words.union(used_words))
-        similarity = intersection / union if union > 0 else 0
-        if similarity >= similarity_threshold:
-            return True
-    return False
-
-
-def filter_similar_phrases(phrases, history, similarity_threshold=0.6):
-    used_phrases = [p.get("english", "") for p in history.get("phrases", [])]
-    unique_phrases = []
-    for phrase in phrases:
-        english_text = phrase.get("english", "")
-        if not is_phrase_similar(english_text, used_phrases, similarity_threshold):
-            unique_phrases.append(phrase)
-        else:
-            print(f"[filter] Skipping similar: {english_text[:50]}...")
-    return unique_phrases
-
-
 def add_phrases_to_history(phrases, category):
+    """Add new unique phrases to permanent history"""
     history = load_phrase_history()
+    existing_normalized = {
+        normalize_phrase_text(p.get("english", ""))
+        for p in history.get("phrases", [])
+        if p.get("english")
+    }
+    
+    added_count = 0
     for phrase in phrases:
-        history["phrases"].append({
-            "english": phrase["english"],
-            "greek": phrase["greek"],
-            "category": category,
-            "generated_at": datetime.now().isoformat()
-        })
+        norm = normalize_phrase_text(phrase.get("english", ""))
+        if norm and norm not in existing_normalized:
+            existing_normalized.add(norm)
+            foreign_val = phrase.get("greek") or phrase.get("target") or phrase.get("foreign") or ""
+            history["phrases"].append({
+                "english": phrase["english"],
+                "greek": foreign_val,
+                "category": category,
+                "generated_at": datetime.now().isoformat()
+            })
+            added_count += 1
+            
     save_phrase_history(history)
-    print(f"[history] Added {len(phrases)} phrases to history (total: {len(history['phrases'])})")
+    print(f"[history] Added {added_count} unique phrases to permanent history (total: {len(history['phrases'])})")
 
 
 # ============== CONTENT GENERATION ==============
 
 def calculate_phrases_needed(target_minutes: int) -> int:
-    avg_phrase_duration = 5.0
+    """
+    Calculate how many phrases needed for target video duration.
+    With pedagogical pauses (English ~2.5s + 1.2s pause + Foreign ~3.0s + 2.0s pause = ~8.7-10.0s per phrase):
+    For 20 minutes (1200 seconds): 1200 / 10 = ~120 phrases.
+    """
+    avg_phrase_duration = 10.0  # seconds
     total_seconds = target_minutes * 60
     return int(total_seconds / avg_phrase_duration)
 
@@ -214,7 +223,7 @@ def repair_and_parse_json(content: str):
             except Exception:
                 pass
 
-    matches = re.findall(r'\{[^{}]*\"english\"[^{}]*\}', cleaned)
+    matches = re.findall(r'\{[^{}]*"english"[^{}]*\}', cleaned)
     results = []
     for m in matches:
         try:
@@ -229,79 +238,124 @@ def repair_and_parse_json(content: str):
     raise ValueError("Could not parse or repair JSON from content")
 
 
-def generate_phrases_for_longform(category_english: str, num_phrases: int) -> list:
-    category_greek = CATEGORIES_GREEK[category_english]
-    history = load_phrase_history()
-    used_phrases = [p.get("english", "") for p in history.get("phrases", [])]
-    viral_style = random.choice(VIRAL_STYLES)
-    all_phrases = []
-    batch_size = 20
-    max_attempts = 5
+# Sub-themes to guarantee rich vocabulary variety and completely prevent repetitive phrasing
+SUBTHEMES = [
+    ("Everyday Essentials & Reactions", "Focus on high-frequency everyday expressions, quick reactions, and essential conversational starters"),
+    ("Questions & Interactive Dialogue", "Focus on asking questions, polite inquiries, seeking advice, and two-way conversations"),
+    ("Mindset & Encouragement", "Focus on motivating thoughts, affirmations, giving praise, and positive mindset"),
+    ("Native Idioms & Cultural Sayings", "Focus on natural idioms, colloquial expressions, common sayings, and local phrasing"),
+    ("Reflections & Emotional Honesty", "Focus on expressing personal feelings, sincere reflections, patience, and deeper thoughts"),
+    ("Practical Life Situations & Tips", "Focus on daily habits, real-world social scenarios, practical problem-solving, and actionable advice")
+]
 
-    for batch_num in range((num_phrases + batch_size - 1) // batch_size):
-        remaining = num_phrases - len(all_phrases)
-        current_batch_size = min(batch_size, remaining)
-        if current_batch_size <= 0:
+
+def generate_phrases_for_longform(category_english: str, num_phrases: int = TARGET_PHRASES) -> list:
+    """
+    Generate 100% unique bilingual phrases for a ~20-minute long-form video.
+    Guarantees NO repetition within the video and NO repetition across past videos.
+    """
+    import requests
+    import time
+
+    category_foreign = CATEGORIES_GREEK[category_english]
+    history = load_phrase_history()
+    
+    # Pre-index all past phrases in history
+    history_phrases = history.get("phrases", [])
+    history_norm_set = {
+        normalize_phrase_text(p.get("english", ""))
+        for p in history_phrases
+        if p.get("english")
+    }
+    history_words_list = [
+        get_phrase_words(p.get("english", ""))
+        for p in history_phrases
+        if p.get("english")
+    ]
+    
+    # Category-specific past phrases (to feed directly into LLM exclusion prompts)
+    category_past_english = [
+        p.get("english", "")
+        for p in history_phrases
+        if p.get("category") == category_english and p.get("english")
+    ]
+
+    all_phrases = []
+    current_video_norm_set = set()
+    current_video_words_list = []
+
+    num_batches = len(SUBTHEMES)
+    target_per_batch = (num_phrases + num_batches - 1) // num_batches
+    max_batch_attempts = 4
+
+    print(f"[content] Starting generation of {num_phrases} UNIQUE phrases for '{category_english}' ({category_foreign})...")
+
+    for batch_idx, (theme_name, theme_guidance) in enumerate(SUBTHEMES):
+        remaining_needed = num_phrases - len(all_phrases)
+        if remaining_needed <= 0:
             break
-        for attempt in range(max_attempts):
+
+        batch_target = min(target_per_batch, remaining_needed)
+        request_count = min(30, batch_target + 10)
+        temp = round(0.85 + (batch_idx * 0.05), 2)
+        viral_style = random.choice(VIRAL_STYLES)
+
+        for attempt in range(max_batch_attempts):
+            remaining_for_batch = batch_target - (len(all_phrases) - (batch_idx * target_per_batch))
+            if remaining_for_batch <= 0 and len(all_phrases) >= (batch_idx + 1) * target_per_batch:
+                break
+
             try:
-                import requests
+                # Dynamic exclusion list:
+                # 1. Phrases generated in THIS video run (prevents repeating across batches!)
+                # 2. Recent phrases from past history for this category
+                current_generated_en = [p["english"] for p in all_phrases[-40:]]
+                recent_cat_past = category_past_english[-25:] if category_past_english else []
+                combined_exclusions = list(dict.fromkeys(current_generated_en + recent_cat_past))
+                
+                exclusion_note = ""
+                if combined_exclusions:
+                    exclusion_note = (
+                        f"\n\nCRITICAL: DO NOT use, repeat, or slightly rephrase any of these phrases:\n"
+                        + "\n".join(f"- {p}" for p in combined_exclusions[:40])
+                    )
+
+                prompt = f"""Create {request_count} UNIQUE {category_english} phrases for English speakers learning Greek.
+
+Thematic Section {batch_idx + 1}/{num_batches}: {theme_name}
+Focus: {theme_guidance} related to {category_english}.
+Style: Natural, authentic {viral_style} format - phrasing real native speakers use.
+
+RULES FOR CLEAR, NATURAL SPEECH:
+1. Length: Short and clear (4 to 12 words per phrase).
+2. Natural pauses: Use commas (,) to indicate natural pauses for speaking practice (e.g. "Dream big, start small").
+3. Everyday vocabulary: Practical, high-frequency, modern conversational vocabulary.
+4. Variety: Varied grammatical forms (imperatives, questions, observations, short idioms).
+5. NO REPETITION: Every phrase must express a distinct idea.{exclusion_note}
+
+For each phrase provide:
+1. "english": English phrase with commas for natural pauses
+2. "greek": Natural Greek translation
+3. "pronunciation": Pronunciation guide (phonetic spelling for English speakers, e.g. "Hej, hur mår du?")
+
+Return STRICTLY a JSON array:
+[{"english": "...", "greek": "...", "pronunciation": "..."}]"""
+
                 url = "https://gen.pollinations.ai/v1/chat/completions"
                 headers = {
                     "Authorization": f"Bearer {POLLINATIONS_API_KEY}",
                     "Content-Type": "application/json"
                 }
-                exclusion_note = ""
-                if used_phrases:
-                    recent = used_phrases[-30:] if len(used_phrases) > 30 else used_phrases
-                    exclusion_note = f"\n\nAVOID these phrases (already used): {recent}"
-
-                prompt = f"""Create {current_batch_size * 2} unique {category_english} phrases for English speakers learning Greek.
-
-Style: Make each phrase feel like a {viral_style} - something people would want to share!
-
-CRITICAL RULE - ABSOLUTELY ZERO Greek IN ENGLISH FIELD:
-The "english" field must contain ONLY English words. NO Greek words at all.
-The "greek" field contains the Greek translation in Greek script.
-The "pronunciation" field is phonetic English spelling approximating Greek sounds.
-
-These are INSPIRATIONAL PHRASES about the topic, NOT language-learning tips.
-
-WRONG (teaching tip with Greek words): {{"english": "Don't say 'γεια σου,' it means more than 'hello.'", ...}}
-WRONG (Greek word in english): {{"english": "Use 'ευχαριστώ' for thank you", ...}}
-WRONG (lesson tip): {{"english": "Say 'παρακαλώ' for please", ...}}
-CORRECT (pure english phrase): {{"english": "Knowledge is the key to wisdom.", "greek": "Η γνώση είναι το κλειδί για τη σοφία", "pronunciation": "ee gno-see EE-ne to klee-DEE ya tee so-FEE-a"}}
-CORRECT: {{"english": "A wise person listens more than they speak.", "greek": "Ένας σοφός άνθρωπος ακούει περισσότερο από ό,τι μιλάει", "pronunciation": "E-nas so-FOS AN-thro-pos a-KOO-ee pe-ri-SO-te-ro a-po o-ti mi-LA-ee"}}
-
-The english field MUST be 100% English words only. Absolutely NO Greek words in the english field.
-
-IMPORTANT RULES FOR NATURAL SPEECH:
-1. Keep phrases SHORT (5-12 words max per language)
-2. Add NATURAL PAUSES using commas (e.g., "Dream big, start small")
-3. Use punctuation for breathing room in TTS
-4. Avoid long run-on sentences
-5. Each phrase should be speakable in 3-5 seconds
-6. Use everyday vocabulary - avoid exotic or rare words
-7. Avoid complex grammar - keep it simple and practical
-8. Vary sentence structure for natural flow
-
-For each phrase:
-1. English phrase (pure English, zero Greek words) with commas for natural pauses
-2. Greek translation in Greek script
-3. Pronunciation guide (phonetic English spelling)
-
-Return as JSON array:
-[{{"english": "...", "greek": "...", "pronunciation": "..."}}]
-
-IMPORTANT: Create FRESH, UNIQUE phrases that haven't been used before.{exclusion_note}"""
-
                 payload = {
                     "model": AI_MODEL,
                     "messages": [
-                        {"role": "system", "content": "You create INSPIRATIONAL PHRASES for YouTube language learning videos. CRITICAL: The 'english' field must be PURE ENGLISH with ZERO Greek words - no Greek words at all. These are universal inspirational phrases, NOT language learning tips. Greek goes ONLY in the 'greek' field, written in Greek script."},
+                        {
+                            "role": "system",
+                            "content": f"You are an expert native Greek language instructor creating viral, high-retention educational lessons for YouTube. Always return clean, valid JSON with fresh, non-repeating phrases."
+                        },
                         {"role": "user", "content": prompt}
                     ],
-                    "temperature": 1.0
+                    "temperature": temp
                 }
 
                 response = requests.post(url, headers=headers, json=payload, timeout=90)
@@ -309,208 +363,133 @@ IMPORTANT: Create FRESH, UNIQUE phrases that haven't been used before.{exclusion
 
                 data = response.json()
                 content = data["choices"][0]["message"]["content"].strip()
+                candidates = repair_and_parse_json(content)
 
-                if "```json" in content:
-                    content = content.split("```json")[1].split("```")[0].strip()
-                elif "```" in content:
-                    content = content.split("```")[1].split("```")[0].strip()
+                accepted_in_batch = 0
+                for cand in candidates:
+                    if len(all_phrases) >= num_phrases:
+                        break
 
-                phrases = repair_and_parse_json(content)
-                filtered_phrases = filter_similar_phrases(phrases, history)
-                unique_phrases = []
-                for phrase in filtered_phrases:
-                    if len(phrase["english"].split()) > 15:
+                    en_text = cand.get("english", "").strip()
+                    foreign_text = (cand.get("greek") or cand.get("target") or cand.get("foreign") or "").strip()
+                    pron_text = (cand.get("pronunciation") or cand.get("pronunciation") or cand.get("pinyin") or cand.get("romaji") or cand.get("phonetic") or "").strip()
+
+                    if not en_text or not foreign_text:
                         continue
-                    if not is_phrase_used(phrase["english"]):
-                        unique_phrases.append(phrase)
-                for phrase in unique_phrases:
-                    if len(all_phrases) < num_phrases:
-                        all_phrases.append(phrase)
+
+                    # Word count constraints (avoid single words or long run-ons)
+                    words_count = len(en_text.split())
+                    if words_count < 2 or words_count > 15:
+                        continue
+
+                    norm_en = normalize_phrase_text(en_text)
+                    if not norm_en:
+                        continue
+
+                    # 1. Check exact match in current video (STRICT ZERO DUPLICATES in same video!)
+                    if norm_en in current_video_norm_set:
+                        continue
+
+                    # 2. Check exact match in past history
+                    if norm_en in history_norm_set:
+                        continue
+
+                    # 3. Check similarity against phrases already accepted in THIS video (prevents rephrasing)
+                    cand_words = get_phrase_words(en_text)
+                    if is_phrase_similar_fast(cand_words, current_video_words_list, threshold=0.65):
+                        continue
+
+                    # 4. Check similarity against past history
+                    if is_phrase_similar_fast(cand_words, history_words_list, threshold=0.70):
+                        continue
+
+                    # Candidate is verified 100% unique!
+                    valid_phrase = {
+                        "english": en_text,
+                        "greek": foreign_text,
+                        "pronunciation": pron_text
+                    }
+                    current_video_norm_set.add(norm_en)
+                    current_video_words_list.append(cand_words)
+                    history_norm_set.add(norm_en)
+                    history_words_list.append(cand_words)
+                    all_phrases.append(valid_phrase)
+                    accepted_in_batch += 1
+
+                print(f"  [batch {batch_idx + 1}/{num_batches} '{theme_name}'] Added {accepted_in_batch} unique phrases (progress: {len(all_phrases)}/{num_phrases})")
+
+                if len(all_phrases) >= (batch_idx + 1) * target_per_batch or len(all_phrases) >= num_phrases:
+                    break
+
+            except Exception as e:
+                print(f"  [batch {batch_idx + 1}, attempt {attempt + 1}] Notice: {e}")
+                time.sleep(2)
+
+        time.sleep(0.5)
+
+    # Secondary booster pass: if any slots remain to reach num_phrases, generate fresh conversational phrases
+    attempts_booster = 0
+    while len(all_phrases) < num_phrases and attempts_booster < 4:
+        attempts_booster += 1
+        needed = num_phrases - len(all_phrases)
+        print(f"[content] Booster pass {attempts_booster}: Generating {needed} additional unique phrases...")
+        try:
+            current_generated_en = [p["english"] for p in all_phrases[-40:]]
+            prompt = f"""Generate {needed + 8} FRESH, UNIQUE conversational phrases for English speakers learning Greek.
+Theme: Practical life, emotional intelligence, and interpersonal communication related to {category_english}.
+
+RULES:
+1. 3 to 12 words per phrase. Natural commas for pauses.
+2. DO NOT REPEAT ANY OF THESE:\n""" + "\n".join(f"- {p}" for p in current_generated_en) + f"""
+
+Return STRICTLY a JSON array:
+[{"english": "...", "greek": "...", "pronunciation": "..."}]"""
+
+            url = "https://gen.pollinations.ai/v1/chat/completions"
+            headers = {"Authorization": f"Bearer {POLLINATIONS_API_KEY}", "Content-Type": "application/json"}
+            payload = {
+                "model": AI_MODEL,
+                "messages": [
+                    {"role": "system", "content": f"You are a native Greek tutor. Return only valid JSON array of unique phrases."},
+                    {"role": "user", "content": prompt}
+                ],
+                "temperature": 1.05
+            }
+            resp = requests.post(url, headers=headers, json=payload, timeout=90)
+            resp.raise_for_status()
+            candidates = repair_and_parse_json(resp.json()["choices"][0]["message"]["content"])
+            
+            for cand in candidates:
                 if len(all_phrases) >= num_phrases:
                     break
-            except Exception as e:
-                print(f"[content] Batch {batch_num + 1}, Attempt {attempt + 1} failed: {e}")
-        if len(all_phrases) < num_phrases:
-            import time
-            time.sleep(1)
-
-    if not all_phrases:
-        print(f"[content] AI generation produced 0 phrases. Loading fresh fallback phrases for '{category_english}'...")
-        all_phrases = get_fresh_fallback_phrases(category_english, num_phrases)
-    elif len(all_phrases) < num_phrases:
-        print(f"[content] Only {len(all_phrases)} phrases generated. Padding with fresh fallback phrases...")
-        extras = get_fresh_fallback_phrases(category_english, num_phrases - len(all_phrases))
-        for ex in extras:
-            if ex not in all_phrases:
-                all_phrases.append(ex)
+                en_text = cand.get("english", "").strip()
+                foreign_text = (cand.get("greek") or cand.get("target") or cand.get("foreign") or "").strip()
+                pron_text = (cand.get("pronunciation") or cand.get("pronunciation") or cand.get("pinyin") or cand.get("romaji") or cand.get("phonetic") or "").strip()
+                if not en_text or not foreign_text:
+                    continue
+                norm_en = normalize_phrase_text(en_text)
+                if not norm_en or norm_en in current_video_norm_set or norm_en in history_norm_set:
+                    continue
+                cand_words = get_phrase_words(en_text)
+                if is_phrase_similar_fast(cand_words, current_video_words_list, threshold=0.65):
+                    continue
+                
+                valid_phrase = {"english": en_text, "greek": foreign_text, "pronunciation": pron_text}
+                current_video_norm_set.add(norm_en)
+                current_video_words_list.append(cand_words)
+                history_norm_set.add(norm_en)
+                history_words_list.append(cand_words)
+                all_phrases.append(valid_phrase)
+        except Exception as e:
+            print(f"  [booster attempt {attempts_booster}] Error: {e}")
+            time.sleep(2)
 
     final_phrases = all_phrases[:num_phrases]
     if final_phrases:
         add_phrases_to_history(final_phrases, category_english)
-    print(f"[content] Generated {len(final_phrases)} phrases for long-form video")
+
+    print(f"\n[content] Successfully generated {len(final_phrases)} 100% UNIQUE phrases for '{category_english}'")
     return final_phrases
-
-
-def get_fresh_fallback_phrases(category: str, num_phrases: int) -> list:
-    all_fallbacks = {
-        "Motivation": [
-            {"english": "Believe in yourself.", "greek": "Πίστεψε στον εαυτό σου.", "pronunciation": "PEE-stepse ston eaf-TO sou"},
-            {"english": "You are capable of amazing things.", "greek": "Είσαι ικανός για καταπληκτικά πράγματα.", "pronunciation": "EE-se i-ka-NOS ya ka-ta-pli-kti-KA PRA-gma-ta"},
-            {"english": "Dream big, start small.", "greek": "Ονειρέψου μεγάλα, ξεκίνα μικρά.", "pronunciation": "o-ni-REP-sou me-GA-la, kse-KEE-na mi-KRA"},
-            {"english": "Your future is created by your actions.", "greek": "Το μέλλον σου δημιουργείται από τις πράξεις σου.", "pronunciation": "to MEL-lon sou di-mi-our-YEE-te a-po tis PRA-xeis sou"},
-            {"english": "Never give up on your dreams.", "greek": "Μην εγκαταλείπεις ποτέ τα όνειρά σου.", "pronunciation": "min e-ga-ta-LEI-peis po-TE ta o-ni-RA sou"},
-            {"english": "Small steps lead to big changes.", "greek": "Μικρά βήματα οδηγούν σε μεγάλες αλλαγές.", "pronunciation": "mi-KRA VI-ma-ta o-di-GOUN se me-GA-les a-la-YES"},
-            {"english": "You are stronger than you think.", "greek": "Είσαι πιο δυνατός από ό,τι νομίζεις.", "pronunciation": "EE-se pio di-na-TOS a-po o-ti no-MI-zis"},
-        ],
-        "Love": [
-            {"english": "Love yourself first.", "greek": "Αγάπα τον εαυτό σου πρώτα.", "pronunciation": "a-GA-pa ton eaf-TO sou PRO-ta"},
-            {"english": "Love makes everything possible.", "greek": "Η αγάπη κάνει τα πάντα δυνατά.", "pronunciation": "ee a-GA-pi KA-nei ta PAN-ta di-na-TA"},
-            {"english": "My heart beats for you.", "greek": "Η καρδιά μου χτυπάει για σένα.", "pronunciation": "ee kar-DIA mou hti-PA-i ya SE-na"},
-            {"english": "You are my everything.", "greek": "Είσαι το παν μου.", "pronunciation": "EE-se to PAN mou"},
-            {"english": "Together forever, hand in hand.", "greek": "Μαζί για πάντα, χέρι χέρι.", "pronunciation": "ma-ZI ya PAN-da, HE-ri HE-ri"},
-        ],
-        "Success": [
-            {"english": "Success comes from hard work.", "greek": "Η επιτυχία έρχεται από τη σκληρή δουλειά.", "pronunciation": "ee e-pi-ti-HI-a ER-he-te a-po ti skli-RI dou-LYA"},
-            {"english": "Keep going, you're getting there.", "greek": "Συνέχισε, πλησιάζεις.", "pronunciation": "si-NE-hi-se, pli-SI-a-zis"},
-            {"english": "Winners never quit.", "greek": "Οι νικητές δεν παρατάνε ποτέ.", "pronunciation": "ee ni-ki-TES den pa-ra-TA-ne po-TE"},
-            {"english": "Your effort will pay off.", "greek": "Η προσπάθειά σου θα ανταμειφθεί.", "pronunciation": "ee pro-SPA-thia sou tha a-da-mif-THI"},
-        ],
-        "Wisdom": [
-            {"english": "Knowledge is power.", "greek": "Η γνώση είναι δύναμη.", "pronunciation": "ee GNO-si EE-ne DEE-na-mi"},
-            {"english": "Learn from yesterday, live for today.", "greek": "Μάθε από το χθες, ζήσε για το σήμερα.", "pronunciation": "MA-the a-po to hthes, ZEE-se ya to SI-me-ra"},
-            {"english": "Think before you act.", "greek": "Σκέψου πριν ενεργήσεις.", "pronunciation": "SKEP-sou prin e-ner-YI-sis"},
-            {"english": "Experience is the best teacher.", "greek": "Η εμπειρία είναι ο καλύτερος δάσκαλος.", "pronunciation": "ee em-bi-EE-a EE-ne o ka-LY-te-ros DAS-ka-los"},
-        ],
-        "Happiness": [
-            {"english": "Happiness is a choice.", "greek": "Η ευτυχία είναι επιλογή.", "pronunciation": "ee ef-ti-HI-a EE-ne e-pi-lo-YI"},
-            {"english": "Find joy in the little things.", "greek": "Βρες χαρά στα μικρά πράγματα.", "pronunciation": "vres ha-RA sta mi-KRA PRA-gma-ta"},
-            {"english": "Smile, it makes others happy.", "greek": "Χαμογέλα, κάνει τους άλλους χαρούμενους.", "pronunciation": "ha-mo-YE-la, KA-nei tous AL-lous ha-ROU-me-nous"},
-            {"english": "Today is a gift.", "greek": "Το σήμερα είναι ένα δώρο.", "pronunciation": "to SI-me-ra EE-ne E-na DO-ro"},
-        ],
-        "Self Improvement": [
-            {"english": "Be better than yesterday.", "greek": "Γίνε καλύτερος από χθες.", "pronunciation": "YEE-ne ka-LY-te-ros a-po hthes"},
-            {"english": "Grow through what you go through.", "greek": "Μεγάλωνε μέσα από ό,τι περνάς.", "pronunciation": "me-GA-lo-ne ME-sa a-po o-ti per-NAS"},
-            {"english": "Invest in yourself daily.", "greek": "Επένδυσε στον εαυτό σου καθημερινά.", "pronunciation": "e-PEN-dy-se ston eaf-TO sou ka-thi-me-ri-NA"},
-        ],
-        "Gratitude": [
-            {"english": "Thank you for everything.", "greek": "Σε ευχαριστώ για όλα.", "pronunciation": "se ef-ha-ri-STO ya O-la"},
-            {"english": "I appreciate your help.", "greek": "Εκτιμώ τη βοήθειά σου.", "pronunciation": "ek-ti-MO ti vo-I-thia sou"},
-            {"english": "Grateful for this moment.", "greek": "Ευγνώμων για αυτή τη στιγμή.", "pronunciation": "ev-GNO-mon ya af-TI ti stig-MI"},
-        ],
-        "Friendship": [
-            {"english": "Friends forever, no matter what.", "greek": "Φίλοι για πάντα, ό,τι κι αν γίνει.", "pronunciation": "FI-li ya PAN-da, o-ti ki an YI-ni"},
-            {"english": "You are my best friend.", "greek": "Είσαι ο καλύτερός μου φίλος.", "pronunciation": "EE-se o ka-LY-te-ROS mou FI-los"},
-            {"english": "True friends stick together.", "greek": "Οι αληθινοί φίλοι μένουν ενωμένοι.", "pronunciation": "ee a-li-thi-NI FI-li ME-noun e-no-ME-ni"},
-        ],
-        "Hope": [
-            {"english": "There is always hope.", "greek": "Υπάρχει πάντα ελπίδα.", "pronunciation": "ee-PAR-hi PAN-da el-PI-da"},
-            {"english": "Better days are coming.", "greek": "Καλύτερες μέρες έρχονται.", "pronunciation": "ka-LY-te-res ME-res ER-hon-te"},
-            {"english": "Keep faith, keep going.", "greek": "Κράτα την πίστη, συνέχισε.", "pronunciation": "KRA-ta tin PI-sti, si-NE-hi-se"},
-        ],
-        "Creativity": [
-            {"english": "Create something beautiful today.", "greek": "Δημιούργησε κάτι όμορφο σήμερα.", "pronunciation": "di-MI-our-yi-se KA-ti OM-or-fo SI-me-ra"},
-            {"english": "Your imagination is unlimited.", "greek": "Η φαντασία σου είναι απεριόριστη.", "pronunciation": "ee fan-ta-SI-a sou EE-ne a-pe-ri-O-ri-sti"},
-            {"english": "Art comes from the heart.", "greek": "Η τέχνη έρχεται από την καρδιά.", "pronunciation": "ee TEH-hni ER-he-te a-po tin kar-DIA"},
-            {"english": "Express yourself freely.", "greek": "Εκφράσου ελεύθερα.", "pronunciation": "ek-FRA-sou e-LEF-the-ra"},
-            {"english": "Innovation starts with curiosity.", "greek": "Η καινοτομία ξεκινά με την περιέργεια.", "pronunciation": "ee ke-no-to-MI-a kse-ki-NA me tin pe-ri-ER-yi-a"},
-        ],
-        "Inner Peace": [
-            {"english": "Find peace within yourself.", "greek": "Βρες γαλήνη μέσα σου.", "pronunciation": "vres ga-LI-ni ME-sa sou"},
-            {"english": "Breathe, relax, let go.", "greek": "Ανάπνευσε, χαλάρωσε, άσε το.", "pronunciation": "a-NA-PNEF-se, ha-LA-ro-se, A-se to"},
-            {"english": "Calm mind, happy heart.", "greek": "Ήρεμο μυαλό, χαρούμενη καρδιά.", "pronunciation": "EE-re-mo mya-LO, ha-ROU-me-ni kar-DIA"},
-        ],
-        "Confidence": [
-            {"english": "You are enough, just as you are.", "greek": "Είσαι αρκετός, ακριβώς όπως είσαι.", "pronunciation": "EE-se ar-ke-TOS, a-kri-VOS O-pos EE-se"},
-            {"english": "Stand tall, speak up.", "greek": "Στάσου ψηλά, μίλα δυνατά.", "pronunciation": "STA-sou psi-LA, MI-la di-na-TA"},
-            {"english": "Believe in your abilities.", "greek": "Πίστεψε στις ικανότητές σου.", "pronunciation": "PEE-stepse stis i-ka-NO-ti-tes sou"},
-        ],
-        "Perseverance": [
-            {"english": "Never give up, keep pushing.", "greek": "Μην τα παρατάς, συνέχισε να προσπαθείς.", "pronunciation": "min ta pa-ra-TAS, si-NE-hi-se na pro-spa-THIS"},
-            {"english": "Storms make trees take deeper roots.", "greek": "Οι καταιγίδες κάνουν τα δέντρα να βγάζουν πιο βαθιές ρίζες.", "pronunciation": "ee ka-te-YI-des KA-noun ta DEN-dra na VGA-zoun pio va-THIES REE-zes"},
-            {"english": "Patience and persistence win.", "greek": "Η υπομονή και η επιμονή νικούν.", "pronunciation": "ee i-po-mo-NI ke ee e-pi-mo-NI ni-KOUN"},
-        ],
-        "Inspiration": [
-            {"english": "Let your light shine bright.", "greek": "Άσε το φως σου να λάμπει δυνατά.", "pronunciation": "A-se to fos sou na LAM-bi di-na-TA"},
-            {"english": "Inspire others by your actions.", "greek": "Εμπνέετε τους άλλους με τις πράξεις σου.", "pronunciation": "em-BNE-e-te tous AL-lous me tis PRA-xeis sou"},
-            {"english": "Be the change you want to see.", "greek": "Γίνε η αλλαγή που θέλεις να δεις.", "pronunciation": "YEE-ne ee a-la-YI pou THE-lis na dis"},
-        ],
-        "Positive Life": [
-            {"english": "Choose positivity every day.", "greek": "Διάλεξε τη θετικότητα κάθε μέρα.", "pronunciation": "DIA-le-xe ti the-ti-KO-ti-ta KA-the ME-ra"},
-            {"english": "Good vibes only.", "greek": "Μόνο θετική ενέργεια.", "pronunciation": "MO-no the-ti-KI e-NER-yi-a"},
-            {"english": "Life is what you make it.", "greek": "Η ζωή είναι ό,τι την κάνεις.", "pronunciation": "ee zo-I EE-ne O-ti tin KA-nis"},
-        ],
-        "Courage": [
-            {"english": "Be brave, take the first step.", "greek": "Να είσαι γενναίος, κάνε το πρώτο βήμα.", "pronunciation": "na EE-se ye-NE-os, KA-ne to PRO-to VI-ma"},
-            {"english": "Courage is not the absence of fear.", "greek": "Θάρρος δεν είναι η απουσία φόβου.", "pronunciation": "THA-ros den EE-ne ee a-pou-SI-a FO-vou"},
-            {"english": "Face your fears head on.", "greek": "Αντιμέτωπισε τους φόβους σου κατά μέτωπο.", "pronunciation": "an-di-ME-to-pi-se tous FO-vous sou KA-ta ME-to-po"},
-        ],
-        "Kindness": [
-            {"english": "Be kind to everyone you meet.", "greek": "Να είσαι ευγενικός με όλους όσους συναντάς.", "pronunciation": "na EE-se ev-ye-ni-KOS me O-lous O-sous si-nan-TAS"},
-            {"english": "Kindness costs nothing, means everything.", "greek": "Η καλοσύνη δεν κοστίζει τίποτα, σημαίνει τα πάντα.", "pronunciation": "ee ka-lo-SI-ni den ko-STI-zi TI-po-ta, si-ME-ni ta PAN-da"},
-            {"english": "Spread kindness wherever you go.", "greek": "Διάδωσε καλοσύνη όπου κι αν πας.", "pronunciation": "DIA-do-se ka-lo-SI-ni O-pou ki an pas"},
-        ],
-        "Patience": [
-            {"english": "Good things take time.", "greek": "Τα καλά πράγματα θέλουν χρόνο.", "pronunciation": "ta ka-LA PRA-gma-ta THE-loun HRO-no"},
-            {"english": "Wait patiently, trust the process.", "greek": "Περίμενε υπομονετικά, εμπιστεύσου τη διαδικασία.", "pronunciation": "pe-RI-me-ne i-po-mo-ne-ti-KA, em-bi-STEF-sou ti di-a-di-ka-SI-a"},
-            {"english": "Rome wasn't built in a day.", "greek": "Η Ρώμη δεν χτίστηκε σε μία μέρα.", "pronunciation": "ee RO-mi den HTI-sti-ke se MI-a ME-ra"},
-        ],
-        "Forgiveness": [
-            {"english": "Forgive and set yourself free.", "greek": "Συγχώρεσε και ελευθέρωσε τον εαυτό σου.", "pronunciation": "sing-HO-re-se ke e-lef-THE-ro-se ton eaf-TO sou"},
-            {"english": "Let go of grudges, find peace.", "greek": "Άσε τις μνησικακίες, βρες γαλήνη.", "pronunciation": "A-se tis mni-si-ka-KI-es, vres ga-LI-ni"},
-            {"english": "Forgiveness is a gift to yourself.", "greek": "Η συγχώρεση είναι δώρο στον εαυτό σου.", "pronunciation": "ee sing-HO-re-si EE-ne DO-ro ston eaf-TO sou"},
-        ],
-        "Strength": [
-            {"english": "You are stronger than you know.", "greek": "Είσαι πιο δυνατός από ό,τι νομίζεις.", "pronunciation": "EE-se pio di-na-TOS a-po o-ti no-MI-zis"},
-            {"english": "Inner strength comes from within.", "greek": "Η εσωτερική δύναμη έρχεται από μέσα σου.", "pronunciation": "ee e-so-te-ri-KI DEE-na-mi ER-he-te a-po ME-sa sou"},
-            {"english": "Challenges make you stronger.", "greek": "Οι προκλήσεις σε κάνουν πιο δυνατό.", "pronunciation": "ee pro-KLI-sis se KA-noun pio di-na-TO"},
-        ],
-        "Joy": [
-            {"english": "Find joy in every moment.", "greek": "Βρες χαρά σε κάθε στιγμή.", "pronunciation": "vres ha-RA se KA-the stig-MI"},
-            {"english": "Joy is contagious, spread it.", "greek": "Η χαρά είναι μεταδοτική, διάδωσέ την.", "pronunciation": "ee ha-RA EE-ne me-ta-do-ti-KI, DI-a-do-se tin"},
-            {"english": "Dance like nobody's watching.", "greek": "Χόρεψε σαν να μη σε βλέπει κανείς.", "pronunciation": "HO-rep-se san na mi se VLE-pi ka-NIS"},
-        ],
-        "Balance": [
-            {"english": "Find balance in your life.", "greek": "Βρες ισορροπία στη ζωή σου.", "pronunciation": "vres i-so-ro-PI-a sti zo-I sou"},
-            {"english": "Work hard, rest well.", "greek": "Δούλεψε σκληρά, ξεκουράσου καλά.", "pronunciation": "DOU-lep-se skli-RA, kse-kou-RA-sou ka-LA"},
-            {"english": "Too much of anything is not good.", "greek": "Το πολύ από κάτι δεν είναι καλό.", "pronunciation": "to po-LY a-po KA-ti den EE-ne ka-LO"},
-        ],
-        "Growth": [
-            {"english": "Growth happens outside your comfort zone.", "greek": "Η ανάπτυξη συμβαίνει έξω από τη ζώνη άνεσής σου.", "pronunciation": "ee a-NA-pty-xi sim-VE-ne E-xo a-po ti ZO-ni A-ne-sis sou"},
-            {"english": "Embrace change, grow stronger.", "greek": "Αγκάλιασε την αλλαγή, γίνε πιο δυνατός.", "pronunciation": "an-GA-lia-se tin a-la-YI, YEE-ne pio di-na-TOS"},
-            {"english": "Every challenge is a chance to grow.", "greek": "Κάθε πρόκληση είναι μια ευκαιρία να αναπτυχθείς.", "pronunciation": "KA-the PRO-kli-si EE-ne MI-a ef-ke-REE-a na a-na-pty-HIS"},
-        ],
-        "Purpose": [
-            {"english": "Find your purpose, follow it.", "greek": "Βρες τον σκοπό σου, ακολούθησέ τον.", "pronunciation": "vres ton sko-PO sou, a-ko-LOU-thi-se ton"},
-            {"english": "Your life has meaning.", "greek": "Η ζωή σου έχει νόημα.", "pronunciation": "ee zo-I sou E-hi NO-i-ma"},
-            {"english": "Live with intention, not accident.", "greek": "Ζήσε με πρόθεση, όχι τυχαία.", "pronunciation": "ZEE-se me PRO-the-si, O-hi ti-HE-a"},
-        ],
-        "Mindfulness": [
-            {"english": "Be present in this moment.", "greek": "Να είσαι παρών σε αυτή τη στιγμή.", "pronunciation": "na EE-se pa-RON se af-TI ti stig-MI"},
-            {"english": "Breathe deeply, stay grounded.", "greek": "Ανάπνευσε βαθιά, μείνε προσγειωμένος.", "pronunciation": "a-NA-PNEF-se va-THIA, MI-ne pro-syi-o-ME-nos"},
-            {"english": "Notice the little things around you.", "greek": "Παρατήρησε τα μικρά πράγματα γύρω σου.", "pronunciation": "pa-ra-TI-ri-se ta mi-KRA PRA-gma-ta YI-ro sou"},
-        ],
-    }
-
-    fallbacks = all_fallbacks.get(category, all_fallbacks["Motivation"])
-    history = load_phrase_history()
-    fresh_phrases = []
-    for p in fallbacks:
-        if not is_phrase_used(p["english"]) and not is_phrase_similar(p["english"], [h.get("english", "") for h in history.get("phrases", [])]):
-            fresh_phrases.append(p)
-
-    if len(fresh_phrases) < num_phrases:
-        for cat, cat_fallbacks in all_fallbacks.items():
-            if cat != category:
-                for p in cat_fallbacks:
-                    if not is_phrase_used(p["english"]) and not is_phrase_similar(p["english"], [h.get("english", "") for h in history.get("phrases", [])]):
-                        fresh_phrases.append(p)
-                    if len(fresh_phrases) >= num_phrases:
-                        break
-            if len(fresh_phrases) >= num_phrases:
-                break
-
-    return fresh_phrases[:num_phrases]
-
 
 # ============== AUDIO GENERATION ==============
 
@@ -599,39 +578,49 @@ async def generate_single_audio(text: str, voice: str, output_path: str, retries
 
 
 def generate_all_audio(phrases: list, output_dir: str):
+    """Generate audio for all phrases with proper timing for a ~20-minute video"""
+
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     audio_files = []
 
     for i, phrase in enumerate(phrases):
-        english_file = output_dir / f"english_{i}.mp3"
-        lang_file = output_dir / f"lang_{i}.mp3"
-        combined_file = output_dir / f"combined_{i}.mp3"
+        english_file = output_dir / f"english_{i:04d}.mp3"
+        foreign_file = output_dir / f"greek_{i:04d}.mp3"
+        combined_file = output_dir / f"combined_{i:04d}.mp3"
 
-        if (i + 1) % 20 == 0:
+        if (i + 1) % 20 == 0 or (i + 1) == len(phrases):
             print(f"  Generating audio {i+1}/{len(phrases)}...")
 
+        # Generate English audio
         en_success = asyncio.run(generate_single_audio(phrase["english"], ENGLISH_VOICE, str(english_file)))
         if not en_success:
             cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "2", str(english_file)]
             subprocess.run(cmd, capture_output=True)
 
-        lang_success = asyncio.run(generate_single_audio(phrase["greek"], LANG_VOICE, str(lang_file)))
-        if not lang_success:
-            cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "2", str(lang_file)]
+        # Generate Foreign audio
+        foreign_text = phrase.get("greek") or phrase.get("target") or phrase.get("foreign") or ""
+        foreign_success = asyncio.run(generate_single_audio(foreign_text, LANG_VOICE, str(foreign_file)))
+        if not foreign_success:
+            cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "2", str(foreign_file)]
             subprocess.run(cmd, capture_output=True)
 
+        # Get ACTUAL durations
         en_duration = get_audio_duration(str(english_file))
-        lang_duration = get_audio_duration(str(lang_file))
+        foreign_duration = get_audio_duration(str(foreign_file))
 
-        pause_between = 0.5
-        total_duration = en_duration + pause_between + lang_duration
+        # Pedagogical pauses for optimal learning:
+        # 1.2s pause after English: allows learner to process English meaning and anticipate translation
+        # 2.0s pause after foreign phrase: allows learner to repeat aloud and study pronunciation
+        pause_mid = 1.2
+        pause_end = 2.0
 
+        # Combine audio files with precise ffmpeg apad
         cmd = [
             "ffmpeg", "-y",
             "-i", str(english_file),
-            "-i", str(lang_file),
-            "-filter_complex", f"[0:a]apad=pad_dur=0.5[a0];[a0][1:a]concat=n=2:v=0:a=1[out]",
+            "-i", str(foreign_file),
+            "-filter_complex", f"[0:a]apad=pad_dur={pause_mid}[a0];[1:a]apad=pad_dur={pause_end}[a1];[a0][a1]concat=n=2:v=0:a=1[out]",
             "-map", "[out]",
             str(combined_file)
         ]
@@ -639,10 +628,11 @@ def generate_all_audio(phrases: list, output_dir: str):
         result = subprocess.run(cmd, capture_output=True, text=True)
 
         if result.returncode != 0:
-            concat_file = output_dir / f"concat_{i}.txt"
+            concat_file = output_dir / f"concat_{i:04d}.txt"
             with open(concat_file, "w", encoding="utf-8") as f:
                 f.write(f"file '{english_file.as_posix()}'\n")
-                f.write(f"file '{lang_file.as_posix()}'\n")
+                f.write(f"file '{foreign_file.as_posix()}'\n")
+
             cmd = [
                 "ffmpeg", "-y",
                 "-f", "concat", "-safe", "0",
@@ -659,16 +649,15 @@ def generate_all_audio(phrases: list, output_dir: str):
         audio_files.append({
             "index": i,
             "english": str(english_file),
-            "lang": str(lang_file),
+            "greek": str(foreign_file),
             "combined": str(combined_file),
             "duration": actual_duration,
             "en_duration": en_duration,
-            "lang_duration": lang_duration
+            "foreign_duration": foreign_duration
         })
 
     print(f"\n[audio] Generated {len(audio_files)} phrase audios")
     return audio_files
-
 
 def get_audio_duration(audio_file: str) -> float:
     if not Path(audio_file).exists():
@@ -761,7 +750,7 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
 
     english = phrase_data.get("english", "")
     greek_text = phrase_data.get("greek", "")
-    pronunciation = phrase_data.get("pronunciation", "")
+    pronunciation = phrase_data.get("pronunciation") or phrase_data.get("pronunciation") or phrase_data.get("pinyin") or phrase_data.get("romaji") or phrase_data.get("phonetic") or ""
 
     def wrap_text(text, font, max_width):
         words = text.split()
@@ -957,30 +946,38 @@ def extract_video_thumbnail(video_path: str, output_path: str, timestamp_seconds
 
 # ============== TITLE & DESCRIPTION GENERATION ==============
 
-def generate_title_description(category_english: str, category_greek: str, phrases: list, duration_minutes: float, output_dir: str):
+def generate_title_description(category_english: str, category_foreign: str, phrases: list, duration_minutes: float, output_dir: str):
+    """Generate viral YouTube title and description with all phrases - COMBINED in one file"""
+    
+    count = len(phrases)
+    est_mins = int(round(duration_minutes)) if duration_minutes > 0 else 20
+    
+    # Generate viral title variations
     titles = [
-        f"Learn Greek in 10 Minutes | {category_english} Phrases Every Beginner NEEDS to Know! ({category_greek})",
-        f"60 Greek Phrases for {category_english} | Speak Greek Like a Native! ({category_greek})",
-        f"Master Greek {category_english} | 60 Essential Greek Phrases with Pronunciation | Velocity Greek",
-        f"Greek Learning Made Easy | {category_english} Vocabulary | 10 Minute Lesson",
+        f"Learn Greek in {est_mins} Minutes | {count} {category_english} Phrases Every Beginner NEEDS to Know! ({category_foreign})",
+        f"{count} Greek Phrases for {category_english} | Speak Greek Like a Native! ({category_foreign})",
+        f"Master Greek {category_english} | {count} Essential Greek Phrases with Pronunciation | VELOCITY GREEK",
+        f"Greek Learning Made Easy | {category_english} Vocabulary | {est_mins} Minute Lesson",
         f"Speak Greek Fluently | {category_english} Phrases | English + Greek + Pronunciation",
     ]
 
-    description = f"""\U0001F1EC\U0001F1F7 Learn Greek with Velocity Greek! \U0001F1EC\U0001F1F7
+    # Generate comprehensive description
+    description = f"""🌍 Learn Greek with VELOCITY GREEK! 🌍
 
-In this video, you'll learn 60 essential Greek phrases about {category_english} ({category_greek}).
+In this video, you'll learn {count} essential Greek phrases about {category_english} ({category_foreign}).
 Perfect for beginners and intermediate learners!
 
-\U0001F4DA WHAT YOU'LL LEARN:
-\u2022 60 practical {category_english} phrases in Greek
-\u2022 Correct pronunciation guide
-\u2022 Natural pauses for speaking practice
-\u2022 Common expressions used by native speakers
+📚 WHAT YOU'LL LEARN:
+• {count} practical {category_english} phrases in Greek
+• Correct pronunciation with phonetics
+• Natural pedagogical pauses for speaking practice
+• Common expressions used by native speakers
 
-\U0001F551 VIDEO TIMESTAMPS:
+⏱️ VIDEO TIMESTAMPS:
 """
 
-    avg_phrase_duration = duration_minutes * 60 / len(phrases)
+    # Add timestamps for each phrase (every 10 phrases grouped)
+    avg_phrase_duration = (duration_minutes * 60) / max(len(phrases), 1)
     for i in range(0, len(phrases), 10):
         timestamp = int(i * avg_phrase_duration / 60)
         minute = timestamp
@@ -988,53 +985,58 @@ Perfect for beginners and intermediate learners!
         end_phrase = min(i + 10, len(phrases))
         description += f"{minute:02d}:{second:02d} Phrases {i+1}-{end_phrase}\n"
 
-    description += """
-\U0001F4DD ALL PHRASES IN THIS VIDEO:
+    description += f"""
+📝 ALL PHRASES IN THIS VIDEO:
 """
 
+    # Add all phrases
     for i, phrase in enumerate(phrases, 1):
+        foreign_phrase_text = phrase.get("greek") or phrase.get("target") or phrase.get("foreign") or ""
+        pron_phrase_text = phrase.get("pronunciation") or phrase.get("pronunciation") or phrase.get("pinyin") or phrase.get("romaji") or phrase.get("phonetic") or ""
         description += f"""
 {i}. {phrase['english']}
-   Greek: {phrase['greek']}
-    Pronunciation: {phrase['pronunciation']}
+   Greek: {foreign_phrase_text}
+   Pronunciation: {pron_phrase_text}
 """
 
-    description += """
-\U0001F3AF PERFECT FOR:
-\u2022 Greek beginners wanting to expand vocabulary
-\u2022 Intermediate learners practicing pronunciation
-\u2022 Anyone interested in Greek language and culture
-\u2022 Language enthusiasts and polyglots
-\u2022 Students preparing for exams
+    description += f"""
+🎯 PERFECT FOR:
+• Greek beginners wanting to expand vocabulary
+• Intermediate learners practicing pronunciation
+• Anyone interested in Greek culture
+• Language enthusiasts and polyglots
+• Students preparing for Greek language exams
 
-\U0001F4A1 TIPS FOR LEARNING:
-1. Repeat each phrase out loud
+💡 TIPS FOR LEARNING:
+1. Repeat each phrase out loud during the pause
 2. Practice daily for best results
 3. Use the pauses to speak along
 4. Write down phrases you find difficult
 5. Review this video multiple times
 
-\U0001F514 SUBSCRIBE for more Greek learning content!
-\U0001F44D LIKE this video if you found it helpful!
-\U0001F4AC COMMENT which phrases you want to learn next!
+🔔 SUBSCRIBE for more Greek learning content!
+👍 LIKE this video if you found it helpful!
+💬 COMMENT which phrases you want to learn next!
 
-\U0001F4F1 FOLLOW VELOCITY GREEK:
+📱 FOLLOW VELOCITY GREEK:
 [Add your social media links here]
 
-\U0001F3B5 MUSIC:
+🎵 MUSIC:
 [Add music credits if applicable]
 
-\U0001F4D6 RELATED VIDEOS:
-\u2022 Greek Motivation Phrases
-\u2022 Greek Love Expressions
-\u2022 Basic Greek Greetings
+📖 RELATED VIDEOS:
+• Greek Motivation Phrases
+• Greek Love Expressions
+• Greek Basics
+• Basic Greek Greetings
 
-#LearnGreek #GreekPhrases #GreekLanguage #{category_english.replace(' ', '')} #VelocityGreek #GreekForBeginners #SpeakGreek #GreekVocabulary #Pronunciation #LanguageLearning #Greek101 #GreekLesson
+#Greek #GreekPhrases #GreekLanguage #{category_english.replace(' ', '')} #VELOCITYGREEK #GreekForBeginners #SpeakGreek #GreekVocabulary #LanguageLearning #Greek101 #GreekLesson
 
 ---
-\u00A9 Velocity Greek - Making Greek learning accessible to everyone!
+© VELOCITY GREEK - Making Greek learning accessible to everyone!
 """
 
+    # Write to COMBINED file (title + description in one)
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -1042,43 +1044,48 @@ Perfect for beginners and intermediate learners!
         f.write("=" * 80 + "\n")
         f.write("YOUTUBE VIDEO UPLOAD INFORMATION\n")
         f.write("=" * 80 + "\n\n")
-        f.write("RECOMMENDED TITLES (Choose one):\n")
+        
+        f.write("📌 RECOMMENDED TITLES (Choose one):\n")
         f.write("-" * 80 + "\n")
         for i, title in enumerate(titles, 1):
             f.write(f"\n{i}. {title}\n")
+        
         f.write("\n" + "=" * 80 + "\n")
-        f.write("SELECTED TITLE (Recommended):\n")
+        f.write("📝 SELECTED TITLE (Recommended):\n")
         f.write("-" * 80 + "\n")
         f.write(f"\n{titles[0]}\n")
+        
         f.write("\n" + "=" * 80 + "\n")
-        f.write("VIDEO DESCRIPTION:\n")
+        f.write("📄 VIDEO DESCRIPTION:\n")
         f.write("-" * 80 + "\n\n")
         f.write(description)
+        
         f.write("\n" + "=" * 80 + "\n")
-        f.write("VIDEO TAGS (for YouTube):\n")
+        f.write("🏷️ VIDEO TAGS (for YouTube):\n")
         f.write("-" * 80 + "\n")
         tags = [
-            "Learn Greek",
-            "Greek Phrases",
-            "Greek Language",
+            f"Learn Greek",
+            f"Greek Phrases",
+            f"Greek",
             category_english,
-            "Velocity Greek",
-            "Greek for Beginners",
-            "Speak Greek",
-            "Greek Vocabulary",
+            brand_text,
+            f"Greek for Beginners",
+            f"Speak Greek",
+            f"Greek Vocabulary",
             "Pronunciation",
             "Language Learning",
-            "Greek 101",
-            "Greek Lesson"
+            f"Greek 101",
+            f"Greek Lesson"
         ]
         f.write(", ".join(tags) + "\n")
 
+    # Metadata JSON (for easy parsing)
     metadata = {
         "recommended_titles": titles,
         "selected_title": titles[0],
         "description": description,
         "category_english": category_english,
-        "category_greek": category_greek,
+        "category_greek": category_foreign,
         "phrases_count": len(phrases),
         "duration_minutes": round(duration_minutes, 2),
         "tags": tags
@@ -1093,9 +1100,6 @@ Perfect for beginners and intermediate learners!
 
     return metadata
 
-
-# ============== VIDEO CREATION ==============
-
 def create_video_from_images_audio(image_files: list, audio_files: list, combined_audio: str, output_file: str):
     print(f"\n[video] Creating long-form video from {len(image_files)} images...")
 
@@ -1105,7 +1109,7 @@ def create_video_from_images_audio(image_files: list, audio_files: list, combine
         duration = audio_info['duration']
         print(f"  Image {i+1}/{len(image_files)}: {duration:.2f}s")
 
-        temp_clip = Path(output_file).parent / f"temp_clip_{i:02d}.mp4"
+        temp_clip = Path(output_file).parent / f"temp_clip_{i:04d}.mp4"
         temp_clips.append(temp_clip)
 
         cmd = [
@@ -1118,7 +1122,7 @@ def create_video_from_images_audio(image_files: list, audio_files: list, combine
             "-c:a", "aac",
             "-b:a", "128k",
             "-pix_fmt", "yuv420p",
-            "-preset", "medium",
+            "-preset", "ultrafast",
             "-shortest",
             "-vsync", "cfr",
             str(temp_clip)
