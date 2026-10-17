@@ -1,1 +1,725 @@
-﻿{"phrases": [], "last_updated": null}
+{
+  "phrases": [
+    {
+      "english": "Breathe in, breathe out.",
+      "greek": "Εισπνοή, εκπνοή.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079128"
+    },
+    {
+      "english": "Just be here, now.",
+      "greek": "Απλά είσαι εδώ, τώρα.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079143"
+    },
+    {
+      "english": "Feel the moment.",
+      "greek": "Νιώσε τη στιγμή.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079148"
+    },
+    {
+      "english": "Calm down, relax.",
+      "greek": "Ηρέμησε, χαλάρωσε.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079152"
+    },
+    {
+      "english": "What do you feel?",
+      "greek": "Τι νιώθεις;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079156"
+    },
+    {
+      "english": "Let it go.",
+      "greek": "Άφησέ το.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079160"
+    },
+    {
+      "english": "Stay present.",
+      "greek": "Μείνε παρών.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079164"
+    },
+    {
+      "english": "Observe your thoughts.",
+      "greek": "Παρατήρησε τις σκέψεις σου.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079171"
+    },
+    {
+      "english": "This is enough.",
+      "greek": "Αυτό είναι αρκετό.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079175"
+    },
+    {
+      "english": "Accept what is.",
+      "greek": "Αποδέξου αυτό που είναι.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079179"
+    },
+    {
+      "english": "Ground yourself.",
+      "greek": "Γείωσε τον εαυτό σου.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079183"
+    },
+    {
+      "english": "Listen to your body.",
+      "greek": "Άκου το σώμα σου.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079186"
+    },
+    {
+      "english": "Be kind to yourself.",
+      "greek": "Να είσαι ευγενικός με τον εαυτό σου.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079190"
+    },
+    {
+      "english": "Find your center.",
+      "greek": "Βρες το κέντρο σου.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079193"
+    },
+    {
+      "english": "Just notice.",
+      "greek": "Απλά παρατήρησε.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079197"
+    },
+    {
+      "english": "Enjoy the quiet.",
+      "greek": "Απόλαυσε την ησυχία.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079200"
+    },
+    {
+      "english": "One breath at a time.",
+      "greek": "Μια ανάσα τη φορά.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079203"
+    },
+    {
+      "english": "What's happening now?",
+      "greek": "Τι συμβαίνει τώρα;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079206"
+    },
+    {
+      "english": "Be here, fully.",
+      "greek": "Να είσαι εδώ, πλήρως.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079211"
+    },
+    {
+      "english": "Let go of control.",
+      "greek": "Άσε τον έλεγχο.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079214"
+    },
+    {
+      "english": "Stillness speaks.",
+      "greek": "Η ησυχία μιλάει.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079218"
+    },
+    {
+      "english": "Find peace within.",
+      "greek": "Βρες ειρήνη μέσα σου.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079221"
+    },
+    {
+      "english": "Trust the process.",
+      "greek": "Εμπιστεύσου τη διαδικασία.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079224"
+    },
+    {
+      "english": "Be present, always.",
+      "greek": "Να είσαι παρών, πάντα.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079227"
+    },
+    {
+      "english": "Slow down your day.",
+      "greek": "Επιβράδυνε την ημέρα σου.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079243"
+    },
+    {
+      "english": "What do you need?",
+      "greek": "Τι χρειάζεσαι;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079247"
+    },
+    {
+      "english": "Just breathe, gently.",
+      "greek": "Απλά ανάπνευσε, απαλά.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079250"
+    },
+    {
+      "english": "Feel the ground.",
+      "greek": "Νιώσε το έδαφος.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079253"
+    },
+    {
+      "english": "Everything is okay.",
+      "greek": "Όλα είναι καλά.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079256"
+    },
+    {
+      "english": "Open your heart.",
+      "greek": "Άνοιξε την καρδιά σου.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079259"
+    },
+    {
+      "english": "How can I begin, today?",
+      "greek": "Πώς μπορώ να αρχίσω, σήμερα;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079263"
+    },
+    {
+      "english": "Is this the right path, for me?",
+      "greek": "Είναι αυτός ο σωστός δρόμος, για μένα;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079267"
+    },
+    {
+      "english": "What are your thoughts, on this?",
+      "greek": "Ποιες είναι οι σκέψεις σου, γι' αυτό;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079271"
+    },
+    {
+      "english": "Can you show me, please?",
+      "greek": "Μπορείς να μου δείξεις, παρακαλώ;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079275"
+    },
+    {
+      "english": "What should I focus, on now?",
+      "greek": "Σε τι να εστιάσω, τώρα;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079278"
+    },
+    {
+      "english": "Any advice, for a beginner?",
+      "greek": "Καμιά συμβουλή, για αρχάριους;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079282"
+    },
+    {
+      "english": "Where do I start, my journey?",
+      "greek": "Από πού να ξεκινήσω, το ταξίδι μου;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079285"
+    },
+    {
+      "english": "Is there a better way, to think?",
+      "greek": "Υπάρχει καλύτερος τρόπος, να σκέφτομαι;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079289"
+    },
+    {
+      "english": "What do you suggest, we do?",
+      "greek": "Τι προτείνεις, να κάνουμε;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079292"
+    },
+    {
+      "english": "How do you find, your calm?",
+      "greek": "Πώς βρίσκεις, την ηρεμία σου;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079295"
+    },
+    {
+      "english": "Could you repeat, that please?",
+      "greek": "Θα μπορούσες να το επαναλάβεις, παρακαλώ;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079299"
+    },
+    {
+      "english": "What's the next step, forward?",
+      "greek": "Ποιο είναι το επόμενο βήμα, μπροστά;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079303"
+    },
+    {
+      "english": "Are you okay, with this?",
+      "greek": "Είσαι εντάξει, με αυτό;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079307"
+    },
+    {
+      "english": "How does this make, you feel?",
+      "greek": "Πώς σε κάνει, αυτό να νιώθεις;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079310"
+    },
+    {
+      "english": "What's your opinion, about it?",
+      "greek": "Ποια είναι η γνώμη σου, γι' αυτό;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079314"
+    },
+    {
+      "english": "Is this helpful, for you?",
+      "greek": "Είναι αυτό χρήσιμο, για σένα;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079317"
+    },
+    {
+      "english": "What else can I try, maybe?",
+      "greek": "Τι άλλο μπορώ να δοκιμάσω, ίσως;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079320"
+    },
+    {
+      "english": "Do you have any questions, for me?",
+      "greek": "Έχεις ερωτήσεις, για μένα;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079324"
+    },
+    {
+      "english": "Shall we begin, together?",
+      "greek": "Να αρχίσουμε, μαζί;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079328"
+    },
+    {
+      "english": "What do you think, we should do?",
+      "greek": "Τι πιστεύεις, ότι πρέπει να κάνουμε;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079331"
+    },
+    {
+      "english": "Can we talk, about this?",
+      "greek": "Μπορούμε να μιλήσουμε, γι' αυτό;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079334"
+    },
+    {
+      "english": "How do you handle, stress?",
+      "greek": "Πώς διαχειρίζεσαι, το άγχος;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079341"
+    },
+    {
+      "english": "What would you advise, me?",
+      "greek": "Τι θα μου πρότεινες, εσύ;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079347"
+    },
+    {
+      "english": "Is this a common, feeling?",
+      "greek": "Είναι αυτό ένα κοινό, συναίσθημα;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079351"
+    },
+    {
+      "english": "What's your best, advice?",
+      "greek": "Ποια είναι η καλύτερη, συμβουλή σου;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079354"
+    },
+    {
+      "english": "Can you explain, simply?",
+      "greek": "Μπορείς να εξηγήσεις, απλά;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079358"
+    },
+    {
+      "english": "How do you stay, centered?",
+      "greek": "Πώς παραμένεις, συγκεντρωμένος;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079361"
+    },
+    {
+      "english": "What’s your approach, please?",
+      "greek": "Ποια είναι η προσέγγισή σου, παρακαλώ;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079370"
+    },
+    {
+      "english": "Are you ready, to start?",
+      "greek": "Είσαι έτοιμος, να αρχίσουμε;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079373"
+    },
+    {
+      "english": "What can we learn, today?",
+      "greek": "Τι μπορούμε να μάθουμε, σήμερα;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079377"
+    },
+    {
+      "english": "Listen to your gut feeling, okay?",
+      "greek": "Άκου το ένστικτό σου, εντάξει;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079380"
+    },
+    {
+      "english": "Don't push too hard, relax.",
+      "greek": "Μην πιέζεις πολύ, χαλάρωσε.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079384"
+    },
+    {
+      "english": "Let go of what's past, now.",
+      "greek": "Άφησε πίσω ό,τι πέρασε, τώρα.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079388"
+    },
+    {
+      "english": "Just be, for a moment.",
+      "greek": "Απλά υπήρχου, για μια στιγμή.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079392"
+    },
+    {
+      "english": "What does your heart say?",
+      "greek": "Τι σου λέει, η καρδιά σου;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079395"
+    },
+    {
+      "english": "Take things, one by one.",
+      "greek": "Πάρε τα πράγματα, ένα-ένα.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079399"
+    },
+    {
+      "english": "Flow with life's river, dear.",
+      "greek": "Ρέει με το ποτάμι της ζωής, αγάπη.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079403"
+    },
+    {
+      "english": "Is this serving you, well?",
+      "greek": "Σε εξυπηρετεί, αυτό καλά;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079407"
+    },
+    {
+      "english": "Find your quiet space, inside.",
+      "greek": "Βρες τον ήσυχο χώρο σου, μέσα.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079410"
+    },
+    {
+      "english": "How does this feel, truly?",
+      "greek": "Πώς νιώθεις, αλήθεια;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079413"
+    },
+    {
+      "english": "Let worries drift away, friend.",
+      "greek": "Άσε τις ανησυχίες να φύγουν, φίλε.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079417"
+    },
+    {
+      "english": "Embrace the present moment, fully.",
+      "greek": "Αγκάλιασε τη στιγμή, ολοκληρωτικά.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079420"
+    },
+    {
+      "english": "What whispers, the silence?",
+      "greek": "Τι ψιθυρίζει, η σιωπή;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079424"
+    },
+    {
+      "english": "It's okay to not know, yet.",
+      "greek": "Είναι εντάξει να μην ξέρεις, ακόμα.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079427"
+    },
+    {
+      "english": "Find your inner compass, guide.",
+      "greek": "Βρες την εσωτερική σου πυξίδα, οδηγέ.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079431"
+    },
+    {
+      "english": "Let your breath, lead you.",
+      "greek": "Άσε την ανάσα σου, να σε οδηγήσει.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079434"
+    },
+    {
+      "english": "Is this truly, necessary?",
+      "greek": "Είναι πραγματικά, απαραίτητο;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079439"
+    },
+    {
+      "english": "What are you grateful, for today?",
+      "greek": "Για τι είσαι ευγνώμων, σήμερα;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079446"
+    },
+    {
+      "english": "Surrender to the now, softly.",
+      "greek": "Παραδώσου στο τώρα, απαλά.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079450"
+    },
+    {
+      "english": "Notice the little things, please.",
+      "greek": "Παρατήρησε τα μικρά, σε παρακαλώ.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079453"
+    },
+    {
+      "english": "Allow yourself, to simply be.",
+      "greek": "Επίτρεψε στον εαυτό σου, να είναι απλά.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079456"
+    },
+    {
+      "english": "What can you release, right now?",
+      "greek": "Τι μπορείς να αφήσεις, αυτή τη στιγμή;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079460"
+    },
+    {
+      "english": "Listen to the quiet hum, within.",
+      "greek": "Άκου τον ήσυχο βόμβο, μέσα σου.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079463"
+    },
+    {
+      "english": "How does nature, feel today?",
+      "greek": "Πώς αισθάνεται, η φύση σήμερα;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079466"
+    },
+    {
+      "english": "Let go, of the tension.",
+      "greek": "Άσε την ένταση, να φύγει.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079472"
+    },
+    {
+      "english": "Is this thought, yours?",
+      "greek": "Αυτή η σκέψη, είναι δική σου;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079475"
+    },
+    {
+      "english": "Be gentle, with your mind.",
+      "greek": "Να είσαι ευγενικός, με το μυαλό σου.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079479"
+    },
+    {
+      "english": "What does your body, need?",
+      "greek": "Τι χρειάζεται, το σώμα σου;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079482"
+    },
+    {
+      "english": "My feelings are valid, always.",
+      "greek": "Τα συναισθήματά μου, είναι έγκυρα, πάντα.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079486"
+    },
+    {
+      "english": "This moment needs, my full attention.",
+      "greek": "Αυτή η στιγμή, χρειάζεται, την πλήρη προσοχή μου.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079489"
+    },
+    {
+      "english": "Patience, brings deeper understanding.",
+      "greek": "Η υπομονή, φέρνει, βαθύτερη κατανόηση.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079493"
+    },
+    {
+      "english": "I choose, peace over perfection.",
+      "greek": "Επιλέγω, γαλήνη, αντί για τελειότητα.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079497"
+    },
+    {
+      "english": "What am I truly, learning now?",
+      "greek": "Τι μαθαίνω, αλήθεια, τώρα;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079500"
+    },
+    {
+      "english": "Honesty with myself, is key.",
+      "greek": "Η ειλικρίνεια, με τον εαυτό μου, είναι το κλειδί.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079505"
+    },
+    {
+      "english": "My thoughts are guests, not owners.",
+      "greek": "Οι σκέψεις μου, είναι επισκέπτες, όχι ιδιοκτήτες.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079508"
+    },
+    {
+      "english": "I allow, space for growth.",
+      "greek": "Επιτρέπω, χώρο, για ανάπτυξη.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079512"
+    },
+    {
+      "english": "This feeling, will also pass.",
+      "greek": "Αυτό το συναίσθημα, θα περάσει, επίσης.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079515"
+    },
+    {
+      "english": "Kindness towards myself, matters.",
+      "greek": "Η καλοσύνη, προς εμένα, έχει σημασία.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079518"
+    },
+    {
+      "english": "I observe, without judgment.",
+      "greek": "Παρατηρώ, χωρίς κριτική.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079522"
+    },
+    {
+      "english": "My inner wisdom, guides me.",
+      "greek": "Η εσωτερική μου, σοφία, με καθοδηγεί.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079525"
+    },
+    {
+      "english": "Breathing in, calm; breathing out, peace.",
+      "greek": "Εισπνέω, ηρεμία, εκπνέω, γαλήνη.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079529"
+    },
+    {
+      "english": "I accept, what is, right now.",
+      "greek": "Αποδέχομαι, αυτό που είναι, αυτή τη στιγμή.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079533"
+    },
+    {
+      "english": "My pace is, perfectly fine.",
+      "greek": "Ο ρυθμός μου, είναι, απόλυτα εντάξει.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079536"
+    },
+    {
+      "english": "I release, all expectations.",
+      "greek": "Αφήνω, όλες τις προσδοκίες.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079540"
+    },
+    {
+      "english": "Silence holds, valuable answers.",
+      "greek": "Η σιωπή, κρύβει, πολύτιμες απαντήσεις.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079545"
+    },
+    {
+      "english": "I am, where I need to be.",
+      "greek": "Είμαι, εκεί που πρέπει, να είμαι.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079549"
+    },
+    {
+      "english": "My worth, is not my thoughts.",
+      "greek": "Η αξία μου, δεν είναι, οι σκέψεις μου.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079552"
+    },
+    {
+      "english": "What energy, do I invite?",
+      "greek": "Τι ενέργεια, προσκαλώ;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079555"
+    },
+    {
+      "english": "I soften, my inner critic.",
+      "greek": "Μαλακώνω, τον εσωτερικό μου, κριτή.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079558"
+    },
+    {
+      "english": "Gratitude, shifts my perspective.",
+      "greek": "Η ευγνωμοσύνη, αλλάζει, την οπτική μου.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079562"
+    },
+    {
+      "english": "I breathe, through the discomfort.",
+      "greek": "Αναπνέω, μέσα από, τη δυσφορία.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079566"
+    },
+    {
+      "english": "Stillness, reveals the truth.",
+      "greek": "Η ηρεμία, αποκαλύπτει, την αλήθεια.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079569"
+    },
+    {
+      "english": "I am, learning to be, present.",
+      "greek": "Μαθαίνω, να είμαι, παρών/παρούσα.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079572"
+    },
+    {
+      "english": "This pause, is a gift.",
+      "greek": "Αυτή η παύση, είναι, ένα δώρο.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079575"
+    },
+    {
+      "english": "Embrace the unknown, gently.",
+      "greek": "Αγκάλιασε, το άγνωστο, απαλά.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079578"
+    },
+    {
+      "english": "My heart knows, the way.",
+      "greek": "Η καρδιά μου, ξέρει, τον δρόμο.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079581"
+    },
+    {
+      "english": "Let's simplify, this task.",
+      "greek": "Ας απλοποιήσουμε, αυτή την εργασία.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079587"
+    },
+    {
+      "english": "I need, a moment of quiet.",
+      "greek": "Χρειάζομαι, μια στιγμή ησυχίας.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079591"
+    },
+    {
+      "english": "Speak clearly, and kindly.",
+      "greek": "Μίλα καθαρά, και ευγενικά.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079594"
+    },
+    {
+      "english": "How can I help, this situation?",
+      "greek": "Πώς μπορώ να βοηθήσω, αυτή την κατάσταση;",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-17T07:25:59.079597"
+    }
+  ],
+  "last_updated": "2026-10-17T07:25:59.079599"
+}
