@@ -719,7 +719,727 @@
       "greek": "Πώς μπορώ να βοηθήσω, αυτή την κατάσταση;",
       "category": "Mindfulness",
       "generated_at": "2026-10-17T07:25:59.079597"
+    },
+    {
+      "english": "Be brave, my friend.",
+      "greek": "Να 'σαι θαρραλέος, φίλε μου.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578588"
+    },
+    {
+      "english": "Have courage, don't fear.",
+      "greek": "Έχε θάρρος, μη φοβάσαι.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578603"
+    },
+    {
+      "english": "It takes guts, you know.",
+      "greek": "Θέλει κότσια, ξέρεις.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578605"
+    },
+    {
+      "english": "She showed real bravery.",
+      "greek": "Έδειξε πραγματική ανδρεία.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578607"
+    },
+    {
+      "english": "Are you feeling bold?",
+      "greek": "Νιώθεις τολμηρά;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578610"
+    },
+    {
+      "english": "Let's be courageous together.",
+      "greek": "Ας είμαστε θαρρμένοι μαζί.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578612"
+    },
+    {
+      "english": "He's a man of courage.",
+      "greek": "Είναι άντρας με θάρρος.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578614"
+    },
+    {
+      "english": "Don't lose heart now.",
+      "greek": "Μη χάνεις το κουράγιο τώρα.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578617"
+    },
+    {
+      "english": "What a bold move!",
+      "greek": "Τι τολμηρή κίνηση!",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578620"
+    },
+    {
+      "english": "We need more courage.",
+      "greek": "Χρειαζόμαστε περισσότερο θάρρος.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578622"
+    },
+    {
+      "english": "Stand up, be strong.",
+      "greek": "Σήκω πάνω, γίνε δυνατός.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578623"
+    },
+    {
+      "english": "That was daring indeed.",
+      "greek": "Αυτό ήταν όντως τολμηρό.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578625"
+    },
+    {
+      "english": "You have my support.",
+      "greek": "Έχεις την υποστήριξή μου.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578626"
+    },
+    {
+      "english": "Face your fears bravely.",
+      "greek": "Αντιμετώπισε τους φόβους σου θαρρετά.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578628"
+    },
+    {
+      "english": "It's a brave new world.",
+      "greek": "Είναι ένας τολμηρός νέος κόσμος.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578629"
+    },
+    {
+      "english": "Don't be afraid to try.",
+      "greek": "Μην φοβάσαι να δοκιμάσεις.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578631"
+    },
+    {
+      "english": "That took a lot of nerve.",
+      "greek": "Αυτό πήρε πολύ θράσος.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578633"
+    },
+    {
+      "english": "Be bold, seize the day.",
+      "greek": "Να είσαι τολμηρός, άδραξε τη μέρα.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578634"
+    },
+    {
+      "english": "She has a brave heart.",
+      "greek": "Έχει μια γενναία καρδιά.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578636"
+    },
+    {
+      "english": "We must be valiant.",
+      "greek": "Πρέπει να είμαστε γενναίοι.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578637"
+    },
+    {
+      "english": "This requires some courage.",
+      "greek": "Αυτό απαιτεί λίγο θάρρος.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578639"
+    },
+    {
+      "english": "Go on, you can do it.",
+      "greek": "Πήγαινε, μπορείς να το κάνεις.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578640"
+    },
+    {
+      "english": "A moment of bravery.",
+      "greek": "Μια στιγμή ανδρείας.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578642"
+    },
+    {
+      "english": "Stay strong, keep fighting.",
+      "greek": "Μείνε δυνατός, συνέχισε να πολεμάς.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578643"
+    },
+    {
+      "english": "He's not afraid of anything.",
+      "greek": "Δεν φοβάται τίποτα.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578645"
+    },
+    {
+      "english": "Show some backbone!",
+      "greek": "Δείξε λίγη πλάτη!",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578646"
+    },
+    {
+      "english": "Dare to dream big.",
+      "greek": "Τόλμησε να ονειρευτείς μεγάλα.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578648"
+    },
+    {
+      "english": "Courage is key.",
+      "greek": "Το θάρρος είναι το κλειδί.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578651"
+    },
+    {
+      "english": "We need to be bold.",
+      "greek": "Πρέπει να είμαστε τολμηροί.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578652"
+    },
+    {
+      "english": "What a brave soul!",
+      "greek": "Τι γενναία ψυχή!",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578654"
+    },
+    {
+      "english": "What helps you find courage?",
+      "greek": "Τι σε βοηθάει να βρεις θάρρος;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578657"
+    },
+    {
+      "english": "Can you give me some advice?",
+      "greek": "Μπορείς να μου δώσεις μια συμβουλή;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578659"
+    },
+    {
+      "english": "How do you stay motivated?",
+      "greek": "Πώς μένεις παρακινημένος;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578661"
+    },
+    {
+      "english": "What if I'm hesitant?",
+      "greek": "Και αν διστάζω;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578663"
+    },
+    {
+      "english": "Do you think I can do it?",
+      "greek": "Πιστεύεις ότι μπορώ να το κάνω;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578665"
+    },
+    {
+      "english": "What's your secret to courage?",
+      "greek": "Ποιο είναι το μυστικό σου για το θάρρος;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578667"
+    },
+    {
+      "english": "Should I take this risk?",
+      "greek": "Να πάρω αυτό το ρίσκο;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578669"
+    },
+    {
+      "english": "How can I be more confident?",
+      "greek": "Πώς μπορώ να είμαι πιο σίγουρος;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578670"
+    },
+    {
+      "english": "What if I fail, then what?",
+      "greek": "Αν αποτύχω, μετά τι;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578672"
+    },
+    {
+      "english": "Do you believe in yourself?",
+      "greek": "Πιστεύεις στον εαυτό σου;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578674"
+    },
+    {
+      "english": "What challenges did you overcome?",
+      "greek": "Ποιες προκλήσεις ξεπέρασες;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578676"
+    },
+    {
+      "english": "Is it hard to be brave?",
+      "greek": "Είναι δύσκολο να είσαι θαρραλέος;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578677"
+    },
+    {
+      "english": "How do you face difficult situations?",
+      "greek": "Πώς αντιμετωπίζεις δύσκολες καταστάσεις;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578679"
+    },
+    {
+      "english": "What inspires your courage?",
+      "greek": "Τι εμπνέει το θάρρος σου;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578680"
+    },
+    {
+      "english": "Are you willing to try something new?",
+      "greek": "Θέλεις να δοκιμάσεις κάτι καινούργιο;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578682"
+    },
+    {
+      "english": "What is your biggest fear?",
+      "greek": "Ποιος είναι ο μεγαλύτερος φόβος σου;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578683"
+    },
+    {
+      "english": "How can I help you be brave?",
+      "greek": "Πώς μπορώ να σε βοηθήσω να είσαι γενναίος;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578685"
+    },
+    {
+      "english": "Do you need encouragement right now?",
+      "greek": "Χρειάζεσαι ενθάρρυνση αυτή τη στιγμή;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578687"
+    },
+    {
+      "english": "What's the first step?",
+      "greek": "Ποιο είναι το πρώτο βήμα;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578688"
+    },
+    {
+      "english": "Are you ready for this?",
+      "greek": "Είσαι έτοιμος γι' αυτό;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578690"
+    },
+    {
+      "english": "What makes you feel stronger?",
+      "greek": "Τι σε κάνει να νιώθεις πιο δυνατός;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578691"
+    },
+    {
+      "english": "Tell me about your experience.",
+      "greek": "Πες μου για την εμπειρία σου.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578692"
+    },
+    {
+      "english": "What advice do you have for me?",
+      "greek": "Τι συμβουλές έχεις για μένα;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578694"
+    },
+    {
+      "english": "Should I speak up now?",
+      "greek": "Να μιλήσω τώρα;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578696"
+    },
+    {
+      "english": "What if people disagree?",
+      "greek": "Και αν διαφωνήσουν οι άλλοι;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578697"
+    },
+    {
+      "english": "How do you handle pressure?",
+      "greek": "Πώς διαχειρίζεσαι την πίεση;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578699"
+    },
+    {
+      "english": "What decision did you make?",
+      "greek": "Τι απόφαση πήρες;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578700"
+    },
+    {
+      "english": "Do you regret anything?",
+      "greek": "Μετανιώνεις για κάτι;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578702"
+    },
+    {
+      "english": "What did you learn from that?",
+      "greek": "Τι έμαθες από αυτό;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578710"
+    },
+    {
+      "english": "You've got this, believe yourself.",
+      "greek": "Το 'χεις, πίστεψέ το.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578714"
+    },
+    {
+      "english": "Face it head on, my dear.",
+      "greek": "Αντιμετώπισέ το κατάματα, αγάπη μου.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578716"
+    },
+    {
+      "english": "Take a deep breath, and go.",
+      "greek": "Πάρε μια βαθιά ανάσα, και φύγε.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578718"
+    },
+    {
+      "english": "Your strength shines through.",
+      "greek": "Η δύναμή σου λάμπει.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578720"
+    },
+    {
+      "english": "Don't hold back, be fierce.",
+      "greek": "Μην κρατιέσαι, γίνε άγριος.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578722"
+    },
+    {
+      "english": "You are bolder than you think.",
+      "greek": "Είσαι πιο τολμηρός απ' ό,τι νομίζεις.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578724"
+    },
+    {
+      "english": "Step forward, embrace the challenge.",
+      "greek": "Προχώρα, αγκάλιασε την πρόκληση.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578726"
+    },
+    {
+      "english": "This is your moment, shine!",
+      "greek": "Αυτή είναι η στιγμή σου, λάμψε!",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578727"
+    },
+    {
+      "english": "Trust your gut, it knows.",
+      "greek": "Εμπιστεύσου το ένστικτό σου, ξέρει.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578731"
+    },
+    {
+      "english": "You have the power within.",
+      "greek": "Έχεις τη δύναμη μέσα σου.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578732"
+    },
+    {
+      "english": "Be brave, wonderful you.",
+      "greek": "Να 'σαι γενναίος, υπέροχέ μου.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578734"
+    },
+    {
+      "english": "Keep pushing, you're almost there.",
+      "greek": "Συνέχισε, είσαι σχεδόν εκεί.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578736"
+    },
+    {
+      "english": "Let your spirit soar high.",
+      "greek": "Άσε το πνεύμα σου να πετάξει ψηλά.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578738"
+    },
+    {
+      "english": "You possess inner fire.",
+      "greek": "Διαθέτεις εσωτερική φωτιά.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578739"
+    },
+    {
+      "english": "Go conquer, my champion.",
+      "greek": "Πήγαινε να κατακτήσεις, πρωταθλητή μου.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578742"
+    },
+    {
+      "english": "Your courage is inspiring.",
+      "greek": "Το θάρρος σου εμπνέει.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578743"
+    },
+    {
+      "english": "Unleash your true potential.",
+      "greek": "Ξεδίπλωσε το αληθινό σου δυναμικό.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578745"
+    },
+    {
+      "english": "Stand tall, unafraid.",
+      "greek": "Στάσου όρθιος, άφοβος.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578747"
+    },
+    {
+      "english": "You're stronger than any storm.",
+      "greek": "Είσαι πιο δυνατός από κάθε καταιγίδα.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578749"
+    },
+    {
+      "english": "Embrace the unknown, bravely.",
+      "greek": "Αγκάλιασε το άγνωστο, γενναία.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578750"
+    },
+    {
+      "english": "You're capable of amazing things.",
+      "greek": "Είσαι ικανός για απίθανα πράγματα.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578752"
+    },
+    {
+      "english": "Let courage be your guide.",
+      "greek": "Άσε το θάρρος να 'ναι οδηγός σου.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578754"
+    },
+    {
+      "english": "You have a warrior's heart.",
+      "greek": "Έχεις καρδιά πολεμιστή.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578756"
+    },
+    {
+      "english": "Seize the day, with gusto.",
+      "greek": "Άδραξε τη μέρα, με ζήλο.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578757"
+    },
+    {
+      "english": "Your spirit is unbreakable.",
+      "greek": "Το πνεύμα σου είναι άθραυστο.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578759"
+    },
+    {
+      "english": "Dare to be yourself, fully.",
+      "greek": "Τόλμησε να 'σαι ο εαυτός σου, πλήρως.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578762"
+    },
+    {
+      "english": "Rise above, like an eagle.",
+      "greek": "Σήκω πάνω, σαν αετός.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578764"
+    },
+    {
+      "english": "You're more resilient than you know.",
+      "greek": "Είσαι πιο ανθεκτικός απ' ό,τι ξέρεις.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578766"
+    },
+    {
+      "english": "Embrace your inner lion.",
+      "greek": "Αγκάλιασε το λιοντάρι μέσα σου.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578767"
+    },
+    {
+      "english": "Keep that chin up, always.",
+      "greek": "Κράτα το πηγούνι ψηλά, πάντα.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578769"
+    },
+    {
+      "english": "Sometimes, it takes courage, just to be quiet.",
+      "greek": "Μερικές φορές, θέλει θάρρος, απλά να σωπάσεις.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578771"
+    },
+    {
+      "english": "Being honest, is a form of courage, right?",
+      "greek": "Το να είσαι ειλικρινής, είναι μια μορφή θάρρους, σωστά;",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578774"
+    },
+    {
+      "english": "I'm trying to be patient, with myself.",
+      "greek": "Προσπαθώ να έχω υπομονή, με τον εαυτό μου.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578778"
+    },
+    {
+      "english": "It's brave, to admit you're wrong.",
+      "greek": "Είναι θαρρετό, να παραδέχεσαι, ότι έκανες λάθος.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578780"
+    },
+    {
+      "english": "My feelings are valid, even if messy.",
+      "greek": "Τα συναισθήματά μου, είναι έγκυρα, ακόμα κι αν είναι μπερδεμένα.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578784"
+    },
+    {
+      "english": "I need courage, to truly listen.",
+      "greek": "Χρειάζομαι θάρρος, για να ακούω πραγματικά.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578786"
+    },
+    {
+      "english": "Letting go, requires a lot of courage.",
+      "greek": "Το να αφήνεις τα πράγματα, θέλει πολλή γενναιότητα.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578788"
+    },
+    {
+      "english": "Vulnerability, is not weakness, it's strength.",
+      "greek": "Η ευαλωτότητα, δεν είναι αδυναμία, είναι δύναμη.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578790"
+    },
+    {
+      "english": "What if I fail? That's part of learning.",
+      "greek": "Κι αν αποτύχω; Αυτό είναι μέρος της μάθησης.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578792"
+    },
+    {
+      "english": "I'm learning to trust, my own intuition.",
+      "greek": "Μαθαίνω να εμπιστεύομαι, τη δική μου διαίσθηση.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578794"
+    },
+    {
+      "english": "It takes courage, to be kind, always.",
+      "greek": "Θέλει θάρρος, να είσαι ευγενικός, πάντα.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578796"
+    },
+    {
+      "english": "My true feelings matter, I must acknowledge them.",
+      "greek": "Τα αληθινά μου συναισθήματα, μετράνε, πρέπει να τα αναγνωρίσω.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578798"
+    },
+    {
+      "english": "Patience, with the process, is key.",
+      "greek": "Η υπομονή, με τη διαδικασία, είναι το κλειδί.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578800"
+    },
+    {
+      "english": "It's okay, to not have all the answers.",
+      "greek": "Είναι εντάξει, να μην έχεις όλες τις απαντήσεις.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578802"
+    },
+    {
+      "english": "I'm finding my voice, slowly but surely.",
+      "greek": "Βρίσκω τη φωνή μου, αργά αλλά σταθερά.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578803"
+    },
+    {
+      "english": "Expressing myself, takes genuine bravery.",
+      "greek": "Το να εκφράζομαι, απαιτεί γνήσια γενναιότητα.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578805"
+    },
+    {
+      "english": "I can be gentle, with my own struggles.",
+      "greek": "Μπορώ να είμαι ευγενικός, με τους δικούς μου αγώνες.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578807"
+    },
+    {
+      "english": "Honesty with myself, is the first step.",
+      "greek": "Η ειλικρίνεια με τον εαυτό μου, είναι το πρώτο βήμα.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578809"
+    },
+    {
+      "english": "My emotional truth, deserves to be seen.",
+      "greek": "Η συναισθηματική μου αλήθεια, αξίζει να φανεί.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578810"
+    },
+    {
+      "english": "I'm allowing myself, to feel it all.",
+      "greek": "Επιτρέπω στον εαυτό μου, να νιώσει τα πάντα.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578812"
+    },
+    {
+      "english": "Courage is understanding, imperfection is human.",
+      "greek": "Θάρρος είναι η κατανόηση, η ατέλεια είναι ανθρώπινη.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578814"
+    },
+    {
+      "english": "I'm building trust, within myself.",
+      "greek": "Χτίζω εμπιστοσύνη, μέσα μου.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578816"
+    },
+    {
+      "english": "Accepting my limits, takes courage too.",
+      "greek": "Το να αποδέχομαι τα όριά μου, θέλει κι αυτό θάρρος.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578818"
+    },
+    {
+      "english": "My quiet strength, is starting to bloom.",
+      "greek": "Η ήσυχη δύναμή μου, αρχίζει να ανθίζει.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578819"
+    },
+    {
+      "english": "Thinking deeply, is a brave act.",
+      "greek": "Το να σκέφτεσαι βαθιά, είναι μια θαρραλέα πράξη.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578821"
+    },
+    {
+      "english": "I will be gentle, with this process.",
+      "greek": "Θα είμαι ευγενικός, με αυτή τη διαδικασία.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578823"
+    },
+    {
+      "english": "Believing in my resilience, is vital.",
+      "greek": "Το να πιστεύω στην ανθεκτικότητά μου, είναι ζωτικό.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578824"
+    },
+    {
+      "english": "Courage means, facing fears, with kindness.",
+      "greek": "Θάρρος σημαίνει, αντιμετωπίζω τους φόβους, με καλοσύνη.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578826"
+    },
+    {
+      "english": "My inner peace, is worth fighting for.",
+      "greek": "Η εσωτερική μου γαλήνη, αξίζει να την παλέψω.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578828"
+    },
+    {
+      "english": "It takes courage, to forgive myself.",
+      "greek": "Θέλει θάρρος, να συγχωρήσω τον εαυτό μου.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578829"
+    },
+    {
+      "english": "Try something new, even if scared.",
+      "greek": "Δοκίμασε κάτι νέο, ακόμα κι αν φοβάσαι.",
+      "category": "Courage",
+      "generated_at": "2026-11-01T09:58:24.578831"
     }
   ],
-  "last_updated": "2026-10-17T07:25:59.079599"
+  "last_updated": "2026-11-01T09:58:24.578832"
 }
