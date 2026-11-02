@@ -1439,7 +1439,727 @@
       "greek": "Δοκίμασε κάτι νέο, ακόμα κι αν φοβάσαι.",
       "category": "Courage",
       "generated_at": "2026-11-01T09:58:24.578831"
+    },
+    {
+      "english": "That's very kind, thank you.",
+      "greek": "Αυτό είναι πολύ ευγενικό, ευχαριστώ.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170813"
+    },
+    {
+      "english": "You're so helpful, I appreciate it.",
+      "greek": "Είσαι πολύ εξυπηρετικός, το εκτιμώ.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170831"
+    },
+    {
+      "english": "What a nice gesture, really.",
+      "greek": "Τι ωραία κίνηση, αλήθεια.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170835"
+    },
+    {
+      "english": "That was thoughtful of you.",
+      "greek": "Αυτό ήταν διακριτικό εκ μέρους σου.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170838"
+    },
+    {
+      "english": "You have a big heart.",
+      "greek": "Έχεις μεγάλη καρδιά.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170842"
+    },
+    {
+      "english": "That's really generous.",
+      "greek": "Αυτό είναι πραγματικά γενναιόδωρο.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170846"
+    },
+    {
+      "english": "You always think of others.",
+      "greek": "Πάντα σκέφτεσαι τους άλλους.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170849"
+    },
+    {
+      "english": "I'm touched by your kindness.",
+      "greek": "Με συγκινεί η ευγένειά σου.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170856"
+    },
+    {
+      "english": "That's incredibly sweet of you.",
+      "greek": "Αυτό είναι απίστευτα γλυκό εκ μέρους σου.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170860"
+    },
+    {
+      "english": "You're a true friend.",
+      "greek": "Είσαι αληθινός φίλος.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170864"
+    },
+    {
+      "english": "I owe you one.",
+      "greek": "Σου χρωστάω μια χάρη.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170867"
+    },
+    {
+      "english": "You made my day better.",
+      "greek": "Έκανες τη μέρα μου καλύτερη.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170870"
+    },
+    {
+      "english": "How kind of you to ask.",
+      "greek": "Πόσο ευγενικό εκ μέρους σου να ρωτάς.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170873"
+    },
+    {
+      "english": "That's a very considerate thing.",
+      "greek": "Αυτό είναι πολύ διακριτικό.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170879"
+    },
+    {
+      "english": "You're too good to me.",
+      "greek": "Είσαι υπερβολικά καλός/καλή μαζί μου.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170882"
+    },
+    {
+      "english": "I really appreciate your effort.",
+      "greek": "Εκτιμώ πραγματικά την προσπάθειά σου.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170885"
+    },
+    {
+      "english": "What a lovely surprise!",
+      "greek": "Τι υπέροχη έκπληξη!",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170888"
+    },
+    {
+      "english": "You're so caring.",
+      "greek": "Είσαι τόσο φροντιστικός/φροντιστική.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170891"
+    },
+    {
+      "english": "That's incredibly thoughtful.",
+      "greek": "Αυτό είναι απίστευτα στοχαστικό.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170894"
+    },
+    {
+      "english": "Your kindness means a lot.",
+      "greek": "Η ευγένειά σου σημαίνει πολλά.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170896"
+    },
+    {
+      "english": "You have a good soul.",
+      "greek": "Έχεις καλή ψυχή.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170899"
+    },
+    {
+      "english": "That was very understanding.",
+      "greek": "Αυτό ήταν πολύ κατανοητικό.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170902"
+    },
+    {
+      "english": "You're making a difference.",
+      "greek": "Κάνεις τη διαφορά.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170905"
+    },
+    {
+      "english": "I'm grateful for your help.",
+      "greek": "Είμαι ευγνώμων για τη βοήθειά σου.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170908"
+    },
+    {
+      "english": "That's a very kind offer.",
+      "greek": "Αυτή είναι μια πολύ ευγενική προσφορά.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170911"
+    },
+    {
+      "english": "You're truly a gem.",
+      "greek": "Είσαι πραγματικά ένα διαμάντι.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170914"
+    },
+    {
+      "english": "What a generous spirit!",
+      "greek": "Τι γενναιόδωρο πνεύμα!",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170918"
+    },
+    {
+      "english": "That's so considerate.",
+      "greek": "Αυτό είναι τόσο διακριτικό.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170921"
+    },
+    {
+      "english": "You have a good heart.",
+      "greek": "Έχεις καλή καρδιά.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170924"
+    },
+    {
+      "english": "Your kindness shines through.",
+      "greek": "Η ευγένειά σου λάμπει.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170928"
+    },
+    {
+      "english": "Can you help me, please?",
+      "greek": "Μπορείς να με βοηθήσεις, σε παρακαλώ;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170932"
+    },
+    {
+      "english": "What do you think, about this?",
+      "greek": "Τι πιστεύεις, για αυτό;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170935"
+    },
+    {
+      "english": "Do you need anything, at all?",
+      "greek": "Χρειάζεσαι κάτι, καθόλου;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170938"
+    },
+    {
+      "english": "How was your day, really?",
+      "greek": "Πώς ήταν η μέρα σου, στ' αλήθεια;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170942"
+    },
+    {
+      "english": "What can I do, for you?",
+      "greek": "Τι μπορώ να κάνω, για σένα;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170945"
+    },
+    {
+      "english": "Is everything okay, with you?",
+      "greek": "Είναι όλα καλά, μαζί σου;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170948"
+    },
+    {
+      "english": "Could you explain, that again?",
+      "greek": "Θα μπορούσες να εξηγήσεις, αυτό πάλι;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170951"
+    },
+    {
+      "english": "What's on your mind, lately?",
+      "greek": "Τι σκέφτεσαι, τον τελευταίο καιρό;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170954"
+    },
+    {
+      "english": "Would you like some coffee?",
+      "greek": "Θέλεις λίγο καφέ;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.170957"
+    },
+    {
+      "english": "Are you feeling better, now?",
+      "greek": "Νιώθεις καλύτερα, τώρα;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171066"
+    },
+    {
+      "english": "Can we talk, for a moment?",
+      "greek": "Μπορούμε να μιλήσουμε, για λίγο;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171070"
+    },
+    {
+      "english": "What's the best way, to learn?",
+      "greek": "Ποιος είναι ο καλύτερος τρόπος, να μάθω;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171076"
+    },
+    {
+      "english": "Do you have any suggestions?",
+      "greek": "Έχεις καμιά πρόταση;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171079"
+    },
+    {
+      "english": "What do you recommend, for dinner?",
+      "greek": "Τι προτείνεις, για βράδυ;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171082"
+    },
+    {
+      "english": "Is there anything else, I can do?",
+      "greek": "Υπάρχει κάτι άλλο, που μπορώ να κάνω;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171085"
+    },
+    {
+      "english": "How are things, going for you?",
+      "greek": "Πώς πάνε τα πράγματα, για σένα;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171088"
+    },
+    {
+      "english": "What are you up to, today?",
+      "greek": "Τι κάνεις, σήμερα;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171091"
+    },
+    {
+      "english": "What do you feel, about it?",
+      "greek": "Πώς το νιώθεις, αυτό;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171093"
+    },
+    {
+      "english": "Is there a better option?",
+      "greek": "Υπάρχει καλύτερη επιλογή;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171096"
+    },
+    {
+      "english": "What should I do, next?",
+      "greek": "Τι να κάνω, μετά;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171099"
+    },
+    {
+      "english": "Are you sure, about that?",
+      "greek": "Είσαι σίγουρος, γι' αυτό;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171102"
+    },
+    {
+      "english": "Could you repeat, that slowly?",
+      "greek": "Θα μπορούσες να επαναλάβεις, πιο αργά;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171104"
+    },
+    {
+      "english": "What's your opinion, on this?",
+      "greek": "Ποια είναι η γνώμη σου, γι' αυτό;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171108"
+    },
+    {
+      "english": "How can I help, you improve?",
+      "greek": "Πώς μπορώ να βοηθήσω, να βελτιωθείς;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171110"
+    },
+    {
+      "english": "Do you want to share, something?",
+      "greek": "Θέλεις να μοιραστείς, κάτι;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171113"
+    },
+    {
+      "english": "What is this about, exactly?",
+      "greek": "Τι αφορά, ακριβώς;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171116"
+    },
+    {
+      "english": "Can you tell me more, please?",
+      "greek": "Μπορείς να μου πεις περισσότερα, σε παρακαλώ;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171119"
+    },
+    {
+      "english": "What do you need, from me?",
+      "greek": "Τι χρειάζεσαι, από μένα;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171124"
+    },
+    {
+      "english": "How can we work, together?",
+      "greek": "Πώς μπορούμε να συνεργαστούμε, μαζί;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171127"
+    },
+    {
+      "english": "Believe in yourself, always.",
+      "greek": "Πίστεψε στον εαυτό σου, πάντα.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171130"
+    },
+    {
+      "english": "Your effort is visible.",
+      "greek": "Η προσπάθειά σου είναι εμφανής.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171133"
+    },
+    {
+      "english": "You are stronger than you think.",
+      "greek": "Είσαι πιο δυνατός/δυνατή απ' ό,τι νομίζεις.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171136"
+    },
+    {
+      "english": "Keep going, don't stop.",
+      "greek": "Συνέχισε, μην σταματάς.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171139"
+    },
+    {
+      "english": "That's a brilliant idea!",
+      "greek": "Αυτή είναι μια λαμπρή ιδέα!",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171142"
+    },
+    {
+      "english": "You handled that perfectly.",
+      "greek": "Το χειρίστηκες τέλεια.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171145"
+    },
+    {
+      "english": "Your positive outlook helps.",
+      "greek": "Η θετική σου οπτική βοηθάει.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171339"
+    },
+    {
+      "english": "You have a great perspective.",
+      "greek": "Έχεις μια υπέροχη οπτική.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171360"
+    },
+    {
+      "english": "Never give up hope.",
+      "greek": "Μην εγκαταλείπεις ποτέ την ελπίδα.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171365"
+    },
+    {
+      "english": "You inspire me greatly.",
+      "greek": "Με εμπνέεις πολύ.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171369"
+    },
+    {
+      "english": "This is progress, for sure.",
+      "greek": "Αυτή είναι πρόοδος, σίγουρα.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171374"
+    },
+    {
+      "english": "That's a very clever solution.",
+      "greek": "Αυτή είναι μια πολύ έξυπνη λύση.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171378"
+    },
+    {
+      "english": "Your dedication is admirable.",
+      "greek": "Ο αφοσιωμένος σου χαρακτήρας είναι αξιοθαύμαστος.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171381"
+    },
+    {
+      "english": "You're on the right track.",
+      "greek": "Είσαι στο σωστό δρόμο.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171385"
+    },
+    {
+      "english": "Focus on the good, always.",
+      "greek": "Εστίασε στα καλά, πάντα.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171388"
+    },
+    {
+      "english": "Your kindness is a gift.",
+      "greek": "Η καλοσύνη σου είναι δώρο.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171391"
+    },
+    {
+      "english": "You make difficult things seem easy.",
+      "greek": "Κάνεις τα δύσκολα να φαίνονται εύκολα.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171394"
+    },
+    {
+      "english": "Keep that positive energy.",
+      "greek": "Διατήρησε αυτή τη θετική ενέργεια.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171397"
+    },
+    {
+      "english": "That took real courage.",
+      "greek": "Αυτό χρειαζόταν πραγματικό θάρρος.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171400"
+    },
+    {
+      "english": "You're growing so much.",
+      "greek": "Εξελίσσεσαι πάρα πολύ.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171439"
+    },
+    {
+      "english": "What a thoughtful gesture!",
+      "greek": "Τι στοχαστική κίνηση!",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171447"
+    },
+    {
+      "english": "Your resilience is inspiring.",
+      "greek": "Η ανθεκτικότητά σου είναι εμπνευστική.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171452"
+    },
+    {
+      "english": "You always find a way.",
+      "greek": "Πάντα βρίσκεις έναν τρόπο.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171457"
+    },
+    {
+      "english": "That was incredibly generous.",
+      "greek": "Αυτό ήταν απίστευτα γενναιόδωρο.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171461"
+    },
+    {
+      "english": "Your optimism is contagious.",
+      "greek": "Ο αισιοδοξία σου είναι μεταδοτική.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171463"
+    },
+    {
+      "english": "You have a knack for this.",
+      "greek": "Έχεις το χάρισμα γι' αυτό.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171466"
+    },
+    {
+      "english": "Keep shining your light.",
+      "greek": "Συνέχισε να λάμπεις το φως σου.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171469"
+    },
+    {
+      "english": "You are doing great work.",
+      "greek": "Κάνεις σπουδαία δουλειά.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171472"
+    },
+    {
+      "english": "That's a truly thoughtful act.",
+      "greek": "Αυτή είναι μια πραγματικά στοχαστική πράξη.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171475"
+    },
+    {
+      "english": "Be patient, with yourself.",
+      "greek": "Έχε υπομονή, με τον εαυτό σου.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171478"
+    },
+    {
+      "english": "Kindness, takes inner strength.",
+      "greek": "Η καλοσύνη, θέλει εσωτερική δύναμη.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171495"
+    },
+    {
+      "english": "Reflect, on your actions.",
+      "greek": "Σκέψου, τις πράξεις σου.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171498"
+    },
+    {
+      "english": "Honesty feels, liberating.",
+      "greek": "Η ειλικρίνεια, νιώθει απελευθερωτική.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171503"
+    },
+    {
+      "english": "True kindness, is silent.",
+      "greek": "Η αληθινή καλοσύνη, είναι σιωπηλή.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171506"
+    },
+    {
+      "english": "Feel deeply, act kindly.",
+      "greek": "Νιώσε βαθιά, πράξε ευγενικά.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171509"
+    },
+    {
+      "english": "What truly matters, is empathy.",
+      "greek": "Αυτό που πραγματικά μετράει, είναι η ενσυναίσθηση.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171513"
+    },
+    {
+      "english": "Give yourself, grace.",
+      "greek": "Χάρισε στον εαυτό σου, χάρη.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171516"
+    },
+    {
+      "english": "Sometimes, listening is enough.",
+      "greek": "Μερικές φορές, η ακρόαση αρκεί.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171519"
+    },
+    {
+      "english": "Our feelings, guide us.",
+      "greek": "Τα συναισθήματά μας, μας καθοδηγούν.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171522"
+    },
+    {
+      "english": "Acknowledge your emotions, gently.",
+      "greek": "Αναγνώρισε τα συναισθήματά σου, απαλά.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171526"
+    },
+    {
+      "english": "Let understanding, grow.",
+      "greek": "Άσε την κατανόηση, να μεγαλώσει.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171529"
+    },
+    {
+      "english": "This moment, requires patience.",
+      "greek": "Αυτή η στιγμή, απαιτεί υπομονή.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171532"
+    },
+    {
+      "english": "Speak your truth, kindly.",
+      "greek": "Πες την αλήθεια σου, με ευγένεια.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171535"
+    },
+    {
+      "english": "Inner peace, fuels kindness.",
+      "greek": "Η εσωτερική γαλήνη, τροφοδοτεί την καλοσύνη.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171538"
+    },
+    {
+      "english": "Be present, be kind.",
+      "greek": "Να είσαι παρών, να είσαι ευγενικός.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171541"
+    },
+    {
+      "english": "Forgiveness, sets you free.",
+      "greek": "Η συγχώρεση, σε απελευθερώνει.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171544"
+    },
+    {
+      "english": "Acknowledge the struggle, gently.",
+      "greek": "Αναγνώρισε τον αγώνα, απαλά.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171547"
+    },
+    {
+      "english": "Kindness is, a choice.",
+      "greek": "Η καλοσύνη είναι, μια επιλογή.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171550"
+    },
+    {
+      "english": "Allow for imperfection.",
+      "greek": "Επέτρεψε την ατέλεια.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171553"
+    },
+    {
+      "english": "Your vulnerability, is relatable.",
+      "greek": "Η ευαλωτότητά σου, είναι κατανοητή.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171558"
+    },
+    {
+      "english": "Understand, don't judge.",
+      "greek": "Κατανόησε, μην κρίνεις.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171561"
+    },
+    {
+      "english": "Respond, with compassion.",
+      "greek": "Αντέδρασε, με συμπόνια.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171565"
+    },
+    {
+      "english": "Be gentle, with your thoughts.",
+      "greek": "Να είσαι ευγενικός, με τις σκέψεις σου.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171568"
+    },
+    {
+      "english": "Reflection, brings clarity.",
+      "greek": "Η περισυλλογή, φέρνει διαύγεια.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171571"
+    },
+    {
+      "english": "Acceptance, is powerful.",
+      "greek": "Η αποδοχή, είναι πανίσχυρη.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171576"
+    },
+    {
+      "english": "Embrace, your feelings.",
+      "greek": "Αγκάλιασε, τα συναισθήματά σου.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171579"
+    },
+    {
+      "english": "Kindness, starts within.",
+      "greek": "Η καλοσύνη, ξεκινάει από μέσα.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171582"
+    },
+    {
+      "english": "Let's help them, together.",
+      "greek": "Ας τους βοηθήσουμε, μαζί.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171585"
+    },
+    {
+      "english": "Share what you have, if possible.",
+      "greek": "Μοιράσου ό,τι έχεις, αν μπορείς.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171590"
+    },
+    {
+      "english": "A small favor, means a lot.",
+      "greek": "Μια μικρή χάρη, σημαίνει πολλά.",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171593"
+    },
+    {
+      "english": "How can I make this easier?",
+      "greek": "Πώς μπορώ να το κάνω ευκολότερο;",
+      "category": "Kindness",
+      "generated_at": "2026-11-02T10:26:22.171596"
     }
   ],
-  "last_updated": "2026-11-01T09:58:24.578832"
+  "last_updated": "2026-11-02T10:26:22.171598"
 }
