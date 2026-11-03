@@ -2159,7 +2159,727 @@
       "greek": "Πώς μπορώ να το κάνω ευκολότερο;",
       "category": "Kindness",
       "generated_at": "2026-11-02T10:26:22.171596"
+    },
+    {
+      "english": "I’m totally fine, don’t worry, okay?",
+      "greek": "Είμαι μια χαρά, μην ανησυχείς, εντάξει;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101094"
+    },
+    {
+      "english": "Sorry, I’m late, I’m stressed right now.",
+      "greek": "Συγγνώμη, άργησα, είμαι αγχωμένος τώρα.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101110"
+    },
+    {
+      "english": "I feel weird today, something’s off.",
+      "greek": "Νιώθω περίεργα σήμερα, κάτι δεν πάει καλά.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101113"
+    },
+    {
+      "english": "I’m really excited, tell me everything!",
+      "greek": "Είμαι πολύ ενθουσιασμένος, πες μου τα πάντα!",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101116"
+    },
+    {
+      "english": "Calm down, it’s okay, we’re fine.",
+      "greek": "Ηρέμησε, είναι καλά, όλα καλά.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101119"
+    },
+    {
+      "english": "Honestly, I’m nervous, but I’ll manage.",
+      "greek": "Ειλικρινά, είμαι νευρικός, αλλά θα τα καταφέρω.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101122"
+    },
+    {
+      "english": "I’m in a good mood, let’s go!",
+      "greek": "Είμαι σε καλή διάθεση, πάμε!",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101125"
+    },
+    {
+      "english": "That surprised me, wow, really?",
+      "greek": "Με εξέπληξε αυτό, ωχ, αλήθεια;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101129"
+    },
+    {
+      "english": "I’m annoyed, can we talk later?",
+      "greek": "Ενοχλήθηκα, μπορούμε να μιλήσουμε αργότερα;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101133"
+    },
+    {
+      "english": "I’m tired, but I’ll push through.",
+      "greek": "Είμαι κουρασμένος, αλλά θα το παλέψω.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101135"
+    },
+    {
+      "english": "I’m worried, something feels wrong.",
+      "greek": "Ανησυχώ, κάτι μου φαίνεται λάθος.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101138"
+    },
+    {
+      "english": "No problem, it happens, don’t stress.",
+      "greek": "Κανένα πρόβλημα, συμβαίνει, μην αγχώνεσαι.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101141"
+    },
+    {
+      "english": "I’m jealous, I admit it, that’s cool.",
+      "greek": "Ζηλεύω, το παραδέχομαι, είναι φοβερό.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101144"
+    },
+    {
+      "english": "I’m proud of you, seriously, well done!",
+      "greek": "Μπράβο σου, είμαι περήφανος, μπράβο!",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101146"
+    },
+    {
+      "english": "I’m hungry, I need something quick.",
+      "greek": "Πεινάω, θέλω κάτι γρήγορο.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101149"
+    },
+    {
+      "english": "I’m thirsty, where’s the water?",
+      "greek": "Διψάω, πού είναι το νερό;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101152"
+    },
+    {
+      "english": "I’m scared, but I’ll try anyway.",
+      "greek": "Φοβάμαι, αλλά θα το προσπαθήσω.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101154"
+    },
+    {
+      "english": "I feel safer now, thanks for helping.",
+      "greek": "Τώρα νιώθω πιο ασφαλής, ευχαριστώ.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101156"
+    },
+    {
+      "english": "I’m disappointed, I thought it would be better.",
+      "greek": "Απογοητεύτηκα, νόμιζα ότι θα ήταν καλύτερα.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101160"
+    },
+    {
+      "english": "I’m calm, I’m good, everything’s fine.",
+      "greek": "Είμαι ήρεμος, είμαι καλά, όλα είναι καλά.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101163"
+    },
+    {
+      "english": "Wait, I’m confused, explain that again.",
+      "greek": "Στάσου, μπερδεύτηκα, πες το πάλι.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101166"
+    },
+    {
+      "english": "I feel lonely, can we hang out?",
+      "greek": "Νιώθω μόνος/η, μπορούμε να βρεθούμε;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101168"
+    },
+    {
+      "english": "I’m relieved, finally, it worked out.",
+      "greek": "Ανακουφίστηκα, επιτέλους, όλα πήγαν καλά.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101170"
+    },
+    {
+      "english": "I’m curious, what’s the story here?",
+      "greek": "Είμαι περίεργος/η, ποια είναι η ιστορία εδώ;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101172"
+    },
+    {
+      "english": "That makes me happy, seriously, thank you.",
+      "greek": "Αυτό με κάνει χαρούμενο/η, ευχαριστώ πολύ.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101175"
+    },
+    {
+      "english": "I’m annoyed with this, it’s too much.",
+      "greek": "Εκνευρίστηκα με αυτό, είναι υπερβολικό.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101177"
+    },
+    {
+      "english": "I’m okay, just a bit tired, that’s all.",
+      "greek": "Είμαι καλά, απλά λίγο κουρασμένος/η.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101181"
+    },
+    {
+      "english": "I can’t believe it, that’s crazy.",
+      "greek": "Δεν το πιστεύω, αυτό είναι τρελό.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101183"
+    },
+    {
+      "english": "I’m stressed out, give me a minute.",
+      "greek": "Είμαι στρεσαρισμένος/η, δώσε μου ένα λεπτό.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101185"
+    },
+    {
+      "english": "I feel motivated, let’s do this now.",
+      "greek": "Νιώθω κίνητρο, πάμε, τώρα!",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101188"
+    },
+    {
+      "english": "No worries, we’ll figure it out together.",
+      "greek": "Μη σε νοιάζει, θα το λύσουμε μαζί.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101190"
+    },
+    {
+      "english": "Are you feeling okay today, how’s it going?",
+      "greek": "Είσαι καλά σήμερα, πώς πάει;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101193"
+    },
+    {
+      "english": "What’s making you anxious, is it work?",
+      "greek": "Τι σε αγχώνει, είναι η δουλειά;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101195"
+    },
+    {
+      "english": "Did that upset you, or am I off?",
+      "greek": "Σε αναστάτωσε αυτό, ή κάνω λάθος;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101198"
+    },
+    {
+      "english": "How do you stay calm, when it’s busy?",
+      "greek": "Πώς κρατάς την ηρεμία, όταν έχει φασαρία;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101220"
+    },
+    {
+      "english": "Can you tell me, what’s bothering you?",
+      "greek": "Μπορείς να μου πεις, τι σε απασχολεί;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101227"
+    },
+    {
+      "english": "Do you want to talk about it now?",
+      "greek": "Θέλεις να το συζητήσουμε τώρα;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101230"
+    },
+    {
+      "english": "Where do you feel it, in your chest?",
+      "greek": "Πού το νιώθεις, στο στήθος σου;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101233"
+    },
+    {
+      "english": "I’m not sure, what would you recommend?",
+      "greek": "Δεν είμαι σίγουρος, τι θα μου προτείνατε;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101236"
+    },
+    {
+      "english": "Is this stress normal for you, lately?",
+      "greek": "Είναι αυτό το άγχος φυσιολογικό για σένα, τελευταία;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101240"
+    },
+    {
+      "english": "Do you feel better after a walk?",
+      "greek": "Σου περνάει μετά από μια βόλτα;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101242"
+    },
+    {
+      "english": "What makes you feel relieved, right away?",
+      "greek": "Τι σε κάνει να νιώθεις ανακούφιση, αμέσως;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101245"
+    },
+    {
+      "english": "I might be overthinking, are you okay?",
+      "greek": "Μπορεί να το σκέφτομαι υπερβολικά, είσαι καλά;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101247"
+    },
+    {
+      "english": "Can I ask something, are you upset?",
+      "greek": "Να σε ρωτήσω κάτι, είσαι στενοχωρημένος;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101249"
+    },
+    {
+      "english": "What’s the best way to help you feel better?",
+      "greek": "Ποιος είναι ο καλύτερος τρόπος να σε βοηθήσω;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101252"
+    },
+    {
+      "english": "Do you prefer space, or do you talk?",
+      "greek": "Θες χώρο, ή το συζητάς αμέσως;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101254"
+    },
+    {
+      "english": "Is there anything I can do, right now?",
+      "greek": "Υπάρχει κάτι που μπορώ να κάνω τώρα;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101255"
+    },
+    {
+      "english": "Why did that happen, did you expect it?",
+      "greek": "Γιατί έγινε αυτό, το περίμενες;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101257"
+    },
+    {
+      "english": "How can we fix this feeling quickly?",
+      "greek": "Πώς μπορούμε να το διορθώσουμε, γρήγορα;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101259"
+    },
+    {
+      "english": "Are you feeling hopeful, or just unsure?",
+      "greek": "Νιώθεις αισιόδοξος, ή απλώς αμφιβάλλεις;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101261"
+    },
+    {
+      "english": "What’s your plan if you get stressed again?",
+      "greek": "Τι κάνεις όταν αγχωθείς ξανά;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101264"
+    },
+    {
+      "english": "Do you feel stuck, what’s blocking you?",
+      "greek": "Νιώθεις μπλοκαρισμένος, τι σε κρατάει πίσω;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101266"
+    },
+    {
+      "english": "Can I help, or would you rather be alone?",
+      "greek": "Να βοηθήσω, ή προτιμάς να είσαι μόνος;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101268"
+    },
+    {
+      "english": "How did you handle it, step by step?",
+      "greek": "Πώς το αντιμετώπισες, βήμα-βήμα;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101270"
+    },
+    {
+      "english": "Are you feeling proud, should we celebrate?",
+      "greek": "Νιώθεις περήφανος, να το γιορτάσουμε;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101272"
+    },
+    {
+      "english": "Does this make you feel safe, or not really?",
+      "greek": "Σε κάνει να νιώθεις ασφαλής, ή όχι και τόσο;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101274"
+    },
+    {
+      "english": "What’s the real reason you’re upset today?",
+      "greek": "Ποιος είναι ο πραγματικός λόγος που είσαι στενοχωρημένος;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101276"
+    },
+    {
+      "english": "Do you want advice, or just listening right now?",
+      "greek": "Θες συμβουλή, ή απλώς να σε ακούσω τώρα;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101279"
+    },
+    {
+      "english": "How’s your heart feeling, more relaxed or tense?",
+      "greek": "Πώς νιώθει η καρδιά σου, πιο χαλαρή ή τεταμένη;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101281"
+    },
+    {
+      "english": "Should we change plans, because of your mood?",
+      "greek": "Να αλλάξουμε σχέδια, λόγω της διάθεσής σου;",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101283"
+    },
+    {
+      "english": "I’m feeling down, don’t mind me.",
+      "greek": "Είμαι κάπως πεσμένος, μη με παίρνεις στα σοβαρά.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101286"
+    },
+    {
+      "english": "My nerves are on edge right now.",
+      "greek": "Τα νεύρα μου είναι τσίτα τώρα.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101288"
+    },
+    {
+      "english": "That news hit me like a ton.",
+      "greek": "Μ’ έπιασε σαν κεραυνός αυτή η είδηση.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101290"
+    },
+    {
+      "english": "I’m just trying to stay afloat.",
+      "greek": "Απλώς προσπαθώ να κρατηθώ.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101293"
+    },
+    {
+      "english": "I’ve got butterflies in my stomach.",
+      "greek": "Έχω πεταλούδες στο στομάχι.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101296"
+    },
+    {
+      "english": "It’s nothing major, just a mood.",
+      "greek": "Δεν είναι κάτι σπουδαίο, είναι φάση.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101299"
+    },
+    {
+      "english": "I’m keeping it cool, don’t worry.",
+      "greek": "Το κρατάω ψύχραιμο, μην ανησυχείς.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101301"
+    },
+    {
+      "english": "I can’t shake this feeling off.",
+      "greek": "Δεν φεύγει με τίποτα αυτό το συναίσθημα.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101305"
+    },
+    {
+      "english": "I’m in a good place today.",
+      "greek": "Σήμερα είμαι σε καλή φάση.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101307"
+    },
+    {
+      "english": "I’m burning with impatience.",
+      "greek": "Καίγομαι από ανυπομονησία.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101309"
+    },
+    {
+      "english": "I’m walking on eggshells around here.",
+      "greek": "Περπατάω πάνω σε τεντωμένο σκοινί.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101311"
+    },
+    {
+      "english": "Honestly, I’m a bit fed up.",
+      "greek": "Ειλικρινά, έχω αρχίσει να τα χάνω.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101314"
+    },
+    {
+      "english": "I’m trying not to overreact.",
+      "greek": "Προσπαθώ να μη βγάλω συμπεράσματα.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101316"
+    },
+    {
+      "english": "My head is spinning, everything feels loud.",
+      "greek": "Το κεφάλι μου γυρίζει, όλα μου φαίνονται δυνατά.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101318"
+    },
+    {
+      "english": "I’m grateful, it really warmed my heart.",
+      "greek": "Είμαι ευγνώμων, με ζέστανε η καρδιά μου.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101320"
+    },
+    {
+      "english": "I feel heavy, like something’s stuck.",
+      "greek": "Νιώθω βάρος, σαν να έχει κολλήσει κάτι.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101322"
+    },
+    {
+      "english": "I’m taking a chill pill, one minute.",
+      "greek": "Παίρνω μια ανάσα, περίμενε λίγο.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101325"
+    },
+    {
+      "english": "I’m not myself today, forgive me.",
+      "greek": "Δεν είμαι ο εαυτός μου σήμερα, συγγνώμη.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101327"
+    },
+    {
+      "english": "It’ll pass, don’t fight it.",
+      "greek": "Θα περάσει, μην το παλεύεις.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101330"
+    },
+    {
+      "english": "I’m hopeful, but I’m not sure yet.",
+      "greek": "Έχω ελπίδα, αλλά ακόμα δεν είμαι σίγουρος.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101332"
+    },
+    {
+      "english": "I’m feeling tense, my shoulders are up.",
+      "greek": "Είμαι αγχωμένος, οι ώμοι μου έχουν ανέβει.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101334"
+    },
+    {
+      "english": "That was a punch to my pride.",
+      "greek": "Με πλήγωσε, χτύπησε την περηφάνια μου.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101336"
+    },
+    {
+      "english": "I’m relieved, my stress is gone.",
+      "greek": "Ανακουφίστηκα, έφυγε όλο το άγχος.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101339"
+    },
+    {
+      "english": "I’m in high spirits, let’s celebrate.",
+      "greek": "Είμαι στα πάνω μου, πάμε για γιορτή.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101341"
+    },
+    {
+      "english": "I’m stuck in my head, all day.",
+      "greek": "Μένω στο μυαλό μου, όλη μέρα.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101343"
+    },
+    {
+      "english": "Don’t take it personally, I’m overwhelmed.",
+      "greek": "Μην το παίρνεις προσωπικά, με έχει πιάσει φόρτος.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101347"
+    },
+    {
+      "english": "I’m trying to stay positive, for real.",
+      "greek": "Προσπαθώ να κρατάω θετική στάση.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101349"
+    },
+    {
+      "english": "I’m embarrassed, I totally messed up.",
+      "greek": "Ντρέπομαι, τα έκανα θάλασσα.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101351"
+    },
+    {
+      "english": "I’m thankful, you really saved the day.",
+      "greek": "Σ’ ευχαριστώ, μου έσωσες τη μέρα.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101353"
+    },
+    {
+      "english": "I’m done for now, I need quiet.",
+      "greek": "Για σήμερα τέλος, θέλω ησυχία.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101355"
+    },
+    {
+      "english": "I’m a little nervous, but I’ll try.",
+      "greek": "Είμαι λίγο νευρικός, αλλά θα προσπαθήσω.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101358"
+    },
+    {
+      "english": "Right now, I just need space.",
+      "greek": "Αυτή τη στιγμή, θέλω απλώς λίγο χώρο.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101360"
+    },
+    {
+      "english": "I’m catching my feelings, not running.",
+      "greek": "Πιάνω τα συναισθήματά μου, όχι πανικό.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101362"
+    },
+    {
+      "english": "I keep replaying it, in my head.",
+      "greek": "Το ξαναπαίζω στο μυαλό μου.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101364"
+    },
+    {
+      "english": "I’m proud, even if I’m tired.",
+      "greek": "Είμαι περήφανος, ακόμα κι αν είμαι κουρασμένος.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101367"
+    },
+    {
+      "english": "I don’t want drama, just honesty.",
+      "greek": "Δεν θέλω δράματα, μόνο ειλικρίνεια.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101369"
+    },
+    {
+      "english": "I’m learning to breathe through it.",
+      "greek": "Μαθαίνω να αναπνέω μέσα απ’ αυτό.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101371"
+    },
+    {
+      "english": "Some days, I feel quieter inside.",
+      "greek": "Μερικές μέρες, νιώθω πιο ήσυχος μέσα.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101374"
+    },
+    {
+      "english": "I’m letting go, one thought at a time.",
+      "greek": "Αφήνω να φύγει, σκέψη-σκέψη.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101377"
+    },
+    {
+      "english": "I’m processing it slowly, no rush.",
+      "greek": "Το επεξεργάζομαι αργά, χωρίς βιασύνη.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101380"
+    },
+    {
+      "english": "I feel torn, I need clarity first.",
+      "greek": "Νιώθω διχασμένος, θέλω πρώτα καθαρότητα.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101382"
+    },
+    {
+      "english": "I’m watching my mood, not judging it.",
+      "greek": "Παρατηρώ τη διάθεσή μου, χωρίς να την κρίνω.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101384"
+    },
+    {
+      "english": "I’m calm now, but I felt upset earlier.",
+      "greek": "Τώρα είμαι ήρεμος, αλλά νωρίτερα ήμουν αναστατωμένος.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101386"
+    },
+    {
+      "english": "I’m not okay, I just can’t say it yet.",
+      "greek": "Δεν είμαι καλά, απλώς ακόμα δεν το λέω.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101389"
+    },
+    {
+      "english": "I can admit it, I’m hurt.",
+      "greek": "Το παραδέχομαι, πονάω.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101392"
+    },
+    {
+      "english": "I want to feel lighter, not louder.",
+      "greek": "Θέλω να νιώθω πιο ανάλαφρος, όχι πιο δυνατός.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101394"
+    },
+    {
+      "english": "I’m staying honest, even when it’s messy.",
+      "greek": "Μένω ειλικρινής, ακόμα κι όταν είναι μπερδεμένο.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101396"
+    },
+    {
+      "english": "I’m choosing peace, even if it’s awkward.",
+      "greek": "Διαλέγω ηρεμία, ακόμα κι αν είναι άβολη.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101399"
+    },
+    {
+      "english": "My thoughts are foggy, I need time.",
+      "greek": "Οι σκέψεις μου είναι θολές, θέλω χρόνο.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101401"
+    },
+    {
+      "english": "I’m feeling mixed, that’s okay.",
+      "greek": "Νιώθω μπερδεμένα συναισθήματα, είναι οκ.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101403"
+    },
+    {
+      "english": "I don’t want to spiral, I’ll pause.",
+      "greek": "Δεν θέλω να κάνω κύκλο, θα σταματήσω.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101405"
+    },
+    {
+      "english": "I’m learning, and I’m not judging myself.",
+      "greek": "Μαθαίνω, και δεν κρίνω τον εαυτό μου.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101407"
+    },
+    {
+      "english": "I feel grateful, even for small things.",
+      "greek": "Νιώθω ευγνωμοσύνη, ακόμα και για τα μικρά.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101409"
+    },
+    {
+      "english": "I’m taking it slow, that’s my way.",
+      "greek": "Το πάω σιγά-σιγά, αυτό είναι το δικό μου.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101411"
+    },
+    {
+      "english": "I’m not over it, but I’m trying.",
+      "greek": "Δεν έχω ξεπεράσει ακόμα, αλλά προσπαθώ.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101414"
+    },
+    {
+      "english": "I’m listening to my body’s signals.",
+      "greek": "Ακούω τα σήματα του σώματός μου.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101416"
+    },
+    {
+      "english": "I’m holding back, because I’m scared.",
+      "greek": "Κρατάω λόγια, γιατί φοβάμαι.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101418"
+    },
+    {
+      "english": "I’m okay admitting I need reassurance.",
+      "greek": "Είναι εντάξει να πω ότι θέλω επιβεβαίωση.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101420"
+    },
+    {
+      "english": "Tonight, I’ll be gentle with myself.",
+      "greek": "Απόψε, θα είμαι τρυφερός με τον εαυτό μου.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101422"
+    },
+    {
+      "english": "Before we talk, I need a minute.",
+      "greek": "Πριν μιλήσουμε, χρειάζομαι ένα λεπτό.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-03T10:25:34.101424"
     }
   ],
-  "last_updated": "2026-11-02T10:26:22.171598"
+  "last_updated": "2026-11-03T10:25:34.101426"
 }
