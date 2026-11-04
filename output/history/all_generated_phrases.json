@@ -2879,7 +2879,727 @@
       "greek": "Πριν μιλήσουμε, χρειάζομαι ένα λεπτό.",
       "category": "Feelings & Emotions",
       "generated_at": "2026-11-03T10:25:34.101424"
+    },
+    {
+      "english": "Okay, I can do this, my way.",
+      "greek": "Εντάξει, μπορώ να το κάνω, με τον τρόπο μου.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195850"
+    },
+    {
+      "english": "Relax, I’m handling it, step by step.",
+      "greek": "Χαλάρωσε, το διαχειρίζομαι, βήμα-βήμα.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195865"
+    },
+    {
+      "english": "No worries, I’ve got options, right now.",
+      "greek": "Χωρίς άγχος, έχω επιλογές, τώρα.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195870"
+    },
+    {
+      "english": "I’ll try again, I’m not giving up.",
+      "greek": "Θα το ξαναπροσπαθήσω, δεν το βάζω κάτω.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195873"
+    },
+    {
+      "english": "Hey, I’m confident, let’s talk.",
+      "greek": "Γεια σου, είμαι σίγουρος/η, ας μιλήσουμε.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195879"
+    },
+    {
+      "english": "Sure, I can help, just tell me.",
+      "greek": "Φυσικά, μπορώ να βοηθήσω, πες μου.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195883"
+    },
+    {
+      "english": "Honestly, I believe this will work.",
+      "greek": "Ειλικρινά, πιστεύω ότι θα δουλέψει.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195886"
+    },
+    {
+      "english": "Wait, I know what I’m doing, trust me.",
+      "greek": "Περίμενε, ξέρω τι κάνω, πίστεψέ με.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195892"
+    },
+    {
+      "english": "Today’s mine, one small win at a time.",
+      "greek": "Σήμερα είναι δικό μου, ένα μικρό κέρδος τη φορά.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195899"
+    },
+    {
+      "english": "I’m good, I’ll figure it out.",
+      "greek": "Είμαι καλά, θα το βρω.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195903"
+    },
+    {
+      "english": "Say less, I understand, I’ve got it.",
+      "greek": "Μην πολυλογείς, καταλαβαίνω, το πιάνω.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195907"
+    },
+    {
+      "english": "Look, I’m calm, I can handle this.",
+      "greek": "Κοίτα, είμαι ήρεμος/η, το αντέχω.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195910"
+    },
+    {
+      "english": "Of course, I’m ready, let’s go.",
+      "greek": "Φυσικά, είμαι έτοιμος/η, πάμε.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195914"
+    },
+    {
+      "english": "That’s fair, I’ll make it work.",
+      "greek": "Αυτό είναι λογικό, θα το κάνω να δουλέψει.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195947"
+    },
+    {
+      "english": "I’ve got this, even if it’s messy.",
+      "greek": "Τα έχω, ακόμα κι αν είναι μπερδεμένο.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195958"
+    },
+    {
+      "english": "Quick question, are you okay right now?",
+      "greek": "Μια γρήγορη ερώτηση, είσαι καλά τώρα;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195965"
+    },
+    {
+      "english": "I can’t promise, but I’ll do my best.",
+      "greek": "Δεν μπορώ να υποσχεθώ, αλλά θα δώσω τον καλύτερο εαυτό μου.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195969"
+    },
+    {
+      "english": "Thanks, I’m good, don’t worry.",
+      "greek": "Ευχαριστώ, είμαι οκέι, μην ανησυχείς.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195973"
+    },
+    {
+      "english": "I’ll speak up, I’m not staying quiet.",
+      "greek": "Θα μιλήσω, δεν θα μείνω σιωπηλός/ή.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195976"
+    },
+    {
+      "english": "Let’s be real, I’m doing my part.",
+      "greek": "Ας είμαστε ειλικρινείς, κάνω το κομμάτι μου.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195980"
+    },
+    {
+      "english": "Good idea, I’ll go with that.",
+      "greek": "Καλή ιδέα, το παίρνω αυτό.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195983"
+    },
+    {
+      "english": "I’m learning fast, watch me.",
+      "greek": "Μαθαίνω γρήγορα, δες με.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195989"
+    },
+    {
+      "english": "I’m taking control, one decision at a time.",
+      "greek": "Παίρνω τον έλεγχο, μία απόφαση κάθε φορά.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195993"
+    },
+    {
+      "english": "You can trust me, I’m consistent.",
+      "greek": "Μπορείς να με εμπιστευτείς, είμαι σταθερός/ή.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.195996"
+    },
+    {
+      "english": "It’s fine, I’ll respond calmly.",
+      "greek": "Είναι εντάξει, θα απαντήσω ήρεμα.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196000"
+    },
+    {
+      "english": "I’m proud, I did it, finally!",
+      "greek": "Είμαι περήφανος/η, το κατάφερα, επιτέλους!",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196003"
+    },
+    {
+      "english": "Can I ask you something, real quick?",
+      "greek": "Μπορώ να σε ρωτήσω κάτι, γρήγορα;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196006"
+    },
+    {
+      "english": "What’s the best way to start, in Greek?",
+      "greek": "Ποιος είναι ο καλύτερος τρόπος να ξεκινήσω, στα ελληνικά;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196010"
+    },
+    {
+      "english": "Do you think this sounds natural, or no?",
+      "greek": "Σου φαίνεται φυσικό, ή όχι;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196013"
+    },
+    {
+      "english": "How do you say this politely, please?",
+      "greek": "Πώς το λες ευγενικά, παρακαλώ;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196016"
+    },
+    {
+      "english": "Can I get your advice, before I decide?",
+      "greek": "Μπορώ να πάρω τη γνώμη σου, πριν αποφασίσω;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196019"
+    },
+    {
+      "english": "If I mess up, what should I do?",
+      "greek": "Αν τα κάνω θάλασσα, τι να κάνω;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196022"
+    },
+    {
+      "english": "Is it okay to speak slower, here?",
+      "greek": "Είναι εντάξει να μιλάω πιο αργά, εδώ;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196025"
+    },
+    {
+      "english": "Where can I practice, like today?",
+      "greek": "Πού μπορώ να εξασκηθώ, σήμερα κιόλας;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196028"
+    },
+    {
+      "english": "Do you have a tip for pronunciation?",
+      "greek": "Έχεις ένα tip για την προφορά;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196030"
+    },
+    {
+      "english": "Should I use formal Greek, or casual?",
+      "greek": "Να χρησιμοποιώ πιο επίσημα, ή πιο απλά;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196033"
+    },
+    {
+      "english": "What would you say in my situation?",
+      "greek": "Τι θα έλεγες στη θέση μου;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196036"
+    },
+    {
+      "english": "Can we role-play, so I feel ready?",
+      "greek": "Μπορούμε να κάνουμε εξάσκηση με διάλογο, να νιώσω έτοιμος/η;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196039"
+    },
+    {
+      "english": "I’m curious, what do you recommend?",
+      "greek": "Είμαι περίεργος/η, τι μου προτείνεις;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196043"
+    },
+    {
+      "english": "Can you repeat it, one more time?",
+      "greek": "Μπορείς να το επαναλάβεις, μια φορά ακόμα;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196045"
+    },
+    {
+      "english": "Is this the right word, in Greek?",
+      "greek": "Είναι η σωστή λέξη, σωστά στα ελληνικά;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196048"
+    },
+    {
+      "english": "What do you usually say first, politely?",
+      "greek": "Τι λες συνήθως πρώτο, ευγενικά;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196052"
+    },
+    {
+      "english": "How long did it take you, honestly?",
+      "greek": "Πόσο καιρό σου πήρε, αλήθεια;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196055"
+    },
+    {
+      "english": "Would you correct me, if I slip?",
+      "greek": "Θα με διορθώνεις, αν κάνω λάθος;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196058"
+    },
+    {
+      "english": "What’s a confident answer for this question?",
+      "greek": "Ποια είναι μια σίγουρη απάντηση, γι’ αυτό;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196061"
+    },
+    {
+      "english": "Can you help me structure a sentence?",
+      "greek": "Μπορείς να με βοηθήσεις να το φτιάξω σωστά;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196064"
+    },
+    {
+      "english": "Is it rude to ask directly, in Greece?",
+      "greek": "Είναι αγενές να ρωτάω απευθείας, στην Ελλάδα;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196067"
+    },
+    {
+      "english": "What’s your go-to phrase for starting?",
+      "greek": "Ποια φράση λες πρώτα, πάντα;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196070"
+    },
+    {
+      "english": "Do you prefer short answers, or more detail?",
+      "greek": "Προτιμάς σύντομες απαντήσεις, ή πιο πολλές λεπτομέρειες;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196074"
+    },
+    {
+      "english": "Can you tell me what I got right?",
+      "greek": "Μπορείς να μου πεις τι έκανα σωστά;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196077"
+    },
+    {
+      "english": "Where should I place the stress, here?",
+      "greek": "Πού να βάλω το τονισμό, εδώ;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196080"
+    },
+    {
+      "english": "What’s the fastest way to build confidence?",
+      "greek": "Ποιος είναι ο πιο γρήγορος τρόπος να χτίσω αυτοπεποίθηση;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196083"
+    },
+    {
+      "english": "Can I switch to Greek now, please?",
+      "greek": "Να μιλήσουμε στα ελληνικά τώρα, σε παρακαλώ;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196086"
+    },
+    {
+      "english": "What should I say to show I agree?",
+      "greek": "Τι να πω για να δείξω ότι συμφωνώ;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196090"
+    },
+    {
+      "english": "How do you stay confident during conversations?",
+      "greek": "Πώς κρατάς αυτοπεποίθηση στις συζητήσεις;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196093"
+    },
+    {
+      "english": "One more thing, what’s the usual reply?",
+      "greek": "Μια ακόμα ερώτηση, ποια είναι η συνηθισμένη απάντηση;",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196097"
+    },
+    {
+      "english": "You’ve got this, one sentence at a time.",
+      "greek": "Τα καταφέρνεις, μια πρόταση τη φορά.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196100"
+    },
+    {
+      "english": "Slow down, you’re learning, not failing.",
+      "greek": "Κάνε λίγο πιο αργά, μαθαίνεις, όχι αποτυγχάνεις.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196104"
+    },
+    {
+      "english": "Even mistakes mean you’re moving forward.",
+      "greek": "Ακόμα κι αν κάνεις λάθη, προχωράς.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196107"
+    },
+    {
+      "english": "Bring your best energy, today’s your day.",
+      "greek": "Φέρε την καλύτερη ενέργειά σου, σήμερα είναι η μέρα σου.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196111"
+    },
+    {
+      "english": "Say it anyway, confidence grows in doing.",
+      "greek": "Πες το έτσι κι αλλιώς, η αυτοπεποίθηση χτίζεται με πράξη.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196114"
+    },
+    {
+      "english": "Small progress, big confidence, keep going.",
+      "greek": "Μικρή πρόοδος, μεγάλη αυτοπεποίθηση, συνέχισε.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196117"
+    },
+    {
+      "english": "Breathe in, speak out, stay steady.",
+      "greek": "Πάρε ανάσα, μίλα, μείνε σταθερός/ή.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196120"
+    },
+    {
+      "english": "Your effort counts, every time you try.",
+      "greek": "Η προσπάθειά σου μετράει, κάθε φορά που προσπαθείς.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196124"
+    },
+    {
+      "english": "Be kind to yourself, you’re building skill.",
+      "greek": "Να είσαι ευγενικός/ή με τον εαυτό σου, χτίζεις ικανότητα.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196127"
+    },
+    {
+      "english": "Confidence is practice, not perfection.",
+      "greek": "Η αυτοπεποίθηση είναι εξάσκηση, όχι τελειότητα.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196130"
+    },
+    {
+      "english": "You don’t need perfect Greek to communicate.",
+      "greek": "Δεν χρειάζεσαι τέλεια ελληνικά για να επικοινωνήσεις.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196134"
+    },
+    {
+      "english": "Trust the process, your Greek will come.",
+      "greek": "Εμπιστεύσου τη διαδικασία, τα ελληνικά θα έρθουν.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196136"
+    },
+    {
+      "english": "When you hesitate, smile, then continue.",
+      "greek": "Όταν διστάζεις, χαμογέλα, και συνέχισε.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196141"
+    },
+    {
+      "english": "Give yourself credit, you’re showing up.",
+      "greek": "Δώσε στον εαυτό σου πίστωση, εμφανίζεσαι.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196145"
+    },
+    {
+      "english": "Say “I can,” and keep it simple.",
+      "greek": "Πες «μπορώ», και κράτα το απλό.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196150"
+    },
+    {
+      "english": "Your voice matters, speak with calm confidence.",
+      "greek": "Η φωνή σου μετράει, μίλα με ήρεμη αυτοπεποίθηση.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196153"
+    },
+    {
+      "english": "Learning Greek is a win, even today.",
+      "greek": "Το να μαθαίνεις ελληνικά είναι νίκη, και σήμερα.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196156"
+    },
+    {
+      "english": "Stay positive, your brain loves repetition.",
+      "greek": "Μείνε θετικός/ή, ο εγκέφαλος αγαπά την επανάληψη.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196161"
+    },
+    {
+      "english": "You’re brave for trying, that’s enough.",
+      "greek": "Είσαι γενναίος/α που προσπαθείς, αυτό αρκεί.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196165"
+    },
+    {
+      "english": "Ask, listen, respond, that’s how you grow.",
+      "greek": "Ρώτα, άκου, απάντησε, έτσι μεγαλώνεις.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196168"
+    },
+    {
+      "english": "Keep your goals small, your confidence stays big.",
+      "greek": "Κράτα τους στόχους μικρούς, η αυτοπεποίθηση μένει μεγάλη.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196171"
+    },
+    {
+      "english": "Today, aim for clarity, not impressing.",
+      "greek": "Σήμερα, στόχευσε στην καθαρότητα, όχι στο να εντυπωσιάσεις.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196174"
+    },
+    {
+      "english": "Your effort makes you stronger, trust that.",
+      "greek": "Η προσπάθειά σου σε δυναμώνει, το εμπιστεύεσαι.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196177"
+    },
+    {
+      "english": "Celebrate progress, even if it’s tiny.",
+      "greek": "Γιόρτασε την πρόοδο, έστω κι αν είναι μικρή.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196180"
+    },
+    {
+      "english": "Let confidence lead, your words will follow.",
+      "greek": "Άσε την αυτοπεποίθηση να οδηγεί, οι λέξεις θα ακολουθήσουν.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196183"
+    },
+    {
+      "english": "It’s okay to pause, keep your rhythm.",
+      "greek": "Είναι ΟΚ να κάνεις παύση, κράτα τον ρυθμό σου.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196187"
+    },
+    {
+      "english": "Stay curious, confidence comes from trying.",
+      "greek": "Μείνε περίεργος/η, η αυτοπεποίθηση έρχεται από την προσπάθεια.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196190"
+    },
+    {
+      "english": "You’re not behind, you’re on your path.",
+      "greek": "Δεν είσαι πίσω, είσαι στο δικό σου δρόμο.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196193"
+    },
+    {
+      "english": "Say what you mean, I’ll understand you.",
+      "greek": "Πες αυτό που εννοείς, θα σε καταλάβω.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196198"
+    },
+    {
+      "english": "Keep going, your confidence is built daily.",
+      "greek": "Συνέχισε, η αυτοπεποίθηση χτίζεται κάθε μέρα.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196201"
+    },
+    {
+      "english": "I feel nervous, but I’ll stay present.",
+      "greek": "Νιώθω άβολα, αλλά θα μείνω παρούσα.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196205"
+    },
+    {
+      "english": "Honestly, I’m learning at my own pace.",
+      "greek": "Ειλικρινά, μαθαίνω με τον δικό μου ρυθμό.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196208"
+    },
+    {
+      "english": "I don’t need confidence first, I just begin.",
+      "greek": "Δεν χρειάζομαι πρώτα αυτοπεποίθηση, ξεκινάω.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196211"
+    },
+    {
+      "english": "I’m proud I keep trying, even slowly.",
+      "greek": "Είμαι περήφανη που συνεχίζω, έστω κι αργά.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196215"
+    },
+    {
+      "english": "I’ll be honest, I need a moment.",
+      "greek": "Θα είμαι ειλικρινής, χρειάζομαι μια στιγμή.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196218"
+    },
+    {
+      "english": "It’s okay, my words can be imperfect.",
+      "greek": "Είναι ΟΚ, τα λόγια μου μπορεί να μην είναι τέλεια.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196221"
+    },
+    {
+      "english": "I trust myself, one calm sentence at a time.",
+      "greek": "Εμπιστεύομαι τον εαυτό μου, ήρεμη πρόταση κάθε φορά.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196224"
+    },
+    {
+      "english": "When I doubt, I choose patience.",
+      "greek": "Όταν αμφιβάλλω, διαλέγω υπομονή.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196227"
+    },
+    {
+      "english": "I don’t hide my feelings, I share them.",
+      "greek": "Δεν κρύβω τα συναισθήματά μου, τα λέω.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196230"
+    },
+    {
+      "english": "I can handle the awkward pause, truly.",
+      "greek": "Μπορώ να αντέξω την άβολη παύση, όντως.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196233"
+    },
+    {
+      "english": "I feel seen, even when I’m not perfect.",
+      "greek": "Νιώθω ότι με βλέπουν, ακόμα κι αν δεν είμαι τέλεια.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196237"
+    },
+    {
+      "english": "I’m choosing courage over embarrassment, every day.",
+      "greek": "Διαλέγω γενναιότητα αντί για ντροπή, κάθε μέρα.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196242"
+    },
+    {
+      "english": "I learn from my mistakes, without drama.",
+      "greek": "Μαθαίνω από τα λάθη μου, χωρίς δράμα.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196245"
+    },
+    {
+      "english": "I say what I feel, then adjust.",
+      "greek": "Λέω αυτό που νιώθω, μετά προσαρμόζομαι.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196248"
+    },
+    {
+      "english": "Some days I’m quiet, that’s still brave.",
+      "greek": "Μερικές μέρες είμαι ήσυχη, και αυτό είναι γενναίο.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196251"
+    },
+    {
+      "english": "I don’t rush, I let meaning come.",
+      "greek": "Δεν βιάζομαι, αφήνω το νόημα να έρθει.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196255"
+    },
+    {
+      "english": "My confidence grows when I stay honest.",
+      "greek": "Η αυτοπεποίθησή μου μεγαλώνει όταν είμαι ειλικρινής.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196257"
+    },
+    {
+      "english": "I’m nervous, and I still speak slowly.",
+      "greek": "Είμαι αγχωμένη, και μιλάω αργά.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196260"
+    },
+    {
+      "english": "I focus on progress, not on fixing everything.",
+      "greek": "Κοιτάω την πρόοδο, όχι να διορθώσω τα πάντα.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196263"
+    },
+    {
+      "english": "It matters that I show up, not impress.",
+      "greek": "Μετράει που εμφανίζομαι, όχι που εντυπωσιάζω.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196266"
+    },
+    {
+      "english": "I don’t need permission to practice my Greek.",
+      "greek": "Δεν χρειάζομαι άδεια για να εξασκήσω ελληνικά.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196269"
+    },
+    {
+      "english": "I can say it simply, and mean it.",
+      "greek": "Μπορώ να το πω απλά, και να το εννοώ.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196272"
+    },
+    {
+      "english": "I handle feedback with respect, and gratitude.",
+      "greek": "Δέχομαι σχόλια με σεβασμό, με ευγνωμοσύνη.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196275"
+    },
+    {
+      "english": "I’m allowed to feel awkward, then continue.",
+      "greek": "Επιτρέπεται να νιώθω άβολα, μετά συνεχίζω.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196278"
+    },
+    {
+      "english": "I listen first, then I choose my words.",
+      "greek": "Ακούω πρώτα, μετά διαλέγω τις λέξεις μου.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196281"
+    },
+    {
+      "english": "Even silence can be thoughtful and confident.",
+      "greek": "Ακόμα και η σιωπή μπορεί να είναι σκεπτική και σίγουρη.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196284"
+    },
+    {
+      "english": "I’m learning, and my heart stays open.",
+      "greek": "Μαθαίνω, και η καρδιά μου είναι ανοιχτή.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196287"
+    },
+    {
+      "english": "I’m not fearless, I’m just steady.",
+      "greek": "Δεν είμαι άφοβος, είμαι απλώς σταθερή.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196291"
+    },
+    {
+      "english": "I keep my calm, and I speak anyway.",
+      "greek": "Κρατάω την ψυχραιμία μου, και μιλάω ούτως ή άλλως.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196294"
+    },
+    {
+      "english": "Before I speak, I breathe, then go.",
+      "greek": "Πριν μιλήσω, παίρνω ανάσα, και πάω.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196297"
+    },
+    {
+      "english": "Small talk is practice, not a test.",
+      "greek": "Το small talk είναι εξάσκηση, όχι τεστ.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196302"
+    },
+    {
+      "english": "If I miss a word, I smile.",
+      "greek": "Αν χάσω μια λέξη, χαμογελάω.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196305"
+    },
+    {
+      "english": "I can repeat myself, it’s totally fine.",
+      "greek": "Μπορώ να το ξαναπώ, είναι όλα καλά.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196308"
+    },
+    {
+      "english": "When stuck, I switch to simple Greek.",
+      "greek": "Όταν κολλάω, πάω σε απλά ελληνικά.",
+      "category": "Confidence",
+      "generated_at": "2026-11-04T10:18:36.196311"
     }
   ],
-  "last_updated": "2026-11-03T10:25:34.101426"
+  "last_updated": "2026-11-04T10:18:36.196313"
 }
