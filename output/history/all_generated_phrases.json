@@ -3599,7 +3599,727 @@
       "greek": "Όταν κολλάω, πάω σε απλά ελληνικά.",
       "category": "Confidence",
       "generated_at": "2026-11-04T10:18:36.196311"
+    },
+    {
+      "english": "One menu, please, just for me.",
+      "greek": "Ένα μενού, παρακαλώ, μόνο για μένα.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838453"
+    },
+    {
+      "english": "What do you recommend, today?",
+      "greek": "Τι μου προτείνετε, σήμερα;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838469"
+    },
+    {
+      "english": "Are there any vegetarian options?",
+      "greek": "Υπάρχουν επιλογές για χορτοφάγους;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838471"
+    },
+    {
+      "english": "Do you have anything gluten-free?",
+      "greek": "Έχετε κάτι χωρίς γλουτένη;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838473"
+    },
+    {
+      "english": "No onions, please, I’m allergic.",
+      "greek": "Χωρίς κρεμμύδια, παρακαλώ, είμαι αλλεργικός.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838476"
+    },
+    {
+      "english": "Can I see the menu, please?",
+      "greek": "Μπορώ να δω το μενού, παρακαλώ;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838477"
+    },
+    {
+      "english": "We’d like to order now, please.",
+      "greek": "Θα θέλαμε να παραγγείλουμε τώρα, παρακαλώ.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838479"
+    },
+    {
+      "english": "How long will it take?",
+      "greek": "Πόσο θα κάνει, να το περιμένουμε;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838483"
+    },
+    {
+      "english": "Is this fresh, cooked here?",
+      "greek": "Είναι φρέσκο, το φτιάχνετε εδώ;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838485"
+    },
+    {
+      "english": "I’ll take this one, please.",
+      "greek": "Θα πάρω αυτό, παρακαλώ.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838488"
+    },
+    {
+      "english": "Can I get it to go?",
+      "greek": "Μπορώ να το πάρω πακέτο;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838489"
+    },
+    {
+      "english": "No problem, thank you!",
+      "greek": "Κανένα πρόβλημα, ευχαριστώ!",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838491"
+    },
+    {
+      "english": "Sorry, I changed my mind.",
+      "greek": "Συγγνώμη, το άλλαξα.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838492"
+    },
+    {
+      "english": "That sounds great, I’ll order it.",
+      "greek": "Ακούγεται τέλειο, το παίρνω.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838494"
+    },
+    {
+      "english": "Wait, can we add fries?",
+      "greek": "Σταμάτα, να βάλουμε πατάτες;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838496"
+    },
+    {
+      "english": "What comes with it?",
+      "greek": "Τι έχει μέσα, μαζί;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838497"
+    },
+    {
+      "english": "Do you have lemon, by any chance?",
+      "greek": "Έχετε λεμόνι, μήπως;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838499"
+    },
+    {
+      "english": "I’ll drink water, please.",
+      "greek": "Θα πιω νερό, παρακαλώ.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838501"
+    },
+    {
+      "english": "Sparkling or still?",
+      "greek": "Αφρώδη ή σκέτο;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838503"
+    },
+    {
+      "english": "Can we get a small salad?",
+      "greek": "Μπορούμε να πάρουμε μια μικρή σαλάτα;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838504"
+    },
+    {
+      "english": "Anything spicy, without being too hot?",
+      "greek": "Έχετε κάτι πικάντικο, αλλά όχι πολύ;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838506"
+    },
+    {
+      "english": "Great, bring it to the table.",
+      "greek": "Τέλεια, φέρτε το στο τραπέζι.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838508"
+    },
+    {
+      "english": "Can I pay by card?",
+      "greek": "Μπορώ να πληρώσω με κάρτα;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838509"
+    },
+    {
+      "english": "Where’s the bill, please?",
+      "greek": "Πού είναι ο λογαριασμός, παρακαλώ;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838512"
+    },
+    {
+      "english": "Just the bill, please, no receipt.",
+      "greek": "Μόνο τον λογαριασμό, παρακαλώ, όχι απόδειξη.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838513"
+    },
+    {
+      "english": "Keep the change, thank you.",
+      "greek": "Κρατήστε τη ρέστα, ευχαριστώ.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838515"
+    },
+    {
+      "english": "Sorry, could you repeat that?",
+      "greek": "Συγγνώμη, μπορείτε να το επαναλάβετε;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838517"
+    },
+    {
+      "english": "One more thing, please.",
+      "greek": "Μια ακόμα φορά, παρακαλώ.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838520"
+    },
+    {
+      "english": "Can I get extra sauce?",
+      "greek": "Μπορώ να πάρω λίγη έξτρα σάλτσα;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838521"
+    },
+    {
+      "english": "That’s delicious, wow!",
+      "greek": "Είναι τέλειο, ώρες ώρες!",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838523"
+    },
+    {
+      "english": "I’m ready to order, now.",
+      "greek": "Έτοιμος να παραγγείλω, τώρα.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838526"
+    },
+    {
+      "english": "Do you have any specials right now?",
+      "greek": "Έχετε κανένα σπεσιαλιτέ τώρα;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838528"
+    },
+    {
+      "english": "What’s the house favorite, honestly?",
+      "greek": "Ποιο είναι το αγαπημένο του μαγαζιού;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838530"
+    },
+    {
+      "english": "Can we swap the side, please?",
+      "greek": "Μπορούμε να αλλάξουμε τη συνοδεία;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838533"
+    },
+    {
+      "english": "Is this dish good for sharing?",
+      "greek": "Αυτό το πιάτο είναι για μοίρασμα;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838535"
+    },
+    {
+      "english": "Do you have kid-friendly options here?",
+      "greek": "Έχετε επιλογές για παιδιά;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838537"
+    },
+    {
+      "english": "Which one is less heavy?",
+      "greek": "Ποιο είναι πιο ελαφρύ;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838538"
+    },
+    {
+      "english": "I’m not sure, what do you suggest?",
+      "greek": "Δεν είμαι σίγουρος, τι προτείνετε;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838540"
+    },
+    {
+      "english": "Can I ask what’s inside this?",
+      "greek": "Μπορώ να ρωτήσω τι έχει μέσα;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838542"
+    },
+    {
+      "english": "Is it okay if we split it?",
+      "greek": "Είναι εντάξει να το μοιραστούμε;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838544"
+    },
+    {
+      "english": "Do you have sauces on the side?",
+      "greek": "Έχετε σάλτσες ξεχωριστά;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838546"
+    },
+    {
+      "english": "What would go best with this?",
+      "greek": "Με τι ταιριάζει καλύτερα αυτό;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838547"
+    },
+    {
+      "english": "Can we make it mild, please?",
+      "greek": "Μπορούμε να το κάνετε πιο ήπιο;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838549"
+    },
+    {
+      "english": "Do you have any non-alcoholic drinks?",
+      "greek": "Έχετε μη αλκοολούχα ποτά;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838551"
+    },
+    {
+      "english": "What’s your best vegetarian option?",
+      "greek": "Ποια είναι η καλύτερη επιλογή για χορτοφάγους;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838553"
+    },
+    {
+      "english": "If I order now, do we wait long?",
+      "greek": "Αν παραγγείλω τώρα, αργεί πολύ;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838555"
+    },
+    {
+      "english": "Can we get two plates, please?",
+      "greek": "Μπορείτε να μας φέρετε δύο πιάτα;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838556"
+    },
+    {
+      "english": "Is the bread freshly made here?",
+      "greek": "Το ψωμί είναι φρέσκο εδώ;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838558"
+    },
+    {
+      "english": "Do you recommend the starter first?",
+      "greek": "Να ξεκινήσουμε με ορεκτικό, το προτείνετε;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838561"
+    },
+    {
+      "english": "Can I see ingredients for the sauce?",
+      "greek": "Μπορώ να δω τα υλικά της σάλτσας;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838562"
+    },
+    {
+      "english": "Is there any dairy in it?",
+      "greek": "Έχει γαλακτοκομικά μέσα;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838564"
+    },
+    {
+      "english": "Do you have a lighter dessert?",
+      "greek": "Έχετε πιο ελαφρύ γλυκό;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838566"
+    },
+    {
+      "english": "What’s the wait time for takeaway?",
+      "greek": "Πόση ώρα κάνει για πακέτο;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838567"
+    },
+    {
+      "english": "Can we order together, all at once?",
+      "greek": "Να παραγγείλουμε μαζί, όλοι μαζί;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838569"
+    },
+    {
+      "english": "Should I try the special today?",
+      "greek": "Να δοκιμάσω το σπεσιαλιτέ σήμερα;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838571"
+    },
+    {
+      "english": "Is there a vegetarian-friendly side?",
+      "greek": "Υπάρχει συνοδευτικό για χορτοφάγους;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838573"
+    },
+    {
+      "english": "What do you do if it’s too salty?",
+      "greek": "Αν είναι πολύ αλμυρό, τι κάνετε;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838574"
+    },
+    {
+      "english": "Can I get water, just in a glass?",
+      "greek": "Μπορώ να πάρω νερό, σε ποτήρι μόνο;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838576"
+    },
+    {
+      "english": "Do you have a timetable for orders?",
+      "greek": "Υπάρχει σειρά προτεραιότητας στα παραγγελίες;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838578"
+    },
+    {
+      "english": "Which dish is best for seafood lovers?",
+      "greek": "Ποιο πιάτο είναι τέλειο για τους λάτρεις θαλασσινών;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838581"
+    },
+    {
+      "english": "If I change it, is that okay?",
+      "greek": "Αν το αλλάξω, γίνεται χωρίς πρόβλημα;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838584"
+    },
+    {
+      "english": "So, what do you recommend, really?",
+      "greek": "Λοιπόν, τι μου προτείνεις, στ’ αλήθεια;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838586"
+    },
+    {
+      "english": "Bring me something quick, please.",
+      "greek": "Φέρε μου κάτι γρήγορο, σε παρακαλώ.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838588"
+    },
+    {
+      "english": "I’ll have that, and keep it plain.",
+      "greek": "Θα πάρω αυτό, και σκέτο.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838590"
+    },
+    {
+      "english": "No worries, I’ll wait a bit.",
+      "greek": "Δεν πειράζει, θα περιμένω λίγο.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838592"
+    },
+    {
+      "english": "Is it a sharing portion, or just me?",
+      "greek": "Είναι για μοίρασμα, ή για μένα;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838595"
+    },
+    {
+      "english": "Go ahead, surprise me with the best.",
+      "greek": "Τσουγκράνα το, κάνε με έκπληξη, με το καλύτερο.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838597"
+    },
+    {
+      "english": "Make it extra, I’m really hungry.",
+      "greek": "Κάν’ το πιο πολύ, πεινάω πολύ.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838600"
+    },
+    {
+      "english": "Is there a lunch special today?",
+      "greek": "Έχει σπέσιαλ για μεσημέρι σήμερα;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838601"
+    },
+    {
+      "english": "What’s the most popular here, honestly?",
+      "greek": "Ποιο είναι το πιο δημοφιλές εδώ;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838604"
+    },
+    {
+      "english": "I’ll take it hot, not lukewarm.",
+      "greek": "Θα το θέλω καυτό, όχι χλιαρό.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838606"
+    },
+    {
+      "english": "Do you have something filling, like comfort food?",
+      "greek": "Έχετε κάτι χορταστικό, τύπου σπιτικό;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838608"
+    },
+    {
+      "english": "I’ll start light, then we’ll see.",
+      "greek": "Θα ξεκινήσω ελαφριά, μετά βλέπουμε.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838610"
+    },
+    {
+      "english": "If it’s spicy, go easy on me.",
+      "greek": "Αν έχει κάψα, κάν’ το λίγο πιο ήπιο.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838613"
+    },
+    {
+      "english": "I’m craving something cheesy today.",
+      "greek": "Σήμερα μου έχεις ανοίξει όρεξη για τυρί.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838615"
+    },
+    {
+      "english": "Is the house bread free with the meal?",
+      "greek": "Το ψωμάκι του σπιτιού είναι δωρεάν;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838617"
+    },
+    {
+      "english": "Give me the classics, nothing fancy.",
+      "greek": "Δώσε μου τα κλασικά, χωρίς πολλά πολλά.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838618"
+    },
+    {
+      "english": "How long until it comes out?",
+      "greek": "Πόση ώρα μέχρι να έρθει;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838620"
+    },
+    {
+      "english": "Can I get that without the garnish?",
+      "greek": "Μπορώ να το πάρω χωρίς το γαρνίρισμα;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838622"
+    },
+    {
+      "english": "I’ll try one bite, then decide.",
+      "greek": "Θα πάρω μια μπουκιά, μετά βλέπουμε.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838624"
+    },
+    {
+      "english": "Do you have coffee after meals?",
+      "greek": "Έχετε καφέ μετά το φαγητό;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838625"
+    },
+    {
+      "english": "What’s the vibe here, fast or slow?",
+      "greek": "Γίνεται γρήγορα εδώ, ή αργά;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838627"
+    },
+    {
+      "english": "Okay, I’ll take the combo deal.",
+      "greek": "Οκ, παίρνω το σετ, το πακέτο.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838629"
+    },
+    {
+      "english": "Is the salad crunchy, or soft?",
+      "greek": "Η σαλάτα είναι τραγανή, ή μαλακή;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838631"
+    },
+    {
+      "english": "Let’s be hungry, I’m going for seconds.",
+      "greek": "Να ’μαστε πεινασμένοι, πάω και για δεύτερο.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838633"
+    },
+    {
+      "english": "Do you have something vegetarian with taste?",
+      "greek": "Έχετε κάτι χορτοφαγικό, με γεύση;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838635"
+    },
+    {
+      "english": "I’ll take a beer, just one for now.",
+      "greek": "Παίρνω μια μπύρα, μόνο για αρχή.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838637"
+    },
+    {
+      "english": "No problem, I’ll swap it around.",
+      "greek": "Δεν υπάρχει θέμα, το αλλάζουμε έτσι.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838639"
+    },
+    {
+      "english": "That portion’s big, wow, I’m impressed.",
+      "greek": "Τεράστια μερίδα, έμεινα με το στόμα ανοιχτό.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838641"
+    },
+    {
+      "english": "When it’s ready, just call me over.",
+      "greek": "Όταν είναι έτοιμο, καλέστε με να έρθω.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838643"
+    },
+    {
+      "english": "I’m a bit overwhelmed, take your time.",
+      "greek": "Είμαι λίγο μπερδεμένος, κάντε μου χρόνο.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838645"
+    },
+    {
+      "english": "Honestly, I’m craving something comforting right now.",
+      "greek": "Ειλικρινά, μου λείπει κάτι παρήγορο τώρα.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838648"
+    },
+    {
+      "english": "Can we slow down, I want to think?",
+      "greek": "Μπορούμε να πάμε πιο αργά, να το σκεφτώ;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838651"
+    },
+    {
+      "english": "I’ll be patient, I don’t mind waiting.",
+      "greek": "Θα περιμένω, δεν με πειράζει η καθυστέρηση.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838653"
+    },
+    {
+      "english": "Today I’m in a quiet mood, please.",
+      "greek": "Σήμερα είμαι σε ήσυχη διάθεση, παρακαλώ.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838655"
+    },
+    {
+      "english": "I want something simple, no pressure.",
+      "greek": "Θέλω κάτι απλό, χωρίς άγχος.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838657"
+    },
+    {
+      "english": "I’m trying to eat healthier, what fits?",
+      "greek": "Προσπαθώ να τρώω πιο υγιεινά, τι μου ταιριάζει;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838663"
+    },
+    {
+      "english": "I’d love a mild option, not too intense.",
+      "greek": "Θα ήθελα κάτι ήπιο, όχι τόσο έντονο.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838665"
+    },
+    {
+      "english": "I’m not in the mood for anything heavy.",
+      "greek": "Δεν έχω διάθεση για κάτι βαρύ.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838667"
+    },
+    {
+      "english": "Keep it honest, I’ll trust your judgment.",
+      "greek": "Πες μου αλήθεια, θα εμπιστευτώ την κρίση σου.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838669"
+    },
+    {
+      "english": "If it’s fresh, I’ll be really happy.",
+      "greek": "Αν είναι φρέσκο, θα είμαι πολύ χαρούμενος.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838671"
+    },
+    {
+      "english": "I prefer less, just enough to feel good.",
+      "greek": "Μου αρέσει λιγότερο, τόσο όσο να νιώθω καλά.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838673"
+    },
+    {
+      "english": "I’m trying new things, but slowly.",
+      "greek": "Δοκιμάζω κάτι καινούριο, αλλά αργά.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838675"
+    },
+    {
+      "english": "I’d rather share, so tell me sizes.",
+      "greek": "Θα προτιμούσα να μοιραστούμε, πες μου μερίδες.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838677"
+    },
+    {
+      "english": "I don’t want it too sweet, please.",
+      "greek": "Δεν το θέλω πολύ γλυκό, σε παρακαλώ.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838679"
+    },
+    {
+      "english": "I’m keeping it minimal today, one main dish.",
+      "greek": "Σήμερα το κρατάω απλό, ένα κυρίως πιάτο.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838681"
+    },
+    {
+      "english": "I’m feeling emotional, warm food would help.",
+      "greek": "Είμαι συγκινημένος, το ζεστό φαγητό βοηθάει.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838683"
+    },
+    {
+      "english": "I’ll try it, but tell me what’s inside.",
+      "greek": "Θα το δοκιμάσω, πες μου τι έχει μέσα.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838685"
+    },
+    {
+      "english": "I’m okay with substitutions, as long.",
+      "greek": "Είμαι ΟΚ με αλλαγές, αρκεί να ταιριάζουν.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838687"
+    },
+    {
+      "english": "I just want a clean start, no extras.",
+      "greek": "Θέλω μόνο μια καθαρή αρχή, χωρίς έξτρα.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838689"
+    },
+    {
+      "english": "Please keep it gentle, I have a sensitive stomach.",
+      "greek": "Κρατήστε το ήπιο, έχω ευαίσθητο στομάχι.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838691"
+    },
+    {
+      "english": "I’m not sure what I want, so guide me.",
+      "greek": "Δεν είμαι σίγουρος τι θέλω, καθοδήγησέ με.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838693"
+    },
+    {
+      "english": "Let me check first, I’m serious about allergies.",
+      "greek": "Θα το τσεκάρω πρώτα, το εννοώ για αλλεργίες.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838695"
+    },
+    {
+      "english": "I need something calming, not loud flavors.",
+      "greek": "Θέλω κάτι να με ηρεμεί, όχι δυνατές γεύσεις.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838697"
+    },
+    {
+      "english": "I’d like your honest take on portion size.",
+      "greek": "Θέλω τη γνώμη σας, για το μέγεθος της μερίδας.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838699"
+    },
+    {
+      "english": "I’m running late, but I want it done right.",
+      "greek": "Τρέχω, αλλά το θέλω όπως πρέπει.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838701"
+    },
+    {
+      "english": "I’m feeling a bit homesick, give me comfort.",
+      "greek": "Μου λείπει το σπίτι, δώσε μου παρηγοριά.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838703"
+    },
+    {
+      "english": "I’ll take it slower, I want to enjoy.",
+      "greek": "Θα το πάρω πιο αργά, θέλω να το απολαύσω.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838705"
+    },
+    {
+      "english": "Could I get it to go, please?",
+      "greek": "Μπορώ να το πάρω πακέτο, παρακαλώ;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838706"
+    },
+    {
+      "english": "Is the meat well-done, or medium?",
+      "greek": "Είναι το κρέας καλοψημένο, ή μέτριο;",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-05T10:12:20.838710"
     }
   ],
-  "last_updated": "2026-11-04T10:18:36.196313"
+  "last_updated": "2026-11-05T10:12:20.838711"
 }
