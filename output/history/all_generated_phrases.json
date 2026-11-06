@@ -4319,7 +4319,727 @@
       "greek": "Είναι το κρέας καλοψημένο, ή μέτριο;",
       "category": "Ordering Food & Dining",
       "generated_at": "2026-11-05T10:12:20.838710"
+    },
+    {
+      "english": "I’ll try again, no worries, keep going.",
+      "greek": "Θα το ξαναπροσπαθήσω, μην ανησυχείς, συνέχισε.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263600"
+    },
+    {
+      "english": "Slow down, breathe, then do it again.",
+      "greek": "Πάρε ανάσα, ηρέμησε, και κάν’ το ξανά.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263614"
+    },
+    {
+      "english": "Not yet, but I’m moving forward.",
+      "greek": "Όχι ακόμα, αλλά προχωράω.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263618"
+    },
+    {
+      "english": "It’s okay to fail, learn, repeat.",
+      "greek": "Είναι εντάξει να αποτύχεις, μάθε, ξαναπροσπάθησε.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263622"
+    },
+    {
+      "english": "Keep showing up, that’s the secret.",
+      "greek": "Να συνεχίζεις να εμφανίζεσαι, αυτό είναι το μυστικό.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263626"
+    },
+    {
+      "english": "We’ll figure it out, step by step.",
+      "greek": "Θα το βρούμε, βήμα-βήμα.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263629"
+    },
+    {
+      "english": "Go again, even if it’s messy.",
+      "greek": "Ξαναπάμε, ακόμα κι αν είναι μπερδεμένο.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263633"
+    },
+    {
+      "english": "One more try, then we rest.",
+      "greek": "Μια ακόμα προσπάθεια, μετά ξεκουραζόμαστε.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263638"
+    },
+    {
+      "english": "Don’t quit, you’re closer than you think.",
+      "greek": "Μην το βάζεις κάτω, είσαι πιο κοντά απ’ όσο νομίζεις.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263643"
+    },
+    {
+      "english": "If it’s hard, that means practice.",
+      "greek": "Αν είναι δύσκολο, σημαίνει εξάσκηση.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263647"
+    },
+    {
+      "english": "I’m here for the long run.",
+      "greek": "Είμαι εδώ για το μακρύ δρόμο.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263650"
+    },
+    {
+      "english": "Keep it simple, start now, continue.",
+      "greek": "Κάν’ το απλό, ξεκίνα τώρα, συνεχίσε.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263653"
+    },
+    {
+      "english": "Today counts, even if it’s small.",
+      "greek": "Η σημερινή μέρα μετράει, ακόμα κι αν είναι μικρή.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263656"
+    },
+    {
+      "english": "Stay calm, keep moving, don’t stop.",
+      "greek": "Μείνε ήρεμος, συνέχισε, μην σταματάς.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263660"
+    },
+    {
+      "english": "I can’t yet, but I’ll get there.",
+      "greek": "Δεν μπορώ ακόμα, αλλά θα φτάσω.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263663"
+    },
+    {
+      "english": "No excuses, just another round.",
+      "greek": "Χωρίς δικαιολογίες, απλά άλλη μια φορά.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263666"
+    },
+    {
+      "english": "We’ll learn from this, then improve.",
+      "greek": "Θα το μάθουμε, μετά θα βελτιώσουμε.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263669"
+    },
+    {
+      "english": "Mindset first, effort follows, keep going.",
+      "greek": "Πρώτα μυαλό, μετά προσπάθεια, συνέχισε.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263672"
+    },
+    {
+      "english": "I’ll be consistent, even on bad days.",
+      "greek": "Θα είμαι σταθερός, ακόμα κι τις άσχημες μέρες.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263675"
+    },
+    {
+      "english": "Let’s go, one step, then another.",
+      "greek": "Πάμε, ένα βήμα, μετά άλλο.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263679"
+    },
+    {
+      "english": "Don’t rush, you’ll catch up slowly.",
+      "greek": "Μην το βιάζεις, θα προλάβεις σιγά-σιγά.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263682"
+    },
+    {
+      "english": "I’m not giving up, period.",
+      "greek": "Δεν το βάζω κάτω, τελεία.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263688"
+    },
+    {
+      "english": "If you fall, get up fast.",
+      "greek": "Αν πέσεις, σηκώσου γρήγορα.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263691"
+    },
+    {
+      "english": "Keep going, even when motivation fades.",
+      "greek": "Συνέχισε, ακόμα κι όταν πέφτει το κίνητρο.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263693"
+    },
+    {
+      "english": "Small progress is still progress, always.",
+      "greek": "Η μικρή πρόοδος είναι πρόοδος, πάντα.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263696"
+    },
+    {
+      "english": "I’ll adjust, not quit, we improve.",
+      "greek": "Θα το προσαρμόσω, όχι να τα παρατήσω, βελτιωνόμαστε.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263700"
+    },
+    {
+      "english": "Come on, we can do this.",
+      "greek": "Έλα, μπορούμε να τα καταφέρουμε.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263702"
+    },
+    {
+      "english": "Hang in there, it gets better.",
+      "greek": "Κράτα γερά, θα γίνει καλύτερα.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263705"
+    },
+    {
+      "english": "I’m building habits, not chasing luck.",
+      "greek": "Χτίζω συνήθειες, όχι κυνηγάω τύχη.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263708"
+    },
+    {
+      "english": "When in doubt, practice again tomorrow.",
+      "greek": "Αν έχεις αμφιβολίες, εξάσκηση πάλι αύριο.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263711"
+    },
+    {
+      "english": "Can we ask for advice, right now?",
+      "greek": "Μπορούμε να ζητήσουμε συμβουλή, τώρα;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263714"
+    },
+    {
+      "english": "What should I do when I freeze?",
+      "greek": "Τι να κάνω όταν παγώνω;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263718"
+    },
+    {
+      "english": "Do you have a better plan for me?",
+      "greek": "Έχεις καλύτερο πλάνο για μένα;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263721"
+    },
+    {
+      "english": "How do you stay focused on tough days?",
+      "greek": "Πώς μένεις συγκεντρωμένος σε δύσκολες μέρες;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263724"
+    },
+    {
+      "english": "Should I practice more, or change tactics?",
+      "greek": "Να εξασκούμαι περισσότερο, ή να αλλάξω τακτική;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263727"
+    },
+    {
+      "english": "When it fails, what question should I ask?",
+      "greek": "Όταν αποτυγχάνει, ποια ερώτηση να κάνω;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263730"
+    },
+    {
+      "english": "Can you repeat that, a bit slower?",
+      "greek": "Μπορείς να το ξαναπείς, λίγο πιο αργά;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263732"
+    },
+    {
+      "english": "Is this the right time to try again?",
+      "greek": "Είναι η σωστή στιγμή να ξαναπροσπαθήσω;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263735"
+    },
+    {
+      "english": "Who taught you to keep going like that?",
+      "greek": "Ποιος σου έμαθε να συνεχίζεις έτσι;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263738"
+    },
+    {
+      "english": "What helps you, when progress feels slow?",
+      "greek": "Τι σε βοηθάει, όταν η πρόοδος αργεί;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263740"
+    },
+    {
+      "english": "Can I get feedback, what do you notice?",
+      "greek": "Μπορώ να έχω σχόλια, τι βλέπεις;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263743"
+    },
+    {
+      "english": "Should I ask a tutor, or self-study?",
+      "greek": "Να ρωτήσω δάσκαλο, ή να μελετήσω μόνος;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263747"
+    },
+    {
+      "english": "How do you handle embarrassment, politely?",
+      "greek": "Πώς το αντιμετωπίζεις, χωρίς ντροπή;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263750"
+    },
+    {
+      "english": "What’s one small thing I can do today?",
+      "greek": "Ποιο μικρό πράγμα μπορώ να κάνω σήμερα;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263753"
+    },
+    {
+      "english": "Can you tell me your exact routine?",
+      "greek": "Μπορείς να μου πεις την ακριβή ρουτίνα σου;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263758"
+    },
+    {
+      "english": "Which part is hardest for you, usually?",
+      "greek": "Ποιο κομμάτι είναι πιο δύσκολο για σένα;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263761"
+    },
+    {
+      "english": "What mindset do you use, right before starting?",
+      "greek": "Τι σκέψη κάνεις, λίγο πριν ξεκινήσεις;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263764"
+    },
+    {
+      "english": "Can we set a goal, what’s realistic?",
+      "greek": "Να βάλουμε στόχο, τι είναι ρεαλιστικό;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263767"
+    },
+    {
+      "english": "Should I keep notes, or just practice?",
+      "greek": "Να κρατάω σημειώσεις, ή να εξασκώμαι μόνο;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263770"
+    },
+    {
+      "english": "How long should I stick with one method?",
+      "greek": "Πόσο να μείνω με μια μέθοδο;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263773"
+    },
+    {
+      "english": "What do you do after a bad day?",
+      "greek": "Τι κάνεις μετά από μια κακή μέρα;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263775"
+    },
+    {
+      "english": "Can you help me ask the right question?",
+      "greek": "Μπορείς να με βοηθήσεις να κάνω τη σωστή ερώτηση;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263778"
+    },
+    {
+      "english": "Do you believe effort beats talent over time?",
+      "greek": "Πιστεύεις ότι η προσπάθεια νικάει το ταλέντο;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263780"
+    },
+    {
+      "english": "Where do you find motivation when it drops?",
+      "greek": "Από πού βρίσκεις κίνητρο, όταν πέφτει;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263786"
+    },
+    {
+      "english": "What’s your rule for staying consistent?",
+      "greek": "Ποιος είναι ο δικός σου κανόνας για συνέπεια;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263789"
+    },
+    {
+      "english": "Can I join you, so I don’t quit?",
+      "greek": "Μπορώ να σε ακολουθήσω, για να μην τα παρατήσω;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263793"
+    },
+    {
+      "english": "What do you say to yourself in setbacks?",
+      "greek": "Τι λες στον εαυτό σου στις αποτυχίες;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263796"
+    },
+    {
+      "english": "Is it okay to ask again for clarification?",
+      "greek": "Είναι εντάξει να ρωτήσω ξανά για διευκρίνιση;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263798"
+    },
+    {
+      "english": "Can we review what went wrong, together?",
+      "greek": "Να το δούμε μαζί, τι πήγε στραβά;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263801"
+    },
+    {
+      "english": "What’s the next step, after you improve?",
+      "greek": "Ποιο είναι το επόμενο βήμα, μετά τη βελτίωση;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263804"
+    },
+    {
+      "english": "Keep your head down, work steadily.",
+      "greek": "Κράτα χαμηλά το κεφάλι, δούλευε σταθερά.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263807"
+    },
+    {
+      "english": "Step by step, don’t skip the boring parts.",
+      "greek": "Βήμα-βήμα, μην παραλείπεις τα βαρετά.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263811"
+    },
+    {
+      "english": "If it’s tough, that’s your training time.",
+      "greek": "Αν είναι δύσκολο, είναι ώρα προπόνησης.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263814"
+    },
+    {
+      "english": "Slowly is fine, just keep showing up.",
+      "greek": "Αργά είναι καλά, απλώς να εμφανίζεσαι.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263817"
+    },
+    {
+      "english": "Drop the excuses, start again today.",
+      "greek": "Άσε τις δικαιολογίες, ξεκίνα πάλι σήμερα.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263820"
+    },
+    {
+      "english": "Even one page a day adds up.",
+      "greek": "Ακόμα κι η μία σελίδα τη μέρα μετράει.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263822"
+    },
+    {
+      "english": "Weather it, don’t fight it head-on.",
+      "greek": "Πέρασέ το, μην το πας κατά μέτωπο.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263826"
+    },
+    {
+      "english": "Nobody gets it perfect, you just practice.",
+      "greek": "Κανείς δεν το κάνει τέλειο, κάνεις εξάσκηση.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263828"
+    },
+    {
+      "english": "When you wobble, you’re still in it.",
+      "greek": "Όταν τρικλίζεις, είσαι ακόμα μέσα.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263832"
+    },
+    {
+      "english": "Dust off, take the next small step.",
+      "greek": "Σήκωσε τη σκόνη, κάνε το επόμενο μικρό βήμα.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263834"
+    },
+    {
+      "english": "Don’t wait for courage, act anyway.",
+      "greek": "Μην περιμένεις θάρρος, κάνε το έτσι κι αλλιώς.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263837"
+    },
+    {
+      "english": "Show up again, even with low energy.",
+      "greek": "Ξαναεμφανίσου, κι ας έχεις λίγη ενέργεια.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263840"
+    },
+    {
+      "english": "The work speaks, keep repeating the routine.",
+      "greek": "Η δουλειά μιλάει, επανάλαβε τη ρουτίνα.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263843"
+    },
+    {
+      "english": "No big drama, just keep going steady.",
+      "greek": "Χωρίς μεγάλα δράματα, απλώς συνέχισε.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263845"
+    },
+    {
+      "english": "Hold on, the effort will show soon.",
+      "greek": "Κράτα γερά, η προσπάθεια θα φανεί.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263848"
+    },
+    {
+      "english": "Fail, learn, then return to the grind.",
+      "greek": "Κάνε το λάθος, μάθε, μετά γύρνα στη δουλειά.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263851"
+    },
+    {
+      "english": "If you stop, you lose momentum fast.",
+      "greek": "Αν σταματήσεις, χάνεις ορμή γρήγορα.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263853"
+    },
+    {
+      "english": "Keep it simple, consistency beats intensity.",
+      "greek": "Κράτα το απλό, η συνέπεια νικάει το έντονο.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263856"
+    },
+    {
+      "english": "Don’t burn out, pace yourself and continue.",
+      "greek": "Μην καείς, ρυθμίζε τον ρυθμό σου.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263862"
+    },
+    {
+      "english": "One attempt today, tomorrow another—stay at it.",
+      "greek": "Μια προσπάθεια σήμερα, αύριο άλλη, συνέχισε.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263866"
+    },
+    {
+      "english": "The road is long, walk it daily.",
+      "greek": "Ο δρόμος είναι μακρύς, περπάτα τον κάθε μέρα.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263869"
+    },
+    {
+      "english": "Keep your promise, even when it’s hard.",
+      "greek": "Κράτα την υπόσχεσή σου, ακόμα κι όταν ζορίζεσαι.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263872"
+    },
+    {
+      "english": "You can’t improve without getting it wrong.",
+      "greek": "Δεν βελτιώνεσαι χωρίς να κάνεις λάθη.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263875"
+    },
+    {
+      "english": "Stay stubborn, but stay smart.",
+      "greek": "Να επιμένεις, αλλά να σκέφτεσαι κιόλας.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263878"
+    },
+    {
+      "english": "Even small effort counts, don’t underestimate it.",
+      "greek": "Ακόμα κι η μικρή προσπάθεια μετράει.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263882"
+    },
+    {
+      "english": "Take the hit, then get back to practice.",
+      "greek": "Πάρε το χτύπημα, μετά γύρνα στην εξάσκηση.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263886"
+    },
+    {
+      "english": "Keep the goal, change the method if needed.",
+      "greek": "Κράτα τον στόχο, άλλαξε μέθοδο αν χρειαστεί.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263889"
+    },
+    {
+      "english": "No one is coming to save you, start.",
+      "greek": "Κανείς δεν θα σε σώσει, ξεκίνα μόνος σου.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263892"
+    },
+    {
+      "english": "You’ll learn by doing, not by waiting.",
+      "greek": "Θα μάθεις κάνοντας, όχι περιμένοντας.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263895"
+    },
+    {
+      "english": "Today’s grind builds tomorrow’s confidence.",
+      "greek": "Η δουλειά της μέρας χτίζει την αυτοπεποίθηση.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263898"
+    },
+    {
+      "english": "I get emotional, then I reset and try.",
+      "greek": "Παίρνω τα πάνω μου, μετά το ισιώνω και ξαναδοκιμάζω.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263901"
+    },
+    {
+      "english": "I’m not okay, but I keep going.",
+      "greek": "Δεν είμαι καλά, αλλά συνεχίζω.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263904"
+    },
+    {
+      "english": "Some days hurt, I still move forward.",
+      "greek": "Μερικές μέρες πονάνε, εγώ όμως προχωράω.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263907"
+    },
+    {
+      "english": "Quietly I’m proud, even when nobody sees.",
+      "greek": "Σιωπηλά είμαι περήφανος, κι ας μη με βλέπει κανείς.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263911"
+    },
+    {
+      "english": "My plan is simple, my feelings too.",
+      "greek": "Το σχέδιό μου είναι απλό, και τα αισθήματά μου επίσης.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263916"
+    },
+    {
+      "english": "I admit I’m tired, then I continue.",
+      "greek": "Λέω αλήθεια, είμαι κουρασμένος, και συνεχίζω.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263919"
+    },
+    {
+      "english": "I don’t wait for vibes, I start anyway.",
+      "greek": "Δεν περιμένω κέφι, ξεκινάω έτσι κι αλλιώς.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263922"
+    },
+    {
+      "english": "I can be scared, still I show up.",
+      "greek": "Μπορεί να φοβάμαι, αλλά εμφανίζομαι.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263925"
+    },
+    {
+      "english": "I talk to myself, gently, and carry on.",
+      "greek": "Μιλάω στον εαυτό μου, απαλά, και συνεχίζω.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263928"
+    },
+    {
+      "english": "If it’s messy, good, I’m learning.",
+      "greek": "Αν είναι μπερδεμένο, τέλεια, μαθαίνω.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263932"
+    },
+    {
+      "english": "I breathe, I focus, I don’t panic.",
+      "greek": "Παίρνω ανάσα, συγκεντρώνομαι, δεν πανικοβάλλομαι.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263936"
+    },
+    {
+      "english": "I forgive the delay, then restart fast.",
+      "greek": "Συγχωρώ την καθυστέρηση, και ξαναξεκινάω γρήγορα.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263939"
+    },
+    {
+      "english": "My progress is quiet, but it’s real.",
+      "greek": "Η πρόοδός μου είναι ήσυχη, αλλά είναι αληθινή.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263942"
+    },
+    {
+      "english": "I hate quitting, so I keep negotiating.",
+      "greek": "Μισώ να τα παρατάω, οπότε το συνεχίζω.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263945"
+    },
+    {
+      "english": "I’m allowed to feel, I’m not allowed to stop.",
+      "greek": "Επιτρέπεται να νιώθω, δεν επιτρέπεται να σταματήσω.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263949"
+    },
+    {
+      "english": "I choose effort over mood, every time.",
+      "greek": "Διαλέγω προσπάθεια αντί για διάθεση, κάθε φορά.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263952"
+    },
+    {
+      "english": "I’m building discipline, not chasing perfect days.",
+      "greek": "Χτίζω πειθαρχία, δεν κυνηγάω τέλειες μέρες.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263955"
+    },
+    {
+      "english": "When I fall, I ask, what’s next?",
+      "greek": "Όταν πέφτω, ρωτάω, τι είναι μετά;",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263959"
+    },
+    {
+      "english": "I journal my doubts, then do the work.",
+      "greek": "Γράφω τις αμφιβολίες μου, μετά κάνω τη δουλειά.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263961"
+    },
+    {
+      "english": "I don’t need confidence, just commitment.",
+      "greek": "Δεν χρειάζομαι σιγουριά, θέλω δέσμευση.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263964"
+    },
+    {
+      "english": "I keep the promise, even to my feelings.",
+      "greek": "Κρατάω την υπόσχεση, ακόμα κι απέναντι στα συναισθήματα.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263967"
+    },
+    {
+      "english": "Some setbacks are just feedback in disguise.",
+      "greek": "Μερικά πισωγυρίσματα είναι απλά σχόλια με μάσκα.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263970"
+    },
+    {
+      "english": "I’m patient, because progress has its tempo.",
+      "greek": "Έχω υπομονή, γιατί η πρόοδος έχει ρυθμό.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263973"
+    },
+    {
+      "english": "I can’t control outcomes, only my actions.",
+      "greek": "Δεν ελέγχω τα αποτελέσματα, ελέγχω μόνο τις πράξεις.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263976"
+    },
+    {
+      "english": "I’m brave enough to try again today.",
+      "greek": "Είμαι αρκετά γενναίος για να ξαναπροσπαθήσω σήμερα.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263979"
+    },
+    {
+      "english": "I don’t romanticize pain, I move through it.",
+      "greek": "Δεν ρομαντικοποιώ τον πόνο, τον περνάω.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263984"
+    },
+    {
+      "english": "I trust the boring routine, it saves me.",
+      "greek": "Εμπιστεύομαι τη βαρετή ρουτίνα, με σώζει.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263987"
+    },
+    {
+      "english": "I let myself be human, then I persist.",
+      "greek": "Αφήνομαι να είμαι άνθρωπος, μετά επιμένω.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263992"
+    },
+    {
+      "english": "Even my silence says, I’m still in it.",
+      "greek": "Ακόμα και η σιωπή μου λέει, είμαι ακόμα εδώ.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263995"
+    },
+    {
+      "english": "I look back, then I set my next goal.",
+      "greek": "Κοιτάω πίσω, μετά βάζω τον επόμενο στόχο.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-06T10:15:44.263998"
     }
   ],
-  "last_updated": "2026-11-05T10:12:20.838711"
+  "last_updated": "2026-11-06T10:15:44.264000"
 }
