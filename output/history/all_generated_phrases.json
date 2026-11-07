@@ -5039,7 +5039,727 @@
       "greek": "Κοιτάω πίσω, μετά βάζω τον επόμενο στόχο.",
       "category": "Perseverance",
       "generated_at": "2026-11-06T10:15:44.263998"
+    },
+    {
+      "english": "No way, really?",
+      "greek": "Δεν μπορείς, σοβαρά;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375336"
+    },
+    {
+      "english": "Yeah, I’m down for that.",
+      "greek": "Ναι, πάω κι εγώ γι’ αυτό.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375350"
+    },
+    {
+      "english": "Wait, hold up a second.",
+      "greek": "Περίμενε, μια στιγμή.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375355"
+    },
+    {
+      "english": "Seriously, tell me everything.",
+      "greek": "Σοβαρά, πες μου τα όλα.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375358"
+    },
+    {
+      "english": "Come on, don’t do that.",
+      "greek": "Έλα τώρα, μην το κάνεις έτσι.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375361"
+    },
+    {
+      "english": "I’m like, what even?",
+      "greek": "Εγώ είμαι, τι στο καλό;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375364"
+    },
+    {
+      "english": "That’s wild, I can’t believe it.",
+      "greek": "Αυτό είναι τρελό, δεν το πιστεύω.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375366"
+    },
+    {
+      "english": "My bad, I messed up.",
+      "greek": "Συγγνώμη, έκανα βλακεία.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375371"
+    },
+    {
+      "english": "Easy, take it slow.",
+      "greek": "Χαλαρά, πάμε σιγά σιγά.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375373"
+    },
+    {
+      "english": "You got it, I’ll handle it.",
+      "greek": "Οκέι, το αναλαμβάνω εγώ.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375378"
+    },
+    {
+      "english": "What’s the deal, though?",
+      "greek": "Τι παίζει, τέλος πάντων;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375381"
+    },
+    {
+      "english": "I’m done, I can’t anymore.",
+      "greek": "Τελείωσα, δεν πάει άλλο.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375384"
+    },
+    {
+      "english": "Let’s go, right now.",
+      "greek": "Πάμε, τώρα αμέσως.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375386"
+    },
+    {
+      "english": "No worries, it’s okay.",
+      "greek": "Μην αγχώνεσαι, όλα καλά.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375388"
+    },
+    {
+      "english": "That’s honestly so good.",
+      "greek": "Ειλικρινά, είναι πάρα πολύ καλό.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375391"
+    },
+    {
+      "english": "Are you kidding me?",
+      "greek": "Με δουλεύεις;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375393"
+    },
+    {
+      "english": "Not my problem, sorry.",
+      "greek": "Δεν είναι δικό μου, συγγνώμη.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375395"
+    },
+    {
+      "english": "I’m tired, I need a break.",
+      "greek": "Είμαι κουρασμένος, θέλω μια ανάσα.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375398"
+    },
+    {
+      "english": "Hold on, I’ll check.",
+      "greek": "Στιγμή, θα το δω.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375401"
+    },
+    {
+      "english": "That sounds sketchy.",
+      "greek": "Αυτό μου φαίνεται ύποπτο.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375402"
+    },
+    {
+      "english": "It is what it is, okay?",
+      "greek": "Έτσι είναι, οκ;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375405"
+    },
+    {
+      "english": "I’m starving, seriously.",
+      "greek": "Πεινάω, σοβαρά.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375408"
+    },
+    {
+      "english": "Give me a minute.",
+      "greek": "Δώσε μου ένα λεπτό.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375410"
+    },
+    {
+      "english": "You’re late, as usual.",
+      "greek": "Αργείς, όπως πάντα.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375413"
+    },
+    {
+      "english": "That’s it, I’m out.",
+      "greek": "Τελείωσε, φεύγω.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375415"
+    },
+    {
+      "english": "I can’t deal with this.",
+      "greek": "Δεν αντέχω αυτό.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375417"
+    },
+    {
+      "english": "Respect, that’s real.",
+      "greek": "Σεβασμός, αυτό είναι αληθινό.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375420"
+    },
+    {
+      "english": "Okay, let’s make it happen.",
+      "greek": "Οκ, πάμε να το κάνουμε.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375422"
+    },
+    {
+      "english": "Stop, you’re doing too much.",
+      "greek": "Σταμάτα, το παρακάνεις.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375425"
+    },
+    {
+      "english": "I’ll see you soon, promise.",
+      "greek": "Τα λέμε σύντομα, υπόσχομαι.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375429"
+    },
+    {
+      "english": "Hey, what’s the vibe here, though?",
+      "greek": "Ρε, ποια είναι η φάση εδώ, όμως;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375432"
+    },
+    {
+      "english": "So, you mean now, right?",
+      "greek": "Δηλαδή, τώρα το λες, σωστά;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375435"
+    },
+    {
+      "english": "How’s it going, what did I miss?",
+      "greek": "Τι γίνεται, τι μου ξέφυγε;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375438"
+    },
+    {
+      "english": "Can you tell me, like, briefly?",
+      "greek": "Μπορείς να μου πεις, συνοπτικά;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375441"
+    },
+    {
+      "english": "Is this place cool, or just hype?",
+      "greek": "Είναι ωραίο το μέρος, ή μόνο φάση;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375443"
+    },
+    {
+      "english": "Why are you rushing, though?",
+      "greek": "Γιατί το κάνεις βιαστικά, όμως;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375445"
+    },
+    {
+      "english": "Do you have a better idea?",
+      "greek": "Έχεις κάτι καλύτερο στο μυαλό σου;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375447"
+    },
+    {
+      "english": "I’m not sure, can you explain?",
+      "greek": "Δεν είμαι σίγουρος, μπορείς να το πεις;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375449"
+    },
+    {
+      "english": "What time are we meeting, exactly?",
+      "greek": "Τι ώρα θα συναντηθούμε, ακριβώς;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375452"
+    },
+    {
+      "english": "Where are you headed, by the way?",
+      "greek": "Πού πας, παρεμπιπτόντως;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375454"
+    },
+    {
+      "english": "Do you speak Greek, a bit?",
+      "greek": "Μιλάς λίγα ελληνικά, έτσι;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375457"
+    },
+    {
+      "english": "Should I bring anything, or no?",
+      "greek": "Να φέρω κάτι, ή να μη;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375461"
+    },
+    {
+      "english": "Okay, but who’s paying, you?",
+      "greek": "Οκ, αλλά ποιος πληρώνει, εσύ;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375463"
+    },
+    {
+      "english": "Is it worth it, like, for real?",
+      "greek": "Αξίζει, δηλαδή, στ’ αλήθεια;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375466"
+    },
+    {
+      "english": "What did you mean by that?",
+      "greek": "Τι εννοείς με αυτό;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375468"
+    },
+    {
+      "english": "Can we chill first, then decide?",
+      "greek": "Να το χαλαρώσουμε λίγο, μετά βλέπουμε;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375470"
+    },
+    {
+      "english": "Tell me, is it hard to learn?",
+      "greek": "Πες μου, είναι δύσκολο να μάθεις;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375472"
+    },
+    {
+      "english": "Are you free later, maybe?",
+      "greek": "Είσαι ελεύθερος αργότερα, μήπως;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375474"
+    },
+    {
+      "english": "Wait, what happened, exactly?",
+      "greek": "Στιγμή, τι έγινε, ακριβώς;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375477"
+    },
+    {
+      "english": "Can I ask something, quick?",
+      "greek": "Μπορώ να ρωτήσω κάτι, γρήγορα;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375479"
+    },
+    {
+      "english": "You serious, or just talking?",
+      "greek": "Το λες σοβαρά, ή απλά μιλάς;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375481"
+    },
+    {
+      "english": "How come you didn’t tell me?",
+      "greek": "Πώς κι δεν μου το είπες;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375484"
+    },
+    {
+      "english": "Do you have time, like tonight?",
+      "greek": "Έχεις χρόνο, απόψε, μήπως;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375486"
+    },
+    {
+      "english": "Is that normal here, or no?",
+      "greek": "Αυτό είναι κανονικό εδώ, ή όχι;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375488"
+    },
+    {
+      "english": "Which one do you prefer, A or B?",
+      "greek": "Ποιο προτιμάς, το Α ή το Β;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375490"
+    },
+    {
+      "english": "Can you repeat it, I missed it.",
+      "greek": "Μπορείς να το ξαναπείς, το έχασα;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375496"
+    },
+    {
+      "english": "I’ve got a question, real quick.",
+      "greek": "Έχω μια ερώτηση, μια στιγμή.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375499"
+    },
+    {
+      "english": "So, what’s the plan, exactly?",
+      "greek": "Λοιπόν, ποιο είναι το πλάνο, ακριβώς;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375502"
+    },
+    {
+      "english": "You’ve got this, keep going, no stress.",
+      "greek": "Τα καταφέρνεις, συνέχισε, χωρίς άγχος.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375505"
+    },
+    {
+      "english": "Small steps count, trust the process.",
+      "greek": "Τα μικρά βήματα μετράνε, εμπιστεύσου τη διαδικασία.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375507"
+    },
+    {
+      "english": "Today’s a win, celebrate it quietly.",
+      "greek": "Σήμερα είναι νίκη, γιόρτασέ το ήσυχα.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375510"
+    },
+    {
+      "english": "Breathe, reset your head, you’re fine.",
+      "greek": "Πάρε ανάσα, ξεκίνα απ’ την αρχή, είσαι καλά.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375513"
+    },
+    {
+      "english": "Don’t overthink, just move and learn.",
+      "greek": "Μην το σκέφτεσαι υπερβολικά, πήγαινε και μάθε.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375515"
+    },
+    {
+      "english": "Your effort shows, you’re improving fast.",
+      "greek": "Φαίνεται η προσπάθεια, βελτιώνεσαι γρήγορα.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375520"
+    },
+    {
+      "english": "Say it out loud, you can do it.",
+      "greek": "Πες το δυνατά, μπορείς.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375523"
+    },
+    {
+      "english": "Keep your head up, tomorrow’s brighter.",
+      "greek": "Κράτα το κεφάλι ψηλά, αύριο είναι πιο φωτεινό.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375525"
+    },
+    {
+      "english": "You’re not behind, you’re building.",
+      "greek": "Δεν είσαι πίσω, χτίζεις.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375528"
+    },
+    {
+      "english": "No pressure, you’re doing great already.",
+      "greek": "Χωρίς πίεση, τα πας ήδη τέλεια.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375531"
+    },
+    {
+      "english": "Winners try, even when it’s messy.",
+      "greek": "Οι νικητές το παλεύουν, και αν γίνει χαμός.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375533"
+    },
+    {
+      "english": "Give yourself credit, you’ve earned it.",
+      "greek": "Δώσε στον εαυτό σου αξία, το κέρδισες.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375536"
+    },
+    {
+      "english": "One more try, don’t quit now.",
+      "greek": "Μια ακόμα προσπάθεια, μη σταματάς τώρα.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375538"
+    },
+    {
+      "english": "It’s all practice, you’ll get better.",
+      "greek": "Είναι όλα εξάσκηση, θα γίνεις καλύτερος.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375541"
+    },
+    {
+      "english": "Focus on the next step, not fear.",
+      "greek": "Κοίτα το επόμενο βήμα, όχι τον φόβο.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375544"
+    },
+    {
+      "english": "You show up, that’s the real win.",
+      "greek": "Το ότι εμφανίζεσαι, αυτό είναι το πραγματικό κέρδος.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375548"
+    },
+    {
+      "english": "Keep it simple, you’re stronger than doubt.",
+      "greek": "Κράτα το απλό, είσαι πιο δυνατός από την αμφιβολία.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375551"
+    },
+    {
+      "english": "Don’t let that talk get in.",
+      "greek": "Μη αφήνεις αυτή τη φωνή να μπει.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375553"
+    },
+    {
+      "english": "You’re doing your thing, respect.",
+      "greek": "Κάνεις τη δική σου δουλειά, μπράβο.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375556"
+    },
+    {
+      "english": "Trust me, this moment will pass.",
+      "greek": "Πίστεψέ με, αυτό το πράγμα θα περάσει.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375558"
+    },
+    {
+      "english": "Even small wins, build big confidence.",
+      "greek": "Κι οι μικρές νίκες χτίζουν μεγάλη αυτοπεποίθηση.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375560"
+    },
+    {
+      "english": "Be proud, you worked for this.",
+      "greek": "Να είσαι περήφανος, το δούλεψες.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375562"
+    },
+    {
+      "english": "Stay calm, handle it, one by one.",
+      "greek": "Μείνε ήρεμος, το παίρνεις, βήμα-βήμα.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375565"
+    },
+    {
+      "english": "Keep going, the mood will catch up.",
+      "greek": "Συνέχισε, η διάθεση θα σε φτάσει.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375567"
+    },
+    {
+      "english": "Your pace is valid, don’t rush yourself.",
+      "greek": "Ο ρυθμός σου είναι οκ, μην πιέζεις τον εαυτό σου.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375569"
+    },
+    {
+      "english": "Let it go, tomorrow you’ll thank yourself.",
+      "greek": "Άστο να φύγει, αύριο θα σε δικαιώσει.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375572"
+    },
+    {
+      "english": "You’re learning fast, keep your momentum.",
+      "greek": "Μαθαίνεις γρήγορα, κράτα την ορμή.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375575"
+    },
+    {
+      "english": "No drama, just do what matters.",
+      "greek": "Χωρίς δράμα, κάνε ό,τι έχει σημασία.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375577"
+    },
+    {
+      "english": "Say yes to progress, not perfection.",
+      "greek": "Πες ναι στην πρόοδο, όχι στην τελειότητα.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375580"
+    },
+    {
+      "english": "You’ve got support, don’t carry it alone.",
+      "greek": "Έχεις στήριξη, μην τα φορτώνεσαι μόνος σου.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375583"
+    },
+    {
+      "english": "I’m honestly tired, but I’ll manage.",
+      "greek": "Ειλικρινά, είμαι κουρασμένος/η, αλλά θα το βγάλω.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375586"
+    },
+    {
+      "english": "Some days, I just need quiet.",
+      "greek": "Μερικές μέρες, χρειάζομαι απλώς ησυχία.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375591"
+    },
+    {
+      "english": "I keep it real, I’m not okay.",
+      "greek": "Τα λέω όπως είναι, δεν είμαι οκ.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375594"
+    },
+    {
+      "english": "I’ll take my time, no rush, okay?",
+      "greek": "Θα το πάω σιγά, χωρίς βιασύνη, εντάξει;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375596"
+    },
+    {
+      "english": "I’m not over it, I’m just trying.",
+      "greek": "Δεν είμαι “τέλειωμένος/η”, απλώς το παλεύω.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375599"
+    },
+    {
+      "english": "I needed to say it, finally.",
+      "greek": "Το χρειαζόμουν, να το πω, επιτέλους.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375601"
+    },
+    {
+      "english": "Let’s be real, I’m feeling off.",
+      "greek": "Ας είμαστε αληθινοί, νιώθω περίεργα.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375604"
+    },
+    {
+      "english": "I’m trying to soften my thoughts.",
+      "greek": "Προσπαθώ να μαλακώσω τις σκέψεις μου.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375606"
+    },
+    {
+      "english": "I’ll work through it, one day at time.",
+      "greek": "Θα το ξεπεράσω, μέρα με τη μέρα.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375609"
+    },
+    {
+      "english": "I don’t wanna pretend I’m fine.",
+      "greek": "Δεν θέλω να κάνω πως είμαι καλά.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375611"
+    },
+    {
+      "english": "I care, even when I act tough.",
+      "greek": "Νοιάζομαι, κι ας κάνω τον/την σκληρό/ή.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375613"
+    },
+    {
+      "english": "I’m learning patience, slowly, for real.",
+      "greek": "Μαθαίνω υπομονή, σιγά-σιγά, το πιστεύω.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375616"
+    },
+    {
+      "english": "I’ll be honest, that hurt a bit.",
+      "greek": "Ειλικρινά, με πείραξε λίγο αυτό.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375619"
+    },
+    {
+      "english": "Right now, I need space, please.",
+      "greek": "Τώρα χρειάζομαι χώρο, σε παρακαλώ.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375621"
+    },
+    {
+      "english": "I’m riding the wave, not forcing it.",
+      "greek": "Το αφήνω να περάσει, δεν το πιέζω.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375623"
+    },
+    {
+      "english": "I’m letting go, even if it’s hard.",
+      "greek": "Το αφήνω πίσω, κι ας είναι δύσκολο.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375626"
+    },
+    {
+      "english": "I won’t lie, I’m jealous sometimes.",
+      "greek": "Δεν θα το κρύψω, ζηλεύω καμιά φορά.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375629"
+    },
+    {
+      "english": "I’m doing better, just quietly.",
+      "greek": "Πηγαίνω καλύτερα, απλώς ήσυχα.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375633"
+    },
+    {
+      "english": "My heart’s saying no, I listen.",
+      "greek": "Η καρδιά μου λέει όχι, και το ακούω.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375635"
+    },
+    {
+      "english": "Give me a sec, I’m thinking.",
+      "greek": "Δώσε μου ένα λεπτό, το σκέφτομαι.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375638"
+    },
+    {
+      "english": "I’m not giving up, I’m resetting.",
+      "greek": "Δεν τα παρατάω, απλώς κάνω reset.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375640"
+    },
+    {
+      "english": "I know it’s messy, but I try.",
+      "greek": "Ξέρω, είναι μπερδεμένο, αλλά προσπαθώ.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375643"
+    },
+    {
+      "english": "I’m scared, but I’m still moving.",
+      "greek": "Φοβάμαι, αλλά προχωράω.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375645"
+    },
+    {
+      "english": "Sometimes I spiral, then I ground myself.",
+      "greek": "Μερικές φορές μου τη σπάει το μυαλό, μετά γειώνoμαι.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375648"
+    },
+    {
+      "english": "I need closure, not drama.",
+      "greek": "Θέλω ξεκαθάρισμα, όχι δράμα.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375650"
+    },
+    {
+      "english": "I’m not okay yet, but I’ll get there.",
+      "greek": "Δεν είμαι ακόμα καλά, αλλά θα φτάσω.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375652"
+    },
+    {
+      "english": "I’m proud I showed up today.",
+      "greek": "Είμαι περήφανος/η που εμφανίστηκα σήμερα.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375655"
+    },
+    {
+      "english": "Be patient with me, I’m healing.",
+      "greek": "Να κάνεις υπομονή μαζί μου, θα γιατρευτώ.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375657"
+    },
+    {
+      "english": "Honestly, I miss you, a lot.",
+      "greek": "Ειλικρινά, σε νοσταλγώ, πολύ.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375661"
+    },
+    {
+      "english": "Quick break, then we continue, okay?",
+      "greek": "Μια μικρή παύση, μετά συνεχίζουμε, εντάξει;",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375663"
+    },
+    {
+      "english": "I’ll be there, give me ten minutes.",
+      "greek": "Θα είμαι εκεί, δώσε μου δέκα λεπτά.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375666"
+    },
+    {
+      "english": "Don’t stress, just send the message.",
+      "greek": "Μην το αγχώνεις, στείλε απλώς μήνυμα.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-07T09:31:34.375670"
     }
   ],
-  "last_updated": "2026-11-06T10:15:44.264000"
+  "last_updated": "2026-11-07T09:31:34.375672"
 }
