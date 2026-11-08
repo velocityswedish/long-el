@@ -5759,7 +5759,727 @@
       "greek": "Μην το αγχώνεις, στείλε απλώς μήνυμα.",
       "category": "Common Native Slang",
       "generated_at": "2026-11-07T09:31:34.375670"
+    },
+    {
+      "english": "It’s okay, I forgive you, really.",
+      "greek": "Είναι οκ, σ’ έχω συγχωρέσει, πραγματικά.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458225"
+    },
+    {
+      "english": "Forget it, we’re good now, okay?",
+      "greek": "Το ξεχνάμε, είμαστε καλά τώρα, εντάξει;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458240"
+    },
+    {
+      "english": "No hard feelings, let it go, please.",
+      "greek": "Χωρίς κακία, άστο να πάει, σε παρακαλώ.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458244"
+    },
+    {
+      "english": "Alright, I get it, let’s move on.",
+      "greek": "Εντάξει, το καταλαβαίνω, πάμε παρακάτω.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458247"
+    },
+    {
+      "english": "I forgive you, but please be careful.",
+      "greek": "Σ’ συγχωρώ, αλλά πρόσεχε λίγο, σε παρακαλώ.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458249"
+    },
+    {
+      "english": "It happens, I’m cool, forgive me too.",
+      "greek": "Συμβαίνει, είμαι οκ, συγχώρεσέ με κι εσύ.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458252"
+    },
+    {
+      "english": "Don’t worry, I’ll forgive you, honestly.",
+      "greek": "Μην ανησυχείς, θα σ’ συγχωρέσω, ειλικρινά.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458255"
+    },
+    {
+      "english": "We’re good, forgive me for earlier.",
+      "greek": "Είμαστε καλά, συγχώρεσέ με για πριν.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458260"
+    },
+    {
+      "english": "Okay, I’m letting it go, honestly.",
+      "greek": "Εντάξει, το αφήνω πίσω, ειλικρινά.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458263"
+    },
+    {
+      "english": "It’s fine, I’m over it now, okay?",
+      "greek": "Είναι εντάξει, το έχω ξεπεράσει τώρα, εντάξει;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458266"
+    },
+    {
+      "english": "Let’s not hold grudges, okay?",
+      "greek": "Να μην κρατάμε κακίες, εντάξει;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458269"
+    },
+    {
+      "english": "I’m not mad, so relax, please.",
+      "greek": "Δεν είμαι θυμωμένος, χαλάρωσε, σε παρακαλώ.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458271"
+    },
+    {
+      "english": "Forgive me, I didn’t mean it.",
+      "greek": "Συγχώρεσέ με, δεν το εννοούσα.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458273"
+    },
+    {
+      "english": "I understand, so I’ll forgive it.",
+      "greek": "Το καταλαβαίνω, οπότε θα το συγχωρήσω.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458278"
+    },
+    {
+      "english": "Alright then, we move on, okay?",
+      "greek": "Καλά λοιπόν, προχωράμε, εντάξει;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458280"
+    },
+    {
+      "english": "I’m cool with it, let’s forget.",
+      "greek": "Είμαι ΟΚ μαζί του, ας το ξεχάσουμε.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458283"
+    },
+    {
+      "english": "Come on, drop it, I forgive you.",
+      "greek": "Έλα, άσε το, σε συγχωρώ.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458285"
+    },
+    {
+      "english": "We’ll be fine, I forgive you, trust me.",
+      "greek": "Θα είμαστε καλά, σε συγχωρώ, το πιστεύω.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458288"
+    },
+    {
+      "english": "I’m choosing peace, you’re forgiven.",
+      "greek": "Διαλέγω την ηρεμία, έχεις συγχωρεθεί.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458291"
+    },
+    {
+      "english": "Let bygones be bygones, okay?",
+      "greek": "Ας είναι περασμένα, εντάξει;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458293"
+    },
+    {
+      "english": "Don’t make it a big deal, I forgive.",
+      "greek": "Μην το κάνεις μεγάλο θέμα, σε συγχωρώ.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458296"
+    },
+    {
+      "english": "I forgive you, but don’t repeat it.",
+      "greek": "Σ’ συγχωρώ, αλλά μη το ξανακάνεις.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458298"
+    },
+    {
+      "english": "All good, I’m letting it go now.",
+      "greek": "Τέλεια, το αφήνω τώρα πίσω.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458301"
+    },
+    {
+      "english": "I’m cool, we’re fine, no worries.",
+      "greek": "Είμαι οκ, όλα καλά, μην αγχώνεσαι.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458305"
+    },
+    {
+      "english": "Okay, enough, I forgive you, seriously.",
+      "greek": "Εντάξει, φτάνει, σε συγχωρώ, σοβαρά.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458310"
+    },
+    {
+      "english": "I’ll forgive fast, just be honest.",
+      "greek": "Θα σε συγχωρέσω γρήγορα, απλά να είσαι ειλικρινής.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458313"
+    },
+    {
+      "english": "Hey, it’s okay, we’re good, forgive me.",
+      "greek": "Χε, είναι οκ, είμαστε καλά, συγχώρεσέ με.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458316"
+    },
+    {
+      "english": "I’m not perfect, so forgive me, please.",
+      "greek": "Δεν είμαι τέλειος, συγχώρεσέ με, σε παρακαλώ.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458318"
+    },
+    {
+      "english": "We can reset, you’re forgiven, today.",
+      "greek": "Ας το μηδενίσουμε, είσαι συγχωρεμένος, σήμερα.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458321"
+    },
+    {
+      "english": "Can you tell me why you’re asking forgiveness?",
+      "greek": "Μπορείς να μου πεις γιατί ζητάς συγγνώμη;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458324"
+    },
+    {
+      "english": "What would help you feel forgiven, really?",
+      "greek": "Τι θα σε βοηθούσε να νιώσεις συγχώρεση;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458326"
+    },
+    {
+      "english": "How can we talk, and fix it gently?",
+      "greek": "Πώς να το συζητήσουμε, και να το διορθώσουμε ήρεμα;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458329"
+    },
+    {
+      "english": "I want to understand, what happened exactly?",
+      "greek": "Θέλω να καταλάβω, τι έγινε ακριβώς;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458331"
+    },
+    {
+      "english": "Do you need time, or should we decide now?",
+      "greek": "Χρειάζεσαι χρόνο, ή να το αποφασίσουμε τώρα;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458334"
+    },
+    {
+      "english": "Should I apologize again, or is it enough?",
+      "greek": "Να ζητήσω συγγνώμη ξανά, ή είναι αρκετό;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458336"
+    },
+    {
+      "english": "How do you usually ask for forgiveness?",
+      "greek": "Πώς ζητάς συνήθως συγχώρεση;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458338"
+    },
+    {
+      "english": "What’s the best way to make amends?",
+      "greek": "Ποιος είναι ο καλύτερος τρόπος να το διορθώσω;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458341"
+    },
+    {
+      "english": "Can we start fresh, without the old pain?",
+      "greek": "Μπορούμε να ξεκινήσουμε από την αρχή, χωρίς την παλιά πληγή;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458343"
+    },
+    {
+      "english": "Do you think an honest talk would help?",
+      "greek": "Πιστεύεις ότι μια ειλικρινής συζήτηση θα βοηθήσει;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458347"
+    },
+    {
+      "english": "What should I do next, to feel better?",
+      "greek": "Τι πρέπει να κάνω μετά, για να νιώσω καλύτερα;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458350"
+    },
+    {
+      "english": "Can you tell me what hurt you most?",
+      "greek": "Μπορείς να μου πεις τι σε πόνεσε πιο πολύ;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458352"
+    },
+    {
+      "english": "Are we okay, if I say I’m sorry?",
+      "greek": "Είμαστε καλά, αν πω συγγνώμη;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458363"
+    },
+    {
+      "english": "Would you accept my apology, just ask me?",
+      "greek": "Θα δεχόσουν τη συγγνώμη μου, πες μου, σε παρακαλώ;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458365"
+    },
+    {
+      "english": "What words would make this feel real?",
+      "greek": "Ποιες λέξεις θα το κάνουν να φαίνεται αληθινό;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458367"
+    },
+    {
+      "english": "Do you want me to explain, or just listen?",
+      "greek": "Θες να το εξηγήσω, ή να απλώς ακούσουμε;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458369"
+    },
+    {
+      "english": "How can we forgive, without pretending?",
+      "greek": "Πώς να συγχωρέσουμε, χωρίς να προσποιούμαστε;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458372"
+    },
+    {
+      "english": "Can you help me fix this mistake?",
+      "greek": "Μπορείς να με βοηθήσεις να διορθώσω το λάθος;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458376"
+    },
+    {
+      "english": "Do you feel heard, when I speak calmly?",
+      "greek": "Νιώθεις ότι σε ακούω, όταν μιλάω ήρεμα;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458378"
+    },
+    {
+      "english": "What can I promise, so it doesn’t happen again?",
+      "greek": "Τι μπορώ να υποσχεθώ, για να μην ξαναγίνει;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458381"
+    },
+    {
+      "english": "Should we set boundaries, and move forward together?",
+      "greek": "Να βάλουμε όρια, και να προχωρήσουμε μαζί;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458383"
+    },
+    {
+      "english": "Can we agree on a new start today?",
+      "greek": "Μπορούμε να συμφωνήσουμε σε μια νέα αρχή σήμερα;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458386"
+    },
+    {
+      "english": "How do I earn forgiveness, step by step?",
+      "greek": "Πώς κερδίζω τη συγχώρεση, βήμα-βήμα;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458388"
+    },
+    {
+      "english": "Do you want closure, or just honesty now?",
+      "greek": "Θες να κλείσουμε αυτό, ή μόνο αλήθεια τώρα;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458390"
+    },
+    {
+      "english": "Can we talk privately, so we can heal?",
+      "greek": "Μπορούμε να μιλήσουμε ιδιωτικά, για να γιατρέψουμε;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458392"
+    },
+    {
+      "english": "What’s the one thing you need from me?",
+      "greek": "Ποιο είναι το ένα πράγμα που χρειάζεσαι από μένα;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458394"
+    },
+    {
+      "english": "If I change, will you forgive me then?",
+      "greek": "Αν αλλάξω, θα μου συγχωρέσεις τότε;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458396"
+    },
+    {
+      "english": "Let’s ask, what went wrong, and why?",
+      "greek": "Ας ρωτήσουμε, τι πήγε στραβά, και γιατί;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458401"
+    },
+    {
+      "english": "Can we clear the air, without blame?",
+      "greek": "Μπορούμε να ξεκαθαρίσουμε, χωρίς κατηγόριες;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458403"
+    },
+    {
+      "english": "What’s a respectful way to apologize again?",
+      "greek": "Ποιος είναι ο σωστός τρόπος να ζητήσω συγγνώμη ξανά;",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458406"
+    },
+    {
+      "english": "I choose peace, even when it stings, today.",
+      "greek": "Διαλέγω γαλήνη, ακόμα κι όταν πονάει, σήμερα.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458408"
+    },
+    {
+      "english": "Forgiveness starts small, breathe, then let go gently.",
+      "greek": "Η συγχώρεση ξεκινάει μικρά, ανάσα, μετά αφήνω.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458411"
+    },
+    {
+      "english": "You’re human, I’m human, we can heal.",
+      "greek": "Είσαι άνθρωπος, είμαι άνθρωπος, μπορούμε να γιατρέψουμε.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458415"
+    },
+    {
+      "english": "I’m proud of us, we can move on.",
+      "greek": "Είμαι περήφανος/η για εμάς, πάμε παρακάτω.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458417"
+    },
+    {
+      "english": "I’m not forgetting, I’m releasing the weight.",
+      "greek": "Δεν ξεχνάω, αλλά αφήνω το βάρος.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458420"
+    },
+    {
+      "english": "Let it soften you, not drag you.",
+      "greek": "Άσε το να μαλακώσει, όχι να σε σέρνει.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458423"
+    },
+    {
+      "english": "I forgive, and I keep my self-respect.",
+      "greek": "Συγχωρώ, και κρατάω την αυτοεκτίμησή μου.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458425"
+    },
+    {
+      "english": "We can learn, then try again, calmly.",
+      "greek": "Μαθαίνουμε, και ξαναπροσπαθούμε, ήρεμα.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458428"
+    },
+    {
+      "english": "It’s okay to feel upset, forgive anyway.",
+      "greek": "Είναι ΟΚ να είσαι θυμωμένος/η, συγχώρεσε έτσι κι αλλιώς.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458430"
+    },
+    {
+      "english": "I’m taking my power back, through forgiveness.",
+      "greek": "Παίρνω πίσω τη δύναμή μου, μέσα από τη συγχώρεση.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458433"
+    },
+    {
+      "english": "Today I choose mercy, not revenge.",
+      "greek": "Σήμερα διαλέγω έλεος, όχι εκδίκηση.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458435"
+    },
+    {
+      "english": "Small steps count, even in forgiveness, every day.",
+      "greek": "Τα μικρά βήματα μετράνε, ακόμα και στη συγχώρεση.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458438"
+    },
+    {
+      "english": "Thank you for trying, I’m softening.",
+      "greek": "Σε ευχαριστώ που προσπάθησες, μαλακώνω.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458441"
+    },
+    {
+      "english": "I’m listening, I’m healing, we’ll get there.",
+      "greek": "Ακούω, γιατρεύω, θα τα καταφέρουμε.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458446"
+    },
+    {
+      "english": "No blame now, just growth and forgiveness.",
+      "greek": "Χωρίς κατηγόριες τώρα, μόνο εξέλιξη και συγχώρεση.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458448"
+    },
+    {
+      "english": "Give it time, my heart will follow.",
+      "greek": "Δώσε χρόνο, η καρδιά μου θα ακολουθήσει.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458450"
+    },
+    {
+      "english": "I can forgive, because I want freedom.",
+      "greek": "Μπορώ να συγχωρήσω, γιατί θέλω ελευθερία.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458453"
+    },
+    {
+      "english": "Your honesty helps, it makes forgiveness easier.",
+      "greek": "Η ειλικρίνεια σε βοηθά, κάνει τη συγχώρεση πιο εύκολη.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458455"
+    },
+    {
+      "english": "Let’s focus on solutions, forgiveness follows action.",
+      "greek": "Ας εστιάσουμε στις λύσεις, η συγχώρεση έρχεται με πράξεις.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458458"
+    },
+    {
+      "english": "I trust change, forgiveness can be gradual.",
+      "greek": "Πιστεύω στην αλλαγή, η συγχώρεση γίνεται σιγά-σιγά.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458460"
+    },
+    {
+      "english": "I’m proud you’re owning it, that matters.",
+      "greek": "Είμαι περήφανος/η που το αναγνωρίζεις, αυτό μετράει.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458463"
+    },
+    {
+      "english": "Mercy makes room, I’m choosing that space.",
+      "greek": "Το έλεος ανοίγει χώρο, αυτό διαλέγω.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458466"
+    },
+    {
+      "english": "Even if we’re hurt, we can reset.",
+      "greek": "Ακόμα κι αν πονάμε, μπορούμε να κάνουμε επανεκκίνηση.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458469"
+    },
+    {
+      "english": "I forgive you, and I’m moving with respect.",
+      "greek": "Σε συγχωρώ, και προχωράω με σεβασμό.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458471"
+    },
+    {
+      "english": "Breathe with me, let the anger pass.",
+      "greek": "Πάρε ανάσα μαζί μου, άφησε τον θυμό να περάσει.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458473"
+    },
+    {
+      "english": "Forgiveness doesn’t erase lessons, it saves you.",
+      "greek": "Η συγχώρεση δεν σβήνει τα μαθήματα, σε σώζει.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458476"
+    },
+    {
+      "english": "I’m staying kind, even with hard memories.",
+      "greek": "Μένω ευγενικός/ή, ακόμα κι με δύσκολες αναμνήσεις.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458479"
+    },
+    {
+      "english": "I’ll let your effort speak, not your mistake.",
+      "greek": "Θα αφήσω την προσπάθεια να μιλήσει, όχι το λάθος.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458482"
+    },
+    {
+      "english": "We can rebuild trust, one honest step.",
+      "greek": "Μπορούμε να ξαναχτίσουμε εμπιστοσύνη, ένα ειλικρινές βήμα.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458486"
+    },
+    {
+      "english": "Forgive now, tomorrow will feel lighter.",
+      "greek": "Συγχώρεσε τώρα, αύριο θα νιώσεις πιο ανάλαφρα.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458490"
+    },
+    {
+      "english": "I’m naming my feelings, then I forgive.",
+      "greek": "Ονομάζω τα συναισθήματά μου, και μετά συγχωρώ.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458492"
+    },
+    {
+      "english": "I’m not ready to forget, I’m ready to release.",
+      "greek": "Δεν είμαι έτοιμος να ξεχάσω, είμαι έτοιμος να αφήσω.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458495"
+    },
+    {
+      "english": "My heart needs time, but I choose kindness.",
+      "greek": "Η καρδιά μου θέλει χρόνο, αλλά διαλέγω καλοσύνη.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458498"
+    },
+    {
+      "english": "I’m listening to my anger, and letting go.",
+      "greek": "Ακούω τον θυμό μου, και τον αφήνω.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458500"
+    },
+    {
+      "english": "I notice the sting, and still I soften.",
+      "greek": "Παίρνω χαμπάρι το τσίμπημα, και μαλακώνω.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458503"
+    },
+    {
+      "english": "I forgive slowly, because healing isn’t instant.",
+      "greek": "Συγχωρώ αργά, γιατί η ίαση δεν είναι στιγμιαία.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458505"
+    },
+    {
+      "english": "I’m honest about pain, and still choose peace.",
+      "greek": "Είμαι ειλικρινής για τον πόνο, και διαλέγω ειρήνη.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458508"
+    },
+    {
+      "english": "I’m not excusing it, I’m choosing freedom.",
+      "greek": "Δεν το δικαιολογώ, επιλέγω ελευθερία.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458510"
+    },
+    {
+      "english": "I let the story end, without carrying it.",
+      "greek": "Αφήνω την ιστορία να τελειώσει, χωρίς να τη σηκώνω.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458513"
+    },
+    {
+      "english": "I can forgive, while I still protect myself.",
+      "greek": "Μπορώ να συγχωρώ, ενώ ακόμα προστατεύω τον εαυτό μου.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458515"
+    },
+    {
+      "english": "I’m dealing with hurt, not pretending it vanished.",
+      "greek": "Αντιμετωπίζω τον πόνο, δεν κάνω πως εξαφανίστηκε.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458518"
+    },
+    {
+      "english": "My forgiveness is real, even if I’m cautious.",
+      "greek": "Η συγχώρεσή μου είναι αληθινή, ακόμα κι αν είμαι προσεκτικός.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458520"
+    },
+    {
+      "english": "I’m rebuilding trust with patience, not pressure.",
+      "greek": "Ξαναχτίζω την εμπιστοσύνη με υπομονή, όχι πίεση.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458523"
+    },
+    {
+      "english": "I forgive, but I don’t erase what I learned.",
+      "greek": "Συγχωρώ, αλλά δεν σβήνω όσα έμαθα.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458526"
+    },
+    {
+      "english": "I choose to breathe, before I react again.",
+      "greek": "Διαλέγω να πάρω ανάσα, πριν αντιδράσω ξανά.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458528"
+    },
+    {
+      "english": "I’m letting my blame fade, little by little.",
+      "greek": "Αφήνω να ξεθωριάζει η κατηγορία, σιγά σιγά.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458531"
+    },
+    {
+      "english": "I talk to myself, then I forgive with respect.",
+      "greek": "Μιλώ με τον εαυτό μου, μετά συγχωρώ με σεβασμό.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458533"
+    },
+    {
+      "english": "I’m not bitter, I’m processing, and forgiving.",
+      "greek": "Δεν είμαι πικραμένος, το επεξεργάζομαι, και συγχωρώ.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458537"
+    },
+    {
+      "english": "Some days forgiveness is slower, that’s okay.",
+      "greek": "Μερικές μέρες η συγχώρεση αργεί, κι αυτό είναι οκ.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458540"
+    },
+    {
+      "english": "I don’t need revenge to feel whole.",
+      "greek": "Δεν χρειάζομαι εκδίκηση για να νιώσω ολοκληρωμένος.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458543"
+    },
+    {
+      "english": "I’m grateful for honesty, then I release it.",
+      "greek": "Ευχαριστώ για την αλήθεια, μετά το αφήνω.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458545"
+    },
+    {
+      "english": "I’m choosing not to replay every moment.",
+      "greek": "Διαλέγω να μη ξαναζώ κάθε στιγμή.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458548"
+    },
+    {
+      "english": "I can forgive, and still set my limits.",
+      "greek": "Μπορώ να συγχωρώ, και να βάλω τα όριά μου.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458550"
+    },
+    {
+      "english": "I let compassion lead, even when it’s tough.",
+      "greek": "Αφήνω τη συμπόνια να οδηγεί, ακόμα κι όταν είναι δύσκολο.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458553"
+    },
+    {
+      "english": "I’m reflecting quietly, then moving forward carefully.",
+      "greek": "Κάνω ήσυχη σκέψη, μετά προχωράω προσεκτικά.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458555"
+    },
+    {
+      "english": "I forgive because I don’t want to carry it.",
+      "greek": "Συγχωρώ γιατί δεν θέλω να το κουβαλάω.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458558"
+    },
+    {
+      "english": "I’m owning my part, and still forgiving yours.",
+      "greek": "Αναλαμβάνω το δικό μου, και ακόμα συγχωρώ το δικό σου.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458560"
+    },
+    {
+      "english": "I keep my dignity, while I forgive.",
+      "greek": "Κρατάω την αξιοπρέπειά μου, όσο συγχωρώ.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458563"
+    },
+    {
+      "english": "My forgiveness is a decision, not a mood.",
+      "greek": "Η συγχώρεσή μου είναι απόφαση, όχι διάθεση.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458565"
+    },
+    {
+      "english": "I release the past, and I stay present.",
+      "greek": "Αφήνω το παρελθόν, και μένω στο τώρα.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458567"
+    },
+    {
+      "english": "Okay, I won’t text back while angry.",
+      "greek": "Οκ, δεν θα απαντήσω όσο είμαι θυμωμένος/η.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-08T09:48:53.458572"
     }
   ],
-  "last_updated": "2026-11-07T09:31:34.375672"
+  "last_updated": "2026-11-08T09:48:53.458573"
 }
