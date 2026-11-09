@@ -6479,7 +6479,727 @@
       "greek": "Οκ, δεν θα απαντήσω όσο είμαι θυμωμένος/η.",
       "category": "Forgiveness",
       "generated_at": "2026-11-08T09:48:53.458572"
+    },
+    {
+      "english": "Hey, I’m here for you, always.",
+      "greek": "Γεια σου, είμαι εδώ για σένα, πάντα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143107"
+    },
+    {
+      "english": "Thanks for checking on me, I appreciate it.",
+      "greek": "Σε ευχαριστώ που με ρώτησες, το εκτιμώ.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143123"
+    },
+    {
+      "english": "You can count on me, for real.",
+      "greek": "Μπορείς να μετράς πάνω μου, στα αλήθεια.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143125"
+    },
+    {
+      "english": "I’ve got you, don’t stress, okay?",
+      "greek": "Σ’ έχω, μην αγχώνεσαι, εντάξει;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143127"
+    },
+    {
+      "english": "What’s up, tell me everything.",
+      "greek": "Τι γίνεται, πες μου τα πάντα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143129"
+    },
+    {
+      "english": "Come on, let’s hang out today.",
+      "greek": "Έλα, ας βγούμε σήμερα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143131"
+    },
+    {
+      "english": "I’m proud of you, seriously.",
+      "greek": "Καμαρώνω για σένα, στα αλήθεια.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143133"
+    },
+    {
+      "english": "That’s sweet, you’re so kind.",
+      "greek": "Τι γλυκό, είσαι τόσο ευγενικός/η.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143137"
+    },
+    {
+      "english": "Wait, that’s amazing, tell me more.",
+      "greek": "Περίμενε, αυτό είναι απίστευτο, πες μου.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143140"
+    },
+    {
+      "english": "I got your back, always, no joke.",
+      "greek": "Στέκομαι δίπλα σου, πάντα, χωρίς πλάκα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143142"
+    },
+    {
+      "english": "Did you eat? Want something together?",
+      "greek": "Έφαγες; Θες να φάμε μαζί;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143144"
+    },
+    {
+      "english": "Let’s talk, I’m listening right now.",
+      "greek": "Ας μιλήσουμε, σε ακούω τώρα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143146"
+    },
+    {
+      "english": "That’s not cool, don’t let it pass.",
+      "greek": "Αυτό δεν είναι οκ, μην το αφήσεις.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143150"
+    },
+    {
+      "english": "You’re not alone, okay, listen.",
+      "greek": "Δεν είσαι μόνος/η, εντάξει, άκου.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143152"
+    },
+    {
+      "english": "Good to see you, how’s life?",
+      "greek": "Χαίρομαι που σε βλέπω, τι κάνεις;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143153"
+    },
+    {
+      "english": "I thought of you, out of nowhere.",
+      "greek": "Σε σκέφτηκα, χωρίς λόγο.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143155"
+    },
+    {
+      "english": "That makes me laugh, you’re hilarious.",
+      "greek": "Με κάνεις και γελάω, είσαι φοβερός/ή.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143157"
+    },
+    {
+      "english": "I’m sorry, I didn’t mean that.",
+      "greek": "Συγγνώμη, δεν το ήθελα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143159"
+    },
+    {
+      "english": "Let’s keep it simple, we’ll be fine.",
+      "greek": "Το κρατάμε απλό, θα είμαστε καλά.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143161"
+    },
+    {
+      "english": "Respect, you handled that so well.",
+      "greek": "Σεβασμός, το έκανες τόσο καλά.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143163"
+    },
+    {
+      "english": "You can vent here, no judgment.",
+      "greek": "Μπορείς να τα πεις, χωρίς κριτική.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143164"
+    },
+    {
+      "english": "I’m in, just say when and where.",
+      "greek": "Συμφωνώ, πες πότε και πού.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143168"
+    },
+    {
+      "english": "All good, we’ll make it work.",
+      "greek": "Όλα καλά, θα το βολέψουμε.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143170"
+    },
+    {
+      "english": "Are you free later? Let’s chat.",
+      "greek": "Είσαι ελεύθερος/η αργότερα; Να μιλήσουμε;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143171"
+    },
+    {
+      "english": "That’s your thing, go for it.",
+      "greek": "Αυτό είναι το στυλ σου, προχώρα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143173"
+    },
+    {
+      "english": "I trust you, that’s why I’m calm.",
+      "greek": "Σε εμπιστεύομαι, γι’ αυτό είμαι ήρεμος/η.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143177"
+    },
+    {
+      "english": "Let’s celebrate, you deserve this.",
+      "greek": "Ας το γιορτάσουμε, το αξίζεις.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143178"
+    },
+    {
+      "english": "If you need me, text me right away.",
+      "greek": "Αν με χρειάζεσαι, στείλε μου μήνυμα τώρα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143180"
+    },
+    {
+      "english": "We’re a team, no matter what.",
+      "greek": "Είμαστε ομάδα, ό,τι κι αν γίνει.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143182"
+    },
+    {
+      "english": "How did you handle that, seriously?",
+      "greek": "Πώς το διαχειρίστηκες, σοβαρά;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143184"
+    },
+    {
+      "english": "What do you think, I’m curious?",
+      "greek": "Τι λες, έχω περιέργεια;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143186"
+    },
+    {
+      "english": "Do you want advice or just to vent?",
+      "greek": "Θες συμβουλή, ή απλώς να μιλήσεις;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143188"
+    },
+    {
+      "english": "Be honest, what would you do?",
+      "greek": "Να είσαι ειλικρινής, τι θα έκανες;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143190"
+    },
+    {
+      "english": "Do you have plans this weekend?",
+      "greek": "Έχεις σχέδια αυτό το Σαββατοκύριακο;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143191"
+    },
+    {
+      "english": "Can we talk about your new job?",
+      "greek": "Μπορούμε να μιλήσουμε για τη νέα δουλειά;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143193"
+    },
+    {
+      "english": "How’s your day going, for real?",
+      "greek": "Πώς πάει η μέρα σου, στ’ αλήθεια;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143196"
+    },
+    {
+      "english": "What’s the vibe with your friends?",
+      "greek": "Τι παίζει με τους φίλους σου;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143198"
+    },
+    {
+      "english": "Should we grab coffee after this?",
+      "greek": "Να πάμε για καφέ μετά από αυτό;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143199"
+    },
+    {
+      "english": "How can I support you right now?",
+      "greek": "Πώς να σε στηρίξω τώρα;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143200"
+    },
+    {
+      "english": "What would make you feel better?",
+      "greek": "Τι θα σε έκανε να νιώσεις καλύτερα;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143202"
+    },
+    {
+      "english": "Can you tell me the whole story?",
+      "greek": "Μπορείς να μου πεις όλη την ιστορία;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143203"
+    },
+    {
+      "english": "Are you free for a quick call?",
+      "greek": "Είσαι διαθέσιμος για ένα σύντομο τηλέφωνο;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143205"
+    },
+    {
+      "english": "Do you want company, or space?",
+      "greek": "Θες παρέα, ή λίγο χώρο;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143207"
+    },
+    {
+      "english": "How do you keep calm, teach me.",
+      "greek": "Πώς κρατάς την ηρεμία, μάθε μου.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143209"
+    },
+    {
+      "english": "Can I text you later, no pressure?",
+      "greek": "Να σου στείλω αργότερα, χωρίς πίεση;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143212"
+    },
+    {
+      "english": "Did I say something wrong, be real?",
+      "greek": "Είπα κάτι λάθος, να μου πεις αλήθεια;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143213"
+    },
+    {
+      "english": "How close are you two, honestly?",
+      "greek": "Πόσο κοντά είστε μεταξύ σας;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143215"
+    },
+    {
+      "english": "What’s your next plan, after all this?",
+      "greek": "Τι είναι το επόμενο μετά από όλα αυτά;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143217"
+    },
+    {
+      "english": "Want to walk and catch up?",
+      "greek": "Θες να περπατήσουμε και να τα πούμε;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143218"
+    },
+    {
+      "english": "Should I be worried, tell me.",
+      "greek": "Να ανησυχώ; Πες μου.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143220"
+    },
+    {
+      "english": "Do you trust your gut on this?",
+      "greek": "Το νιώθεις σωστό μέσα σου;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143222"
+    },
+    {
+      "english": "Can we reset, start fresh, together?",
+      "greek": "Να το ξαναρχίσουμε, από την αρχή μαζί;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143224"
+    },
+    {
+      "english": "If you had to choose, what wins?",
+      "greek": "Αν έπρεπε να διαλέξεις, τι θα πάρεις;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143225"
+    },
+    {
+      "english": "We’ve got this together, step by step.",
+      "greek": "Το έχουμε μαζί, βήμα-βήμα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143227"
+    },
+    {
+      "english": "Your effort matters, and I notice.",
+      "greek": "Η προσπάθειά σου μετρά, και το βλέπω.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143229"
+    },
+    {
+      "english": "Keep going, even on the slow days.",
+      "greek": "Συνέχισε, ακόμα κι όταν είναι αργά.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143231"
+    },
+    {
+      "english": "Small wins count, don’t underestimate them.",
+      "greek": "Τα μικρά κερδίζουν, μην τα υποτιμάς.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143234"
+    },
+    {
+      "english": "I’m proud of you, for real.",
+      "greek": "Είμαι περήφανος/η για σένα, στ’ αλήθεια.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143237"
+    },
+    {
+      "english": "Let’s breathe, then talk it out.",
+      "greek": "Ας πάρουμε ανάσα, και μετά το λέμε.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143239"
+    },
+    {
+      "english": "You’ve handled harder stuff before.",
+      "greek": "Έχεις αντιμετωπίσει πιο δύσκολα πριν.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143241"
+    },
+    {
+      "english": "No pressure, just me cheering you on.",
+      "greek": "Χωρίς πίεση, εγώ απλά σε στηρίζω.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143242"
+    },
+    {
+      "english": "Good thoughts, good people, good days.",
+      "greek": "Καλές σκέψεις, καλοί άνθρωποι, καλές μέρες.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143244"
+    },
+    {
+      "english": "Trust yourself, I’ve seen it work.",
+      "greek": "Πίστεψε στον εαυτό σου, το έχω δει.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143246"
+    },
+    {
+      "english": "When you doubt, I’ll remind you.",
+      "greek": "Όταν αμφιβάλλεις, θα σε θυμίσω.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143248"
+    },
+    {
+      "english": "You’re doing better than you think.",
+      "greek": "Πας καλύτερα απ’ όσο νομίζεις.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143250"
+    },
+    {
+      "english": "Friendship feels safe, with you.",
+      "greek": "Η φιλία νιώθει ασφαλής, μαζί σου.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143252"
+    },
+    {
+      "english": "I’ve got your back, always.",
+      "greek": "Έχω την πλάτη σου, πάντα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143254"
+    },
+    {
+      "english": "Talk it out, we’ll figure it together.",
+      "greek": "Βγάλε το, θα το βρούμε μαζί.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143256"
+    },
+    {
+      "english": "You don’t need to carry that alone.",
+      "greek": "Δεν χρειάζεται να το σηκώνεις μόνος/η σου.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143258"
+    },
+    {
+      "english": "Today, choose kindness, it pays off.",
+      "greek": "Σήμερα διάλεξε καλοσύνη, αξίζει.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143260"
+    },
+    {
+      "english": "You’re valued, don’t forget that.",
+      "greek": "Είσαι πολύτιμος/η, μην το ξεχνάς.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143262"
+    },
+    {
+      "english": "One message can change a day.",
+      "greek": "Ένα μήνυμα μπορεί να αλλάξει μέρα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143263"
+    },
+    {
+      "english": "Stay hopeful, I believe in you.",
+      "greek": "Κράτα την ελπίδα, πιστεύω σε σένα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143265"
+    },
+    {
+      "english": "You inspire me, seriously.",
+      "greek": "Με εμπνέεις, το εννοώ.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143266"
+    },
+    {
+      "english": "We celebrate progress, not perfection.",
+      "greek": "Γιορτάζουμε την πρόοδο, όχι την τελειότητα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143268"
+    },
+    {
+      "english": "Let’s turn this into a learning moment.",
+      "greek": "Ας το κάνουμε μάθημα, όχι βάρος.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143270"
+    },
+    {
+      "english": "Even tough days, we stick together.",
+      "greek": "Ακόμα κι οι δύσκολες μέρες, μαζί.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143273"
+    },
+    {
+      "english": "You bring light, that’s real.",
+      "greek": "Φέρνεις φως, είναι αληθινό.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143275"
+    },
+    {
+      "english": "Say it kindly, and it lands better.",
+      "greek": "Πες το με καλοσύνη, και πιάνει καλύτερα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143277"
+    },
+    {
+      "english": "I’m here, now, not later.",
+      "greek": "Είμαι εδώ, τώρα, όχι μετά.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143279"
+    },
+    {
+      "english": "Your feelings make sense, no drama.",
+      "greek": "Τα νιώθεις λογικά, χωρίς δράματα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143280"
+    },
+    {
+      "english": "Let’s reset our mindset, right away.",
+      "greek": "Ας αλλάξουμε νοοτροπία, αμέσως.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143282"
+    },
+    {
+      "english": "Friends grow together, that’s the point.",
+      "greek": "Οι φίλοι μεγαλώνουν μαζί, αυτό είναι.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143284"
+    },
+    {
+      "english": "I just miss hearing your honest thoughts.",
+      "greek": "Μου λείπει να ακούω τις ειλικρινείς σκέψεις σου.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143286"
+    },
+    {
+      "english": "Thanks for listening, even when it’s messy.",
+      "greek": "Σε ευχαριστώ που ακούς, ακόμα κι όταν είναι μπερδεμένο.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143288"
+    },
+    {
+      "english": "I’m not perfect, but I show up.",
+      "greek": "Δεν είμαι τέλειος, αλλά εμφανίζομαι.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143292"
+    },
+    {
+      "english": "Sometimes I need patience, not advice.",
+      "greek": "Μερικές φορές χρειάζομαι χρόνο, όχι συμβουλές.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143293"
+    },
+    {
+      "english": "I feel better after we talk, really.",
+      "greek": "Μου περνάει όταν μιλάμε, πραγματικά.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143295"
+    },
+    {
+      "english": "If I’m quiet, I’m just processing.",
+      "greek": "Αν είμαι ήσυχος, απλώς το επεξεργάζομαι.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143297"
+    },
+    {
+      "english": "I don’t want to pretend I’m fine.",
+      "greek": "Δεν θέλω να κάνω πως είμαι καλά.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143299"
+    },
+    {
+      "english": "Your honesty helps me, even when hurts.",
+      "greek": "Η αλήθειά σου με βοηθά, ακόμα κι όταν πονάει.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143301"
+    },
+    {
+      "english": "Let’s be real, no sugarcoating.",
+      "greek": "Ας είμαστε αληθινοί, χωρίς γλυκανάλατα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143303"
+    },
+    {
+      "english": "I’m learning how to say what I feel.",
+      "greek": "Μαθαίνω να λέω αυτό που νιώθω.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143305"
+    },
+    {
+      "english": "I appreciate you more than you know.",
+      "greek": "Σε εκτιμώ περισσότερο απ’ όσο νομίζεις.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143306"
+    },
+    {
+      "english": "Even small check-ins mean a lot to me.",
+      "greek": "Ακόμα και τα μικρά μηνύματα με νοιάζουν.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143308"
+    },
+    {
+      "english": "I don’t judge you, I just care.",
+      "greek": "Δεν σε κρίνω, νοιάζομαι μόνο.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143313"
+    },
+    {
+      "english": "Sometimes I’m scared, and that’s okay.",
+      "greek": "Μερικές φορές φοβάμαι, και είναι οκ.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143315"
+    },
+    {
+      "english": "I want to understand you, not win.",
+      "greek": "Θέλω να σε καταλάβω, όχι να νικήσω.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143317"
+    },
+    {
+      "english": "When you distance, I get worried.",
+      "greek": "Όταν απομακρύνεσαι, ανησυχώ.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143319"
+    },
+    {
+      "english": "I’m proud of us for talking it out.",
+      "greek": "Είμαι περήφανος για εμάς που το συζητάμε.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143321"
+    },
+    {
+      "english": "I keep it real, even with my feelings.",
+      "greek": "Το κρατάω αληθινό, ακόμα και στα συναισθήματά μου.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143322"
+    },
+    {
+      "english": "We can slow down, I’ll still be here.",
+      "greek": "Μπορούμε να το πάμε πιο αργά, θα είμαι εδώ.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143324"
+    },
+    {
+      "english": "I don’t need answers right now, just you.",
+      "greek": "Δεν χρειάζομαι απαντήσεις τώρα, μόνο εσένα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143326"
+    },
+    {
+      "english": "My feelings are valid, I’m not overreacting.",
+      "greek": "Τα συναισθήματά μου είναι σωστά, δεν το παρακάνω.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143329"
+    },
+    {
+      "english": "If we hurt, we fix it gently.",
+      "greek": "Αν πληγωθούμε, το φτιάχνουμε απαλά.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143331"
+    },
+    {
+      "english": "I trust you, but I ask questions too.",
+      "greek": "Σε εμπιστεύομαι, αλλά ρωτάω κι εγώ.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143332"
+    },
+    {
+      "english": "Let’s remember, everyone has bad days.",
+      "greek": "Ας θυμηθούμε, όλοι έχουμε δύσκολες μέρες.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143334"
+    },
+    {
+      "english": "I feel lighter when you’re being kind.",
+      "greek": "Νιώθω πιο ανάλαφρα όταν είσαι ευγενικός.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143336"
+    },
+    {
+      "english": "I’m trying to communicate better, step by step.",
+      "greek": "Προσπαθώ να επικοινωνώ καλύτερα, σιγά-σιγά.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143338"
+    },
+    {
+      "english": "When I’m hurt, I’ll tell you calmly.",
+      "greek": "Όταν με πληγώνεις, θα το πω ήρεμα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143340"
+    },
+    {
+      "english": "I don’t want drama, I want closeness.",
+      "greek": "Δεν θέλω δράμα, θέλω να είμαστε κοντά.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143342"
+    },
+    {
+      "english": "Your support makes me brave enough to try.",
+      "greek": "Η στήριξή σου με κάνει αρκετά γενναίο να προσπαθήσω.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143343"
+    },
+    {
+      "english": "Sometimes silence is love, not distance.",
+      "greek": "Μερικές φορές η σιωπή είναι αγάπη, όχι απόσταση.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143345"
+    },
+    {
+      "english": "Quick check-in, how was your day?",
+      "greek": "Γρήγορο check-in, πώς ήταν η μέρα σου;",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143347"
+    },
+    {
+      "english": "Text me when you’re free, no rush.",
+      "greek": "Στείλε μου μήνυμα όταν είσαι ελεύθερος, χωρίς βιασύνη.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143350"
+    },
+    {
+      "english": "Let’s meet, pick a place close by.",
+      "greek": "Να βρεθούμε, διάλεξε ένα μέρος κοντά.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143352"
+    },
+    {
+      "english": "I’m listening, tell me the whole story.",
+      "greek": "Ακούω, πες μου όλη την ιστορία.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143354"
+    },
+    {
+      "english": "If you need space, just say it.",
+      "greek": "Αν χρειάζεσαι χώρο, απλώς πες το.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143355"
+    },
+    {
+      "english": "We can laugh, then handle the rest.",
+      "greek": "Μπορούμε να γελάσουμε, μετά τα υπόλοιπα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143357"
+    },
+    {
+      "english": "I appreciate your effort, not just results.",
+      "greek": "Μου αρέσει η προσπάθειά σου, όχι μόνο τα αποτελέσματα.",
+      "category": "Friendship",
+      "generated_at": "2026-11-09T10:47:45.143359"
     }
   ],
-  "last_updated": "2026-11-08T09:48:53.458573"
+  "last_updated": "2026-11-09T10:47:45.143360"
 }
