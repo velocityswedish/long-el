@@ -7199,7 +7199,727 @@
       "greek": "Μου αρέσει η προσπάθειά σου, όχι μόνο τα αποτελέσματα.",
       "category": "Friendship",
       "generated_at": "2026-11-09T10:47:45.143359"
+    },
+    {
+      "english": "Ready, set, go, let's warm up",
+      "greek": "Έτοιμοι, πάμε, πάμε, ξεκινάμε προθέρμανση",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323085"
+    },
+    {
+      "english": "Good, take a deep breath, keep going",
+      "greek": "Ωραία, πάρε μια βαθιά ανάσα, συνέχισε",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323122"
+    },
+    {
+      "english": "Catch your breath, you’re doing great",
+      "greek": "Πάρε ανάσα, τα πας πολύ καλά",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323127"
+    },
+    {
+      "english": "Hold it steady, don’t rush the reps",
+      "greek": "Κράτα το σταθερά, μη βιάζεσαι στις επαναλήψεις",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323135"
+    },
+    {
+      "english": "Nice work, form first, speed later",
+      "greek": "Μπράβο, πρώτα σωστή στάση, μετά ταχύτητα",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323138"
+    },
+    {
+      "english": "Easy now, relax your shoulders",
+      "greek": "Χαλάρωσε τώρα, άσε τους ώμους",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323141"
+    },
+    {
+      "english": "Stop, that hurts, let’s adjust",
+      "greek": "Σταμάτα, πονάει, ας το προσαρμόσουμε",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323144"
+    },
+    {
+      "english": "Breathe in, breathe out, count slowly",
+      "greek": "Εισπνοή, εκπνοή, μέτρα αργά",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323151"
+    },
+    {
+      "english": "Quick stretch, then we start again",
+      "greek": "Γρήγορο τέντωμα, μετά ξεκινάμε πάλι",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323154"
+    },
+    {
+      "english": "Water first, then your next set",
+      "greek": "Νερό πρώτα, μετά η επόμενη σειρά",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323157"
+    },
+    {
+      "english": "No worries, you can do it",
+      "greek": "Δεν πειράζει, μπορείς να το κάνεις",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323159"
+    },
+    {
+      "english": "That’s it, good posture, keep that",
+      "greek": "Έτσι, καλή στάση, κράτα την",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323165"
+    },
+    {
+      "english": "You’re almost there, finish strong",
+      "greek": "Είσαι σχεδόν εκεί, κλείσε δυνατά",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323168"
+    },
+    {
+      "english": "Again, one more time, don’t quit",
+      "greek": "Ακόμα μία, μια φορά ακόμη, μην το αφήσεις",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323171"
+    },
+    {
+      "english": "Switch sides, keep your core tight",
+      "greek": "Άλλαξε πλευρά, κράτα τον κορμό σφιχτά",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323173"
+    },
+    {
+      "english": "Slow down, your form matters most",
+      "greek": "Πιο αργά, η τεχνική είναι το παν",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323175"
+    },
+    {
+      "english": "I’m feeling it, but in a good way",
+      "greek": "Το νιώθω, αλλά με καλό τρόπο",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323178"
+    },
+    {
+      "english": "That burn’s normal, keep moving",
+      "greek": "Το κάψιμο είναι φυσιολογικό, συνέχισε",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323181"
+    },
+    {
+      "english": "How’s your knee, careful now",
+      "greek": "Πώς είναι το γόνατό σου, προσεκτικά τώρα",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323187"
+    },
+    {
+      "english": "You’ve got this, push a little more",
+      "greek": "Τα καταφέρνεις, πίεσε λίγο ακόμα",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323191"
+    },
+    {
+      "english": "Nice pace, keep that rhythm",
+      "greek": "Ωραία ταχύτητα, κράτα αυτόν τον ρυθμό",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323193"
+    },
+    {
+      "english": "Stop slouching, chest up, shoulders back",
+      "greek": "Μην καμπουριάζεις, στήθος ψηλά, ώμοι πίσω",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323197"
+    },
+    {
+      "english": "Warm hands, start with lighter weights",
+      "greek": "Ζέστανε τα χέρια, ξεκίνα με πιο ελαφριά βάρη",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323199"
+    },
+    {
+      "english": "Last one, don’t lose control",
+      "greek": "Τελευταία επανάληψη, μη χάσεις τον έλεγχο",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323202"
+    },
+    {
+      "english": "Great job, now cool down slowly",
+      "greek": "Μπράβο, τώρα χαλάρωσε, δροσίζε σιγά",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323204"
+    },
+    {
+      "english": "I need water, can we pause?",
+      "greek": "Χρειάζομαι νερό, μπορούμε να κάνουμε παύση;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323206"
+    },
+    {
+      "english": "What’s next, cardio or strength?",
+      "greek": "Τι κάνουμε μετά, καρδιο ή ενδυνάμωση;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323209"
+    },
+    {
+      "english": "Set your timer, we go in five",
+      "greek": "Ρύθμισε το χρονόμετρο, σε πέντε ξεκινάμε",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323211"
+    },
+    {
+      "english": "That’s enough, I’m feeling sore",
+      "greek": "Αρκετά, το νιώθω κουρασμένο",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323236"
+    },
+    {
+      "english": "Good recovery, stretch again tomorrow",
+      "greek": "Καλή αποκατάσταση, τέντωσε πάλι αύριο",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323239"
+    },
+    {
+      "english": "What’s your goal, muscle, strength, or stamina?",
+      "greek": "Ποιος είναι ο στόχος σου, μυς, δύναμη ή αντοχή;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323243"
+    },
+    {
+      "english": "Can I join your workout, is it okay?",
+      "greek": "Μπορώ να μπω στη προπόνησή σου, είναι εντάξει;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323246"
+    },
+    {
+      "english": "How often do you train each week, usually?",
+      "greek": "Πόσες φορές προπονείσαι τη βδομάδα, συνήθως;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323248"
+    },
+    {
+      "english": "Which exercise helps your back the most?",
+      "greek": "Ποια άσκηση βοηθάει πιο πολύ την πλάτη σου;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323251"
+    },
+    {
+      "english": "Should I stretch before, or after training?",
+      "greek": "Να κάνω διατάσεις πριν, ή μετά την προπόνηση;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323253"
+    },
+    {
+      "english": "What’s the best way to warm up?",
+      "greek": "Ποιος είναι ο καλύτερος τρόπος για προθέρμανση;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323257"
+    },
+    {
+      "english": "Do you use a workout plan, or freestyle?",
+      "greek": "Χρησιμοποιείς πρόγραμμα, ή το κάνεις ελεύθερα;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323259"
+    },
+    {
+      "english": "Can you show me proper form for this?",
+      "greek": "Μπορείς να μου δείξεις σωστή φόρμα γι’ αυτό;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323261"
+    },
+    {
+      "english": "How do you pace yourself during intervals?",
+      "greek": "Πώς κρατάς ρυθμό στα διαστήματα;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323264"
+    },
+    {
+      "english": "Is this weight too heavy for me?",
+      "greek": "Είναι αυτό το βάρος πολύ βαρύ για μένα;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323266"
+    },
+    {
+      "english": "What should I eat before training, quick?",
+      "greek": "Τι να φάω πριν την προπόνηση, γρήγορα;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323270"
+    },
+    {
+      "english": "How long should I rest between sets?",
+      "greek": "Πόση ώρα να ξεκουράζομαι ανάμεσα στα σετ;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323272"
+    },
+    {
+      "english": "Any tips for staying consistent, even busy?",
+      "greek": "Έχεις καμιά συμβουλή για συνέπεια, κι όταν είσαι απασχολημένος;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323275"
+    },
+    {
+      "english": "What do you do when motivation drops?",
+      "greek": "Τι κάνεις όταν πέφτει η διάθεση;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323279"
+    },
+    {
+      "english": "Should I train through soreness, or rest?",
+      "greek": "Να προπονούμαι όταν πονάω, ή να ξεκουράζομαι;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323281"
+    },
+    {
+      "english": "How’s your breathing during squats?",
+      "greek": "Πώς είναι η αναπνοή σου στις προβολές ή στα καθίσματα;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323286"
+    },
+    {
+      "english": "Do you track calories, or just protein?",
+      "greek": "Μετράς θερμίδες, ή απλά το πρωτεΐνικό;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323289"
+    },
+    {
+      "english": "What’s your favorite cardio, running or cycling?",
+      "greek": "Ποιο είναι το αγαπημένο σου cardio, τρέξιμο ή ποδήλατο;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323293"
+    },
+    {
+      "english": "Can you recommend shoes for this workout?",
+      "greek": "Μπορείς να μου προτείνεις παπούτσια για αυτό;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323296"
+    },
+    {
+      "english": "How do you prevent shin splints?",
+      "greek": "Πώς αποφεύγεις τις ενοχλήσεις στη γάμπα;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323298"
+    },
+    {
+      "english": "Should I decrease weight if I wobble?",
+      "greek": "Να μειώσω βάρος αν τρέμει το σώμα μου;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323300"
+    },
+    {
+      "english": "What’s your warm-up duration, five or ten?",
+      "greek": "Πόσο κρατά η προθέρμανση σου, πέντε ή δέκα λεπτά;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323303"
+    },
+    {
+      "english": "Are you sore in a good way today?",
+      "greek": "Πονάς σήμερα, αλλά είναι σε καλό σημείο;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323306"
+    },
+    {
+      "english": "Can I borrow your timer, please?",
+      "greek": "Μπορώ να πάρω το χρονόμετρο σου, σε παρακαλώ;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323308"
+    },
+    {
+      "english": "Which muscle group should I target today?",
+      "greek": "Ποια ομάδα μυών να στοχεύσω σήμερα;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323310"
+    },
+    {
+      "english": "How do you stay safe when lifting heavy?",
+      "greek": "Πώς μένεις ασφαλής όταν σηκώνεις βαριά;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323312"
+    },
+    {
+      "english": "What should I do if I feel pain?",
+      "greek": "Τι να κάνω αν νιώσω πόνο;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323315"
+    },
+    {
+      "english": "Do you prefer machines or free weights?",
+      "greek": "Προτιμάς μηχανήματα ή ελεύθερα βάρη;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323317"
+    },
+    {
+      "english": "Can we adjust the routine for my level?",
+      "greek": "Μπορούμε να προσαρμόσουμε το πρόγραμμα στο επίπεδό μου;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323319"
+    },
+    {
+      "english": "What’s your recovery routine after training?",
+      "greek": "Ποια είναι η ρουτίνα αποκατάστασης μετά την προπόνηση;",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323322"
+    },
+    {
+      "english": "No excuses, show up, then push.",
+      "greek": "Χωρίς δικαιολογίες, εμφανίσου, μετά σπρώξε.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323325"
+    },
+    {
+      "english": "Feel the burn, but keep good form.",
+      "greek": "Να καίει, αλλά κρατάς σωστή φόρμα.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323327"
+    },
+    {
+      "english": "Train like you mean it, every day.",
+      "greek": "Προπόνηση όπως το εννοείς, κάθε μέρα.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323330"
+    },
+    {
+      "english": "Slow is smooth, steady wins here.",
+      "greek": "Αργά και σταθερά, σε αυτή τη δουλειά νικάς.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323333"
+    },
+    {
+      "english": "Go the extra mile, don’t stop early.",
+      "greek": "Πήγαινε την έξτρα διαδρομή, μην κόβεις νωρίς.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323336"
+    },
+    {
+      "english": "If it hurts, pause, and check.",
+      "greek": "Αν πονάει, σταμάτα, και τσέκαρε.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323339"
+    },
+    {
+      "english": "Brace up, tighten core, then lift.",
+      "greek": "Σφίξε, δέσε κορμό, μετά σήκωσε.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323341"
+    },
+    {
+      "english": "Breathe through it, don’t hold back.",
+      "greek": "Ανάπνεε μέσα από αυτό, μην το κρατάς.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323344"
+    },
+    {
+      "english": "One set at a time, stay focused.",
+      "greek": "Ένα σετ τη φορά, μείνε συγκεντρωμένος.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323346"
+    },
+    {
+      "english": "Push hard, then back off a bit.",
+      "greek": "Πίεσε δυνατά, μετά κάνε λίγο πίσω.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323351"
+    },
+    {
+      "english": "Form first, speed later, remember that.",
+      "greek": "Πρώτα φόρμα, μετά ταχύτητα, το θυμάσαι.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323353"
+    },
+    {
+      "english": "Practice makes progress, not perfection.",
+      "greek": "Η προπόνηση φέρνει πρόοδο, όχι τελειότητα.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323356"
+    },
+    {
+      "english": "Rome wasn’t built in a day, train.",
+      "greek": "Η Ρώμη δεν χτίστηκε σε μια μέρα, προχώρα.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323359"
+    },
+    {
+      "english": "Consistency beats intensity, most days.",
+      "greek": "Η συνέπεια νικάει την ένταση, τις περισσότερες μέρες.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323361"
+    },
+    {
+      "english": "Keep your eyes up, don’t slump.",
+      "greek": "Κράτα το κεφάλι ψηλά, μην καμπουριάζεις.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323364"
+    },
+    {
+      "english": "Steady pace now, finish strong later.",
+      "greek": "Σταθερός ρυθμός τώρα, δυνατά στο τέλος.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323368"
+    },
+    {
+      "english": "You can’t out-train a bad diet.",
+      "greek": "Δεν το γλιτώνεις με προπόνηση, η διατροφή μετράει.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323371"
+    },
+    {
+      "english": "Train smart, not just train hard.",
+      "greek": "Προπόνηση έξυπνα, όχι μόνο δυνατά.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323374"
+    },
+    {
+      "english": "Winners adapt, losers blame, choose wisely.",
+      "greek": "Οι νικητές προσαρμόζονται, οι άλλοι ψάχνουν φταίξιμο.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323376"
+    },
+    {
+      "english": "Listen to your body, it talks.",
+      "greek": "Άκου το σώμα σου, μιλάει.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323379"
+    },
+    {
+      "english": "Sweat today, smile tomorrow, stay at it.",
+      "greek": "Ιδρώτας σήμερα, χαμόγελο αύριο, μη σταματάς.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323381"
+    },
+    {
+      "english": "No pain, no gain, but be smart.",
+      "greek": "Χωρίς πόνο, χωρίς κέρδος, αλλά με μυαλό.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323383"
+    },
+    {
+      "english": "Hit pause, reset, then go again.",
+      "greek": "Κάνε παύση, πάτα reset, μετά ξανά.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323386"
+    },
+    {
+      "english": "Work in silence, results speak loud.",
+      "greek": "Δουλειά με ησυχία, τα αποτελέσματα λένε όλα.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323388"
+    },
+    {
+      "english": "Keep the grind, small steps, big change.",
+      "greek": "Συνέχισε το τρέξιμο, μικρά βήματα, μεγάλη αλλαγή.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323390"
+    },
+    {
+      "english": "Push past excuses, you’ve got this.",
+      "greek": "Πέρασε τις δικαιολογίες, τα καταφέρνεις.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323393"
+    },
+    {
+      "english": "When you feel weak, hold your line.",
+      "greek": "Όταν νιώθεις αδύναμος, κράτα τη γραμμή.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323395"
+    },
+    {
+      "english": "It’s not over, breathe, then finish strong.",
+      "greek": "Δεν τελείωσε, ανάπνευσε, μετά τέλος δυνατά.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323398"
+    },
+    {
+      "english": "Trust the process, your body adapts.",
+      "greek": "Πίστεψε τη διαδικασία, το σώμα σου προσαρμόζεται.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323401"
+    },
+    {
+      "english": "Progress is slow, but it’s real.",
+      "greek": "Η πρόοδος αργεί, αλλά είναι αληθινή.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323403"
+    },
+    {
+      "english": "I’m proud I showed up, even tired.",
+      "greek": "Είμαι περήφανος που εμφανίστηκα, κι ας ήμουν κουρασμένος.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323406"
+    },
+    {
+      "english": "Today I go gentle, my mind needs it.",
+      "greek": "Σήμερα πάω απαλά, το μυαλό μου το χρειάζεται.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323408"
+    },
+    {
+      "english": "I don’t chase perfection, I chase consistency.",
+      "greek": "Δεν κυνηγάω την τελειότητα, κυνηγάω τη συνέπεια.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323412"
+    },
+    {
+      "english": "Some days slow progress is still progress.",
+      "greek": "Μερικές μέρες η αργή πρόοδος μετράει.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323414"
+    },
+    {
+      "english": "I listen first, then I decide the weights.",
+      "greek": "Ακούω πρώτα, μετά αποφασίζω για τα βάρη.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323417"
+    },
+    {
+      "english": "If I get emotional, I breathe and reset.",
+      "greek": "Αν μου βγει συναίσθημα, αναπνέω και ξαναρχίζω.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323419"
+    },
+    {
+      "english": "I’m learning patience, one session at a time.",
+      "greek": "Μαθαίνω υπομονή, μία προπόνηση τη φορά.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323422"
+    },
+    {
+      "english": "I can feel my effort, not just results.",
+      "greek": "Μπορώ να νιώθω την προσπάθειά μου, όχι μόνο το αποτέλεσμα.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323425"
+    },
+    {
+      "english": "I respect rest, it’s part of training.",
+      "greek": "Σέβομαι την ξεκούραση, είναι μέρος της προπόνησης.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323428"
+    },
+    {
+      "english": "I’m not behind, I’m building my pace.",
+      "greek": "Δεν είμαι πίσω, χτίζω τον ρυθμό μου.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323431"
+    },
+    {
+      "english": "Some days I just move, no big goal.",
+      "greek": "Μερικές μέρες απλώς κινούμαι, χωρίς μεγάλο στόχο.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323433"
+    },
+    {
+      "english": "I forgive missed workouts, then continue calmly.",
+      "greek": "Συγχωρώ τα χαμένα προπονήσεις, και συνεχίζω ήρεμα.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323436"
+    },
+    {
+      "english": "I’m proud when I stop on time.",
+      "greek": "Χαίρομαι όταν σταματάω στην ώρα μου.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323438"
+    },
+    {
+      "english": "My form improves when I slow down mentally.",
+      "greek": "Η τεχνική μου βελτιώνεται όταν το σκέφτομαι πιο αργά.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323442"
+    },
+    {
+      "english": "I don’t hate my body, I work with it.",
+      "greek": "Δεν μισώ το σώμα μου, δουλεύω μαζί του.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323445"
+    },
+    {
+      "english": "I feel stronger when I’m honest with myself.",
+      "greek": "Νιώθω πιο δυνατός όταν είμαι ειλικρινής με τον εαυτό μου.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323448"
+    },
+    {
+      "english": "Today I train to feel good, not prove.",
+      "greek": "Σήμερα γυμνάζομαι για να νιώθω καλά, όχι για να αποδείξω.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323452"
+    },
+    {
+      "english": "I accept where I am, then aim higher.",
+      "greek": "Αποδέχομαι εκεί που είμαι, μετά στοχεύω ψηλότερα.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323454"
+    },
+    {
+      "english": "I’m learning to stay calm under pressure.",
+      "greek": "Μαθαίνω να μένω ήρεμος υπό πίεση.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323457"
+    },
+    {
+      "english": "I stop comparing, and I start improving.",
+      "greek": "Σταματάω να συγκρίνω, και αρχίζω να βελτιώνομαι.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323460"
+    },
+    {
+      "english": "My motivation comes from small wins, daily.",
+      "greek": "Η δύναμή μου έρχεται από μικρές νίκες, κάθε μέρα.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323463"
+    },
+    {
+      "english": "I’m not chasing speed, I’m chasing control.",
+      "greek": "Δεν κυνηγάω ταχύτητα, κυνηγάω έλεγχο.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323468"
+    },
+    {
+      "english": "When I doubt, I keep it simple.",
+      "greek": "Όταν αμφιβάλλω, το κρατάω απλό.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323470"
+    },
+    {
+      "english": "I’m proud of the effort, even without PRs.",
+      "greek": "Είμαι περήφανος για την προσπάθεια, ακόμα κι αν δεν είναι PR.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323489"
+    },
+    {
+      "english": "I trust my plan, especially on messy days.",
+      "greek": "Εμπιστεύομαι το πλάνο μου, ειδικά στις μπερδεμένες μέρες.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323492"
+    },
+    {
+      "english": "I’m learning strength includes my emotions.",
+      "greek": "Μαθαίνω πως η δύναμη περιλαμβάνει και τα συναισθήματά μου.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323495"
+    },
+    {
+      "english": "I don’t rush recovery, I let it work.",
+      "greek": "Δεν βιάζομαι στην αποκατάσταση, την αφήνω να δουλέψει.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323498"
+    },
+    {
+      "english": "I’m consistent because I care about myself.",
+      "greek": "Είμαι συνεπής γιατί νοιάζομαι για τον εαυτό μου.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323500"
+    },
+    {
+      "english": "I show up, I listen, I adjust gently.",
+      "greek": "Εμφανίζομαι, ακούω, και προσαρμόζομαι ήρεμα.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323503"
+    },
+    {
+      "english": "Real progress feels quiet, not loud.",
+      "greek": "Η αληθινή πρόοδος είναι ήσυχη, όχι φασαριόζικη.",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-10T10:42:06.323506"
     }
   ],
-  "last_updated": "2026-11-09T10:47:45.143360"
+  "last_updated": "2026-11-10T10:42:06.323507"
 }
