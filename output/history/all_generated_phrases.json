@@ -7919,7 +7919,727 @@
       "greek": "Η αληθινή πρόοδος είναι ήσυχη, όχι φασαριόζικη.",
       "category": "Sports & Fitness",
       "generated_at": "2026-11-10T10:42:06.323506"
+    },
+    {
+      "english": "Okay, I’m ready, let’s go now.",
+      "greek": "Εντάξει, είμαι έτοιμος, πάμε τώρα.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938664"
+    },
+    {
+      "english": "Wait a sec, I’ll balance it.",
+      "greek": "Περίμενε λίγο, θα το ισορροπήσω.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938678"
+    },
+    {
+      "english": "All good, I’m fine, thanks!",
+      "greek": "Όλα καλά, είμαι καλά, ευχαριστώ!",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938682"
+    },
+    {
+      "english": "Hold on, I’m just catching my balance.",
+      "greek": "Στάσου, απλώς βρίσκω ισορροπία.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938685"
+    },
+    {
+      "english": "Calm down, breathe, we’re okay.",
+      "greek": "Ηρέμησε, πάρε ανάσα, είμαστε καλά.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938689"
+    },
+    {
+      "english": "Nice, that’s balanced, I get it.",
+      "greek": "Ωραία, αυτό είναι ισορροπημένο, το πιάνω.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938692"
+    },
+    {
+      "english": "Just a moment, I need focus.",
+      "greek": "Μια στιγμή, θέλω λίγο να συγκεντρωθώ.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938695"
+    },
+    {
+      "english": "Keep it steady, don’t rush.",
+      "greek": "Κράτα το σταθερό, μην βιάζεσαι.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938701"
+    },
+    {
+      "english": "I’m good now, thanks for the help.",
+      "greek": "Είμαι καλά τώρα, ευχαριστώ για τη βοήθεια.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938705"
+    },
+    {
+      "english": "That feels right, nice and balanced.",
+      "greek": "Μου φαίνεται σωστό, ωραία ισορροπία.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938709"
+    },
+    {
+      "english": "Let’s reset, small steps, we’ll balance.",
+      "greek": "Ας το μηδενίσουμε, μικρά βήματα, θα ισορροπήσουμε.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938715"
+    },
+    {
+      "english": "Easy, take your time, you got this.",
+      "greek": "Χαλαρά, πάρε χρόνο, τα καταφέρνεις.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938718"
+    },
+    {
+      "english": "I can’t, I’m off balance right now.",
+      "greek": "Δεν μπορώ, είμαι εκτός ισορροπίας τώρα.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938721"
+    },
+    {
+      "english": "Okay, listen, slow down, stay balanced.",
+      "greek": "Εντάξει, άκου, χαλάρωσε, μείνε ισορροπημένος.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938724"
+    },
+    {
+      "english": "Good call, that decision is balanced.",
+      "greek": "Καλή επιλογή, αυτή η απόφαση είναι ισορροπημένη.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938727"
+    },
+    {
+      "english": "Just one more try, then we’ll adjust.",
+      "greek": "Μια ακόμα προσπάθεια, μετά θα προσαρμόσουμε.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938730"
+    },
+    {
+      "english": "That’s perfect timing, everything feels even.",
+      "greek": "Τέλειος ο χρόνος, όλα νιώθονται ισοδύναμα.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938733"
+    },
+    {
+      "english": "Alright, we’ll keep it fair and balanced.",
+      "greek": "Εντάξει, θα το κρατήσουμε δίκαιο και ισορροπημένο.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938736"
+    },
+    {
+      "english": "Whoa, that’s too much, slow it down.",
+      "greek": "Ουάου, είναι πολύ, χαμήλωσέ το.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938740"
+    },
+    {
+      "english": "I got you, we’ll find the middle.",
+      "greek": "Σε έχω, θα βρούμε το μέσο.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938743"
+    },
+    {
+      "english": "Perfect, now don’t lose the rhythm.",
+      "greek": "Τέλεια, τώρα μην το χάσεις το ρυθμό.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938746"
+    },
+    {
+      "english": "See? That’s stable, no shaking.",
+      "greek": "Βλέπεις; Αυτό είναι σταθερό, δεν κουνιέται.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938749"
+    },
+    {
+      "english": "I’m overwhelmed, give me a second.",
+      "greek": "Έχω μπερδευτεί, δώσε μου ένα δευτερόλεπτο.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938752"
+    },
+    {
+      "english": "Let’s split it, half now, half later.",
+      "greek": "Ας το μοιράσουμε, μισό τώρα, μισό μετά.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938755"
+    },
+    {
+      "english": "You’re doing great, stay balanced.",
+      "greek": "Τα πας πολύ καλά, κράτα την ισορροπία.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938758"
+    },
+    {
+      "english": "Hold steady, I’ll catch up soon.",
+      "greek": "Κράτα γερά, θα φτάσω σύντομα.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938761"
+    },
+    {
+      "english": "That’s the balance, not too fast.",
+      "greek": "Αυτό είναι η ισορροπία, όχι πολύ γρήγορα.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938764"
+    },
+    {
+      "english": "Okay, I’ll adjust, one small change.",
+      "greek": "Εντάξει, θα το προσαρμόσω, μια μικρή αλλαγή.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938767"
+    },
+    {
+      "english": "Thanks, that helped me stay grounded.",
+      "greek": "Ευχαριστώ, με βοήθησε να μείνω σταθερός/ήρεμη.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938772"
+    },
+    {
+      "english": "Can you show me a calmer way?",
+      "greek": "Μπορείς να μου δείξεις έναν πιο ήρεμο τρόπο;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938775"
+    },
+    {
+      "english": "What’s the best pace to stay steady?",
+      "greek": "Ποιος είναι ο καλύτερος ρυθμός για να μείνω σταθερός;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938779"
+    },
+    {
+      "english": "Is it okay if I slow down a bit?",
+      "greek": "Είναι εντάξει να χαλαρώσω λίγο;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938781"
+    },
+    {
+      "english": "Do you recommend starting small, or now?",
+      "greek": "Σου προτείνεις να ξεκινήσω μικρά, ή τώρα;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938784"
+    },
+    {
+      "english": "How do you keep your focus on balance?",
+      "greek": "Πώς κρατάς την προσοχή σου στην ισορροπία;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938787"
+    },
+    {
+      "english": "Where should I look, to stay centered?",
+      "greek": "Πού να κοιτάω για να μείνω στο κέντρο;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938792"
+    },
+    {
+      "english": "Which part feels off, when you try?",
+      "greek": "Ποιο κομμάτι σου φαίνεται εκτός, όταν το δοκιμάζεις;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938794"
+    },
+    {
+      "english": "Should I breathe in longer, or shorter?",
+      "greek": "Να παίρνω ανάσα πιο μακριά, ή πιο σύντομα;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938797"
+    },
+    {
+      "english": "Can we practice this step together, please?",
+      "greek": "Να το εξασκήσουμε μαζί αυτό το βήμα, σε παρακαλώ;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938800"
+    },
+    {
+      "english": "What do you do when you wobble?",
+      "greek": "Τι κάνεις όταν κουνιέσαι, πώς επανέρχεσαι;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938802"
+    },
+    {
+      "english": "How long should I pause, between tries?",
+      "greek": "Πόση ώρα να κάνω παύση, ανάμεσα στις προσπάθειες;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938805"
+    },
+    {
+      "english": "Do you want me to explain, step-by-step?",
+      "greek": "Θες να σου το εξηγήσω, βήμα-βήμα;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938808"
+    },
+    {
+      "english": "Is this the right direction, or not?",
+      "greek": "Είναι η σωστή κατεύθυνση, ή όχι;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938810"
+    },
+    {
+      "english": "Should I shift weight first, then move?",
+      "greek": "Να μεταφέρω βάρος πρώτα, μετά να κουνηθώ;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938813"
+    },
+    {
+      "english": "What helps you stay calm during changes?",
+      "greek": "Τι σε βοηθά να μένεις ήρεμος στις αλλαγές;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938815"
+    },
+    {
+      "english": "Can I ask you for quick advice?",
+      "greek": "Μπορώ να σου ζητήσω μια γρήγορη συμβουλή;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938818"
+    },
+    {
+      "english": "Are we balanced, or still uneven?",
+      "greek": "Είμαστε ισορροπημένοι, ή ακόμα ανομοιόμορφοι;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938821"
+    },
+    {
+      "english": "Which adjustment makes the biggest difference?",
+      "greek": "Ποια αλλαγή κάνει τη μεγαλύτερη διαφορά;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938823"
+    },
+    {
+      "english": "Do you prefer slow practice, or challenge?",
+      "greek": "Τι προτιμάς, αργή εξάσκηση ή πρόκληση;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938826"
+    },
+    {
+      "english": "How’s your balance today, by the way?",
+      "greek": "Πώς πάει η ισορροπία σου σήμερα, παρεμπιπτόντως;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938829"
+    },
+    {
+      "english": "Can you correct me if I drift?",
+      "greek": "Μπορείς να με διορθώνεις αν ξεφεύγω;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938832"
+    },
+    {
+      "english": "What should I avoid to stay centered?",
+      "greek": "Τι να αποφύγω για να μείνω στο κέντρο;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938834"
+    },
+    {
+      "english": "Do we stop here, or continue carefully?",
+      "greek": "Σταματάμε εδώ, ή συνεχίζουμε προσεκτικά;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938836"
+    },
+    {
+      "english": "I feel off, what’s your suggestion?",
+      "greek": "Νιώθω εκτός, τι μου προτείνεις;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938839"
+    },
+    {
+      "english": "Can we check the posture for balance?",
+      "greek": "Να ελέγξουμε τη στάση για ισορροπία;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938842"
+    },
+    {
+      "english": "What’s your go-to trick for stability?",
+      "greek": "Ποιο είναι το αγαπημένο σου κόλπο για σταθερότητα;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938845"
+    },
+    {
+      "english": "When should I speed up, roughly?",
+      "greek": "Πότε να ανεβάσω ταχύτητα περίπου;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938847"
+    },
+    {
+      "english": "Should I ask for a second try now?",
+      "greek": "Να ζητήσω μια δεύτερη προσπάθεια τώρα;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938855"
+    },
+    {
+      "english": "What do you want me to adjust?",
+      "greek": "Τι θέλεις να προσαρμόσω εγώ;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938858"
+    },
+    {
+      "english": "Steady thoughts first, then move, calmly.",
+      "greek": "Σταθερές σκέψεις πρώτα, μετά κίνηση, ήρεμα.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938861"
+    },
+    {
+      "english": "You’re learning, keep going, even slowly.",
+      "greek": "Μαθαίνεις, συνέχισε, κι ας αργά.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938864"
+    },
+    {
+      "english": "Small progress counts, celebrate it, right now.",
+      "greek": "Η μικρή πρόοδος μετράει, γιόρτασέ την τώρα.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938867"
+    },
+    {
+      "english": "Trust your body, it adapts, bit by bit.",
+      "greek": "Να εμπιστεύεσαι το σώμα σου, προσαρμόζεται σιγά-σιγά.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938870"
+    },
+    {
+      "english": "Breathe out, release tension, then try again.",
+      "greek": "Βγάλε την ανάσα, άφησε την ένταση, μετά ξανά.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938873"
+    },
+    {
+      "english": "Tell yourself, I can do this.",
+      "greek": "Πες στον εαυτό σου, μπορώ να το κάνω.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938876"
+    },
+    {
+      "english": "Let the good moments guide you.",
+      "greek": "Άσε τις καλές στιγμές να σε οδηγούν.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938879"
+    },
+    {
+      "english": "Keep your eyes soft, your mind focused.",
+      "greek": "Κράτα τα μάτια ήρεμα, το μυαλό συγκεντρωμένο.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938881"
+    },
+    {
+      "english": "Even wobbling is practice, not failure.",
+      "greek": "Ακόμα κι αν κουνιέσαι, είναι εξάσκηση, όχι αποτυχία.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938886"
+    },
+    {
+      "english": "Focus on control, not speed, today.",
+      "greek": "Σήμερα, δώσε έμφαση στον έλεγχο, όχι στην ταχύτητα.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938889"
+    },
+    {
+      "english": "You’re stronger than your nerves, breathe.",
+      "greek": "Είσαι πιο δυνατός από το άγχος, ανασάνε.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938894"
+    },
+    {
+      "english": "Pause, reset, and continue with confidence.",
+      "greek": "Σταμάτα, επανεκκίνηση, και συνέχισε με σιγουριά.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938897"
+    },
+    {
+      "english": "Your balance improves, each time you try.",
+      "greek": "Η ισορροπία σου βελτιώνεται, κάθε φορά που προσπαθείς.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938900"
+    },
+    {
+      "english": "Say it clearly, I stay steady.",
+      "greek": "Πες το καθαρά, μένω σταθερός.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938903"
+    },
+    {
+      "english": "Be kind to yourself, progress takes time.",
+      "greek": "Να είσαι ευγενικός με τον εαυτό σου, θέλει χρόνο.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938905"
+    },
+    {
+      "english": "Keep your weight centered, don’t rush.",
+      "greek": "Κράτα το βάρος στο κέντρο, μην βιάζεσαι.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938909"
+    },
+    {
+      "english": "Small adjustments, big results, stay positive.",
+      "greek": "Μικρές διορθώσεις, μεγάλα αποτελέσματα, μείνε θετικός.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938912"
+    },
+    {
+      "english": "When you doubt, return to your breath.",
+      "greek": "Όταν αμφιβάλλεις, γύρνα στην ανάσα σου.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938914"
+    },
+    {
+      "english": "Praise your effort, not just the outcome.",
+      "greek": "Επαινέ τη προσπάθεια, όχι μόνο το αποτέλεσμα.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938917"
+    },
+    {
+      "english": "Stay relaxed, your body will find its line.",
+      "greek": "Μείνε χαλαρός, το σώμα σου θα βρει τη γραμμή.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938921"
+    },
+    {
+      "english": "Your mind leads, your muscles follow, trust it.",
+      "greek": "Το μυαλό οδηγεί, οι μύες ακολουθούν, εμπιστεύσου το.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938924"
+    },
+    {
+      "english": "Don’t fight the wobble, guide it gently.",
+      "greek": "Μην παλεύεις το τρέμουλο, καθοδήγησέ το απαλά.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938928"
+    },
+    {
+      "english": "Confidence grows, the more you practice.",
+      "greek": "Η αυτοπεποίθηση μεγαλώνει, όσο εξασκείσαι.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938930"
+    },
+    {
+      "english": "Today is training, not a test, okay?",
+      "greek": "Σήμερα είναι προπόνηση, όχι εξετάσεις, εντάξει;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938933"
+    },
+    {
+      "english": "Keep a calm smile, it helps your core.",
+      "greek": "Κράτα ένα ήρεμο χαμόγελο, βοηθάει τον κορμό σου.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938936"
+    },
+    {
+      "english": "Focus on one thing, then another.",
+      "greek": "Εστίασε σε ένα πράγμα, μετά σε άλλο.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938938"
+    },
+    {
+      "english": "Let your balance be smooth, not perfect.",
+      "greek": "Άσε την ισορροπία να είναι ομαλή, όχι τέλεια.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938941"
+    },
+    {
+      "english": "You’re building steadiness, keep showing up.",
+      "greek": "Χτίζεις σταθερότητα, συνέχισε να εμφανίζεσαι.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938945"
+    },
+    {
+      "english": "After every try, learn, then adjust, quietly.",
+      "greek": "Μετά από κάθε προσπάθεια, μάθε, μετά διόρθωσε, σιωπηλά.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938949"
+    },
+    {
+      "english": "I notice my thoughts, then I soften my grip.",
+      "greek": "Παρατηρώ τις σκέψεις μου, μετά μαλακώνω τη λαβή μου.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938952"
+    },
+    {
+      "english": "I’m honest, I wobble, but I don’t panic.",
+      "greek": "Είμαι ειλικρινής, κουνιέμαι, αλλά δεν πανικοβάλλομαι.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938966"
+    },
+    {
+      "english": "Some days, balance feels like a quiet promise.",
+      "greek": "Μερικές μέρες, η ισορροπία μοιάζει με ήσυχη υπόσχεση.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938969"
+    },
+    {
+      "english": "I keep breathing, even when I feel exposed.",
+      "greek": "Συνεχίζω να αναπνέω, ακόμα κι όταν νιώθω εκτεθειμένος.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938972"
+    },
+    {
+      "english": "If I rush, I lose my calm quickly.",
+      "greek": "Αν βιαστώ, χάνω την ηρεμία μου γρήγορα.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938975"
+    },
+    {
+      "english": "I choose patience, not perfection, each attempt.",
+      "greek": "Διαλέγω υπομονή, όχι τελειότητα, σε κάθε προσπάθεια.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938977"
+    },
+    {
+      "english": "Right now, I trust my pace and body.",
+      "greek": "Τώρα, εμπιστεύομαι τον ρυθμό μου και το σώμα.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938980"
+    },
+    {
+      "english": "I reflect, what felt safe, and why?",
+      "greek": "Κάνω μια σκέψη, τι ένιωσα ασφαλές, και γιατί;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938983"
+    },
+    {
+      "english": "My balance grows when I stay curious.",
+      "greek": "Η ισορροπία μου δυναμώνει όταν μένω περίεργος/η.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938985"
+    },
+    {
+      "english": "I let my shoulders drop, then I move.",
+      "greek": "Αφήνω τους ώμους να πέσουν, μετά κουνιέμαι.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938988"
+    },
+    {
+      "english": "It’s okay to slow down, my mind listens.",
+      "greek": "Είναι ΟΚ να πάω πιο αργά, το μυαλό ακούει.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938993"
+    },
+    {
+      "english": "I’m learning to be gentle with myself.",
+      "greek": "Μαθαίνω να είμαι ευγενικός/ή με τον εαυτό μου.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938997"
+    },
+    {
+      "english": "Even my mistakes teach me where to return.",
+      "greek": "Ακόμα και τα λάθη μου με διδάσκουν πού να γυρίσω.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.938999"
+    },
+    {
+      "english": "I don’t judge, I observe, and adjust softly.",
+      "greek": "Δεν κρίνω, παρατηρώ, και διορθώνω απαλά.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939002"
+    },
+    {
+      "english": "When my heart races, I center my attention.",
+      "greek": "Όταν η καρδιά μου τρέχει, βάζω προσοχή στο κέντρο.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939005"
+    },
+    {
+      "english": "I’m proud I keep trying, not perfecting.",
+      "greek": "Είμαι περήφανος/η που συνεχίζω, όχι που τελειοποιώ.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939008"
+    },
+    {
+      "english": "I notice tension, then I release it gradually.",
+      "greek": "Παρατηρώ τη σύσπαση, μετά την αφήνω σιγά-σιγά.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939011"
+    },
+    {
+      "english": "My inner voice says, breathe, and stay kind.",
+      "greek": "Η εσωτερική φωνή μου λέει, ανάπνευσε, και να ‘σαι ευγενικός/ή.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939015"
+    },
+    {
+      "english": "I respect my limits, and I move anyway.",
+      "greek": "Σεβόμαι τα όριά μου, και όμως προχωράω.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939018"
+    },
+    {
+      "english": "I check in, how do I feel in my feet?",
+      "greek": "Κάνω έλεγχο, πώς νιώθω στα πόδια μου;",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939021"
+    },
+    {
+      "english": "Balance isn’t anger-proof, it’s trust training.",
+      "greek": "Η ισορροπία δεν είναι αντιαγχοτική, είναι εκπαίδευση εμπιστοσύνης.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939025"
+    },
+    {
+      "english": "I’m honest today, my focus wavers, still I return.",
+      "greek": "Ειλικρινά σήμερα, η προσοχή μου τρεμοπαίζει, αλλά γυρίζω.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939028"
+    },
+    {
+      "english": "Take my time, my body finds its rhythm.",
+      "greek": "Πάρε τον χρόνο μου, το σώμα βρίσκει τον ρυθμό του.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939031"
+    },
+    {
+      "english": "I soften my knees, like I’m listening.",
+      "greek": "Απαλώνω τα γόνατα, σαν να ακούω.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939034"
+    },
+    {
+      "english": "If I lose it, I start again, calmly.",
+      "greek": "Αν το χάσω, ξεκινάω πάλι, ήρεμα.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939037"
+    },
+    {
+      "english": "I choose steady kindness, even inside the wobble.",
+      "greek": "Διαλέγω σταθερή καλοσύνη, ακόμα κι όταν τρέμει.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939039"
+    },
+    {
+      "english": "I don’t force control, I invite alignment.",
+      "greek": "Δεν πιέζω τον έλεγχο, καλώ την ευθυγράμμιση.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939043"
+    },
+    {
+      "english": "Some insights come quietly, after the session.",
+      "greek": "Μερικές ιδέες έρχονται ήσυχα, μετά το μάθημα.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939046"
+    },
+    {
+      "english": "I forgive my body, it’s doing its best.",
+      "greek": "Συγχωρώ το σώμα μου, κάνει το καλύτερό του.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939049"
+    },
+    {
+      "english": "Tomorrow will be easier, if I stay honest.",
+      "greek": "Αύριο θα γίνει πιο εύκολο, αν είμαι ειλικρινής.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939053"
+    },
+    {
+      "english": "Before you walk out, stand still, breathe.",
+      "greek": "Πριν βγεις έξω, στάσου ακίνητος, πάρε ανάσα.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939056"
+    },
+    {
+      "english": "When someone talks, soften your shoulders, listen.",
+      "greek": "Όταν μιλάει κάποιος, χαλάρωσε τους ώμους, άκου.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939059"
+    },
+    {
+      "english": "If you spill, laugh, reset your stance.",
+      "greek": "Αν χύσεις, γέλα, ξαναβρες τη στάση σου.",
+      "category": "Balance",
+      "generated_at": "2026-11-11T10:10:31.939062"
     }
   ],
-  "last_updated": "2026-11-10T10:42:06.323507"
+  "last_updated": "2026-11-11T10:10:31.939064"
 }
