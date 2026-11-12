@@ -8639,7 +8639,399 @@
       "greek": "Αν χύσεις, γέλα, ξαναβρες τη στάση σου.",
       "category": "Balance",
       "generated_at": "2026-11-11T10:10:31.939062"
+    },
+    {
+      "english": "I’m stuck in a meeting again.",
+      "greek": "Κολλάω πάλι σε μια σύσκεψη.",
+      "transliteration": "KO-LLA-o PÁ-li se MIA SY-SKE-Pi.",
+      "category": "Work & Office",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Can you send that invoice today?",
+      "greek": "Μπορείς να στείλεις το τιμολόγιο σήμερα;",
+      "transliteration": "BO-reis na STEI-leis to ti-mo-LÓ-gi-o SÍ-me-ra?",
+      "category": "Work & Office",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I need the file by noon.",
+      "greek": "Θέλω το αρχείο μέχρι το μεσημέρι.",
+      "transliteration": "THÉ-lo to AR-khe-io MÉ-chri to ME-si-MÉ-ri.",
+      "category": "Work & Office",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Let’s review the agenda quickly.",
+      "greek": "Ας δούμε την ατζέντα γρήγορα.",
+      "transliteration": "AS DÚ-me tin at-ZÉN-ta GRI-go-ra.",
+      "category": "Work & Office",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I’ll join the call in five.",
+      "greek": "Συνδέομαι στην κλήση σε πέντε λεπτά.",
+      "transliteration": "syn-DÉ-o-mai stin KLÍ-si se PÉ-nte LEPTÁ.",
+      "category": "Work & Office",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Where can I find the printer?",
+      "greek": "Πού είναι ο εκτυπωτής;",
+      "transliteration": "POÚ ei-NAI o ek-TY-po-tís?",
+      "category": "Work & Office",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I missed the deadline, sorry.",
+      "greek": "Έχασα την προθεσμία, συγγνώμη.",
+      "transliteration": "É-kha-sa tin pro-THES-MÍ-a, SYNG-NÓ-mi.",
+      "category": "Work & Office",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I breathe, then I choose calmly.",
+      "greek": "Αναπνέω, και μετά διαλέγω ήρεμα.",
+      "transliteration": "Anapnéo, kai meta dialégo ÍREMA.",
+      "category": "Inner Peace",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Pause before you answer, be kind.",
+      "greek": "Στάσου πριν απαντήσεις, να είσαι ευγενικός.",
+      "transliteration": "Stá su prín apantíseis, na eísai evgenikós.",
+      "category": "Inner Peace",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "My mind slows down, gently now.",
+      "greek": "Ο νους μου ηρεμεί, απαλά τώρα.",
+      "transliteration": "O noûs mou ereméi, apalá tóra.",
+      "category": "Inner Peace",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I let the worry pass through.",
+      "greek": "Αφήνω την ανησυχία να περάσει.",
+      "transliteration": "Afíno tin anisychía na perásei.",
+      "category": "Inner Peace",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Even in noise, I stay steady.",
+      "greek": "Ακόμα κι αν έχει φασαρία, μένω σταθερός.",
+      "transliteration": "Akkóma ki an échei fasaría, ménō STATHERÓS.",
+      "category": "Inner Peace",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I focus on what I can do.",
+      "greek": "Συγκεντρώνομαι σε ό,τι μπορώ να κάνω.",
+      "transliteration": "Synkentrónomai se ó,ti borṓ na káno.",
+      "category": "Inner Peace",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I speak softly, and I listen.",
+      "greek": "Μιλάω ήρεμα, και ακούω προσεκτικά.",
+      "transliteration": "Miláo ÍREMA, kai akúo prosekTiká.",
+      "category": "Inner Peace",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Can I pay with contactless?",
+      "greek": "Μπορώ να πληρώσω με ανέπαφη κάρτα, ναι;",
+      "transliteration": "boró na pliróso me anépafi kárta, nai;",
+      "category": "Banking & Money",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "What are your ATM fees?",
+      "greek": "Ποιες είναι οι χρεώσεις του ΑΤΜ;",
+      "transliteration": "poies eínai oi chréōseis tou ATM?",
+      "category": "Banking & Money",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I need cash withdrawal today.",
+      "greek": "Χρειάζομαι ανάληψη μετρητών σήμερα, παρακαλώ.",
+      "transliteration": "chreiázomai análipsi metritón sím̄era, parakaló",
+      "category": "Banking & Money",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "My card was declined, please help.",
+      "greek": "Η κάρτα μου απορρίφθηκε, μπορείτε να βοηθήσετε;",
+      "transliteration": "i kárta mou aporríphthike, mporeíte na voithísete?",
+      "category": "Banking & Money",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Can you change this into euros?",
+      "greek": "Μπορείτε να το αλλάξετε σε ευρώ;",
+      "transliteration": "boríte na to alláxete se eyró?",
+      "category": "Banking & Money",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I want a bank transfer receipt.",
+      "greek": "Θέλω μια απόδειξη για την τραπεζική μεταφορά.",
+      "transliteration": "thélo mia apódeiksi gia tin trapeziki metaforá",
+      "category": "Banking & Money",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "How long does the wire take?",
+      "greek": "Πόσο χρόνο κάνει το έμβασμα να φτάσει;",
+      "transliteration": "óso chrōno kánei to émbasma na fátsei?",
+      "category": "Banking & Money",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I’ll call you after work.",
+      "greek": "Θα σε πάρω τηλέφωνο μετά τη δουλειά.",
+      "transliteration": "THA se PA-ro TI-le-fo-no me-ta ti DOU-lia",
+      "category": "Making Plans",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Let’s meet this Friday evening.",
+      "greek": "Ας συναντηθούμε το Παρασκευή το βράδυ.",
+      "transliteration": "as si-na-TOH-thou-me to pa-RA-ske-vi to VRA-thi",
+      "category": "Making Plans",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "What time should we leave?",
+      "greek": "Τι ώρα να φύγουμε;",
+      "transliteration": "ti O-ra na FYGou-me",
+      "category": "Making Plans",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I can do Tuesday morning.",
+      "greek": "Μπορώ την Τρίτη το πρωί.",
+      "transliteration": "BO-ro tin TRIT-i to PRO-i",
+      "category": "Making Plans",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I’ll book the tickets now.",
+      "greek": "Θα κλείσω τα εισιτήρια τώρα.",
+      "transliteration": "THA KLI-so ta i-si-TIR-ia TO-ra",
+      "category": "Making Plans",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Let’s check the schedule together.",
+      "greek": "Να δούμε μαζί το πρόγραμμα.",
+      "transliteration": "na DOU-me ma-zi to PRO-gram-a",
+      "category": "Making Plans",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I’ll pick you up at seven.",
+      "greek": "Θα σε πάρω στις επτά.",
+      "transliteration": "THA se PA-ro stis EP-ta",
+      "category": "Making Plans",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I move forward, one small win.",
+      "greek": "Προχωράω, με μια μικρή νίκη.",
+      "transliteration": "ProCHoRAo, me miá miKRí NÍki.",
+      "category": "Success",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Today I do the hard thing first.",
+      "greek": "Σήμερα κάνω πρώτα το δύσκολο.",
+      "transliteration": "SḗMEra KÁno PROta to DÝskolo.",
+      "category": "Success",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Consistency beats motivation, every week.",
+      "greek": "Η σταθερότητα νικά το κίνητρο, κάθε εβδομάδα.",
+      "transliteration": "I stathERÓTeta NÍka to KÍniTro, kÁthe eWOmáda.",
+      "category": "Success",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I ask for help, and I improve.",
+      "greek": "Ζητάω βοήθεια, και προχωράω.",
+      "transliteration": "Zitáo VOÍtheia, kai proCHÓRAo.",
+      "category": "Success",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "My plan is simple, and I follow it.",
+      "greek": "Το πλάνο μου είναι απλό, και το τηρώ.",
+      "transliteration": "To PLÁno mou eÍnai apló, kai to tiRÓ.",
+      "category": "Success",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I keep my promises to myself.",
+      "greek": "Κρατάω τις υποσχέσεις μου στον εαυτό μου.",
+      "transliteration": "KRAtáo tis yposHÉseis mou ston eaUTo mou.",
+      "category": "Success",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Fail small, learn fast, try again.",
+      "greek": "Κάνω μικρές αποτυχίες, μα μαθαίνω γρήγορα.",
+      "transliteration": "KÁno miKRés apotyHÍes, ma maTHÉno GŘígoRA.",
+      "category": "Success",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I brainstorm ideas while making coffee.",
+      "greek": "Ιδέες μου έρχονται καθώς φτιάχνω καφέ.",
+      "transliteration": "I-DI-es mou ér-ho-νtai ka-thós phti-a-chno ka-FÉ.",
+      "category": "Creativity",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "That sketch sparked a new plan.",
+      "greek": "Το σκίτσο άναψε μια καινούργια ιδέα.",
+      "transliteration": "To SKÍ-tso Á-νaf-se mi-a ká-NouR-gia i-δÉ-a.",
+      "category": "Creativity",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I keep a notebook for surprises.",
+      "greek": "Κρατάω ένα τετράδιο για απρόσμενα.",
+      "transliteration": "KRÁ-tā-o é-na te-TRÁ-dio gia a-PRÓ-smē-na.",
+      "category": "Creativity",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "My best ideas arrive in the shower.",
+      "greek": "Οι καλύτερες ιδέες μου έρχονται στο ντους.",
+      "transliteration": "Oi ka-LÍ-te-res i-DÉ-es mou ér-ho-νtai sto NDOS.",
+      "category": "Creativity",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Try a bold first draft today.",
+      "greek": "Κάνε μια τολμηρή πρώτη πρόχειρη εκδοχή σήμερα.",
+      "transliteration": "KÁ-ne mi-a TÓl-mērí pró-ti προ-χεί-ri ek-δo-KHÍ si-ME-ra.",
+      "category": "Creativity",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I remix old ideas into something new.",
+      "greek": "Αναμειγνύω παλιές ιδέες σε κάτι καινούργιο.",
+      "transliteration": "a-na-MIY-νý-o PA-li-és i-DÉ-es se ká-ti ka-NouR-GIO.",
+      "category": "Creativity",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Color helps me think clearly.",
+      "greek": "Τα χρώματα με βάζουν σε ροή.",
+      "transliteration": "Ta KHRO-MA-ta me váz-oun se RO-í.",
+      "category": "Creativity",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Are you free tonight, by any chance?",
+      "greek": "Είσαι ελεύθερος απόψε, μήπως;",
+      "transliteration": "iSAI eLEFtheros APopse, MIPOS?",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I’d love to see you again.",
+      "greek": "Θα ήθελα πολύ να σε ξαναδώ.",
+      "transliteration": "THA ITHela POLY na se xanadÓ",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Let’s do something simple this week.",
+      "greek": "Ας κάνουμε κάτι απλό αυτή την εβδομάδα.",
+      "transliteration": "as KAname KATI aPLÓ auti tin evdomADa",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Can we have a quick coffee?",
+      "greek": "Μπορούμε να πάμε για έναν καφέ;",
+      "transliteration": "boRÚmE na pÁme ya ENan kafÉ?",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "You look amazing, I mean it.",
+      "greek": "Φαίνεσαι καταπληκτικός, το εννοώ.",
+      "transliteration": "FainEsaI kataPLIKtikÓs, to ENnOÓ",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Do you like this kind of music?",
+      "greek": "Σου αρέσει αυτό το είδος μουσικής;",
+      "transliteration": "sou aRÉsei aftÓ to Ídos mousiKÍS?",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I’m a little nervous, honestly.",
+      "greek": "Είμαι λίγο αγχωμένος, ειλικρινά.",
+      "transliteration": "iMAI LÍgo agchoMÉnos, eiLiKRIná",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "My goal is simpler, start today.",
+      "greek": "Ο Σκοπός μου είναι πιο απλός, να ξεκινήσω σήμερα.",
+      "transliteration": "o SKOPOS mou eínai pio aplós, na xekiníso SÍMera",
+      "category": "Purpose",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I’m focused on one clear outcome.",
+      "greek": "Είμαι στοχευμένος σε ένα καθαρό αποτέλεσμα.",
+      "transliteration": "eÍmai stochevménos se eNA katharó apotélesma",
+      "category": "Purpose",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I do this for peace of mind.",
+      "greek": "Το κάνω για ηρεμία στο μυαλό.",
+      "transliteration": "to KÁno gia eɾemía sto myaló",
+      "category": "Purpose",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Your help is part of my plan.",
+      "greek": "Η βοήθειά σου είναι κομμάτι του σχεδίου μου.",
+      "transliteration": "i voítheiá sou eínai kommáti tou schedíou mou",
+      "category": "Purpose",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I want to finish, not just try.",
+      "greek": "Θέλω να τελειώσω, όχι απλώς να προσπαθήσω.",
+      "transliteration": "THÉlo na teleiosó, óchi aplós na prospathíso",
+      "category": "Purpose",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Tonight, my purpose is to rest.",
+      "greek": "Απόψε ο σκοπός μου είναι να ξεκουραστώ.",
+      "transliteration": "Ápso o SKOPÓS mou eínai na xekourastó",
+      "category": "Purpose",
+      "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "I’m here to learn, not to judge.",
+      "greek": "Είμαι εδώ για να μάθω, όχι για να κρίνω.",
+      "transliteration": "eÍmai edó ya na MÁtho, óchi ya na kríno",
+      "category": "Purpose",
+      "generated_at": "2026-11-12T15:56:03.768148"
     }
   ],
-  "last_updated": "2026-11-11T10:10:31.939064"
+  "last_updated": "2026-11-12T15:56:03.768148"
 }
