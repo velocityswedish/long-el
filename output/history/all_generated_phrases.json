@@ -9031,7 +9031,399 @@
       "transliteration": "eÍmai edó ya na MÁtho, óchi ya na kríno",
       "category": "Purpose",
       "generated_at": "2026-11-12T15:56:03.768148"
+    },
+    {
+      "english": "Sunlight and a calm mind, please.",
+      "greek": "Η ηλιοφάνεια και μια ήρεμη σκέψη, σε παρακαλώ.",
+      "transliteration": "I iliofaneia kai mia eremi skepsi, se parakalo",
+      "category": "Happiness",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Grateful for coffee, rain, and peace.",
+      "greek": "Είμαι ευγνώμων για τον καφέ, για τη βροχή, για την ηρεμία.",
+      "transliteration": "Eimai evgnomonos gia ton kafe, gia ti vrochi, gia tin eremia",
+      "category": "Happiness",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "My happiness starts with small wins.",
+      "greek": "Η ευτυχία μου αρχίζει από μικρές νίκες.",
+      "transliteration": "I eftychia mou archizei apo mikres nikes",
+      "category": "Happiness",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "A good conversation can change everything.",
+      "greek": "Μια καλή συζήτηση μπορεί να αλλάξει τα πάντα.",
+      "transliteration": "Mia kali syzitisi borei na allaxi ta panta",
+      "category": "Happiness",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I feel lighter after a walk.",
+      "greek": "Νιώθω πιο ανάλαφρος μετά από μια βόλτα.",
+      "transliteration": "Nio tho pio analafros meta apo mia volta",
+      "category": "Happiness",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Happiness looks like simple kindness.",
+      "greek": "Η ευτυχία μοιάζει με απλή καλοσύνη.",
+      "transliteration": "I eftychia moiazei me apli kalosyni",
+      "category": "Happiness",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I choose joy over worry today.",
+      "greek": "Επιλέγω τη χαρά αντί για την ανησυχία σήμερα.",
+      "transliteration": "EPILEGO ti chara anti gia tin anisychia simera",
+      "category": "Happiness",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I need to make an appointment",
+      "greek": "Θέλω να κλείσω ένα ραντεβού.",
+      "transliteration": "THÉLO na KLEÍSO ena RANTEvoú.",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Do I need a prescription?",
+      "greek": "Χρειάζομαι συνταγή;",
+      "transliteration": "CHREIÁZOMAI SYN TAGÍ?",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Can you check my blood pressure?",
+      "greek": "Μπορείτε να μετρήσετε την πίεσή μου;",
+      "transliteration": "BORÍte na METRÍsete tin PÍESH mou?",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Is this medication safe for me?",
+      "greek": "Είναι ασφαλές αυτό το φάρμακο για μένα;",
+      "transliteration": "ÍNai asfalés aftó to FÁrma-ko gia MÉna?",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I feel dizzy since this morning",
+      "greek": "Νιώθω ζάλη από το πρωί.",
+      "transliteration": "NIÓTHO ZÁLI apó to PROÍ.",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I have a severe allergy history",
+      "greek": "Έχω έντονο ιστορικό αλλεργίας.",
+      "transliteration": "ÉCHO ÉNto-no ISTORI-KÓ alleRÍas.",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Do you have this medicine in stock?",
+      "greek": "Το έχετε σε απόθεμα αυτό το φάρμακο;",
+      "transliteration": "TO ÉCHE-te se APÓthema aftó to FÁrma-ko?",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I unwind with a cycling ride",
+      "greek": "Ξεσπάω με μια βόλτα με ποδήλατο.",
+      "transliteration": "Ksepaō me mia volta me podēlato.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Tonight I’m making pasta from scratch",
+      "greek": "Απόψε φτιάχνω ζυμαρικά από την αρχή, μόνος μου.",
+      "transliteration": "Apopse ftiachnō zymarika apo tēn archē, monos mou.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I like painting small landscapes",
+      "greek": "Μου αρέσει να ζωγραφίζω μικρά τοπία.",
+      "transliteration": "Mou aresi na zōgrafizō mikra topia.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I do yoga to calm my mind",
+      "greek": "Κάνω γιόγκα για να ηρεμήσω το μυαλό μου.",
+      "transliteration": "Kanō giōgka gia na eremēsō to myalo mou.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I’m learning Greek with podcasts",
+      "greek": "Μαθαίνω ελληνικά με podcast στον ελεύθερό μου χρόνο.",
+      "transliteration": "Mathainō ellēnika me podcast ston eleuthero mou chrono.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Give me a good book any day",
+      "greek": "Δώσε μου ένα καλό βιβλίο, οποιαδήποτε μέρα.",
+      "transliteration": "Dose mou ena kalo vivlio, opoiadēpote mera.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "On weekends I garden for an hour",
+      "greek": "Τις Κυριακές κάνω κηπουρική για μια ώρα.",
+      "transliteration": "Tis Kyriakes kanō kēpoyrikē gia mia hōra.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I choose calm, even today",
+      "greek": "Διαλέγω ηρεμία, ακόμη και σήμερα",
+      "transliteration": "Di-LÉ-go i-re-MÍ-a, akó-ma kai SÍ-me-ra",
+      "category": "Positive Life",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Small steps, big changes ahead",
+      "greek": "Μικρά βήματα, μεγάλες αλλαγές έρχονται",
+      "transliteration": "Mi-KRÁ bÍ-ma-ta, me-GÁ-les al-la-gés Ér-chon-tai",
+      "category": "Positive Life",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "My body likes good sleep",
+      "greek": "Το σώμα μου θέλει καλό ύπνο",
+      "transliteration": "To SÓ-ma mou THÉ-lei ka-LÓ ÝP-no",
+      "category": "Positive Life",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I talk to myself kindly",
+      "greek": "Μιλάω στον εαυτό μου με καλοσύνη",
+      "transliteration": "Mi-LÁ-o ston ea-U-TÓ mou me ka-lo-SÝ-ni",
+      "category": "Positive Life",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Gratitude makes everything lighter",
+      "greek": "Η ευγνωμοσύνη κάνει τα πάντα πιο ελαφριά",
+      "transliteration": "i ev-ghno-MO-sÝ-ni ká-nei ta PÁ-nda pio e-LA-fri-A",
+      "category": "Positive Life",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Today I do one brave thing",
+      "greek": "Σήμερα κάνω ένα τολμηρό βήμα",
+      "transliteration": "SÍ-me-ra ká-no ENA tol-mi-RÓ bÍ-ma",
+      "category": "Positive Life",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I take breaks without guilt",
+      "greek": "Κάνω παύσεις χωρίς ενοχές",
+      "transliteration": "KÁ-no pa-Í-seis choris e-NO-ches",
+      "category": "Positive Life",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I find ideas in everyday noise.",
+      "greek": "Βρίσκω ιδέες μέσα στον καθημερινό θόρυβο.",
+      "transliteration": "VRI-sko I-DÉ-es MÉ-sa ston kaTHi-ME-ri-no THÓ-ri-vo",
+      "category": "Inspiration",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Today, I start before I feel ready.",
+      "greek": "Σήμερα ξεκινάω πριν νιώσω έτοιμος.",
+      "transliteration": "SÉ-ra TOksini-Ao PRIN niÓ-so E-TO-mos",
+      "category": "Inspiration",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "A new playlist sparks my focus.",
+      "greek": "Μια καινούρια λίστα τραγουδιών ανάβει τη συγκέντρωσή μου.",
+      "transliteration": "MIA kai-NÓU-ri-a LÍ-sta tra-GOU-di-ÓN a-NA-VEE ti syn-KÉN-tro-sí mu",
+      "category": "Inspiration",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "One kind message can move me.",
+      "greek": "Μια καλή κουβέντα με σηκώνει.",
+      "transliteration": "MIA KA-LÍ kou-VÉN-ta me si-KÓ-nee",
+      "category": "Inspiration",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I keep a tiny notebook everywhere.",
+      "greek": "Κρατάω ένα μικρό σημειωματάριο παντού.",
+      "transliteration": "KRA-tá-o É-na mi-KRÓ sh-me-io-ma-TÁ-ri-o PAN-tou",
+      "category": "Inspiration",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Walk slowly, let thoughts catch up.",
+      "greek": "Περπάτα αργά, άσε τις σκέψεις να σε φτάσουν.",
+      "transliteration": "per-PÁ-ta aR-GÁ, Á-se tis SKE-pses na se FTHÁ-soun",
+      "category": "Inspiration",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I borrow courage from small wins.",
+      "greek": "Παίρνω θάρρος από μικρές νίκες.",
+      "transliteration": "PÉr-no THÁr-ros a-PÓ mi-KRÉS NÍ- kes",
+      "category": "Inspiration",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Can I get oat milk, please?",
+      "greek": "Μπορώ να πάρω γάλα βρώμης, παρακαλώ;",
+      "transliteration": "Bo-ro na pa-ro ga-la vro-mis, pa-ra-ka-lo.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "What’s your best fresh croissant?",
+      "greek": "Ποιο είναι το πιο νόστιμο φρέσκο κρουασάν σας;",
+      "transliteration": "Po-io ei-nai to pi-o NO-sti-mo FRÈ-sko kru-a-san sas?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Do you have espresso or double?",
+      "greek": "Έχετε εσπρέσο ή διπλό;",
+      "transliteration": "E-he-te es-PRE-so i DI-pló?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Could I try a small slice?",
+      "greek": "Μπορώ να δοκιμάσω μια μικρή φέτα;",
+      "transliteration": "Bo-ro na DO-ki-ma-so mi-a MI-kri FE-ta;",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Is the sourdough still warm?",
+      "greek": "Είναι ακόμα ζεστό το προζυμένιο ψωμί;",
+      "transliteration": "Ei-nai a-kó-ma ZE-stó to pro-zy-me-NI-o psó-mi;",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I’ll take a latte to go.",
+      "greek": "Θα πάρω έναν καφέ γάλακτος για να φύγω.",
+      "transliteration": "THa pa-ro e-nan ka-FÈ ga-la-KTOS ya na FY-o.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Can I sit by the window?",
+      "greek": "Γίνεται να κάτσω δίπλα στο παράθυρο;",
+      "transliteration": "Gi-ne-te na KA-tso DI-pla sto pa-ra-thy-ro;",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I’ll bring a small cake to share.",
+      "greek": "Θα φέρω ένα μικρό κέικ να το μοιραστούμε.",
+      "transliteration": "THA FERO ena MI-kro KEIK na to MIO-ra-STOU-me",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "We wish each other good luck on birthdays.",
+      "greek": "Σήμερα ανταλλάσσουμε ευχές για καλή τύχη στα γενέθλια.",
+      "transliteration": "SI-me-ra AN-ta-LLA-soU-me EF-ches gia ka-LI TUC-hi sta ye-NE-thli-a",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "In Greece, we break bread together.",
+      "greek": "Στην Ελλάδα σπάμε ψωμί μαζί.",
+      "transliteration": "STIN E-LA-da SPA-me PSO-mi MA-zi",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "We bake bread for the local church feast.",
+      "greek": "Φτιάχνουμε ψωμί για τη γιορτή της εκκλησίας.",
+      "transliteration": "Fti-AH-nou-me PSO-mi gia ti yo-R-ti tis ek-kli-si-as",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Let’s clink glasses and say cheers first.",
+      "greek": "Πριν πιούμε, σηκώνουμε τα ποτήρια και λέμε γεια.",
+      "transliteration": "PRIN pi-OU-me, si-KO-nou-me ta PO-ti-ri-a kai LE-me YEA",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "My grandmother teaches me songs for name days.",
+      "greek": "Η γιαγιά μου με μαθαίνει τραγούδια για τις γιορτές των ονομαστικών.",
+      "transliteration": "i ya-YA mou me ma-THAI-nei tra-GOU-di-a gia tis yo-R-tes ton o-no-ma-STI-kON",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "We welcome guests with sweets and coffee.",
+      "greek": "Υποδεχόμαστε τους καλεσμένους με γλυκά και καφέ.",
+      "transliteration": "i-po-DE-chom-a-ste tous ka-LE-sme-nous me GLI-ka kai ka-FE",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I choose love, not drama.",
+      "greek": "Διαλέγω την αγάπη, όχι τον δράμα.",
+      "transliteration": "DI-A-LE-go tin a-GA-pi, ó-chi ton DRA-ma.",
+      "category": "Love",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Love means showing up for you.",
+      "greek": "Η αγάπη σημαίνει ότι εμφανίζομαι για σένα.",
+      "transliteration": "i a-GA-pi si-mai-ni ó-ti e-faa-ni-ZÓ-me ja SE-na.",
+      "category": "Love",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I’m grateful for you, truly.",
+      "greek": "Είμαι πραγματικά ευγνώμων για σένα.",
+      "transliteration": "EI-me priag-ma-ti-ka ef-GNÓ-mоn ja SE-na.",
+      "category": "Love",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Your kindness stays with me.",
+      "greek": "Η καλοσύνη σου μου μένει.",
+      "transliteration": "i ka-lo-SÍ-ni su mu MÉ-nei.",
+      "category": "Love",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Let’s talk softly, with love.",
+      "greek": "Να μιλάμε χαμηλόφωνα, με αγάπη.",
+      "transliteration": "na mi-LÁ-me xa-mi-lÓ-fo-na, me a-GA-pi.",
+      "category": "Love",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "I trust you with my heart.",
+      "greek": "Σου εμπιστεύομαι την καρδιά μου.",
+      "transliteration": "SU en-bi-ste-YÓ-mai tin kar-DI-a mu.",
+      "category": "Love",
+      "generated_at": "2026-11-13T15:18:46.836048"
+    },
+    {
+      "english": "Love is patience, not pressure.",
+      "greek": "Η αγάπη είναι υπομονή, όχι πίεση.",
+      "transliteration": "i a-GA-pi ei-nai i-po-mo-NÍ, ó-chi PÍ-e-si.",
+      "category": "Love",
+      "generated_at": "2026-11-13T15:18:46.836048"
     }
   ],
-  "last_updated": "2026-11-12T15:56:03.768148"
+  "last_updated": "2026-11-13T15:18:46.836048"
 }
