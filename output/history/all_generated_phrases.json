@@ -9815,7 +9815,399 @@
       "transliteration": "di-a-LÉ-go CHA-ra, A-kó-ma ke tis po-ly-as-chÓ-les MÉ-res.",
       "category": "Joy",
       "generated_at": "2026-11-14T14:04:29.487395"
+    },
+    {
+      "english": "Can I come by after work?",
+      "greek": "Μπορώ να περάσω μετά τη δουλειά;",
+      "transliteration": "BORO na PERAÓ meta ti DOULIÁ;",
+      "category": "Family & Home",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "I’m cooking tonight, join us?",
+      "greek": "Μαγειρεύω απόψε, ελάτε να φάτε μαζί.",
+      "transliteration": "MAgieRévo APÓse, elÁte na FÁte maZI.",
+      "category": "Family & Home",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Please help me set the table.",
+      "greek": "Μπορείς να με βοηθήσεις να στρώσω το τραπέζι;",
+      "transliteration": "BORÉs na me voIThÍseis na STRÓso to traPÉZI;",
+      "category": "Family & Home",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "My parents are coming this weekend.",
+      "greek": "Οι γονείς μου έρχονται αυτό το Σαββατοκύριακο.",
+      "transliteration": "i GOniS mu Érkhontai AFTÓ to SAVvatoKÝriako.",
+      "category": "Family & Home",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Do we have batteries at home?",
+      "greek": "Έχουμε μπαταρίες στο σπίτι;",
+      "transliteration": "Ékhume baTaRÍes sto SPÍti;",
+      "category": "Family & Home",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "The kids are asleep, please be quiet.",
+      "greek": "Τα παιδιά κοιμούνται, να μιλάς χαμηλά.",
+      "transliteration": "ta piTHÁ ya KOIMÓNTAI, na MI lás KhaMIla.",
+      "category": "Family & Home",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "I’ll bring dessert, you handle dinner.",
+      "greek": "Θα φέρω επιδόρπιο, εσύ κάνε το φαγητό.",
+      "transliteration": "THa FÉro ePiDÓrPio, eSY KÁne to faGI TÓ.",
+      "category": "Family & Home",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Thanks for listening today, really",
+      "greek": "Σε ευχαριστώ που με άκουσες σήμερα, πραγματικά",
+      "transliteration": "se ehkharistó pu me Ákouses sím-era, prah-má-ti-ka",
+      "category": "Gratitude",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "I appreciate your help so much",
+      "greek": "Σου είμαι πολύ ευγνώμων για τη βοήθειά σου",
+      "transliteration": "sou í-me polí evgnó-mon gia ti voí-thei-á sou",
+      "category": "Gratitude",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "That text made my day",
+      "greek": "Το μήνυμά σου μου έφτιαξε τη μέρα",
+      "transliteration": "to mí-ni-má sou mou é-fti-a-ze ti MÉ-ra",
+      "category": "Gratitude",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "I’m grateful you checked in",
+      "greek": "Ευγνωμονώ που μπήκες να δεις πώς είμαι",
+      "transliteration": "ev-ghno-mo-nó pu bík-es na deis pós í-me",
+      "category": "Gratitude",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Thank you for the quick fix",
+      "greek": "Ευχαριστώ που το λύσαμε γρήγορα",
+      "transliteration": "eukhari-stó pu to lí-sa-me grí-go-ra",
+      "category": "Gratitude",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "I’m grateful for your honesty",
+      "greek": "Είμαι ευγνώμων για την ειλικρίνειά σου",
+      "transliteration": "í-me ev-ghno-mon gia tin ili-kri-ní-a sou",
+      "category": "Gratitude",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "You made things easier for me",
+      "greek": "Μου έκανες τα πράγματα πιο εύκολα",
+      "transliteration": "mou é-ka-nes ta práγ-ma-ta pio é-u-ko-la",
+      "category": "Gratitude",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Hi, I’m new here. Nice to meet you!",
+      "greek": "Γεια σας, είμαι καινούριος εδώ, χαίρομαι!",
+      "transliteration": "Yasas, eimai kainourios edo, CHAIROMAI!",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Hello! Are you from around here?",
+      "greek": "Γεια σας! Εσείς είστε από εδώ κοντά;",
+      "transliteration": "Yasas! Esiís iste apo edó KONTA?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Hi, what’s your name, please?",
+      "greek": "Γεια σας, πώς σε λένε, σε παρακαλώ;",
+      "transliteration": "Yasas, POS se LENE, se parakaló?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Nice to meet you, I’m Liza.",
+      "greek": "Χαίρομαι που σε γνωρίζω, με λένε Λίζα.",
+      "transliteration": "CHAIROMAI pou se gnorízo, me LENE LÍza.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Welcome! Thanks for meeting me today.",
+      "greek": "Καλώς ήρθες, ευχαριστώ που με συναντάς σήμερα.",
+      "transliteration": "Kalós Írthes, EFCHARISTÓ pou me synantás SÍMera.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Do you have a moment to chat?",
+      "greek": "Έχεις ένα λεπτό να μιλήσουμε;",
+      "transliteration": "ÉCHIS ena LEPTO na MILÍsume?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "I’m glad you could make it.",
+      "greek": "Χαίρομαι που τα κατάφερες να έρθεις.",
+      "transliteration": "CHAIROMAI pou ta KATAPHERES na ÉRTHEIS.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "I grow by doing, not waiting.",
+      "greek": "Αναπτύσσομαι κάνοντας, όχι περιμένοντας.",
+      "transliteration": "anapTYSsome, KÁnoNtas, óHI peRIMónontas",
+      "category": "Growth",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Small steps, big momentum, every day.",
+      "greek": "Μικρά βήματα, μεγάλη ώθηση, κάθε μέρα.",
+      "transliteration": "miKRÁ BÍmaTa, meGÁli ÓthiSi, KÁthe MÉra",
+      "category": "Growth",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "I track progress, then adjust.",
+      "greek": "Παρακολουθώ την πρόοδο, μετά διορθώνω.",
+      "transliteration": "paRaKOluTHÓ tin PRÓoDo, MÉta diORTHÓno",
+      "category": "Growth",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "This week, I focus on one skill.",
+      "greek": "Αυτή την εβδομάδα, εστιάζω σε μία δεξιότητα.",
+      "transliteration": "afTÓ tiN evoMÁda, eSTIÁzo se MÍA deksiÓta",
+      "category": "Growth",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "I make room for learning.",
+      "greek": "Κάνω χώρο για μάθηση.",
+      "transliteration": "KÁno CHÓro ya MÁthiSi",
+      "category": "Growth",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "I ask for feedback, honestly.",
+      "greek": "Ζητάω ειλικρινή ανατροφοδότηση.",
+      "transliteration": "ZI TÁo eiLIKRINÍ anaTRoFÓDo si",
+      "category": "Growth",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "I turn setbacks into lessons.",
+      "greek": "Μετατρέπω τα πισωγυρίσματα σε μαθήματα.",
+      "transliteration": "me taTRÉpo ta pi SOgi RÍsmata se MA THI ma ta",
+      "category": "Growth",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Listen first, then decide calmly.",
+      "greek": "Άκου πρώτα, κι έπειτα αποφάσισε ήρεμα.",
+      "transliteration": "AKOUSA prOta, ki EPEITA apofasE yaρεma.",
+      "category": "Wisdom",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Speak less, ask better questions.",
+      "greek": "Μίλα λιγότερο, κάνε καλύτερες ερωτήσεις.",
+      "transliteration": "MILA liGOTero, KANE kaLITERes erOtiseis.",
+      "category": "Wisdom",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Your breath is a reset button.",
+      "greek": "Η αναπνοή σου είναι κουμπί επαναφοράς.",
+      "transliteration": "I anAPnoi su eína KUMpi epanaFORas.",
+      "category": "Wisdom",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Learn from mistakes, not from fear.",
+      "greek": "Μάθε από τα λάθη, όχι από τον φόβο.",
+      "transliteration": "MAthe apó ta LAthi, óchi apó ton FOVo.",
+      "category": "Wisdom",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Trust time, it softens hard days.",
+      "greek": "Πίστεψε στον χρόνο, μαλακώνει τις σκληρές μέρες.",
+      "transliteration": "PIsteψε ston CHROno, maLAkoνει tis sklirés MErES.",
+      "category": "Wisdom",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Be kind, even when you're stressed.",
+      "greek": "Να είσαι ευγενικός, ακόμα κι όταν στρεσάρεσαι.",
+      "transliteration": "Na eÍsaI EVgenikos, AKoma ki otan stresAResai.",
+      "category": "Wisdom",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Write it down, then let go.",
+      "greek": "Γράψ’ το, και μετά άσε το να φύγει.",
+      "transliteration": "GRAPS’ to, ke meTA aSE to na FÍyi.",
+      "category": "Wisdom",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Can I check in early?",
+      "greek": "Μπορώ να κάνω check-in νωρίτερα;",
+      "transliteration": "BO-ro na KA-no chek-IN nI-o-ter-a;",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Do you have late checkout?",
+      "greek": "Έχετε late checkout σήμερα;",
+      "transliteration": "EH-ete late chek-OUT sI-me-ra;",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "What time is breakfast?",
+      "greek": "Τι ώρα είναι το πρωινό;",
+      "transliteration": "ti O-ra eI-nai to pro-I-no;",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Is Wi-Fi included in the room?",
+      "greek": "Το Wi-Fi είναι μέσα στη τιμή του δωματίου;",
+      "transliteration": "to Wi-FI eI-nai MEs-a sti TImi tou do-ma-TI-ou;",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Where can I get towels?",
+      "greek": "Πού μπορώ να πάρω πετσέτες;",
+      "transliteration": "POU bo-ro na PA-ro pet-SE-tes;",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "My room key isn’t working.",
+      "greek": "Το κλειδί του δωματίου δεν δουλεύει.",
+      "transliteration": "to KLE-i-di tou do-ma-TI-ou den doU-le-vei.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Can I store my luggage?",
+      "greek": "Μπορώ να αφήσω τις αποσκευές;",
+      "transliteration": "BO-ro na a-FE-so tis a-po-SKE-ves;",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "I need a little more strength today.",
+      "greek": "Χρειάζομαι λίγο περισσότερη δύναμη σήμερα.",
+      "transliteration": "Khree-AZOH-me dy-LEE PER-ISSO-te-ri DY-na-mee sim-eh-ra.",
+      "category": "Strength",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Strength starts with one honest breath.",
+      "greek": "Η δύναμη αρχίζει με μια ειλικρινή ανάσα.",
+      "transliteration": "ee DY-na-mee ar-khí-zee me mee ee-lee-KREE-nee a-NÁ-sa.",
+      "category": "Strength",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "I’m building strength, not speed.",
+      "greek": "Χτίζω δύναμη, όχι ταχύτητα.",
+      "transliteration": "KHTEE-zoh DY-na-mee, ó-khee takh-TEE-ta.",
+      "category": "Strength",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "My strength feels steady, not loud.",
+      "greek": "Η δύναμή μου είναι σταθερή, όχι δυνατή.",
+      "transliteration": "ee DY-na-mee mou ee-NE STAH-ther-ee, ó-khee thee-NAT-ee.",
+      "category": "Strength",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "I kept going, that was strength.",
+      "greek": "Συνέχισα, κι αυτό ήταν δύναμη.",
+      "transliteration": "sy-NÉ-hee-sa, kee AFTÓ eh-VA-NE DY-na-mee.",
+      "category": "Strength",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Strong coffee, strong mind, today.",
+      "greek": "Δυνατός καφές, δυνατός νους σήμερα.",
+      "transliteration": "THY-na-tós ka-FEHS, DY-na-tós NOOS sim-eh-ra.",
+      "category": "Strength",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "I used kindness as my strength.",
+      "greek": "Χρησιμοποίησα την καλοσύνη ως δύναμη.",
+      "transliteration": "khray-see-mo-POI-ee-sa tin ka-lo-SÝ-nee os DY-na-mee.",
+      "category": "Strength",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Nice day, isn’t it?",
+      "greek": "Ωραία μέρα, έτσι δεν είναι;",
+      "transliteration": "Óreα míra, étși den eínai?",
+      "category": "Weather & Small Talk",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Is it going to rain today?",
+      "greek": "Θα βρέξει σήμερα;",
+      "transliteration": "Tha vré̱sei símera?",
+      "category": "Weather & Small Talk",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "The wind feels colder than yesterday.",
+      "greek": "Ο άνεμος φαίνεται πιο κρύος από χθες.",
+      "transliteration": "O ánemos fainetai pio krýos apó khtes.",
+      "category": "Weather & Small Talk",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Perfect weather for a walk.",
+      "greek": "Τέλειος καιρός για μια βόλτα.",
+      "transliteration": "Téleios kairos gia mia vó̱lta.",
+      "category": "Weather & Small Talk",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Did you see the forecast?",
+      "greek": "Είδες τι λέει η πρόβλεψη;",
+      "transliteration": "Ídes ti léi i próvlep̱si?",
+      "category": "Weather & Small Talk",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "It’s sunny, but my skin feels dry.",
+      "greek": "Έχει ήλιο, αλλά η επιδερμίδα μου ξεραίνεται.",
+      "transliteration": "Échei ílio, allà i epidermída mou xerainetai.",
+      "category": "Weather & Small Talk",
+      "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Are we expecting thunderstorms tonight?",
+      "greek": "Θα έχουμε καταιγίδες απόψε;",
+      "transliteration": "Tha échoume kataigí̱des ápopse?",
+      "category": "Weather & Small Talk",
+      "generated_at": "2026-11-15T14:40:45.398410"
     }
   ],
-  "last_updated": "2026-11-14T14:04:29.487395"
+  "last_updated": "2026-11-15T14:40:45.398410"
 }
