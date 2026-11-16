@@ -175,7 +175,39 @@
     {
       "category": "Weather & Small Talk",
       "date": "2026-11-15"
+    },
+    {
+      "category": "Public Transportation",
+      "date": "2026-11-16"
+    },
+    {
+      "category": "Celebrations & Parties",
+      "date": "2026-11-16"
+    },
+    {
+      "category": "Travel & Airport",
+      "date": "2026-11-16"
+    },
+    {
+      "category": "Shopping & Prices",
+      "date": "2026-11-16"
+    },
+    {
+      "category": "Hope",
+      "date": "2026-11-16"
+    },
+    {
+      "category": "Motivation",
+      "date": "2026-11-16"
+    },
+    {
+      "category": "Mindfulness",
+      "date": "2026-11-16"
+    },
+    {
+      "category": "Courage",
+      "date": "2026-11-16"
     }
   ],
-  "last_updated": "2026-11-15T14:40:45.407033"
+  "last_updated": "2026-11-16T16:56:24.931346"
 }

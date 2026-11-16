@@ -10207,7 +10207,399 @@
       "transliteration": "Tha échoume kataigí̱des ápopse?",
       "category": "Weather & Small Talk",
       "generated_at": "2026-11-15T14:40:45.398410"
+    },
+    {
+      "english": "Does this ticket cover transfers too?",
+      "greek": "Αυτό το εισιτήριο ισχύει και για ανταπόκριση;",
+      "transliteration": "AU-to to i-si-TÍ-ri-o i-SCHYE-i kai gia an-tA-PÓ-kri-si;",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "What time is the next train?",
+      "greek": "Τι ώρα φεύγει το επόμενο τρένο;",
+      "transliteration": "Ti Ó-ra FÉ-vi to e-pó-me-no TRÉ-no;",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Where can I validate my ticket?",
+      "greek": "Πού επικυρώνω το εισιτήριο;",
+      "transliteration": "PÚ e-PI-ky-rÓ-no to i-si-TÍ-ri-o;",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Is this stop for downtown?",
+      "greek": "Αυτή η στάση πάει στο κέντρο;",
+      "transliteration": "AF-ti i STÁ-si PA-ei sto KÉN-tro;",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "How much is a single ride?",
+      "greek": "Πόσο κάνει μια διαδρομή μονή;",
+      "transliteration": "PÓ-so KÁ-nei mi-a di-aDRO-mí MI-NI;",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Is it walking distance from here?",
+      "greek": "Είναι κοντά από εδώ, με τα πόδια;",
+      "transliteration": "Í-ne kon-TÁ a-PÓ e-dó, me ta PÓ-di-a;",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Can I pay with a card here?",
+      "greek": "Μπορώ να πληρώσω με κάρτα εδώ;",
+      "transliteration": "BO-ró na plİ-ró-so me KÁR-ta e-dó;",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "What a great party, thank you!",
+      "greek": "Τι ωραίο πάρτι, ευχαριστώ!",
+      "transliteration": "Ti oREO PAR-ti, efxaRIS-tó!",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Let’s toast to good health tonight.",
+      "greek": "Να σηκώσουμε ένα ποτήρι για την υγεία απόψε.",
+      "transliteration": "Na siKSOuME eNA poTHí-ri ya tin yGEI-a AP-so!",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "I brought snacks, are you hungry?",
+      "greek": "Έφερα σνακς, πεινάτε;",
+      "transliteration": "ÉFE-ra SNAKS, peiNÁ-te?",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Dance with me, just for tonight.",
+      "greek": "Χόρεψε μαζί μου, μόνο για απόψε.",
+      "transliteration": "HÓ-rE-psE maZí mu, MÓ-no ya AP-so.",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Can I help with the setup?",
+      "greek": "Μπορώ να βοηθήσω με την προετοιμασία;",
+      "transliteration": "BO-ró na voiTHí-so me tin proeTOiMA-sí-a;",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Happy birthday, may you shine!",
+      "greek": "Χρόνια πολλά, να λάμπεις πάντα!",
+      "transliteration": "HRÓ-nia PÓL-la, na LÁm-peis PÁN-ta!",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "We’re doing a surprise, don’t spoil it!",
+      "greek": "Κάνουμε έκπληξη, μην το χαλάσεις!",
+      "transliteration": "KÁ-nuME Ékpli-xi, min to xa-LÁ-ses!",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Where is the check-in desk?",
+      "greek": "Πού είναι ο πάγκος check-in;",
+      "transliteration": "POÚ eínai o PÁNKOS chek-IN;",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Do I need to print my ticket?",
+      "greek": "Χρειάζεται να τυπώσω το εισιτήριο;",
+      "transliteration": "KHREIÁZETAI na TYPÓSO to eISÍTHIRIO;",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "I have a boarding pass on my phone.",
+      "greek": "Έχω την κάρτα επιβίβασης στο κινητό μου.",
+      "transliteration": "ÉKHO tin KÁRTA epIVÍVASIS sto KINITÓ mou.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Can you help me with baggage drop?",
+      "greek": "Μπορείτε να με βοηθήσετε με την παράδοση αποσκευών;",
+      "transliteration": "BOREÍTE na me VOHITHÍSETE me tin PARÁDOSi apOSKEVÓN;",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Which gate is my flight departing from?",
+      "greek": "Από ποια έξοδο αναχωρεί η πτήση μου;",
+      "transliteration": "APÓ POIA ÉKSOΘO anAKHORÍI i PTÍSi mou;",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "What time does boarding start?",
+      "greek": "Τι ώρα αρχίζει η επιβίβαση;",
+      "transliteration": "TI ÓRA aRKÍZEI i epIVÍVASi;",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "I’m traveling with one carry-on bag.",
+      "greek": "Ταξιδεύω με μία μόνο χειραποσκευή.",
+      "transliteration": "TAXIDÉVO me MÍA MÓNO chèiraPOSKEVÍ.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "How much for these two items?",
+      "greek": "Πόσο κάνει για αυτά τα δύο;",
+      "transliteration": "POSO KAnei gia aFta ta dUo",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Is there a cheaper option?",
+      "greek": "Υπάρχει κάτι πιο φθηνό;",
+      "transliteration": "YPARkhi kati pio FTHIno",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Do you have a student discount?",
+      "greek": "Έχετε έκπτωση φοιτητή;",
+      "transliteration": "EHEte EKptosi foiTEte",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Can I pay in cash?",
+      "greek": "Γίνεται να πληρώσω με μετρητά;",
+      "transliteration": "YIne te na plIROso me meTριTA",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Is the price per piece?",
+      "greek": "Η τιμή είναι για το κομμάτι;",
+      "transliteration": "i tiMI eiNAI ya to KOMMati",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Does this include VAT and receipt?",
+      "greek": "Στην τιμή περιλαμβάνεται ΦΠΑ και απόδειξη;",
+      "transliteration": "stin tiMI perilAMvaNETAI FPA ke aPOdeiksi",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Do you have it in my size?",
+      "greek": "Το έχετε στη δική μου νούμερο;",
+      "transliteration": "to EHEte sti DIKI mou NOUmeRo",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "I’m holding on to hope.",
+      "greek": "Κρατάω την ελπίδα μου.",
+      "transliteration": "Kratáo tin elpída mou.",
+      "category": "Hope",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Hope keeps me going today.",
+      "greek": "Η ελπίδα με κρατάει όρθιο σήμερα.",
+      "transliteration": "I elpída me kratái órthio símera.",
+      "category": "Hope",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "I choose hope, even softly.",
+      "greek": "Διαλέγω την ελπίδα, έστω κι σιγά.",
+      "transliteration": "Dialégo tin elpída, éstō ki sígá.",
+      "category": "Hope",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Let’s talk, and keep hope alive.",
+      "greek": "Ας μιλήσουμε, και να κρατήσουμε ζωντανή την ελπίδα.",
+      "transliteration": "As milísoume, kai na kratísoume zōntaní tin elpída.",
+      "category": "Hope",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "There’s a light somewhere, I hope.",
+      "greek": "Υπάρχει ένα φως κάπου, ελπίζω.",
+      "transliteration": "Ypárchei éna fos kápu, elpízo.",
+      "category": "Hope",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "My hope is small, but real.",
+      "greek": "Η ελπίδα μου είναι μικρή, αλλά αληθινή.",
+      "transliteration": "I elpída mou eínai mikrí, allá alithiní.",
+      "category": "Hope",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "I can wait, because hope helps.",
+      "greek": "Μπορώ να περιμένω, γιατί η ελπίδα βοηθά.",
+      "transliteration": "Boró na periméno, giatí i elpída voithá.",
+      "category": "Hope",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "I start small, then I build momentum.",
+      "greek": "Ξεκινάω μικρά, και χτίζω ορμή.",
+      "transliteration": "ekSEN-aw mi-KRA, ke HTI-zo OR-mi",
+      "category": "Motivation",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "One bold step beats one perfect plan.",
+      "greek": "Μια τολμηρή κίνηση νικάει το τέλειο σχέδιο.",
+      "transliteration": "MIA tol-mi-RI KI-ni-si NÍ-kei to TÉ-le-io SxÉ-di-o",
+      "category": "Motivation",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "My why turns stress into focus.",
+      "greek": "Το γιατί μου μετατρέπει το άγχος σε συγκέντρωση.",
+      "transliteration": "to GIA-ti mu me-ta-trÉ-pei to AX-gos se syg-KÉ-ntrō-si",
+      "category": "Motivation",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "I do it for future me.",
+      "greek": "Το κάνω για τον εαυτό μου στο μέλλον.",
+      "transliteration": "to KÁ-no gia ton ea-U-tō mu sto MÉ-lon",
+      "category": "Motivation",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Today counts, even if it’s messy.",
+      "greek": "Η μέρα μετράει, ακόμα κι αν είναι χαοτική.",
+      "transliteration": "i MÉ-ra ME-tra-ei, a-kó-ma ki an EÍ-nai xa-o-TI-KI",
+      "category": "Motivation",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "I owe myself progress, not excuses.",
+      "greek": "Χρωστάω στον εαυτό μου πρόοδο, όχι δικαιολογίες.",
+      "transliteration": "xo-RÁS-taw ston ea-U-tō mu PRÓ-o-do, ó-chi di-ka-io-LO-gies",
+      "category": "Motivation",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "I listen to energy, then act.",
+      "greek": "Ακούω την ενέργεια μου, και μετά δρω.",
+      "transliteration": "a-KÚ-o tin e-NÉr-gi-a mu, ke MÉ-ta DRO",
+      "category": "Motivation",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Notice the urge, then choose.",
+      "greek": "Παρατήρησε την παρόρμηση, κι έπειτα διάλεξε.",
+      "transliteration": "Paratirise tin parormisi, ki epeita DIaLEXE.",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Let your attention return, gently.",
+      "greek": "Άφησε την προσοχή σου να γυρίσει, απαλά.",
+      "transliteration": "Afise tin prosochi sou na GIRISEI, aPАLA.",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Say, not now, to stress.",
+      "greek": "Πες όχι τώρα στο στρες.",
+      "transliteration": "Pes ohi TORA sto stres.",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Soften your jaw, relax your face.",
+      "greek": "Απαλύνου τη γνάθο, χαλάρωσε το πρόσωπο.",
+      "transliteration": "ApALYΝE ti gnatho, chalAROSE to PROso po.",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Feel your feet contacting the ground.",
+      "greek": "Νιώσε τα πόδια σου να πατούν κάτω.",
+      "transliteration": "Niose ta PODIA sou na PATOUN KATO.",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Count five sounds, right now.",
+      "greek": "Μέτρα πέντε ήχους, τώρα εδώ.",
+      "transliteration": "METRA pEnte ichous, TORA edō.",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Name three things you can see.",
+      "greek": "Ονόμασε τρία πράγματα που βλέπεις.",
+      "transliteration": "ONOMASE TRIA pragmata pou BL EPEIS.",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "I can handle this moment.",
+      "greek": "Μπορώ να αντέξω αυτή τη στιγμή.",
+      "transliteration": "Mporó na anéxo aftí ti stigmí.",
+      "category": "Courage",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Fear, not stopping me today.",
+      "greek": "Ο φόβος δεν με σταματά σήμερα.",
+      "transliteration": "O fóvos den me stamatá símera.",
+      "category": "Courage",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "I choose the hard, honest step.",
+      "greek": "Διαλέγω το δύσκολο, τίμιο βήμα.",
+      "transliteration": "Dialégo to dyskolo, tímio víma.",
+      "category": "Courage",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Speak up, even if shaking.",
+      "greek": "Μιλάω, ακόμα κι αν τρέμει η φωνή μου.",
+      "transliteration": "Miláo, akóma ki an trémei i foní mou.",
+      "category": "Courage",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "I’ll ask for help, openly.",
+      "greek": "Θα ζητήσω βοήθεια, ανοιχτά.",
+      "transliteration": "Tha zitíso voítheia, anoichtá.",
+      "category": "Courage",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "I can start over, right now.",
+      "greek": "Μπορώ να ξεκινήσω απ’ την αρχή, τώρα.",
+      "transliteration": "Mporó na ksekiníso ap’ tin archí, tóra.",
+      "category": "Courage",
+      "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "One deep breath, then go.",
+      "greek": "Μια βαθιά ανάσα, και μετά προχωράω.",
+      "transliteration": "Mía vathjá aná-sa, kai metá proχωráo.",
+      "category": "Courage",
+      "generated_at": "2026-11-16T16:56:24.921578"
     }
   ],
-  "last_updated": "2026-11-15T14:40:45.398410"
+  "last_updated": "2026-11-16T16:56:24.921578"
 }
