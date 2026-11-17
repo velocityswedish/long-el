@@ -10599,7 +10599,399 @@
       "transliteration": "Mía vathjá aná-sa, kai metá proχωráo.",
       "category": "Courage",
       "generated_at": "2026-11-16T16:56:24.921578"
+    },
+    {
+      "english": "Ask, not assume, be kind",
+      "greek": "Ρώτα, μην υποθέτεις, να είσαι ευγενικός",
+      "transliteration": "ROH-ta, min yPOTH-E-te, na í-sai ef-ye-NI-kos",
+      "category": "Kindness",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "Say thank you, sincerely",
+      "greek": "Πες ευχαριστώ, από καρδιάς",
+      "transliteration": "PEHS ef-ha-РИΣ-toh, a-PÓ KAR-DI-AS",
+      "category": "Kindness",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "Offer to carry a little",
+      "greek": "Πρόσφερε να κουβαλήσεις λίγο",
+      "transliteration": "PROH-sfe-re na KOH-va-LI-ses LI-go",
+      "category": "Kindness",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "Turn criticism into a kind question",
+      "greek": "Μετέτρεψε την κριτική σε μια ευγενική ερώτηση",
+      "transliteration": "me-TÉR-ep-se tin krit-I-ki se mi-ah ef-ye-NI-ki e-ROH-teh-sih",
+      "category": "Kindness",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "Include them, even briefly",
+      "greek": "Κάνε χώρο για εκείνον, έστω και λίγο",
+      "transliteration": "KÁ-ne KHÓ-ro gia e-kí-non, EHS-to kai LI-go",
+      "category": "Kindness",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "Bring water, not just advice",
+      "greek": "Φέρε νερό, όχι μόνο συμβουλές",
+      "transliteration": "FÉ-re NEH-ro, Ó-chi MÓ-no sim-βου-LES",
+      "category": "Kindness",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "Let someone finish, then respond",
+      "greek": "Άφησε τους να τελειώσουν, μετά απάντησε",
+      "transliteration": "Á-fhe-se tous na te-LE-uh-oh-soun, MEH-ta a-PÁN-ti-se",
+      "category": "Kindness",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I feel restless in my chest.",
+      "greek": "Νιώθω ανήσυχο στο στήθος μου.",
+      "transliteration": "Niótho anísycho sto stíthos mou.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I’m proud, and also overwhelmed.",
+      "greek": "Είμαι περήφανος, αλλά και κατακλυσμένος.",
+      "transliteration": "Eímai perífanos, allá kai kataklysménos.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I trust my gut right now.",
+      "greek": "Ακούω το ένστικτό μου τώρα.",
+      "transliteration": "Akoúo to énstiktó mou tora.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I’m craving comfort, not answers.",
+      "greek": "Θέλω λίγη παρηγοριά, όχι απαντήσεις.",
+      "transliteration": "Thélo lígi parigoriá, óchi apantíseis.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "That made me feel secure.",
+      "greek": "Αυτό με έκανε να νιώσω ασφαλής.",
+      "transliteration": "Aftó me ékanе na nióso asfalís.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I’m noticing fear, and I’m staying.",
+      "greek": "Παρατηρώ τον φόβο, και μένω εδώ.",
+      "transliteration": "Paratiró ton fóvo, kai méno edó.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I feel tender, please speak softly.",
+      "greek": "Νιώθω τρυφερότητα, μίλα μου απαλά, σε παρακαλώ.",
+      "transliteration": "Niótho trifyrotita, míla mou apalá, se parakaló.",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I can do this imperfectly, today.",
+      "greek": "Μπορώ να το κάνω ατελώς, σήμερα.",
+      "transliteration": "Boró na to kánō atelṓs, SÍmera.",
+      "category": "Confidence",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I speak first, then I think.",
+      "greek": "Μιλάω πρώτα, και μετά σκέφτομαι.",
+      "transliteration": "Miláō PRÓta, kai MEtá skéftomai.",
+      "category": "Confidence",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "My voice is allowed to shake.",
+      "greek": "Επιτρέπεται η φωνή μου να τρέμει.",
+      "transliteration": "Epitrépeta i foní mou na TRÉmei.",
+      "category": "Confidence",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I set one small goal, now.",
+      "greek": "Βάζω έναν μικρό στόχο τώρα.",
+      "transliteration": "Vázō énan mikrό STÓcho TÓra.",
+      "category": "Confidence",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I choose curiosity over self-criticism.",
+      "greek": "Διαλέγω την περιέργεια, όχι την αυτοκριτική.",
+      "transliteration": "Dialégō tin periérgeia, óchi tin aftokritikí.",
+      "category": "Confidence",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I trust my effort more than outcomes.",
+      "greek": "Εμπιστεύομαι την προσπάθειά μου, όχι τα αποτελέσματα.",
+      "transliteration": "Empistéuomai tin prospátheiá mou, óchi ta apoteleśmata.",
+      "category": "Confidence",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I pause, then answer with kindness.",
+      "greek": "Κάνω μια παύση, και απαντάω με καλοσύνη.",
+      "transliteration": "Káno mia páfsi, kai apandáō me kalosýni.",
+      "category": "Confidence",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "What comes with the meal?",
+      "greek": "Τι περιλαμβάνει το γεύμα;",
+      "transliteration": "Ti perilambánei to gev́ma?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "Can I get it without onions?",
+      "greek": "Μπορώ να το πάρω χωρίς κρεμμύδια;",
+      "transliteration": "Boró na to páro choris kremmýdia?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "Is the sauce served on the side?",
+      "greek": "Η σάλτσα είναι στο πλάι;",
+      "transliteration": "I sáltsa eínai sto plái?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I’ll split the bill, please.",
+      "greek": "Θα πληρώσω χωριστά, παρακαλώ.",
+      "transliteration": "Tha pliróso choristá, parakaló̱.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "What’s your most popular dish?",
+      "greek": "Ποιο είναι το πιο δημοφιλές πιάτο;",
+      "transliteration": "Poío eínai to pio domofilés piáto?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "How spicy is it, honestly?",
+      "greek": "Πόσο πικάντικο είναι, αλήθεια;",
+      "transliteration": "Póso pikánitiko eínai, alítheia?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "Any seafood specials today?",
+      "greek": "Έχετε σπεσιαλιτέ με θαλασσινά σήμερα;",
+      "transliteration": "Échete spetsialíté me thalassiná siméra?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I start small, I keep going.",
+      "greek": "Ξεκινάω μικρά, και συνεχίζω.",
+      "transliteration": "Xekináo mikrá, kai synechízo.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "One more try, then another.",
+      "greek": "Μία ακόμα προσπάθεια, κι άλλη μια.",
+      "transliteration": "Mía akóma prosPátheia, ki álli a.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I do it tired, not later.",
+      "greek": "Το κάνω κουρασμένος, όχι αργότερα.",
+      "transliteration": "To kánō kourasménos, óchi argótera.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I don’t quit to prove a point.",
+      "greek": "Δεν το κόβω για να κάνω επίδειξη.",
+      "transliteration": "Den to kóvo gia na káno epídeixē.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "Messy progress still beats stopping.",
+      "greek": "Η ακαταστασία στην πρόοδο νικά το σταμάτημα.",
+      "transliteration": "I akatastasía stin próodo niká to stamátēma.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I show up, even quietly.",
+      "greek": "Εμφανίζομαι, ακόμα κι ήσυχα.",
+      "transliteration": "Emfanízomai, akóma ki ísycha.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I track reps, not moods.",
+      "greek": "Μετράω επαναλήψεις, όχι διαθέσεις.",
+      "transliteration": "Metráo epanalípsēis, óchi diathéseis.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "No worries, I’ve got this.",
+      "greek": "Άσε, το έχω.",
+      "transliteration": "ASE, to Eho.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I’m running late, sorry!",
+      "greek": "Τρέχω, αργά θα είμαι, συγγνώμη!",
+      "transliteration": "TREho, ARGA tha Eimai, SYGNOMI!",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "Let it go, for real.",
+      "greek": "Άσε το, σοβαρά τώρα.",
+      "transliteration": "ASE TO, SOvARA TORA.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I’m done arguing, honestly.",
+      "greek": "Κλείνω τη συζήτηση, ειλικρινά.",
+      "transliteration": "KLEINO ti syzItisi, EILIKRINA.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I’ll call you when I’m free.",
+      "greek": "Θα σε πάρω όταν ελευθερωθώ.",
+      "transliteration": "THA se PARO otan eleytherOTHO.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I’m low-key overwhelmed today.",
+      "greek": "Σήμερα είμαι λιγάκι στα άκρα.",
+      "transliteration": "SIMERA eimai liGAKI sta AKRA.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "That’s a good point, wait.",
+      "greek": "Σωστό αυτό, άκου.",
+      "transliteration": "SOSTO AFTO, AKOU.",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I forgive, and I won’t chase it.",
+      "greek": "Συγχωρώ, και δεν θα το κυνηγήσω.",
+      "transliteration": "SYGCHORO, kai den tha to KYNIĨSO.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I can be kind without approval.",
+      "greek": "Μπορώ να είμαι ευγενικός χωρίς έγκριση.",
+      "transliteration": "MPORO na IMAI EVGENIKOS CHORIS EĞKRISI.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I let go of the unfairness.",
+      "greek": "Αφήνω την αδικία να φύγει.",
+      "transliteration": "AFĒNO tin ADIKIA na FIGEI.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I forgive, then I rest my mind.",
+      "greek": "Συγχωρώ, μετά ξεκουράζω το μυαλό μου.",
+      "transliteration": "SYGCHORO, meta xekOURAZŌ to MYALÓ mou.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I don’t need closure from them.",
+      "greek": "Δεν χρειάζομαι κλείσιμο από αυτούς.",
+      "transliteration": "DEN CHREIAZOMAI KLEISIMO apo AYTOUS.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I choose peace over proving them wrong.",
+      "greek": "Διαλέγω την ειρήνη αντί να τους αποδείξω λάθος.",
+      "transliteration": "DIALEGŌ tin EIRĒNI anti na tous apodeikSW LATHOS.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I forgive, but I watch for patterns.",
+      "greek": "Συγχωρώ, αλλά προσέχω τα μοτίβα.",
+      "transliteration": "SYGCHORO, alla PROSECHŌ ta MOTIVÁ.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "Thanks for always having my back.",
+      "greek": "Σε ευχαριστώ που μου στέκεσαι πάντα.",
+      "transliteration": "Se efcharistó pou mou stékese pánta.",
+      "category": "Friendship",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "You make things feel easier.",
+      "greek": "Με κάνεις να νιώθω όλα πιο εύκολα.",
+      "transliteration": "Me kánis na niótho óla pio éukola.",
+      "category": "Friendship",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I miss you, let’s catch up.",
+      "greek": "Μου λείπεις, να τα πούμε σύντομα.",
+      "transliteration": "Mou leípis, na ta poúme sýntoma.",
+      "category": "Friendship",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "We don’t need to talk all day.",
+      "greek": "Δεν χρειάζεται να μιλάμε όλη μέρα.",
+      "transliteration": "Den chriázeta na miláme óli méra.",
+      "category": "Friendship",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "Your laugh relaxes me instantly.",
+      "greek": "Το γέλιο σου με ηρεμεί αμέσως.",
+      "transliteration": "To yélio sou me ereméi amésos.",
+      "category": "Friendship",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "I feel safe telling you the truth.",
+      "greek": "Νιώθω ασφαλής όταν σου λέω την αλήθεια.",
+      "transliteration": "Niótho asfalís óταν sou léo tin alítheia.",
+      "category": "Friendship",
+      "generated_at": "2026-11-17T16:51:23.688797"
+    },
+    {
+      "english": "Even after time, we’re still us.",
+      "greek": "Ακόμα κι αν περάσει καιρός, είμαστε εμείς.",
+      "transliteration": "Ákoma ki an perásei kairos, eínaste emeís.",
+      "category": "Friendship",
+      "generated_at": "2026-11-17T16:51:23.688797"
     }
   ],
-  "last_updated": "2026-11-16T16:56:24.921578"
+  "last_updated": "2026-11-17T16:51:23.688797"
 }
