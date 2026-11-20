@@ -11775,7 +11775,399 @@
       "transliteration": "zitaó voítheia, choris ntropí.",
       "category": "Positive Life",
       "generated_at": "2026-11-19T16:30:43.890639"
+    },
+    {
+      "english": "Do you have gluten-free options?",
+      "greek": "Έχετε επιλογές χωρίς γλουτένη;",
+      "transliteration": "EχETE epiloges xoris glutenē",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I want a cappuccino, please.",
+      "greek": "Θέλω έναν καπουτσίνο, παρακαλώ.",
+      "transliteration": "THÉLO ena kapoutsÍno, parakaló",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Can I get a mini breakfast?",
+      "greek": "Μπορώ να πάρω ένα μίνι πρωινό;",
+      "transliteration": "BORO na PARO ena mÍni prōinó",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "What time do you bake today?",
+      "greek": "Τι ώρα ψήνετε σήμερα το ψωμί;",
+      "transliteration": "TI óra psínete símera to psōmí",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Do you have fresh orange pie?",
+      "greek": "Έχετε φρέσκια πίτα πορτοκάλι;",
+      "transliteration": "EχETE FRÉSKIA píta portokáli",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Is there a vegan pastry today?",
+      "greek": "Υπάρχει σήμερα vegan γλυκό;",
+      "transliteration": "YPÁRχEI símera vegan GLYKO",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Can I taste a little jam?",
+      "greek": "Να δοκιμάσω λίγο μαρμελάδα, γίνεται;",
+      "transliteration": "na dokimásō lígo marmeláda, gÍnetai",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Love starts with listening, not guessing",
+      "greek": "Η αγάπη ξεκινά με ακρόαση, όχι με υποθέσεις",
+      "transliteration": "i AGAPI kseKINA me aKROAση, oXI me uPOTHESIS",
+      "category": "Love",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I choose kindness, even when it’s hard",
+      "greek": "Επιλέγω την καλοσύνη, ακόμα κι όταν είναι δύσκολο",
+      "transliteration": "ePILEgo tin kaLOsuNI, akóma ki Oταν eINai DSYKolo",
+      "category": "Love",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Hold my hand, we’ll be okay",
+      "greek": "Πιάσε το χέρι μου, θα είμαστε καλά",
+      "transliteration": "PIase to XEri mu, tha eiMASte KAla",
+      "category": "Love",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Thank you for the small check-ins",
+      "greek": "Σε ευχαριστώ για τα μικρά τσεκαρίσματα",
+      "transliteration": "se efKHAriSTO gia ta MIkra tsekaRIσματα",
+      "category": "Love",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Love feels like home with you",
+      "greek": "Η αγάπη μοιάζει με σπίτι δίπλα σου",
+      "transliteration": "i AGAPI moIAzei me SPIti DIpla soU",
+      "category": "Love",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I’m rooting for you, always",
+      "greek": "Σου συμπαραστέκομαι, πάντα",
+      "transliteration": "su simparaSTeKoMAI, PAnta",
+      "category": "Love",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Your words calm me down",
+      "greek": "Τα λόγια σου με ηρεμούν",
+      "transliteration": "ta LOya soU me iREmun",
+      "category": "Love",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I see your point, totally.",
+      "greek": "Καταλαβαίνω τι λες, εντελώς.",
+      "transliteration": "KaTΑlAVAino TI LES, eνTEΛΩS.",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I agree, and here’s why.",
+      "greek": "Συμφωνώ, και γι’ αυτό το λέω.",
+      "transliteration": "SYmFONÓ, ke yi’ AFTÓ TO LÉO.",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "That works for me, no stress.",
+      "greek": "Αυτό μου κάνει, χωρίς άγχος.",
+      "transliteration": "AFTO MU KÁNEI, CHÓRIS ÁNGHOS.",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I’m not convinced, yet.",
+      "greek": "Δεν είμαι ακόμη πεπεισμένος.",
+      "transliteration": "Den eÍME aKÓMA pePEISmÉNOS.",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "We should do it differently.",
+      "greek": "Νομίζω πως πρέπει να το κάνουμε αλλιώς.",
+      "transliteration": "NoMÍZO pos PÉPı na TO KÁnouME aLÍOS.",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Yes, that’s a solid idea.",
+      "greek": "Ναι, είναι μια πολύ καλή ιδέα.",
+      "transliteration": "NEI, eÍNE mIA poLY kalÍ IDEa.",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I disagree, respectfully.",
+      "greek": "Διαφωνώ, με σεβασμό.",
+      "transliteration": "DIaFÓNO, me seBASMÓ.",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Give me two minutes, please.",
+      "greek": "Δώσε μου δύο λεπτά, σε παρακαλώ.",
+      "transliteration": "DÓ-se mu dýo lep-tá, se pa-ra-kaló.",
+      "category": "Patience",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I’ll wait, no problem at all.",
+      "greek": "Θα περιμένω, δεν υπάρχει πρόβλημα.",
+      "transliteration": "Tha pe-ri-mé-no, den yPÁR-chi prov-lE-ma.",
+      "category": "Patience",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Let me finish this, then we go.",
+      "greek": "Άσε με να το τελειώσω, μετά πάμε.",
+      "transliteration": "Á-se me na to te-lei-Ó-so, MET-a pá-me.",
+      "category": "Patience",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Slow reply is fine, I get it.",
+      "greek": "Αν αργήσεις να απαντήσεις, είναι εντάξει.",
+      "transliteration": "An a-rGHís-eis na a-pan-tÍ-s-eis, í-ne en-TÁk-si.",
+      "category": "Patience",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Take your time, I can wait.",
+      "greek": "Πάρε τον χρόνο σου, μπορώ να περιμένω.",
+      "transliteration": "PÁ-re ton CHRÓ-no su, bo-rÓ na pe-ri-mé-no.",
+      "category": "Patience",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I’ll hold on until you’re ready.",
+      "greek": "Θα μείνω εδώ μέχρι να είσαι έτοιμος.",
+      "transliteration": "THa me-Í-no e-DÓ mé-chri na e-Í-sai É-to-mos.",
+      "category": "Patience",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "One thing at a time, please.",
+      "greek": "Ένα πράγμα τη φορά, σε παρακαλώ.",
+      "transliteration": "É-na PRÁG-ma ti FO-rá, se pa-ra-kaló.",
+      "category": "Patience",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I wash my face, then wake up.",
+      "greek": "Πλένω το πρόσωπό μου, και ξυπνάω.",
+      "transliteration": "PLE-NO to PRO-so-po MU, ke XY-PNA-O.",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I drink water before my first call.",
+      "greek": "Πίνω νερό πριν από την πρώτη κλήση.",
+      "transliteration": "PI-NO NE-ro PRIN a-po tin PRO-ti KLI-si.",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I tidy my room for five minutes.",
+      "greek": "Τακτοποιώ το δωμάτιό μου για πέντε λεπτά.",
+      "transliteration": "TAK-to-PO-yo to DO-ma-ti-o MU ya PEN-te LEP-ta.",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I listen to the morning news.",
+      "greek": "Ακούω τα πρωινά νέα.",
+      "transliteration": "A-KU-O ta PRO-i-na NE-a.",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I open the curtains for light.",
+      "greek": "Ανοίγω τις κουρτίνες για να μπει φως.",
+      "transliteration": "A-NOI-go TIS KOUR-ti-nes ya na BI-pe FOS.",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I grab a yogurt, quick and easy.",
+      "greek": "Παίρνω ένα γιαούρτι, γρήγορο και εύκολο.",
+      "transliteration": "PEER-no E-na ya-OUR-ti, GRH go-ro ke EF-ko-lo.",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I check the weather before I leave.",
+      "greek": "Τσεκάρω τον καιρό πριν φύγω.",
+      "transliteration": "TSE-ka-ro TON keh-ro PRIN FE-yO.",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Call an ambulance, I fainted",
+      "greek": "Καλέστε ένα ασθενοφόρο, λιποθύμησα",
+      "transliteration": "KALÉste éna asθENofóRO, lipoTHÍmasa",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I have severe allergic reaction",
+      "greek": "Έχω σοβαρή αλλεργική αντίδραση",
+      "transliteration": "ÉCHo SOvarí alLERGikí ANTIdrasē",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "My face is swelling, help me",
+      "greek": "Το πρόσωπό μου πρήζεται, βοηθήστε με",
+      "transliteration": "To PRÓSOpo mu prízete, voηTHÉste me",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I might be having an asthma attack",
+      "greek": "Μπορεί να κάνω κρίση άσθματος",
+      "transliteration": "BOreí na KÁno KRÍsi ÁSthmatOS",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I can not keep my eyes open",
+      "greek": "Δεν μπορώ να κρατήσω τα μάτια μου ανοιχτά",
+      "transliteration": "Den BORÓ na kraTÍso TA MÁtia mu aNEiXTÁ",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I’m confused and not acting like me",
+      "greek": "Είμαι μπερδεμένος και δεν είμαι ο εαυτός μου",
+      "transliteration": "Éimai BErDEmÉnos ke den Ímai o eaUTÓS mu",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Someone is choking, call now",
+      "greek": "Κάποιος πνίγεται, καλέστε τώρα",
+      "transliteration": "KÁpoios pníGETai, KAλέστε TÓra",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Can I call you tomorrow morning?",
+      "greek": "Μπορώ να σε πάρω αύριο το πρωί;",
+      "transliteration": "BORO na se PA-ro avrio to PRO-i",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I’m stuck in traffic, sorry.",
+      "greek": "Είμαι κολλημένος στην κίνηση, συγγνώμη.",
+      "transliteration": "EI-me KOL-i-MEN-os tin KI-nisi, siGNO-mi",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Should I leave a message?",
+      "greek": "Να αφήσω μήνυμα;",
+      "transliteration": "NA a-FE-so MI-ni-ma",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I just wanted to confirm.",
+      "greek": "Ήθελα μόνο να το επιβεβαιώσω.",
+      "transliteration": "I-the-la MO-no na to e-pi-ve-VAI-o-so",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I’ll be free in an hour.",
+      "greek": "Θα είμαι ελεύθερος σε μία ώρα.",
+      "transliteration": "THA EI-me e-LEF-the-ros se MI-a O-ra",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Did you get my last text?",
+      "greek": "Το πήρες το τελευταίο μου μήνυμα;",
+      "transliteration": "to PI-rEs to te-LEU-ta-io mou MI-ni-ma",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "Call me when you’re at home.",
+      "greek": "Πάρε με όταν θα είσαι στο σπίτι.",
+      "transliteration": "PA-re me OT-an tha EI-sai sto SPI-ti",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I drink water, then I plan.",
+      "greek": "Πίνω νερό, και μετά σχεδιάζω.",
+      "transliteration": "Pino NERO, kai META schediaZO.",
+      "category": "Self Improvement",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I tidy one corner for peace.",
+      "greek": "Τακτοποιώ μια γωνιά για ηρεμία.",
+      "transliteration": "TaktoPOio mia GONIA gia EREmiA.",
+      "category": "Self Improvement",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I stretch my body, not just my mind.",
+      "greek": "Τεντώνω το σώμα μου, όχι μόνο το μυαλό.",
+      "transliteration": "TENtono to SOMA mou, OCHI mono to MYALO.",
+      "category": "Self Improvement",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I write one truth, then move.",
+      "greek": "Γράφω μια αλήθεια, και προχωράω.",
+      "transliteration": "GRaFO mia aLITHIA, kai PROchoRAO.",
+      "category": "Self Improvement",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I choose one priority, and ignore the rest.",
+      "greek": "Διαλέγω μια προτεραιότητα, και αφήνω τα άλλα.",
+      "transliteration": "DiaLEgo mia proTEraiOTa, kai aFino ta ALA.",
+      "category": "Self Improvement",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I take a slow walk, no phone.",
+      "greek": "Κάνω αργή βόλτα, χωρίς το κινητό.",
+      "transliteration": "KAno ARgi volTA, CHOris to KIniTO.",
+      "category": "Self Improvement",
+      "generated_at": "2026-11-20T16:04:33.823412"
+    },
+    {
+      "english": "I practice saying no, kindly.",
+      "greek": "Εξασκώ να λέω όχι, ευγενικά.",
+      "transliteration": "ExaSKo na LEo OCHI, EVgeniKA.",
+      "category": "Self Improvement",
+      "generated_at": "2026-11-20T16:04:33.823412"
     }
   ],
-  "last_updated": "2026-11-19T16:30:43.890639"
+  "last_updated": "2026-11-20T16:04:33.823412"
 }
