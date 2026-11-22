@@ -12559,7 +12559,399 @@
       "transliteration": "Se efcharistó pou tsékаρες tis leptoméreies gia ména",
       "category": "Gratitude",
       "generated_at": "2026-11-21T15:16:09.948513"
+    },
+    {
+      "english": "Hi, how do you say that?",
+      "greek": "Γεια σου, πώς το λες αυτό;",
+      "transliteration": "GEIA sou, pos to LES afto?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Hey, I’m heading to the café.",
+      "greek": "Γεια, πάω για καφέ, θέλεις να έρθεις;",
+      "transliteration": "GEIA, pao gia KAFÉ, theleis na ERTHIS?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Good to meet you at last.",
+      "greek": "Χαίρομαι που σε γνωρίζω επιτέλους.",
+      "transliteration": "XÉROMAI pou se GNŌRÍZO EPI-TÉLOUS",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Where are you from originally?",
+      "greek": "Από πού είσαι, στην αρχή;",
+      "transliteration": "APO pou EI-sai, stin ARHI?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "What’s your favorite place nearby?",
+      "greek": "Ποιο είναι το αγαπημένο μέρος εδώ κοντά;",
+      "transliteration": "POIO einai to agaPIMÉNO MEROS edo KONTA?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "I like your accent, it’s fun!",
+      "greek": "Μου αρέσει η προφορά σου, είναι πολύ ωραία!",
+      "transliteration": "MOU aRÉSE i proFÓRA sou, einai POLY oRÉA!",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Sorry, can I join your table?",
+      "greek": "Συγγνώμη, μπορώ να καθίσω μαζί σας;",
+      "transliteration": "SYNchōMI, BORO na KATHISO maZI sas?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Pause before you reply, choose wisely.",
+      "greek": "Σταμάτα πριν απαντήσεις, διάλεξε με σοφία.",
+      "transliteration": "stAMata prín aPAntēsēs, diALexe me SOfia.",
+      "category": "Wisdom",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Ask, then listen, let truth surface.",
+      "greek": "Ρώτα, μετά άκουσε, άσε την αλήθεια να φανεί.",
+      "transliteration": "ROta, meTA aKousE, aSe tin aLIθea na faNEi.",
+      "category": "Wisdom",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Don’t chase every urgent thing today.",
+      "greek": "Μην κυνηγάς κάθε επείγον πράγμα σήμερα.",
+      "transliteration": "MIN kyNigás kaThe EPi̱gon PRAγma sIMera.",
+      "category": "Wisdom",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Choose the long game, not the shortcut.",
+      "greek": "Διάλεξε το μακρύ παιχνίδι, όχι τη συντόμευση.",
+      "transliteration": "diALexe to makRY paiχnídi, Oχι ti synTOmēfsē.",
+      "category": "Wisdom",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Be honest gently, not painfully blunt.",
+      "greek": "Να λες την αλήθεια ήρεμα, όχι σκληρά.",
+      "transliteration": "na les tin aLIθea I̱rēma, Oxi skliRA.",
+      "category": "Wisdom",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Your feelings are data, not orders.",
+      "greek": "Τα συναισθήματά σου είναι δεδομένα, όχι εντολές.",
+      "transliteration": "ta synaisTHI̱mata sou eINai deDOmēna, Oχι entOles.",
+      "category": "Wisdom",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "One small step beats perfect planning.",
+      "greek": "Μια μικρή κίνηση νικάει την τέλεια σκέψη.",
+      "transliteration": "miA mikhRI kínēsē niKAei tēn TEleia sKέpsē.",
+      "category": "Wisdom",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "What brands do you carry here?",
+      "greek": "Τι μάρκες έχετε εδώ;",
+      "transliteration": "Ti MÁrkes Échete edó?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Is there any sale on today?",
+      "greek": "Υπάρχει κάποια έκπτωση σήμερα;",
+      "transliteration": "YpÁrchei kapoia Ékptosi síméra?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Can I try it on right now?",
+      "greek": "Μπορώ να το δοκιμάσω τώρα;",
+      "transliteration": "Boró na to dokimÁso tóra?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Do you have a loyalty card?",
+      "greek": "Έχετε κάρτα πιστότητας;",
+      "transliteration": "Échete kÁrta pistóτητας?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Is delivery available for this item?",
+      "greek": "Γίνεται παράδοση για αυτό το προϊόν;",
+      "transliteration": "YinetaiparÁdosi gia aftó to proϊón?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "How long is the warranty?",
+      "greek": "Πόσο κρατάει η εγγύηση;",
+      "transliteration": "PÓso kratÁei i engýisi?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Is there free gift wrapping?",
+      "greek": "Υπάρχει δωρεάν περιτύλιξη δώρου;",
+      "transliteration": "YpÁrchei dOreán peritylÍxi dÓrou?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Where’s passport control, please?",
+      "greek": "Πού είναι ο έλεγχος διαβατηρίων, παρακαλώ;",
+      "transliteration": "Pou eínai o élenchos diavatiríon, parakaló?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "I need assistance with my seat.",
+      "greek": "Θέλω βοήθεια με τη θέση μου.",
+      "transliteration": "Thélo voítheia me ti thési mou.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Can I change to an aisle seat?",
+      "greek": "Μπορώ να αλλάξω σε θέση διαδρόμου;",
+      "transliteration": "Boró na alláxō se thési diadró mou?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "My flight was delayed, what now?",
+      "greek": "Η πτήση μου έχει καθυστερήσει, τι κάνουμε τώρα;",
+      "transliteration": "I ptísi mou échei kadhysterísei, ti kánoume tóra?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Is there free Wi-Fi in here?",
+      "greek": "Έχει δωρεάν Wi-Fi εδώ;",
+      "transliteration": "Échei dōreán Wi-FI edō?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Where can I charge my phone?",
+      "greek": "Πού μπορώ να φορτίσω το κινητό μου;",
+      "transliteration": "Pou boró na fortísō to kinitó mou?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Do you have a restroom nearby?",
+      "greek": "Υπάρχει τουαλέτα κοντά σας;",
+      "transliteration": "Ypárchei tualéta kondá sas?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Is the metro running right now?",
+      "greek": "Το μετρό λειτουργεί αυτή τη στιγμή;",
+      "transliteration": "TO METRO LEITOURGEI AFti ti STIGMI?",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "How long is the ride to Syntagma?",
+      "greek": "Πόση ώρα έχει μέχρι το Σύνταγμα;",
+      "transliteration": "POsi ORA exei MECHRI to Syntagma?",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Where do I enter the tram?",
+      "greek": "Πού μπαίνω στο τραμ;",
+      "transliteration": "POU BAINO sto TRAM?",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Does this line stop near my hotel?",
+      "greek": "Αυτή η γραμμή σταματά κοντά στο ξενοδοχείο μου;",
+      "transliteration": "AFTI i GRAMMI STAMATA KONTA sto xenoDHOcheio mou?",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Can I board from the front?",
+      "greek": "Μπορώ να επιβιβαστώ από μπροστά;",
+      "transliteration": "BORO na epiviVASTO apO BROSTA?",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "When do doors open for passengers?",
+      "greek": "Πότε ανοίγουν οι πόρτες για τους επιβάτες;",
+      "transliteration": "POte aNOIGOUN i PORTES ya TOUS ePIvaTES?",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Is there an express bus option?",
+      "greek": "Υπάρχει λεωφορείο express;",
+      "transliteration": "IPA RCHi leoforeio exPRESS?",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Show up anyway, then let it grow.",
+      "greek": "Εμφανίζομαι, έστω κι έτσι, και μετά μεγαλώνει.",
+      "transliteration": "emfANizomai, esTo ki étsi, kai meta MEgalevei",
+      "category": "Motivation",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "I trade doubt for one clear action.",
+      "greek": "Ανταλλάζω την αμφιβολία με μία καθαρή πράξη.",
+      "transliteration": "antallÁssō tiN aMfiVOLía me mía katharí PRÁksi",
+      "category": "Motivation",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Five minutes counts, and then I continue.",
+      "greek": "Πέντε λεπτά μετράνε, και μετά συνεχίζω.",
+      "transliteration": "pÉNte lePTÁ metrAne, kai meta syNEchizō",
+      "category": "Motivation",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "I keep promises to myself, daily.",
+      "greek": "Κρατάω υποσχέσεις στον εαυτό μου, κάθε μέρα.",
+      "transliteration": "KRATÁō ypOSHÉsEis ston eaFTó mou, KÁthe MÉra",
+      "category": "Motivation",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Make it small, make it now.",
+      "greek": "Το κάνω μικρό, το κάνω τώρα.",
+      "transliteration": "to KÁno miKrÓ, to KÁno TÓra",
+      "category": "Motivation",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "My plan breathes, I adjust as I go.",
+      "greek": "Το πλάνο μου αναπνέει, το προσαρμόζω καθώς πάω.",
+      "transliteration": "to PLÁno mou anapnÉei, to proσαrMÓζō kaTHōs PÁō",
+      "category": "Motivation",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "I start with the easiest next step.",
+      "greek": "Ξεκινάω με το πιο εύκολο επόμενο βήμα.",
+      "transliteration": "xeKINÁō me to pio Éukolo ePÓmeno VÍma",
+      "category": "Motivation",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Cheers to tonight, it will be fun",
+      "greek": "Στην υγειά μας, απόψε θα περάσουμε τέλεια",
+      "transliteration": "STIN YIA MAS, APÓSE tha PERÁSOUME TELEIA",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "What should I bring for the party?",
+      "greek": "Τι να φέρω για το πάρτι;",
+      "transliteration": "TI na FÉRO gia to PÁRTI",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Is there a dress code tonight?",
+      "greek": "Έχεις dress code απόψε;",
+      "transliteration": "ÉxeiS DRESS KODE apÓse",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "I love your decorations, so festive!",
+      "greek": "Λατρεύω τις διακοσμήσεις, είναι τόσο γιορτινές",
+      "transliteration": "LATREVÓ tiS diakosmíseis, eÍnai TÓSO giORTINÉS",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Let me take a photo for you",
+      "greek": "Να βγάλω μια φωτογραφία για σένα;",
+      "transliteration": "NA vGÁLO mia FOTOgrafía gia SÉNA",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Where's the cake, I can't find it",
+      "greek": "Πού είναι η τούρτα, δεν την βρίσκω",
+      "transliteration": "PÓu eÍnai i TOÚRTA, DEN tin VRÍSKO",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Thanks for inviting me, I’m so glad",
+      "greek": "Σε ευχαριστώ που με κάλεσες, χάρηκα πολύ",
+      "transliteration": "SE efxARISTÓ pou me KÁLESes, XÁRIka POLÝ",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "I still have hope in me",
+      "greek": "Ακόμα έχω ελπίδα μέσα μου.",
+      "transliteration": "Akóma Eho elpída méσα mou.",
+      "category": "Hope",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Today, I let hope speak",
+      "greek": "Σήμερα, αφήνω την ελπίδα να μιλήσει.",
+      "transliteration": "Símera, afóno tin elpída na milisei.",
+      "category": "Hope",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Hope finds me, even at night",
+      "greek": "Η ελπίδα με βρίσκει, ακόμα και τη νύχτα.",
+      "transliteration": "I elpída me vrískei, akóma kai ti nýchta.",
+      "category": "Hope",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "I’m not done, hope says so",
+      "greek": "Δεν τελείωσα, το λέει η ελπίδα.",
+      "transliteration": "Den teléiosa, to leéi i elpída.",
+      "category": "Hope",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "I keep one small hopeful step",
+      "greek": "Κρατάω ένα μικρό βήμα με ελπίδα.",
+      "transliteration": "Kratáo énа mikró ví́ma me elpída.",
+      "category": "Hope",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "Hope makes room for better news",
+      "greek": "Η ελπίδα ανοίγει χώρο για καλύτερα νέα.",
+      "transliteration": "I elpída anoígei chóro gia kalíteρα néa.",
+      "category": "Hope",
+      "generated_at": "2026-11-22T15:13:31.738654"
+    },
+    {
+      "english": "I text back, with hope",
+      "greek": "Απαντάω, με ελπίδα.",
+      "transliteration": "Apantáo, me elpída.",
+      "category": "Hope",
+      "generated_at": "2026-11-22T15:13:31.738654"
     }
   ],
-  "last_updated": "2026-11-21T15:16:09.948513"
+  "last_updated": "2026-11-22T15:13:31.738654"
 }
